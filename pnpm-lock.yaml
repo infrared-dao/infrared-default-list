@@ -29,6 +29,9 @@ importers:
       prettier:
         specifier: ^3.3.1
         version: 3.3.3
+      prettier-plugin-sort-json:
+        specifier: ^4.0.0
+        version: 4.0.0(prettier@3.3.3)
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
@@ -726,6 +729,12 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
+  prettier-plugin-sort-json@4.0.0:
+    resolution: {integrity: sha512-zV5g+bWFD2zAqyQ8gCkwUTC49o9FxslaUdirwivt5GZHcf57hCocavykuyYqbExoEsuBOg8IU36OY7zmVEMOWA==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      prettier: ^3.0.0
+
   prettier@3.3.3:
     resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
@@ -1422,6 +1431,10 @@ snapshots:
       boolbase: 1.0.0
 
   picocolors@1.1.1: {}
+
+  prettier-plugin-sort-json@4.0.0(prettier@3.3.3):
+    dependencies:
+      prettier: 3.3.3
 
   prettier@3.3.3: {}
 

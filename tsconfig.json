@@ -1,6 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Default",
   "compilerOptions": {
     "composite": false,
     "declaration": true,
@@ -24,6 +23,7 @@
     "strictNullChecks": true,
     "target": "ES2022"
   },
+  "display": "Default",
   "exclude": ["node_modules"],
   "include": ["."]
 }

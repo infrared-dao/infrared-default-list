@@ -1,13 +1,17 @@
 {
+  "arrowParens": "always",
   "bracketSpacing": true,
   "importOrder": ["<THIRD_PARTY_MODULES>", "^@/", "^[./]"],
   "importOrderSeparation": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "jsonRecursiveSort": true,
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-sort-json"
+  ],
   "printWidth": 80,
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "all",
-  "arrowParens": "always",
   "useTabs": false
 }

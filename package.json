@@ -21,7 +21,7 @@
   "scripts": {
     "clean-assets": "svgo -rf src -o src",
     "convert-to-svg": "tsx scripts/convert-to-svg.ts",
-    "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx,json}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
@@ -35,6 +35,7 @@
     "ajv-formats": "^2.1.1",
     "concurrently": "^9.0.1",
     "prettier": "^3.3.1",
+    "prettier-plugin-sort-json": "^4.0.0",
     "sharp": "^0.33.5",
     "svgo": "^3.3.2",
     "tsx": "^4.19.1",

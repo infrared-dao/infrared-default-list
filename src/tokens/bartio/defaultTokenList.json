@@ -1,204 +1,166 @@
 {
-  "name": "Infrared Bartio Default Token List",
+  "keywords": ["bartio"],
   "logo": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
-  "keywords": [
-    "bartio"
-  ],
+  "name": "Infrared Bartio Default Token List",
   "tags": {
-    "stablecoin": {
-      "name": "Stablecoin",
-      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
-    },
     "collateral": {
-      "name": "Collateral",
-      "description": "Tokens that are used to mint Honey"
-    },
-    "defaultCollateral": {
-      "name": "Default Collateral",
-      "description": "default token used in Honey"
-    },
-    "featured": {
-      "name": "Featured",
-      "description": "Tokens that are featured"
+      "description": "Tokens that are used to mint Honey",
+      "name": "Collateral"
     },
     "debt": {
-      "name": "Debt Token",
-      "description": "Tokens that are representing debt"
+      "description": "Tokens that are representing debt",
+      "name": "Debt Token"
     },
-    "supply": {
-      "name": "Supply Token",
-      "description": "Tokens that are representing honey supply"
+    "defaultCollateral": {
+      "description": "default token used in Honey",
+      "name": "Default Collateral"
     },
     "deposit": {
-      "name": "Deposit Token",
-      "description": "Tokens that can be deposited in Bend"
+      "description": "Tokens that can be deposited in Bend",
+      "name": "Deposit Token"
+    },
+    "featured": {
+      "description": "Tokens that are featured",
+      "name": "Featured"
     },
     "rewardToken": {
-      "name": "Reward Token",
-      "description": "Tokens that are used for vault deposits to earn BGT rewards"
+      "description": "Tokens that are used for vault deposits to earn BGT rewards",
+      "name": "Reward Token"
+    },
+    "stablecoin": {
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar",
+      "name": "Stablecoin"
+    },
+    "supply": {
+      "description": "Tokens that are representing honey supply",
+      "name": "Supply Token"
     }
   },
   "tokens": [
     {
-      "chainId": 80084,
       "address": "0x46eFC86F0D7455F135CC9df501673739d513E982",
-      "symbol": "IBGT",
-      "name": "Infrared BGT",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "ibera.svg",
-      "tags": [
-        "featured"
-      ]
+      "name": "Infrared BGT",
+      "symbol": "IBGT",
+      "tags": ["featured"]
     },
     {
-      "chainId": 80084,
       "address": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
-      "symbol": "WBERA",
-      "name": "Wrapped Berachain Token",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "wbera.svg",
-      "tags": [
-        "featured"
-      ]
+      "name": "Wrapped Berachain Token",
+      "symbol": "WBERA",
+      "tags": ["featured"]
     },
     {
-      "chainId": 80084,
       "address": "0x0000000000000000000000000000000000000000",
-      "symbol": "BERA",
-      "name": "Berachain Token",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "bera.svg",
-      "tags": [
-        "featured"
-      ]
+      "name": "Berachain Token",
+      "symbol": "BERA",
+      "tags": ["featured"]
     },
     {
-      "chainId": 80084,
       "address": "0xbDa130737BDd9618301681329bF2e46A016ff9Ad",
-      "symbol": "BGT",
-      "name": "Bera Governance Token",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "bgt.svg",
-      "tags": [
-        "featured"
-      ]
+      "name": "Bera Governance Token",
+      "symbol": "BGT",
+      "tags": ["featured"]
     },
     {
-      "chainId": 80084,
       "address": "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
-      "symbol": "HONEY",
-      "name": "Honey",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "honey.svg",
-      "tags": [
-        "stablecoin",
-        "featured"
-      ]
+      "name": "Honey",
+      "symbol": "HONEY",
+      "tags": ["stablecoin", "featured"]
     },
     {
-      "chainId": 80084,
       "address": "0xd6D83aF58a19Cd14eF3CF6fe848C9A4d21e5727c",
-      "symbol": "STGUSDC",
-      "name": "Stable Collateral USD Coin",
+      "chainId": 80084,
       "decimals": 6,
       "logo": "usdc.svg",
-      "tags": [
-        "stablecoin",
-        "collateral",
-        "featured",
-        "defaultCollateral"
-      ]
+      "name": "Stable Collateral USD Coin",
+      "symbol": "STGUSDC",
+      "tags": ["stablecoin", "collateral", "featured", "defaultCollateral"]
     },
     {
-      "chainId": 80084,
       "address": "0x05D0dD5135E3eF3aDE32a9eF9Cb06e8D37A6795D",
-      "symbol": "USDT",
-      "name": "Tether USD Coin",
+      "chainId": 80084,
       "decimals": 6,
       "logo": "tether.svg",
-      "tags": [
-        "stablecoin",
-        "collateral",
-        "featured"
-      ]
+      "name": "Tether USD Coin",
+      "symbol": "USDT",
+      "tags": ["stablecoin", "collateral", "featured"]
     },
     {
-      "chainId": 80084,
       "address": "0x806Ef538b228844c73E8E692ADCFa8Eb2fCF729c",
-      "symbol": "DAI",
-      "name": "Decentralized USD Coin",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "dai.svg",
-      "tags": [
-        "stablecoin",
-        "collateral",
-        "featured"
-      ]
+      "name": "Decentralized USD Coin",
+      "symbol": "DAI",
+      "tags": ["stablecoin", "collateral", "featured"]
     },
     {
-      "chainId": 80084,
       "address": "0x2577D24a26f8FA19c1058a8b0106E2c7303454a4",
-      "symbol": "WBTC",
-      "name": "WBTC",
+      "chainId": 80084,
       "decimals": 8,
       "logo": "wbtc.svg",
-      "tags": [
-        "featured",
-        "deposit"
-      ]
+      "name": "WBTC",
+      "symbol": "WBTC",
+      "tags": ["featured", "deposit"]
     },
     {
-      "chainId": 80084,
       "address": "0xE28AfD8c634946833e89ee3F122C06d7C537E8A8",
-      "symbol": "WETH",
-      "name": "WETH",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "weth.svg",
-      "tags": [
-        "featured",
-        "deposit"
-      ]
+      "name": "WETH",
+      "symbol": "WETH",
+      "tags": ["featured", "deposit"]
     },
     {
-      "chainId": 80084,
       "address": "0xfc5e3743E9FAC8BB60408797607352E24Db7d65E",
-      "symbol": "tHPOT",
-      "name": "Test Honeypot Finance",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "tHpot.svg",
-      "tags": [
-        "featured"
-      ]
+      "name": "Test Honeypot Finance",
+      "symbol": "tHPOT",
+      "tags": ["featured"]
     },
     {
-      "chainId": 80084,
       "address": "0x1740F679325ef3686B2f574e392007A92e4BeD41",
-      "symbol": "YEET",
-      "name": "$YEET",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "https://static.kodiak.finance/tokens/yeet.png",
-      "tags": [
-        "deposit"
-      ]
+      "name": "$YEET",
+      "symbol": "YEET",
+      "tags": ["deposit"]
     },
     {
-      "chainId": 80084,
       "address": "0xa0525273423537BC76825B4389F3bAeC1968f83F",
-      "symbol": "JNKY",
-      "name": "Junky Ursas LFG",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "junky.png",
-      "tags": [
-        "featured"
-      ]
+      "name": "Junky Ursas LFG",
+      "symbol": "JNKY",
+      "tags": ["featured"]
     },
     {
-      "chainId": 80084,
       "address": "0xf5AFCF50006944d17226978e594D4D25f4f92B40",
-      "symbol": "NECT",
-      "name": "NECTAR",
+      "chainId": 80084,
       "decimals": 18,
       "logo": "nectar.svg",
+      "name": "NECTAR",
+      "symbol": "NECT",
       "tags": []
     }
   ],
