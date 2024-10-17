@@ -84,23 +84,6 @@ const validateGaugeList = async ({ network }: { network: string }) => {
       }
     }
   }
-  for (const gauge of gaugeList.gauges) {
-    if (gauge.image) {
-      const imagePath = path.join(ASSETS_FOLDER, gauge.image)
-      if (!existsSync(imagePath)) {
-        errors.push(
-          `Image file "${gauge.image}" not found for gauge "${gauge.name}"`,
-        )
-      } else if (path.extname(imagePath).toLowerCase() === '.png') {
-        const isCorrectSize = await checkImageSize(imagePath)
-        if (!isCorrectSize) {
-          errors.push(
-            `Image file "${gauge.image}" for gauge "${gauge.name}" is not 128x128 pixels`,
-          )
-        }
-      }
-    }
-  }
 
   if (errors.length > 0) {
     console.error(`Validation failed for network ${network}:`)
