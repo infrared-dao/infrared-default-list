@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@neplex/vectorizer':
+        specifier: ^0.0.4
+        version: 0.0.4
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.3.0
         version: 4.3.0(prettier@3.3.3)
@@ -377,6 +380,96 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@neplex/vectorizer-android-arm-eabi@0.0.4':
+    resolution: {integrity: sha512-83AWFeQz3yj8+bhYk1OUAKVdVVsUhKVZtNLAfLDivnVJeqckPsrx7s+sPkiGwjuKohNHMgxHAYOKNsaNQu2TcA==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [android]
+
+  '@neplex/vectorizer-android-arm64@0.0.4':
+    resolution: {integrity: sha512-5LI9AF+hj+zmnDxVEXva3xwyn2fsp9vSMsdFqfQSBRDSGgUdkt2ORvptfSQfkEgdtD3JB1sOM24YGDp6NamoVA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [android]
+
+  '@neplex/vectorizer-darwin-arm64@0.0.4':
+    resolution: {integrity: sha512-ggk21tvY6pwtbf24pnXMmE+KQQ8idSVYDsSJHJKipg4DSEx5zrnF49Ua7u8DF4Nbg0tkyCBS9d6KYpd4wuGINg==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@neplex/vectorizer-darwin-universal@0.0.4':
+    resolution: {integrity: sha512-Npnx3YM9tr8VSuzQeem2xWFLXinGVNhBHjZWEx8tLQvDjIPLj78Posy4tR6APJWSS6zMz0kkcZs7iFO+S7e9Nw==}
+    engines: {node: '>= 10'}
+    os: [darwin]
+
+  '@neplex/vectorizer-darwin-x64@0.0.4':
+    resolution: {integrity: sha512-fXM2Uj/4sIkfZjfPqTR5DeY2WnbX8DF35lIG4pkNL4zXhGlFR4w04tnBpndCHQEiaARNOD+67sX234sIdf0aaA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@neplex/vectorizer-freebsd-x64@0.0.4':
+    resolution: {integrity: sha512-dkKjKg5BnfBVGqJ+awtvYbQEGekXaOkkj41lASIJ8vR/OmWU1DKZ2g3y4KAS/qwkfwMknEZY5X7bTEaCyKVfUg==}
+
+  '@neplex/vectorizer-linux-arm-gnueabihf@0.0.4':
+    resolution: {integrity: sha512-4MQo9Xp38KjjyuyoDy0e+kuxdUpvqXbVueeo0FjGSFVT5bn73ACSK8w3Kt2bYzLSznslap+4DJB19JchrbXURw==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+
+  '@neplex/vectorizer-linux-arm64-gnu@0.0.4':
+    resolution: {integrity: sha512-WFZ9d0MU4WH6MQlMRhQfD8m4rhU/RwiVuJtnvkHViL2oCo8/xVfLXUeWoLfYn5oP4/S9Eq9pW4eYwBACEop+JA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@neplex/vectorizer-linux-arm64-musl@0.0.4':
+    resolution: {integrity: sha512-/XSLCazxyXbnU4g3nwcWz2Yiv2CtPNYcNsB4WAQex/c4J9zJfdIH85mflwxfMnOl2p1OUr8twz4ZLlAaNBUqKg==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@neplex/vectorizer-linux-riscv64-gnu@0.0.4':
+    resolution: {integrity: sha512-wBkfS0Q7xa18ar8FQqbDOZB0EzqgTEqdn+QbmHJ8SqOWKuFEMyUS9T0UcaOiWWXa2WbMejxFkrRGPiPgBAtLqQ==}
+    engines: {node: '>= 10'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@neplex/vectorizer-linux-x64-gnu@0.0.4':
+    resolution: {integrity: sha512-CuG3Xdgenc9WR03cjeFU7mlEQY1b/Fb2ByW+DzUHYLqy0ZfmtnZi1pOq+r3C7JDKsp6U3Kh639M+nIuw1LzoNg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@neplex/vectorizer-linux-x64-musl@0.0.4':
+    resolution: {integrity: sha512-OzbPkF5FpAwsj09ro7RRyv62kM1iCD9/TDI1byiNXwpYkgd3TyFeRSd8Xh79zdPNqCF8CFhpaC6TNLWi2fH38A==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@neplex/vectorizer-win32-arm64-msvc@0.0.4':
+    resolution: {integrity: sha512-2e4qt+i/7FKS0Thwhg2KmV1Afn6raADQ3ciWYX5OwwY+Hk/g8yYm5eMaLlhCWJbkErZgUH4y5plp4kfshknSqA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@neplex/vectorizer-win32-ia32-msvc@0.0.4':
+    resolution: {integrity: sha512-NJRNws88l6/YstJTor/mamt3KqSOp+q0ZMTma2wmImdEFZxxsk32xjaDDFSQorCWLWAU3UAaiGxbTahmys56yQ==}
+    engines: {node: '>= 10'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@neplex/vectorizer-win32-x64-msvc@0.0.4':
+    resolution: {integrity: sha512-vav9DDqWA/0BmyD2rwr/bg7E5kFkkPkorUvPaOCr7iJnDe1Kjn4531DPNRivDGNKuBFED2APS3FoUAVk8ekzmA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  '@neplex/vectorizer@0.0.4':
+    resolution: {integrity: sha512-kBDIgTU3ljDHjzUqYuJL+SIJ4cKs5vMZ4w5GCEjHaZ6JIbrQRf5WLtCSzq908PINO1xuvL1ZIoDRiVEo2LQOOw==}
+    engines: {node: '>= 10'}
 
   '@noble/curves@1.6.0':
     resolution: {integrity: sha512-TlaHRXDehJuRNR9TfZDNQ45mMEd5dwUwmicsafcIX4SsNiqnCHKjE/1alYPd/lDRVhxdhUAlv8uEhMCI5zjIJQ==}
@@ -1017,6 +1110,69 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@neplex/vectorizer-android-arm-eabi@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-android-arm64@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-darwin-arm64@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-darwin-universal@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-darwin-x64@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-freebsd-x64@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-linux-arm-gnueabihf@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-linux-arm64-gnu@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-linux-arm64-musl@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-linux-riscv64-gnu@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-linux-x64-gnu@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-linux-x64-musl@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-win32-arm64-msvc@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-win32-ia32-msvc@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer-win32-x64-msvc@0.0.4':
+    optional: true
+
+  '@neplex/vectorizer@0.0.4':
+    optionalDependencies:
+      '@neplex/vectorizer-android-arm-eabi': 0.0.4
+      '@neplex/vectorizer-android-arm64': 0.0.4
+      '@neplex/vectorizer-darwin-arm64': 0.0.4
+      '@neplex/vectorizer-darwin-universal': 0.0.4
+      '@neplex/vectorizer-darwin-x64': 0.0.4
+      '@neplex/vectorizer-freebsd-x64': 0.0.4
+      '@neplex/vectorizer-linux-arm-gnueabihf': 0.0.4
+      '@neplex/vectorizer-linux-arm64-gnu': 0.0.4
+      '@neplex/vectorizer-linux-arm64-musl': 0.0.4
+      '@neplex/vectorizer-linux-riscv64-gnu': 0.0.4
+      '@neplex/vectorizer-linux-x64-gnu': 0.0.4
+      '@neplex/vectorizer-linux-x64-musl': 0.0.4
+      '@neplex/vectorizer-win32-arm64-msvc': 0.0.4
+      '@neplex/vectorizer-win32-ia32-msvc': 0.0.4
+      '@neplex/vectorizer-win32-x64-msvc': 0.0.4
 
   '@noble/curves@1.6.0':
     dependencies:

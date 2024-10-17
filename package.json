@@ -16,8 +16,11 @@
     "url": "git+https://github.com/infrared-dao/infrared-default-list.git"
   },
   "license": "GPL-3.0-or-later",
+  "sideEffects": false,
+  "type": "module",
   "scripts": {
     "clean-assets": "svgo -rf src -o src",
+    "convert-to-svg": "tsx scripts/convert-to-svg.ts",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
     "sort-package-json": "pnpm dlx sort-package-json",
@@ -25,6 +28,7 @@
     "validate": "tsx scripts/validate-gauge-list.ts"
   },
   "devDependencies": {
+    "@neplex/vectorizer": "^0.0.4",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "^22.7.6",
     "ajv": "^8.12.0",
