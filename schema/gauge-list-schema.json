@@ -8,13 +8,13 @@
         "items": {
           "type": "object",
           "properties": {
-            "name": { "type": "string" },
-            "logo": { "type": "string" },
-            "url": { "type": "string", "format": "uri" },
             "description": { "type": "string" },
-            "id": { "type": "string" }
+            "id": { "type": "string" },
+            "logo": { "type": "string" },
+            "name": { "type": "string" },
+            "url": { "type": "string", "format": "uri" }
           },
-          "required": ["name", "logo", "url", "description", "id"]
+          "required": ["description", "id", "logo", "name", "url"]
         }
       },
       "types": {
@@ -22,10 +22,10 @@
         "additionalProperties": {
           "type": "object",
           "properties": {
-            "name": { "type": "string" },
-            "description": { "type": "string" }
+            "description": { "type": "string" },
+            "name": { "type": "string" }
           },
-          "required": ["name", "description"]
+          "required": ["description", "name"]
         }
       },
       "gauges": {
@@ -33,12 +33,12 @@
         "items": {
           "type": "object",
           "properties": {
-            "lpTokenAddress": { "type": "string", "pattern": "^0x[a-fA-F0-9]{40}$" },
             "beraRewardsVault": { "type": "string", "pattern": "^0x[a-fA-F0-9]{40}$" },
+            "lpTokenAddress": { "type": "string", "pattern": "^0x[a-fA-F0-9]{40}$" },
+            "logo": { "type": "string" },
             "name": { "type": "string" },
             "protocol": { "type": "string" },
-            "url": { "type": "string", "format": "uri" },
-            "types": { 
+            "types": {
               "type": "array",
               "items": { "type": "string" }
             },
@@ -46,9 +46,9 @@
               "type": "array",
               "items": { "type": "string", "pattern": "^0x[a-fA-F0-9]{40}$" }
             },
-            "logo": { "type": "string" }
+            "url": { "type": "string", "format": "uri" }
           },
-          "required": ["lpTokenAddress", "beraRewardsVault", "name", "protocol", "url", "types", "underlyingTokens"]
+          "required": ["beraRewardsVault", "lpTokenAddress", "name", "protocol", "types", "underlyingTokens", "url"]
         }
       },
       "version": {
