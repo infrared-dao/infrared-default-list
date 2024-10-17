@@ -25,10 +25,10 @@
     "convert-to-svg": "tsx scripts/convert-to-svg.ts src/assets/tokens/original/ASSET.png && pnpm clean-assets:svg",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx,json}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
-    "schema-to-typescript": "json2ts schema/gauge-list-schema.json src/types/gauge-list.d.ts && pnpm lint",
+    "schemas-to-typescript": "concurrently \"json2ts schema/gauge-list-schema.json src/types/gauge-list.d.ts\" \"json2ts schema/token-list-schema.json src/types/token-list.d.ts\" && pnpm lint",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "tsx scripts/validate-gauge-list.ts"
+    "validate": "concurrently \"tsx scripts/validate-gauge-list.ts\" \"tsx scripts/validate-token-list.ts\""
   },
   "devDependencies": {
     "@neplex/vectorizer": "^0.0.4",

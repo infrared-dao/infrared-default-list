@@ -2,7 +2,7 @@ import { glob } from 'glob'
 import path from 'path'
 import sharp from 'sharp'
 
-import { ASSETS_FOLDER } from './constants'
+import { ASSETS_FOLDER } from './_/constants'
 
 const IMAGE_HEIGHT = 128
 const IMAGE_WIDTH = 128

@@ -7,7 +7,7 @@ import {
 import { readFile, writeFile } from 'node:fs/promises'
 import path from 'path'
 
-import { ASSETS_FOLDER } from './constants'
+import { ASSETS_FOLDER } from './_/constants'
 
 const file = process.argv[2]
 

@@ -1,6 +1,5 @@
 {
   "keywords": ["bartio"],
-  "logo": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
   "name": "Infrared Bartio Default Token List",
   "tags": {
     "collateral": {
@@ -95,7 +94,7 @@
       "address": "0x05D0dD5135E3eF3aDE32a9eF9Cb06e8D37A6795D",
       "chainId": 80084,
       "decimals": 6,
-      "image": "tether.svg",
+      "image": "usdt.svg",
       "name": "Tether USD Coin",
       "symbol": "USDT",
       "tags": ["stablecoin", "collateral", "featured"]
@@ -140,7 +139,7 @@
       "address": "0x1740F679325ef3686B2f574e392007A92e4BeD41",
       "chainId": 80084,
       "decimals": 18,
-      "image": "https://static.kodiak.finance/tokens/yeet.png",
+      "image": "yeet.webp",
       "name": "$YEET",
       "symbol": "YEET",
       "tags": ["deposit"]
@@ -149,7 +148,7 @@
       "address": "0xa0525273423537BC76825B4389F3bAeC1968f83F",
       "chainId": 80084,
       "decimals": 18,
-      "image": "junky.png",
+      "image": "junky.svg",
       "name": "Junky Ursas LFG",
       "symbol": "JNKY",
       "tags": ["featured"]
@@ -158,7 +157,7 @@
       "address": "0xf5AFCF50006944d17226978e594D4D25f4f92B40",
       "chainId": 80084,
       "decimals": 18,
-      "image": "nectar.svg",
+      "image": "nect.webp",
       "name": "NECTAR",
       "symbol": "NECT",
       "tags": []

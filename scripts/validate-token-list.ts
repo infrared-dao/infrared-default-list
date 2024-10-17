@@ -4,7 +4,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
-import type { GaugeListSchema } from '../src/types/gauge-list'
+import type { TokenListSchema } from '../src/types/token-list'
 import { checkImageSize } from './_/check-image-size'
 import { ASSETS_FOLDER } from './_/constants'
 import { getErrorMessage } from './_/get-error-message'
@@ -18,21 +18,21 @@ const __dirname = path.dirname(__filename)
 
 const schema = JSON.parse(
   readFileSync(
-    path.join(__dirname, '../schema/gauge-list-schema.json'),
+    path.join(__dirname, '../schema/token-list-schema.json'),
     'utf-8',
   ),
 )
 
-const validateGaugeList = async ({ network }: { network: string }) => {
-  const gaugeListPath = path.join(
+const validateTokenList = async ({ network }: { network: string }) => {
+  const tokenListPath = path.join(
     __dirname,
-    `../src/gauges/${network}/defaultGaugeList.json`,
+    `../src/tokens/${network}/defaultTokenList.json`,
   )
 
-  let gaugeList: GaugeListSchema
+  let tokenList: TokenListSchema
 
   try {
-    gaugeList = JSON.parse(readFileSync(gaugeListPath, 'utf-8'))
+    tokenList = JSON.parse(readFileSync(tokenListPath, 'utf-8'))
   } catch (error) {
     console.error(
       `Error reading JSON files for network ${network}:`,
@@ -45,28 +45,28 @@ const validateGaugeList = async ({ network }: { network: string }) => {
 
   // Validate the overall structure
   const validate = ajv.compile(schema)
-  const valid = validate(gaugeList)
+  const valid = validate(tokenList)
 
   if (!valid) {
     validate.errors?.forEach((error) => {
       errors.push(
-        `Error in gauge list: ${error.message} at ${error.instancePath}`,
+        `Error in token list: ${error.message} at ${error.instancePath}`,
       )
     })
   }
 
   // Check if all image files exist and have correct dimensions
-  for (const protocol of gaugeList.protocols) {
-    const imagePath = path.join(`${ASSETS_FOLDER}/protocols`, protocol.image)
+  for (const token of tokenList.tokens) {
+    const imagePath = path.join(`${ASSETS_FOLDER}/tokens`, token.image)
     if (!existsSync(imagePath)) {
       errors.push(
-        `Image file "${protocol.image}" not found for protocol "${protocol.name}"`,
+        `Image file "${token.image}" not found for token "${token.name}"`,
       )
     } else if (path.extname(imagePath).toLowerCase() === '.png') {
       const isCorrectSize = await checkImageSize(imagePath)
       if (!isCorrectSize) {
         errors.push(
-          `Image file "${protocol.image}" for protocol "${protocol.name}" is not 128x128 pixels`,
+          `Image file "${token.image}" for token "${token.name}" is not 128x128 pixels`,
         )
       }
     }
@@ -78,11 +78,11 @@ const validateGaugeList = async ({ network }: { network: string }) => {
     process.exit(1)
   }
 
-  console.log(`Gauge validation successful for network: ${network}`)
+  console.log(`Token validation successful for network: ${network}`)
 }
 
 // Run validation for all networks
-const networksDir = path.join(__dirname, '../src/gauges')
+const networksDir = path.join(__dirname, '../src/tokens')
 readdirSync(networksDir).forEach(async (network) => {
-  await validateGaugeList({ network })
+  await validateTokenList({ network })
 })
