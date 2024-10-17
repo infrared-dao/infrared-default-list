@@ -17,11 +17,12 @@
   },
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "lint": "prettier --write src/",
+    "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
     "sort-package-json": "pnpm dlx sort-package-json",
     "validate": "node scripts/validate-gauge-list.js"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
     "prettier": "^3.3.1",
