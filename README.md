@@ -15,20 +15,14 @@ Before you begin, ensure you have:
 
 ### 1. Prepare necessary asset files
 
-Before making changes to the JSON files, prepare any new or missing asset files:
+You only need to provide assets if they're not already in the `src/assets` folder or if you're introducing new elements (e.g., a new protocol or token). For any new or missing assets:
 
-- You only need to provide assets if they're not already in the `src/assets` folder or if you're introducing new elements (e.g., a new protocol or token).
-- For any new or missing assets:
-  - You should use an SVG file. If you have one:
-    - Add the svg to `src/assets`.
-    - Run `pnpm clean-assets`.
-  - If SVG is too complex:
-    - Add an unmodified png image to `src/assets/original`.
-    - Resize the png to 128x128. There are several tools on Google via "resize png".
-    - Convert the png to `webp`. There are several tools on Google via "png to webp". We commonly use https://cloudconvert.com and https://convertio.co/png-webp.
-    - Place new asset files in the `src/assets` folder.
-
-**Note**: The SVG/PNG rule applies to all assets, including gauge LP token logos, protocol logos, and token logos.
+1. Add new assets. You should use an SVG file.
+   - If you have an SVG add it to `src/assets`.
+   - If you absolutely do not have an SVG file add the png to `src/assets/original`. Ensure it is larger than 128x128 and is very high quality.
+     - (Optional) If you are technical enough please modify the `convert-to-svg` script in [package.json](./package.json) by replacing `ASSET` with the name of your asset and run `pnpm convert-to-svg`. If the resulting svg is of decent quality and is <25 kb use that instead of the png. If you do not do this step we will try it ourselves.
+2. Install dependencies by running `pnpm i`.
+3. Run `pnpm clean-assets`.
 
 ### 2. Update JSON files
 
@@ -103,9 +97,6 @@ Before making changes to the JSON files, prepare any new or missing asset files:
 - Use appropriate tags and types.
 - The `url` field for gauges should be a direct link to provide liquidity for the LP token.
 - Only add new logo files if they're not already in the `src/assets` folder.
-- For any new logo files:
-  - Use SVG format preferably, or PNG (WEBP) if SVG is too complex.
-  - Ensure they are high-quality and properly sized.
 - Test your changes by running `pnpm i && pnpm validate` locally before submitting the PR.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 
@@ -118,3 +109,9 @@ After submitting your PR:
 3. Once approved, your gauge will be merged into the main list and become visible in the app for the specified network.
 
 Thank you for contributing to our ecosystem!
+
+### Internal review process
+
+If a `png`/`webp` image is submitted try to convert it to a `svg`.
+
+Modify the `convert-to-svg` script in [package.json](./package.json) by replacing `ASSET` with the name of your asset and run `pnpm convert-to-svg`. If the resulting svg is of decent quality and is <25 kb use that instead of the png.

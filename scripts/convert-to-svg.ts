@@ -5,9 +5,17 @@ import {
   Hierarchical,
 } from '@neplex/vectorizer'
 import { readFile, writeFile } from 'node:fs/promises'
+import path from 'path'
+
+import { ASSETS_FOLDER } from './constants'
+
+const file = process.argv[2]
 
 const convertToSVG = async () => {
-  const src = await readFile('./src/assets/ASSET.png')
+  if (!file) {
+    throw new Error('No file provided')
+  }
+  const src = await readFile(file)
 
   const svg = await vectorize(src, {
     // @ts-expect-error TS2748: Cannot access ambient const enums when isolatedModules is enabled
@@ -26,7 +34,10 @@ const convertToSVG = async () => {
     spliceThreshold: 45,
   })
 
-  await writeFile('./src/assets/vector.svg', svg)
+  await writeFile(
+    `${ASSETS_FOLDER}/${path.basename(file).replace('.png', '.svg')}`,
+    svg,
+  )
 }
 
 convertToSVG()
