@@ -1,7 +1,7 @@
 {
   "name": "@infrared-dao/default-lists",
   "version": "1.0.0",
-  "description": "Default lists for Berachain interfaces including tokens, gauges, and validators",
+  "description": "Default lists for Infrared interfaces including tokens, gauges, and validators",
   "keywords": [
     "berachain",
     "default",
