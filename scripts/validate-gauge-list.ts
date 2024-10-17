@@ -3,12 +3,17 @@ import addFormats from 'ajv-formats'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import path from 'path'
 import sharp from 'sharp'
+import { fileURLToPath } from 'url'
 import type { Address } from 'viem'
 
 import { getErrorMessage } from './get-error-message'
 
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
+
+// @ts-expect-error hack fix for __dirname. See https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const schema = JSON.parse(
   readFileSync(
