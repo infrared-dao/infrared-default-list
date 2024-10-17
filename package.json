@@ -2,14 +2,6 @@
   "name": "@infrared-dao/default-lists",
   "version": "1.0.0",
   "description": "Default lists for Berachain interfaces including tokens, gauges, and validators",
-  "scripts": {
-    "lint": "prettier --write src/",
-    "validate": "node scripts/validate-gauge-list.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/infrared-dao/infrared-default-list.git"
-  },
   "keywords": [
     "berachain",
     "default",
@@ -18,9 +10,17 @@
     "validator",
     "list"
   ],
-  "author": "Berachain",
-  "license": "GPL-3.0-or-later",
   "homepage": "https://github.com/infrared-dao/infrared-default-list#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infrared-dao/infrared-default-list.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "lint": "prettier --write src/",
+    "sort-package-json": "pnpm dlx sort-package-json",
+    "validate": "node scripts/validate-gauge-list.js"
+  },
   "devDependencies": {
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
