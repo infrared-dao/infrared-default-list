@@ -3,7 +3,7 @@
   "protocols": [
     {
       "name": "Junky Ursas",
-      "logo": "junky.png",
+      "logo": "junky.svg",
       "url": "https://betabersion.junkyursas.com/",
       "description": "The premier GambleFi protocol on Berachain.",
       "id": "junkyursas"
