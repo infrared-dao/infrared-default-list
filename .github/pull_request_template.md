@@ -11,5 +11,6 @@ Please make sure you've completed the following before submitting your pull requ
 For detailed instructions on contributing, please refer to our [README](README.md).
 
 Quick reminders:
+
 - Ensure all addresses are valid and correctly formatted
 - Use clear, descriptive names for your gauge, protocol, and tokens

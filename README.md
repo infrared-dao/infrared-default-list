@@ -43,21 +43,19 @@ Before making changes to the JSON files, prepare any new or missing asset files:
      "protocol": "your_protocol_id",
      "url": "https://your-protocol-url.com/provide-liquidity",
      "types": ["type1", "type2"],
-     "underlyingTokens": [
-       "0x...",
-       "0x..."
-     ],
-     "logo": "your-logo-filename.svg"  // Optional
+     "underlyingTokens": ["0x...", "0x..."],
+     "logo": "your-logo-filename.svg" // Optional
    }
    ```
 
    Ensure that:
+
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
    - All `underlyingTokens` are listed in the token list (`src/tokens/{network}/defaultTokenList.json`)
    - The `url` field is a direct link to provide liquidity for the LP token
    - The `logo` field is optional. Only add it if you've placed a new logo file in the `src/assets` folder
-   
+
    **Important**: If you don't provide a logo for the LP token, the app will automatically display the logos of the underlying tokens instead. This can be useful for visually representing the composition of the LP token.
 
 5. If your protocol is not listed in the `protocols` array, add it:
