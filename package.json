@@ -17,6 +17,7 @@
   },
   "license": "GPL-3.0-or-later",
   "scripts": {
+    "clean-assets": "svgo -rf src -o src",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
     "sort-package-json": "pnpm dlx sort-package-json",
@@ -31,6 +32,7 @@
     "concurrently": "^9.0.1",
     "prettier": "^3.3.1",
     "sharp": "^0.33.5",
+    "svgo": "^3.3.2",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3",
     "viem": "^2.21.28"
