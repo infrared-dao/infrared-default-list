@@ -21,15 +21,18 @@
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "node scripts/validate-gauge-list.js"
+    "validate": "node scripts/validate-gauge-list.ts"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^22.7.6",
     "ajv": "^8.12.0",
     "ajv-formats": "^2.1.1",
+    "concurrently": "^9.0.1",
     "prettier": "^3.3.1",
-    "sharp": "^0.33.5"
-    "typescript": "^5.6.3"
+    "sharp": "^0.33.5",
+    "typescript": "^5.6.3",
+    "viem": "^2.21.28"
   },
   "packageManager": "pnpm@9.12.2",
   "engines": {
