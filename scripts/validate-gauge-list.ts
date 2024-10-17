@@ -4,8 +4,8 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import path from 'path'
 import sharp from 'sharp'
 import { fileURLToPath } from 'url'
-import type { Address } from 'viem'
 
+import type { GaugeListSchema } from '../src/types/gauge-list'
 import { getErrorMessage } from './get-error-message'
 
 const ajv = new Ajv({ allErrors: true })
@@ -21,30 +21,6 @@ const schema = JSON.parse(
     'utf-8',
   ),
 )
-
-type GaugeType = {
-  [key: string]: {
-    description: string
-    name: string
-  }
-}
-type Gauge = {
-  beraRewardsVault: Address
-  lpTokenAddress: Address
-  logo?: string
-  name: string
-  protocol: string
-  types: Array<string>
-  underlyingTokens: Array<Address>
-  url: string
-}
-type Protocol = {
-  description: string
-  id: string
-  logo: string
-  name: string
-  url: string
-}
 
 const checkImageSize = async (filePath: string) => {
   try {
@@ -65,11 +41,7 @@ const validateGaugeList = async ({ network }: { network: string }) => {
     `../src/gauges/${network}/defaultGaugeList.json`,
   )
 
-  let gaugeList: {
-    gauges: Array<Gauge>
-    protocols: Array<Protocol>
-    types: GaugeType
-  }
+  let gaugeList: GaugeListSchema
 
   try {
     gaugeList = JSON.parse(readFileSync(gaugeListPath, 'utf-8'))

@@ -25,6 +25,7 @@
     "convert-to-svg": "tsx scripts/convert-to-svg.ts src/assets/original/ASSET.png && pnpm clean-assets:svg",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx,json}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
+    "schema-to-typescript": "json2ts schema/gauge-list-schema.json src/types/gauge-list.d.ts && pnpm lint",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
     "validate": "tsx scripts/validate-gauge-list.ts"
@@ -37,13 +38,13 @@
     "ajv-formats": "^2.1.1",
     "concurrently": "^9.0.1",
     "glob": "^11.0.0",
+    "json-schema-to-typescript": "^15.0.2",
     "prettier": "^3.3.1",
     "prettier-plugin-sort-json": "^4.0.0",
     "sharp": "^0.33.5",
     "svgo": "^3.3.2",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.3",
-    "viem": "^2.21.28"
+    "typescript": "^5.6.3"
   },
   "packageManager": "pnpm@9.12.2",
   "engines": {
