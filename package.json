@@ -21,7 +21,7 @@
     "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "node scripts/validate-gauge-list.ts"
+    "validate": "tsx scripts/validate-gauge-list.ts"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
@@ -31,6 +31,7 @@
     "concurrently": "^9.0.1",
     "prettier": "^3.3.1",
     "sharp": "^0.33.5",
+    "tsx": "^4.19.1",
     "typescript": "^5.6.3",
     "viem": "^2.21.28"
   },
