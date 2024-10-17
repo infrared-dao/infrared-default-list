@@ -8,7 +8,7 @@
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
           },
-          "logo": { "type": "string" },
+          "image": { "type": "string" },
           "lpTokenAddress": {
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
@@ -44,11 +44,11 @@
         "properties": {
           "description": { "type": "string" },
           "id": { "type": "string" },
-          "logo": { "type": "string" },
+          "image": { "type": "string" },
           "name": { "type": "string" },
           "url": { "format": "uri", "type": "string" }
         },
-        "required": ["description", "id", "logo", "name", "url"],
+        "required": ["description", "id", "image", "name", "url"],
         "type": "object"
       },
       "type": "array"

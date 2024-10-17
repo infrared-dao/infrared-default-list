@@ -141,56 +141,56 @@
     {
       "description": "The premier GambleFi protocol on Berachain.",
       "id": "junkyursas",
-      "logo": "junky.svg",
+      "image": "junky.svg",
       "name": "Junky Ursas",
       "url": "https://betabersion.junkyursas.com/"
     },
     {
       "description": "Unlocking Instant liquidity for Berachain assets through the first PoL powered stablecoin NECT.",
       "id": "beraborrow",
-      "logo": "beraborrow.webp",
+      "image": "beraborrow.webp",
       "name": "Beraborrow",
       "url": "https://www.beraborrow.com"
     },
     {
       "description": "A stablecoin that's integral to the Berachain ecosystem. Utilize HONEY for seamless trading, ensuring value consistency.",
       "id": "honey",
-      "logo": "honey.svg",
+      "image": "honey.svg",
       "name": "HONEY",
       "url": "https://bartio.honey.berachain.com"
     },
     {
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
       "id": "bex",
-      "logo": "bex.svg",
+      "image": "bex.svg",
       "name": "BEX",
       "url": "https://bartio.bex.berachain.com"
     },
     {
       "description": "Supply assets and unlock the potential to borrow HONEY. Earn BGT rewards while you supply and borrow.",
       "id": "bend",
-      "logo": "bend.svg",
+      "image": "bend.svg",
       "name": "BEND",
       "url": "https://bartio.bend.berachain.com"
     },
     {
       "description": "Experience the thrill of high leverage trading, tailored for both novices and seasoned traders. With an impressive 100x leverage.",
       "id": "berps",
-      "logo": "berps.svg",
+      "image": "berps.svg",
       "name": "BERPS",
       "url": "https://bartio.berps.berachain.com"
     },
     {
       "description": "Kodiak, is a vertically-integrated liquidity hub on Berachain",
       "id": "kodiak",
-      "logo": "kodiak.svg",
+      "image": "kodiak.svg",
       "name": "Kodiak Finance",
       "url": "https://app.kodiak.finance"
     },
     {
       "description": "Honeypot Finance a community-run DeFi Hub on Berachain that integrates a unique AMM model to unite a community-led launchpad and DEX",
       "id": "honeypot",
-      "logo": "tHPOT.svg",
+      "image": "honeypot.svg",
       "name": "HoneyPot Finance",
       "url": "https://honeypotfinance.xyz"
     }

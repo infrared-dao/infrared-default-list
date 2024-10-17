@@ -68,34 +68,34 @@ const validateGaugeList = async ({ network }: { network: string }) => {
     })
   }
 
-  // Check if all logo files exist and have correct dimensions
+  // Check if all image files exist and have correct dimensions
   for (const protocol of gaugeList.protocols) {
-    const logoPath = path.join(ASSETS_FOLDER, protocol.logo)
-    if (!existsSync(logoPath)) {
+    const imagePath = path.join(`${ASSETS_FOLDER}/protocols`, protocol.image)
+    if (!existsSync(imagePath)) {
       errors.push(
-        `Logo file "${protocol.logo}" not found for protocol "${protocol.name}"`,
+        `Image file "${protocol.image}" not found for protocol "${protocol.name}"`,
       )
-    } else if (path.extname(logoPath).toLowerCase() === '.png') {
-      const isCorrectSize = await checkImageSize(logoPath)
+    } else if (path.extname(imagePath).toLowerCase() === '.png') {
+      const isCorrectSize = await checkImageSize(imagePath)
       if (!isCorrectSize) {
         errors.push(
-          `Logo file "${protocol.logo}" for protocol "${protocol.name}" is not 128x128 pixels`,
+          `Image file "${protocol.image}" for protocol "${protocol.name}" is not 128x128 pixels`,
         )
       }
     }
   }
   for (const gauge of gaugeList.gauges) {
-    if (gauge.logo) {
-      const logoPath = path.join(ASSETS_FOLDER, gauge.logo)
-      if (!existsSync(logoPath)) {
+    if (gauge.image) {
+      const imagePath = path.join(ASSETS_FOLDER, gauge.image)
+      if (!existsSync(imagePath)) {
         errors.push(
-          `Logo file "${gauge.logo}" not found for gauge "${gauge.name}"`,
+          `Image file "${gauge.image}" not found for gauge "${gauge.name}"`,
         )
-      } else if (path.extname(logoPath).toLowerCase() === '.png') {
-        const isCorrectSize = await checkImageSize(logoPath)
+      } else if (path.extname(imagePath).toLowerCase() === '.png') {
+        const isCorrectSize = await checkImageSize(imagePath)
         if (!isCorrectSize) {
           errors.push(
-            `Logo file "${gauge.logo}" for gauge "${gauge.name}" is not 128x128 pixels`,
+            `Image file "${gauge.image}" for gauge "${gauge.name}" is not 128x128 pixels`,
           )
         }
       }
