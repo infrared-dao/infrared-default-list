@@ -18,7 +18,9 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "lint": "concurrently \"pnpm format\" \"pnpm type-check\"",
     "sort-package-json": "pnpm dlx sort-package-json",
+    "type-check": "tsc --noEmit",
     "validate": "node scripts/validate-gauge-list.js"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
     "ajv-formats": "^2.1.1",
     "prettier": "^3.3.1",
     "sharp": "^0.33.5"
+    "typescript": "^5.6.3"
   },
   "packageManager": "pnpm@9.12.2",
   "engines": {
