@@ -208,7 +208,7 @@
       "name": "sNECT",
       "protocol": "beraborrow",
       "url": "https://magic.beraborrow.com/pool/deposit",
-      "type": [
+      "types": [
         "cdp"
       ],
       "underlyingTokens": [
