@@ -3,7 +3,7 @@ import addFormats from 'ajv-formats'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import path from 'path'
 import sharp from 'sharp'
-import type { Address, Chain } from 'viem'
+import type { Address } from 'viem'
 
 import { getErrorMessage } from './get-error-message'
 
@@ -40,15 +40,6 @@ type Protocol = {
   name: string
   url: string
 }
-type Token = {
-  address: Address
-  chainId: Chain['id']
-  decimals: number
-  logo: string
-  name: string
-  symbol: string
-  tags: Array<string>
-}
 
 const checkImageSize = async (filePath: string) => {
   try {
@@ -68,23 +59,15 @@ const validateGaugeList = async ({ network }: { network: string }) => {
     __dirname,
     `../src/gauges/${network}/defaultGaugeList.json`,
   )
-  const tokenListPath = path.join(
-    __dirname,
-    `../src/tokens/${network}/defaultTokenList.json`,
-  )
 
   let gaugeList: {
     gauges: Array<Gauge>
     protocols: Array<Protocol>
     types: GaugeType
   }
-  let tokenList: {
-    tokens: Array<Token>
-  }
 
   try {
     gaugeList = JSON.parse(readFileSync(gaugeListPath, 'utf-8'))
-    tokenList = JSON.parse(readFileSync(tokenListPath, 'utf-8'))
   } catch (error) {
     console.error(
       `Error reading JSON files for network ${network}:`,
@@ -106,11 +89,6 @@ const validateGaugeList = async ({ network }: { network: string }) => {
       )
     })
   }
-
-  // Additional custom validations for each gauge
-  gaugeList.gauges.forEach((gauge, index) => {
-    // ... (previous validations remain the same)
-  })
 
   // Check if all logo files exist and have correct dimensions
   const assetsDir = path.join(__dirname, '../src/assets')
