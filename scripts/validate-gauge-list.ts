@@ -6,6 +6,7 @@ import sharp from 'sharp'
 import { fileURLToPath } from 'url'
 
 import type { GaugeListSchema } from '../src/types/gauge-list'
+import { ASSETS_FOLDER } from './constants'
 import { getErrorMessage } from './get-error-message'
 
 const ajv = new Ajv({ allErrors: true })
@@ -68,9 +69,8 @@ const validateGaugeList = async ({ network }: { network: string }) => {
   }
 
   // Check if all logo files exist and have correct dimensions
-  const assetsDir = path.join(__dirname, '../src/assets')
   for (const protocol of gaugeList.protocols) {
-    const logoPath = path.join(assetsDir, protocol.logo)
+    const logoPath = path.join(ASSETS_FOLDER, protocol.logo)
     if (!existsSync(logoPath)) {
       errors.push(
         `Logo file "${protocol.logo}" not found for protocol "${protocol.name}"`,
@@ -86,7 +86,7 @@ const validateGaugeList = async ({ network }: { network: string }) => {
   }
   for (const gauge of gaugeList.gauges) {
     if (gauge.logo) {
-      const logoPath = path.join(assetsDir, gauge.logo)
+      const logoPath = path.join(ASSETS_FOLDER, gauge.logo)
       if (!existsSync(logoPath)) {
         errors.push(
           `Logo file "${gauge.logo}" not found for gauge "${gauge.name}"`,

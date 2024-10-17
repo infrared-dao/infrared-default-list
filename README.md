@@ -17,9 +17,9 @@ Before you begin, ensure you have:
 
 You only need to provide assets if they're not already in the `src/assets` folder or if you're introducing new elements (e.g., a new protocol or token). For any new or missing assets:
 
-1. Add new assets. You should use an SVG file.
-   - If you have an SVG add it to `src/assets`.
-   - If you absolutely do not have an SVG file add the png to `src/assets/original`. Ensure it is larger than 128x128 and is very high quality.
+1. Add new assets. Add tokens to `/src/assets/tokens` and protocols to `src/assets/protocols`.
+   - You should use an SVG file.
+   - If you absolutely do not have an SVG file add the png to `src/assets/tokens/original` or `src/assets/protocols/original`. Ensure it is larger than 128x128 and is very high quality.
      - (Optional) If you are technical enough please modify the `convert-to-svg` script in [package.json](./package.json) by replacing `ASSET` with the name of your asset and run `pnpm convert-to-svg`. If the resulting svg is of decent quality and is <25 kb use that instead of the png. If you do not do this step we will try it ourselves.
 2. Install dependencies by running `pnpm i`.
 3. Run `pnpm clean-assets`.
