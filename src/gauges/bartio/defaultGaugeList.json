@@ -3,137 +3,137 @@
     {
       "beraRewardsVault": "0xC5Cb3459723B828B3974f7E58899249C2be3B33d",
       "lpTokenAddress": "0x1306D3c36eC7E38dd2c128fBe3097C2C2449af64",
+      "mintUrl": "https://bartio.berps.berachain.com/vault",
       "name": "BHONEY",
       "protocol": "berps",
       "types": ["perps"],
-      "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"],
-      "url": "https://bartio.berps.berachain.com/vault"
+      "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"]
     },
     {
       "beraRewardsVault": "0xad57d7d39a487c04a44d3522b910421888fb9c6d",
       "lpTokenAddress": "0xd28d852cbcc68DCEC922f6d5C7a8185dBaa104B7",
+      "mintUrl": "https://bartio.bex.berachain.com/pool/0xd28d852cbcc68DCEC922f6d5C7a8185dBaa104B7",
       "name": "HONEY-WBERA",
       "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
         "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8"
-      ],
-      "url": "https://bartio.bex.berachain.com/pool/0xd28d852cbcc68DCEC922f6d5C7a8185dBaa104B7"
+      ]
     },
     {
       "beraRewardsVault": "0xe3b9B72ba027FD6c514C0e5BA075Ac9c77C23Afa",
       "lpTokenAddress": "0xD69ADb6FB5fD6D06E6ceEc5405D95A37F96E3b96",
+      "mintUrl": "https://bartio.bex.berachain.com/pool/0xD69ADb6FB5fD6D06E6ceEc5405D95A37F96E3b96",
       "name": "HONEY-USDC",
       "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
         "0xd6D83aF58a19Cd14eF3CF6fe848C9A4d21e5727c"
-      ],
-      "url": "https://bartio.bex.berachain.com/pool/0xD69ADb6FB5fD6D06E6ceEc5405D95A37F96E3b96"
+      ]
     },
     {
       "beraRewardsVault": "0x8288Ab28D6196cA4E89269B8644A146E493E23B3",
       "lpTokenAddress": "0xfbE71d98f9D2c658d52a2d72994c717637C3ddA1",
+      "mintUrl": "https://bartio.bex.berachain.com/pool/0xfbe71d98f9d2c658d52a2d72994c717637c3dda1",
       "name": "HONEY-WETH",
       "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
         "0xE28AfD8c634946833e89ee3F122C06d7C537E8A8"
-      ],
-      "url": "https://bartio.bex.berachain.com/pool/0xfbe71d98f9d2c658d52a2d72994c717637c3dda1"
+      ]
     },
     {
       "beraRewardsVault": "0x1c21c4e2b54f289762a6f7e8ac47f4d0c8a34351",
       "lpTokenAddress": "0x9df84a72e6eb08ecd074626b931c93f92a134e23",
+      "mintUrl": "https://bartio.bex.berachain.com/pool/0x9df84a72e6eb08ecd074626b931c93f92a134e23",
       "name": "HONEY-WBTC",
       "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
         "0x2577D24a26f8FA19c1058a8b0106E2c7303454a4"
-      ],
-      "url": "https://bartio.bex.berachain.com/pool/0x9df84a72e6eb08ecd074626b931c93f92a134e23"
+      ]
     },
     {
       "beraRewardsVault": "0x7b15eec57c60f8b68df2b143c2ca5a772e787e86",
       "lpTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?chain=berachain_bartio",
       "name": "iBGT-WBERA",
       "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
         "0x46eFC86F0D7455F135CC9df501673739d513E982",
         "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8"
-      ],
-      "url": "https://app.kodiak.finance/#/liquidity/islands/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?chain=berachain_bartio"
+      ]
     },
     {
       "beraRewardsVault": "0x175e2429bcb92643255abcbcdf47fff63f7990cc",
       "lpTokenAddress": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_bartio",
       "name": "YEET-BERA",
       "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
         "0x1740F679325ef3686B2f574e392007A92e4BeD41",
         "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8"
-      ],
-      "url": "https://app.kodiak.finance/#/liquidity/islands/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_bartio"
+      ]
     },
     {
       "beraRewardsVault": "0xe5519d97ea854291c35a494b28929fa7abef12e8",
       "lpTokenAddress": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0xb73dee52f38539ba854979eab6342a60dd4c8c03?chain=berachain_bartio",
       "name": "HONEY-STGUSDC",
       "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
         "0xd6D83aF58a19Cd14eF3CF6fe848C9A4d21e5727c"
-      ],
-      "url": "https://app.kodiak.finance/#/liquidity/islands/0xb73dee52f38539ba854979eab6342a60dd4c8c03?chain=berachain_bartio"
+      ]
     },
     {
       "beraRewardsVault": "0x12f45203b4df96106fb18d557ee3224a4dc65637",
       "lpTokenAddress": "0x28fec64eabc1e4af7f5cd33d2bd20b01d5e8f203",
+      "mintUrl": "https://beta3.honeypotfinance.xyz/pool?inputCurrency=0x7507c1dc16935b82698e4c63f2746a2fcf994df8&outputCurrency=0xfc5e3743e9fac8bb60408797607352e24db7d65e",
       "name": "WBERA-tHPOT",
       "protocol": "honeypot",
       "types": ["amm"],
       "underlyingTokens": [
         "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
         "0xfc5e3743E9FAC8BB60408797607352E24Db7d65E"
-      ],
-      "url": "https://beta3.honeypotfinance.xyz/pool?inputCurrency=0x7507c1dc16935b82698e4c63f2746a2fcf994df8&outputCurrency=0xfc5e3743e9fac8bb60408797607352e24db7d65e"
+      ]
     },
     {
       "beraRewardsVault": "0x72e222116fC6063f4eE5cA90A6C59916AAD8352a",
       "lpTokenAddress": "0x3a7f6f2F27f7794a7820a32313F4a68e36580864",
+      "mintUrl": "https://magic.beraborrow.com/pool/deposit",
       "name": "sNECT",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0xf5AFCF50006944d17226978e594D4D25f4f92B40"],
-      "url": "https://magic.beraborrow.com/pool/deposit"
+      "underlyingTokens": ["0xf5AFCF50006944d17226978e594D4D25f4f92B40"]
     },
     {
       "beraRewardsVault": "0x5693809338Ae09481B5Da3A916d1cD1193F1B99A",
       "lpTokenAddress": "0x63b0EdC427664D4330F72eEc890A86b3F98ce225",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x63b0edc427664d4330f72eec890a86b3f98ce225?chain=berachain_bartio",
       "name": "NECT-HONEY",
       "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
         "0xf5AFCF50006944d17226978e594D4D25f4f92B40",
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"
-      ],
-      "url": "https://app.kodiak.finance/#/liquidity/islands/0x63b0edc427664d4330f72eec890a86b3f98ce225?chain=berachain_bartio"
+      ]
     },
     {
       "beraRewardsVault": "0x6582414E830d91C8016C10ceD72157106F908145",
       "lpTokenAddress": "0xdCeBAf53b18986bdE2aEb400a9acC3341Bb6ce3A",
+      "mintUrl": "https://betabersion.junkyursas.com/vault",
       "name": "juJNKY",
       "protocol": "junkyursas",
       "types": ["vault"],
-      "underlyingTokens": ["0xa0525273423537BC76825B4389F3bAeC1968f83F"],
-      "url": "https://betabersion.junkyursas.com/vault"
+      "underlyingTokens": ["0xa0525273423537BC76825B4389F3bAeC1968f83F"]
     }
   ],
   "name": "Infrared Bartio Default Gauge List",

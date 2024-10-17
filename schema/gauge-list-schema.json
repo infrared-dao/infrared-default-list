@@ -13,6 +13,7 @@
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
           },
+          "mintUrl": { "format": "uri", "type": "string" },
           "name": { "type": "string" },
           "protocol": { "type": "string" },
           "types": {
@@ -22,17 +23,16 @@
           "underlyingTokens": {
             "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
             "type": "array"
-          },
-          "url": { "format": "uri", "type": "string" }
+          }
         },
         "required": [
           "beraRewardsVault",
           "lpTokenAddress",
+          "mintUrl",
           "name",
           "protocol",
           "types",
-          "underlyingTokens",
-          "url"
+          "underlyingTokens"
         ],
         "type": "object"
       },
