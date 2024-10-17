@@ -1,4 +1,4 @@
-# Extending the Gauge List
+# Extending the gauge list
 
 This README provides instructions for third parties on how to extend the gauge list in our application. By following these steps, you can add your gauge to the public repository, making it visible and accessible within our app.
 
@@ -11,21 +11,26 @@ Before you begin, ensure you have:
 3. Your gauge's details ready
 4. Knowledge of which network you're adding the gauge for
 
-## Steps to Add Your Gauge
+## Steps to add your gauge
 
-### 1. Prepare Necessary Asset Files
+### 1. Prepare necessary asset files
 
 Before making changes to the JSON files, prepare any new or missing asset files:
 
 - You only need to provide assets if they're not already in the `src/assets` folder or if you're introducing new elements (e.g., a new protocol or token).
 - For any new or missing assets:
-  - Use SVG format preferably.
-  - If SVG is too complex, use a 128x128 PNG instead.
-  - Place new asset files in the `src/assets` folder.
+  - You should use an SVG file. If you have one:
+    - Add the svg to `src/assets`.
+    - Run `pnpm clean-assets`.
+  - If SVG is too complex:
+    - Add an unmodified png image to `src/assets/original`.
+    - Resize the png to 128x128. There are several tools on Google via "resize png".
+    - Convert the png to `webp`. There are several tools on Google via "png to webp". We commonly use https://cloudconvert.com and https://convertio.co/png-webp.
+    - Place new asset files in the `src/assets` folder.
 
 **Note**: The SVG/PNG rule applies to all assets, including gauge LP token logos, protocol logos, and token logos.
 
-### 2. Update JSON Files
+### 2. Update JSON files
 
 1. Fork the repository to your GitHub account.
 
@@ -37,14 +42,14 @@ Before making changes to the JSON files, prepare any new or missing asset files:
 
    ```json
    {
-     "lpTokenAddress": "0x...",
      "beraRewardsVault": "0x...",
+     "lpTokenAddress": "0x...",
+     "logo": "your-logo-filename.svg" // Optional
      "name": "Your Gauge Name",
      "protocol": "your_protocol_id",
-     "url": "https://your-protocol-url.com/provide-liquidity",
      "types": ["type1", "type2"],
      "underlyingTokens": ["0x...", "0x..."],
-     "logo": "your-logo-filename.svg" // Optional
+     "url": "https://your-protocol-url.com/provide-liquidity"
    }
    ```
 
@@ -56,17 +61,15 @@ Before making changes to the JSON files, prepare any new or missing asset files:
    - The `url` field is a direct link to provide liquidity for the LP token
    - The `logo` field is optional. Only add it if you've placed a new logo file in the `src/assets` folder
 
-   **Important**: If you don't provide a logo for the LP token, the app will automatically display the logos of the underlying tokens instead. This can be useful for visually representing the composition of the LP token.
-
 5. If your protocol is not listed in the `protocols` array, add it:
 
    ```json
    {
-     "name": "Your Protocol Name",
-     "logo": "your-protocol-logo.svg",
-     "url": "https://your-protocol-url.com",
      "description": "A brief description of your protocol.",
-     "id": "your_unique_protocol_id"
+     "id": "your_unique_protocol_id",
+     "logo": "your-protocol-logo.svg",
+     "name": "Your Protocol Name",
+     "url": "https://your-protocol-url.com"
    }
    ```
 
@@ -76,12 +79,12 @@ Before making changes to the JSON files, prepare any new or missing asset files:
 
    ```json
    {
-     "chainId": 80084,
      "address": "0x...",
-     "symbol": "XYZ",
-     "name": "Your Token Name",
+     "chainId": 80084,
      "decimals": 18,
      "logo": "your-token-logo.svg",
+     "name": "Your Token Name",
+     "symbol": "XYZ",
      "tags": ["tag1", "tag2"]
    }
    ```
@@ -101,12 +104,12 @@ Before making changes to the JSON files, prepare any new or missing asset files:
 - The `url` field for gauges should be a direct link to provide liquidity for the LP token.
 - Only add new logo files if they're not already in the `src/assets` folder.
 - For any new logo files:
-  - Use SVG format preferably, or 128x128 PNG if SVG is too complex.
+  - Use SVG format preferably, or PNG (WEBP) if SVG is too complex.
   - Ensure they are high-quality and properly sized.
-- Test your changes by running `npm install && npm run validate` locally before submitting the PR.
+- Test your changes by running `pnpm i && pnpm validate` locally before submitting the PR.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 
-## Review Process
+## Review process
 
 After submitting your PR:
 
