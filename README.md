@@ -17,12 +17,11 @@ Before you begin, ensure you have:
 
 You only need to provide assets if they're not already in the `src/assets` folder or if you're introducing new elements (e.g., a new protocol or token). For any new or missing assets:
 
-1. Add new assets. Add tokens to `/src/assets/tokens` and protocols to `src/assets/protocols`.
-   - You should use an SVG file.
-   - If you absolutely do not have an SVG file add the png to `src/assets/tokens/original` or `src/assets/protocols/original`. Ensure it is larger than 128x128 and is very high quality.
-     - (Optional) If you are technical enough please modify the `convert-to-svg` script in [package.json](./package.json) by replacing `ASSET` with the name of your asset and run `pnpm convert-to-svg`. If the resulting svg is of decent quality and is <25 kb use that instead of the png. If you do not do this step we will try it ourselves.
-2. Install dependencies by running `pnpm i`.
-3. Run `pnpm clean-assets`.
+Add any new token assets to `/src/assets/tokens` and new protocol assets to `src/assets/protocols`.
+
+- You should use an SVG file.
+- If you absolutely do not have an SVG file add the png to `src/assets/tokens/original` or `src/assets/protocols/original`. Ensure it is larger than 128x128 and is very high quality.
+  - (Optional) If you are technical enough please modify the `convert-to-svg` script in [package.json](./package.json) by replacing `ASSET` with the name of your asset and run `pnpm convert-to-svg`. If the resulting svg is of decent quality and is a smaller size than the png file use that instead of the png. If you do not do this step we will try it ourselves which can slow down the review process.
 
 ### 2. Update JSON files
 
@@ -96,8 +95,6 @@ You only need to provide assets if they're not already in the `src/assets` folde
 - Provide accurate and concise descriptions.
 - Use appropriate tags and types.
 - The `url` field for gauges should be a direct link to provide liquidity for the LP token.
-- Only add new logo files if they're not already in the `src/assets` folder.
-- Test your changes by running `pnpm i && pnpm validate` locally before submitting the PR.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 
 ## Review process

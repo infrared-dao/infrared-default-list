@@ -1,14 +1,17 @@
-name: Validate gauge, token, and validator lists
+name: Clean assets
 
 on:
   pull_request:
     paths:
-      - src/gauges/**/*.json
-      - src/tokens/**/*.json
-      - src/validator/**/*.json
+      - src/assets/**
+
+permissions:
+  checks: write
+  contents: write
 
 jobs:
-  validate:
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
@@ -45,5 +48,18 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Validate JSON schema and rules
-        run: pnpm validate
+      - name: Clean assets
+        if: ${{ !cancelled() }}
+        run: pnpm clean-assets
+
+      - name: Check if there are any changes
+        id: verify_diff
+        if: ${{ !cancelled() }}
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit lint fixes
+        if: always() && steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git commit -am "fix: clean assets" --no-verify
+          git push
