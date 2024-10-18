@@ -52,14 +52,8 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm clean-assets
 
-      - name: Check if there are any changes
-        id: verify_diff
-        if: ${{ !cancelled() }}
-        run: |
-          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
-
       - name: Commit lint fixes
-        if: always() && steps.verify_diff.outputs.changed == 'true'
-        run: |
-          git commit -am "fix: clean assets" --no-verify
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Clean assets"
+          commit_options: '--no-verify'
