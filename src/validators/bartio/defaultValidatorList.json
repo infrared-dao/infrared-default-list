@@ -7,7 +7,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/bwarelabs.png",
       "name": "BwareLabs",
       "twitter": "https://x.com/bwarelabs",
-      "website": "https://bwarelabs.com/"
+      "website": "https://bwarelabs.com"
     },
     {
       "description": "Ebunker is a leading node operator and blockchain infrastructure company.",
@@ -15,7 +15,7 @@
       "logoURI": "https://raw.githubusercontent.com/winniewdd/winniewdd/main/Ebunker-logo/ebunker-logo.png",
       "name": "Ebunker",
       "twitter": "https://twitter.com/ebunker_eth",
-      "website": "https://www.ebunker.io/"
+      "website": "https://www.ebunker.io"
     },
     {
       "description": "SNZPool is a professional technology service provider for PoS Nodes",
@@ -30,8 +30,8 @@
       "id": "0x42F8F3eB434ca4BFA43d15bF5200507c56588758",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/terminal.jpg",
       "name": "Token Terminal x FirstSet",
-      "twitter": " https://x.com/tokenterminal",
-      "website": "https://www.tokenterminal.com/"
+      "twitter": "https://x.com/tokenterminal",
+      "website": "https://www.tokenterminal.com"
     },
     {
       "description": "We always ensure that our actions are transparent and can be verified as truthful.",
@@ -70,8 +70,7 @@
       "id": "0xA7B927Cc85bFB997765aC86a86e46d36413e9B57",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/nodemeister.png",
       "name": "nodemeister",
-      "twitter": "https://x.com/nodemeister",
-      "website": ""
+      "twitter": "https://x.com/nodemeister"
     },
     {
       "description": "Professional staking provider offering infrastructure solutions for the Web3 ecosystem.",
@@ -79,7 +78,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/staketab.png",
       "name": "Staketab",
       "twitter": "https://x.com/staketab",
-      "website": "https://staketab.com/"
+      "website": "https://staketab.com"
     },
     {
       "description": "Drinks for all the Beras!",
@@ -87,23 +86,17 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/nocturnal.jpg",
       "name": "Nocturnal Labs",
       "twitter": "https://twitter.com/nct_labs",
-      "website": "https://www.nocturnallabs.org/"
+      "website": "https://www.nocturnallabs.org"
     },
     {
       "description": "Quantum Labs staking validator for secure transactions.",
       "id": "0x1e2e53c2451d0f9ED4B7952991BE0c95165D5c01",
-      "logoURI": "",
-      "name": "Quantum Labs",
-      "twitter": "",
-      "website": ""
+      "name": "Quantum Labs"
     },
     {
       "description": "Nexa Solutions staking validator for efficient blockchain operations.",
       "id": "0x3bd0E8f1B1E8Ec99a4E1762F4058F9884C93af31",
-      "logoURI": "",
-      "name": "Nexa Solutions",
-      "twitter": "",
-      "website": ""
+      "name": "Nexa Solutions"
     },
     {
       "description": "Professional blockchain validator and web3 developer team",
@@ -111,15 +104,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/noders.png",
       "name": "[NODERS]TEAM",
       "twitter": "https://twitter.com/NODERS_TEAM",
-      "website": "https://nodersteam.com/"
+      "website": "https://nodersteam.com"
     },
     {
       "description": "Hyperion Inc. staking validator with top-notch security.",
       "id": "0xD073a84e2ccDF91a9025179330438485E886D206",
-      "logoURI": "",
-      "name": "Hyperion Inc.",
-      "twitter": "",
-      "website": ""
+      "name": "Hyperion Inc."
     },
     {
       "description": "High integrity validation and infrastructure services for web3 ecosystems",
@@ -132,98 +122,62 @@
     {
       "description": "Vortex Dog staking validator for rapid transaction validation.",
       "id": "0x8a88215ae882dfA519730c40109556c1C235729f",
-      "logoURI": "",
-      "name": "Vortex Dog",
-      "twitter": "",
-      "website": ""
+      "name": "Vortex Dog"
     },
     {
       "description": "Synapse Labs staking validator for reliable and fast transactions.",
       "id": "0x1a0A57e5e6a66aD732295ddAF0aed286a4e64310",
-      "logoURI": "",
-      "name": "Synapse Labs",
-      "twitter": "",
-      "website": ""
+      "name": "Synapse Labs"
     },
     {
       "description": "Cypher Inc. staking validator for secure and private transactions.",
       "id": "0x185F4Eebd01614aE3d12a5E49b184B054C46d37B",
-      "logoURI": "",
-      "name": "Cypher Inc.",
-      "twitter": "",
-      "website": ""
+      "name": "Cypher Inc."
     },
     {
       "description": "Aether Solutions staking validator for seamless blockchain integration.",
       "id": "0xdb96E9cDD1e457b602f97d33e51736D7a5216496",
-      "logoURI": "",
-      "name": "Aether Solutions",
-      "twitter": "",
-      "website": ""
+      "name": "Aether Solutions"
     },
     {
       "description": "Fluxion Labs staking validator for high-speed transaction processing.",
       "id": "0x44a5FBfa7d6f3Fd92cca01f6764509f8Fc33dfa5",
-      "logoURI": "",
-      "name": "Fluxion Labs",
-      "twitter": "",
-      "website": ""
+      "name": "Fluxion Labs"
     },
     {
       "description": "Zenith Inc. staking validator for maximum reliability and uptime.",
       "id": "0x3649839562C8dA64E6215EB0f5371629Ead9729D",
-      "logoURI": "",
-      "name": "Zenith Inc.",
-      "twitter": "",
-      "website": ""
+      "name": "Zenith Inc."
     },
     {
       "description": "Innovix Dog staking validator for innovative blockchain solutions.",
       "id": "0x51e15e71c865FE702C9347610667f83658A20e00",
-      "logoURI": "",
-      "name": "Innovix Dog",
-      "twitter": "",
-      "website": ""
+      "name": "Innovix Dog"
     },
     {
       "description": "OmniCore Labs staking validator for comprehensive blockchain support.",
       "id": "0xBC9BC89b295a14F3976234Cc37C73e3D286f3a49",
-      "logoURI": "",
-      "name": "OmniCore Labs",
-      "twitter": "",
-      "website": ""
+      "name": "OmniCore Labs"
     },
     {
       "description": "Aero Solutions staking validator for lightweight and fast transactions.",
       "id": "0x12De044207a90709Ef2602D3D9D945d64dAe6147",
-      "logoURI": "",
-      "name": "Aero Solutions",
-      "twitter": "",
-      "website": ""
+      "name": "Aero Solutions"
     },
     {
       "description": "Helix Inc. staking validator for robust and scalable solutions.",
       "id": "0x4Afe0DFDAcc91F0fA2AEe39F9eAd66b64d03EbD6",
-      "logoURI": "",
-      "name": "Helix Inc.",
-      "twitter": "",
-      "website": ""
+      "name": "Helix Inc."
     },
     {
       "description": "Vertex Dog staking validator for pinnacle performance.",
       "id": "0xBC3c03b4185A6F10618CC4E7B9f4AdD59AB5FbbA",
-      "logoURI": "",
-      "name": "Vertex Dog",
-      "twitter": "",
-      "website": ""
+      "name": "Vertex Dog"
     },
     {
       "description": "Lumina Labs staking validator for bright and efficient operations.",
       "id": "0xDc6De65f6070b409125217a12Cf576A208Cc1998",
-      "logoURI": "",
-      "name": "Lumina Labs",
-      "twitter": "",
-      "website": ""
+      "name": "Lumina Labs"
     },
     {
       "description": "Securing & Decentralizing PoS Networks.",
@@ -244,10 +198,7 @@
     {
       "description": "Aether Labs staking validator for seamless blockchain integration.",
       "id": "0xF60fD8632Fc77E19b3A0637d115d0fdd06F36968",
-      "logoURI": "",
-      "name": "Aether Labs",
-      "twitter": "",
-      "website": ""
+      "name": "Aether Labs"
     },
     {
       "description": "Joint validator of Beradrome and The Honey Jar. Delegate or stay poor",
@@ -311,15 +262,13 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/piertwo.png",
       "name": "Pier Two",
       "twitter": "https://x.com/PierTwo_com",
-      "website": "https://piertwo.com/"
+      "website": "https://piertwo.com"
     },
     {
       "description": "BCW Group is an enterprise technology firm & venture studio dedicated to building Web3 infrastructure & applications that connect and interact with the on-demand digital universe.",
       "id": "0x83288B99CE00064724D65579AB90A9415ED2C914",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/BCW.png",
-      "name": "BCW",
-      "twitter": "",
-      "website": ""
+      "name": "BCW"
     },
     {
       "description": "Professional validator, staking and infrastructure provider. More than 50 networks contributed. With L0ve.",
@@ -367,7 +316,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/despread.png",
       "name": "DeSpread",
       "twitter": "https://x.com/DeSpreadLabs",
-      "website": "https://despread.io/"
+      "website": "https://despread.io"
     },
     {
       "description": "We are operating a secure, stable Validator Node for 26 mainnet chains. We provide infrastructure support - public RPC, LCD endpoints, daily snapshots, operate multiple IBC Relayers, Blockchain Explorers, Youtube tutorials, etc. All info on our website.",
@@ -502,7 +451,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/infstones.png",
       "name": "InfStones",
       "twitter": "https://x.com/infstones",
-      "website": "https://infstones.com/"
+      "website": "https://infstones.com"
     },
     {
       "description": "Enterprise-grade staking made easy",
@@ -518,7 +467,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/lavenderfive.png",
       "name": " Lavender.Five Nodes 🐝",
       "twitter": "https://twitter.com/lavender_five",
-      "website": "https://www.lavenderfive.com/"
+      "website": "https://www.lavenderfive.com"
     },
     {
       "description": "Effortless staking with institutional standards",
@@ -606,14 +555,13 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/enigma.png",
       "name": "Enigma",
       "twitter": "https://x.com/EnigmaValidator",
-      "website": "https://enigma-validator.com/"
+      "website": "https://enigma-validator.com"
     },
     {
       "description": "Thesis-driven, crypto-native venture studio",
       "id": "0x2aBCffD5bd93947FD7ddb7A3ecd4e914442B1AA6",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/shinlabs.png",
       "name": "Shinlabs",
-      "twitter": "",
       "website": "https://www.shinlabs.xyz"
     },
     {
@@ -646,7 +594,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/thj.jpg",
       "name": "The-Honey-Jar",
       "twitter": "https://twitter.com/0xhoneyjar",
-      "website": "https://www.0xhoneyjar.xyz/"
+      "website": "https://www.0xhoneyjar.xyz"
     },
     {
       "description": "DSRV is an integrated blockchain solutions company with the mission of enriching the crypto ecosystem via stronger connectivity. We strive to be your gateway to a suite of all-comprehensive blockchain services. Everything distributed, served complete.",
@@ -662,7 +610,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/Angelhack.jpg",
       "name": "Angelhack",
       "twitter": "https://x.com/AngelHack",
-      "website": "https://angelhack.com/"
+      "website": "https://angelhack.com"
     },
     {
       "description": "Coinhall is a community first platform providing real time price charts & analytics, and aggregating DEXes across the Cosmos ecosystem",
@@ -693,7 +641,7 @@
       "id": "0x24A6EE555CD835C43992008C35DFAAB3323BAB21",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/chorus_one.svg",
       "name": "Chorus One",
-      "twitter": "https://twitter.com/chorusone/",
+      "twitter": "https://twitter.com/chorusone",
       "website": "https://chorus.one"
     },
     {
@@ -710,7 +658,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/b-harvest.png",
       "name": "B-Harvest",
       "twitter": "https://x.com/B__Harvest",
-      "website": "https://bharvest.io/"
+      "website": "https://bharvest.io"
     },
     {
       "description": "Simply Staking runs highly reliable infrastructure in our own datacentre in Malta, built with the aim of supporting the growth of the blockchain ecosystem",
@@ -757,7 +705,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/BlockPI-Network.jpg",
       "name": "BlockPI Network",
       "twitter": "https://twitter.com/RealBlockPI",
-      "website": "https://blockpi.io/"
+      "website": "https://blockpi.io"
     },
     {
       "description": "Secure Network With Institutional Grade Solution",
@@ -767,5 +715,10 @@
       "twitter": "https://x.com/contributedao",
       "website": "https://contributiondao.com"
     }
-  ]
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
 }

@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "keywords": {
+      "items": { "type": "string" },
+      "type": "array"
+    },
+    "name": { "type": "string" },
+    "validators": {
+      "items": {
+        "properties": {
+          "description": { "type": "string" },
+          "id": {
+            "pattern": "^0x[a-fA-F0-9]{40}$",
+            "type": "string"
+          },
+          "logoURI": { "format": "uri", "type": "string" },
+          "name": { "type": "string" },
+          "twitter": { "format": "uri", "type": "string" },
+          "website": { "format": "uri", "type": "string" }
+        },
+        "required": ["description", "id", "name"],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "version": {
+      "properties": {
+        "major": { "type": "integer" },
+        "minor": { "type": "integer" },
+        "patch": { "type": "integer" }
+      },
+      "required": ["major", "minor", "patch"],
+      "type": "object"
+    }
+  },
+  "required": ["name", "validators", "version"],
+  "type": "object"
+}
