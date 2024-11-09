@@ -1,6 +1,8 @@
-.DS_STORE
-.eslintcache
 .idea
 build
+.eslintcache
 node_modules
 tsconfig.tsbuildinfo
+src/.DS_Store
+src/assets/.DS_Store
+src/assets/tokens/.DS_Store

@@ -161,6 +161,24 @@
       "name": "NECTAR",
       "symbol": "NECT",
       "tags": []
+    },
+    {
+      "address": "0x12Afd7A3324B689e32eEa71902DCbA5ED72Ee67E",
+      "chainId": 80084,
+      "decimals": 18,
+      "image": "zberaHONEY.svg",
+      "name": "zberaHONEY",
+      "symbol": "zberaHONEY",
+      "tags": ["rewardToken"]
+    },
+    {
+      "address": "0x23bc120feA570576E6D7bAe5195c9D7CD3bB6615",
+      "chainId": 80084,
+      "decimals": 18,
+      "image": "zeru.svg",
+      "name": "ZERU",
+      "symbol": "ZERU",
+      "tags": ["featured"]
     }
   ],
   "version": {
