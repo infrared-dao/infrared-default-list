@@ -134,6 +134,27 @@
       "protocol": "junkyursas",
       "types": ["vault"],
       "underlyingTokens": ["0xa0525273423537BC76825B4389F3bAeC1968f83F"]
+    },
+    {
+      "beraRewardsVault": "0x3E1FfDD1AD1e4774693CBCCdF9C737De8713D984",
+      "lpTokenAddress": "0x12Afd7A3324B689e32eEa71902DCbA5ED72Ee67E",
+      "mintUrl": "https://testnet.zeru.finance/v1/Assets?asset=0x0e4aaf1351de4c0264c5c7056ef3777b41bd8e03",
+      "name": "zberaHONEY",
+      "protocol": "zeru",
+      "types": ["vault"],
+      "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"]
+    },
+    {
+      "beraRewardsVault": "0x016044304A7e7Df23630D4B5796176097C6bd409",
+      "lpTokenAddress": "0x7a560f7336D75787F5DD12ea7082fa611c3F5dDB",
+      "mintUrl": "https://bartio.bex.berachain.com/add-liquidity/0x7a560f7336d75787f5dd12ea7082fa611c3f5ddb",
+      "name": "ZERU-HONEY",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x23bc120feA570576E6D7bAe5195c9D7CD3bB6615",
+        "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"
+      ]
     }
   ],
   "name": "Infrared Bartio Default Gauge List",
@@ -200,6 +221,13 @@
       "image": "honeypot.svg",
       "name": "HoneyPot Finance",
       "url": "https://honeypotfinance.xyz"
+    },
+    {
+      "description": "Zeru is a Decentralized Credit Infrastructure powered by eigen layer with vertically integrated lending protocol",
+      "id": "zeru",
+      "image": "zeru.svg",
+      "name": "Zeru",
+      "url": "https://zeru.finance"
     }
   ],
   "types": {
