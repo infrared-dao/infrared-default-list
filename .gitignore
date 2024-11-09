@@ -3,6 +3,7 @@ build
 .eslintcache
 node_modules
 tsconfig.tsbuildinfo
+.DS_STORE
 src/.DS_Store
 src/assets/.DS_Store
 src/assets/tokens/.DS_Store
