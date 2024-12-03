@@ -56,9 +56,10 @@
       "additionalProperties": {
         "properties": {
           "description": { "type": "string" },
-          "name": { "type": "string" }
+          "name": { "type": "string" },
+          "short_name": { "type": "string" }
         },
-        "required": ["description", "name"],
+        "required": ["description", "name", "short_name"],
         "type": "object"
       },
       "type": "object"

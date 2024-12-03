@@ -6,7 +6,7 @@
       "mintUrl": "https://bartio.berps.berachain.com/vault",
       "name": "BHONEY",
       "protocol": "berps",
-      "types": ["perps"],
+      "types": ["perpetuals"],
       "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"]
     },
     {
@@ -233,19 +233,23 @@
   "types": {
     "amm": {
       "description": "Token that where minted to provide liquidity to AMM pools",
-      "name": "Automated Market Maker"
+      "name": "Automated Market Maker",
+      "short_name": "AMM"
     },
     "cdp": {
       "description": "Tokens that where minted to open a collateral debt position",
-      "name": "Collateral Debt Position"
+      "name": "Collateral Debt Position",
+      "short_name": "CDP"
     },
-    "perps": {
+    "perpetuals": {
       "description": "Tokens that where minted to provide liquidity to a perpetual futures dex",
-      "name": "Perpetuals"
+      "name": "Perpetuals",
+      "short_name": "Perpetuals"
     },
     "vault": {
       "description": "Tokens that where minted to provide liquidity to vault with a yield farming strategy",
-      "name": "Vault Token"
+      "name": "Vault Token",
+      "short_name": "Vault"
     }
   },
   "version": {
