@@ -17,11 +17,7 @@
           "decimals": { "type": "number" },
           "image": { "type": "string" },
           "name": { "type": "string" },
-          "symbol": { "type": "string" },
-          "tags": {
-            "items": { "type": "string" },
-            "type": "array"
-          }
+          "symbol": { "type": "string" }
         },
         "required": [
           "address",
@@ -45,6 +41,6 @@
       "type": "object"
     }
   },
-  "required": ["keywords", "name", "tags", "tokens", "version"],
+  "required": ["keywords", "name", "tokens", "version"],
   "type": "object"
 }
