@@ -71,8 +71,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "decimals": 18,
      "image": "your-token-image.svg",
      "name": "Your Token Name",
-     "symbol": "XYZ",
-     "tags": ["tag1", "tag2"]
+     "symbol": "XYZ"
    }
    ```
 
@@ -87,7 +86,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 - Ensure all addresses are valid and correctly formatted.
 - Use clear, descriptive names for your gauge, protocol, and tokens.
 - Provide accurate and concise descriptions.
-- Use appropriate tags and types.
 - The `url` field for gauges should be a direct link to provide liquidity for the LP token.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 

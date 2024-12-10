@@ -15,7 +15,6 @@ export interface TokenListSchema {
     image: string
     name: string
     symbol: string
-    tags?: string[]
     [k: string]: unknown
   }[]
   version: {
