@@ -197,6 +197,15 @@
       "name": "Buds",
       "symbol": "BUDS",
       "tags": ["featured"]
+    },
+    {
+      "address": "0x9F43e40093327697Ff92d4b353D0A7B88b0DbBb6",
+      "chainId": 80084,
+      "decimals": 18,
+      "image": "buds.svg",
+      "name": "Buds",
+      "symbol": "BUDS",
+      "tags": ["featured"]
     }
   ],
   "version": {
