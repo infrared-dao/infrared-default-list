@@ -167,6 +167,18 @@
         "0x08B918dD18E087893bb9d711d9E0BBaA7a63Ef63",
         "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"
       ]
+    },
+    {
+      "beraRewardsVault": "0x76f36Cc45478F3f84574937976168af0cbD44F02",
+      "lpTokenAddress": "0x760a5Cb9C84C16264A819A43C6c57F8dcE13662d",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x760a5cb9c84c16264a819a43c6c57f8dce13662d?chain=berachain_bartio",
+      "name": "BUDS-WBERA",
+      "protocol": "kodiak",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x9F43e40093327697Ff92d4b353D0A7B88b0DbBb6",
+        "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8"
+      ]
     }
   ],
   "name": "Infrared Bartio Default Gauge List",
