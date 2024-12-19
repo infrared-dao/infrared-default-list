@@ -56,6 +56,11 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm clean-assets
 
+      - name: Configure git to fetch PR refs
+        run: |
+          git config --add remote.origin.fetch "+refs/pull/*:refs/remotes/origin/pull/*"
+          git fetch origin
+
       - name: Show git config
         run: cat .git/config
 
