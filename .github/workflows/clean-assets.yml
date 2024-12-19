@@ -57,7 +57,4 @@ jobs:
         run: pnpm clean-assets
 
       - name: Commit clean assets
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "fix: clean assets"
-          commit_options: '--no-verify'
+        uses: autofix-ci/action@ff86a557419858bb967097bfc916833f5647fa8c
