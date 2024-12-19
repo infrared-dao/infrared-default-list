@@ -56,8 +56,8 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm clean-assets
 
-      - name: Clean stale refs
-        run: git for-each-ref --format='%(refname)' refs/pull | xargs git update-ref -d
+      - name: Show git config
+        run: cat .git/config
 
       - name: Commit clean assets
         uses: autofix-ci/action@ff86a557419858bb967097bfc916833f5647fa8c
