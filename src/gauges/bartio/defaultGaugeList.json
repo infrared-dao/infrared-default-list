@@ -199,7 +199,10 @@
       "name": "BERA-BRFM",
       "protocol": "sweep-n-flip",
       "types": ["amm"],
-      "underlyingTokens": ["0x7507c1dc16935B82698e4C63f2746A2fCf994dF8", "0xcC8320B61A6F1719f5FC1c090F26b75dd75cA395"]
+      "underlyingTokens": [
+        "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
+        "0xcC8320B61A6F1719f5FC1c090F26b75dd75cA395"
+      ]
     }
   ],
   "name": "Infrared Bartio Default Gauge List",
