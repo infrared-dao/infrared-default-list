@@ -7,7 +7,10 @@
       "name": "HONEY-DIRAC",
       "protocol": "kodiak",
       "types": ["amm"],
-      "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03", "0x277aaDBd9ea3dB8Fe9eA40eA6E09F6203724BdaE"]
+      "underlyingTokens": [
+        "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
+        "0x277aaDBd9ea3dB8Fe9eA40eA6E09F6203724BdaE"
+      ]
     },
     {
       "beraRewardsVault": "0xC5Cb3459723B828B3974f7E58899249C2be3B33d",
