@@ -193,8 +193,8 @@
       "beraRewardsVault": "0xC4f202b367FCB32F16305bd445E6AB4b445cb738",
       "lpTokenAddress": "0xb18CEC4160E5310e79AEf0d06a8df223A35599cD",
       "mintUrl": "https://terplayer.org/terp-stake/v2",
-      "name": "tTERP Staking",
-      "protocol": "terplayer stake",
+      "name": "tTERP",
+      "protocol": "terplayer",
       "types": ["vault"],
       "underlyingTokens": ["0xb18CEC4160E5310e79AEf0d06a8df223A35599cD"]
     }
@@ -280,9 +280,9 @@
     },
     {
       "description": "Participate in Terplayer's testnet event to earn tTERP, and stake your tTERP toearn BGT and more!",
-      "id": "tTERP",
+      "id": "terplayer",
       "image": "terp.svg",
-      "name": "tTERP Staking",
+      "name": "tTERP",
       "url": "https://terplayer.org/terp-stake/v2"
     }
   ],
