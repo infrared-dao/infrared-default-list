@@ -195,8 +195,8 @@
     {
       "beraRewardsVault": "0x86DA232f6A4d146151755Ccf3e4555eadCc24cCF",
       "lpTokenAddress": "0x556b758AcCe5c4F2E1B57821E2dd797711E790F4",
-      "mintUrl": "https://testnet.webera.finance/",
-      "name": "weHONEY",
+      "mintUrl": "https://testnet.webera.finance",
+      "name": "HONEY",
       "protocol": "webera",
       "types": ["vault"],
       "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"]
