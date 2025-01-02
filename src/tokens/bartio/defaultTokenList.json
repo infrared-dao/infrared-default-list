@@ -197,6 +197,15 @@
       "name": "Buds",
       "symbol": "BUDS",
       "tags": []
+    },
+    {
+      "address": "0xb18CEC4160E5310e79AEf0d06a8df223A35599cD",
+      "chainId": 80084,
+      "decimals": 18,
+      "image": "terp.svg",
+      "name": "tTERP",
+      "symbol": "tTERP",
+      "tags": []
     }
   ],
   "version": {

@@ -191,6 +191,15 @@
         "0x9F43e40093327697Ff92d4b353D0A7B88b0DbBb6",
         "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8"
       ]
+    },
+    {
+      "beraRewardsVault": "0xC4f202b367FCB32F16305bd445E6AB4b445cb738",
+      "lpTokenAddress": "0xb18CEC4160E5310e79AEf0d06a8df223A35599cD",
+      "mintUrl": "https://terplayer.org/terp-stake/v2",
+      "name": "tTERP",
+      "protocol": "terplayer",
+      "types": ["vault"],
+      "underlyingTokens": ["0xb18CEC4160E5310e79AEf0d06a8df223A35599cD"]
     }
   ],
   "name": "Infrared Bartio Default Gauge List",
@@ -271,6 +280,13 @@
       "image": "zeru.svg",
       "name": "Zeru",
       "url": "https://zeru.finance"
+    },
+    {
+      "description": "Participate in Terplayer's testnet event to earn tTERP, and stake your tTERP to earn BGT and more!",
+      "id": "terplayer",
+      "image": "terp.svg",
+      "name": "tTERP",
+      "url": "https://terplayer.org/terp-stake/v2"
     }
   ],
   "types": {
