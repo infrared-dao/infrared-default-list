@@ -2,12 +2,12 @@ import { readdirSync } from 'node:fs'
 
 import type { ValidatorListSchema } from '@/types/validator-list'
 
+import { getFile } from './_/get-file'
 import { getListFile } from './_/get-list-file'
-import { getSchemaFile } from './_/get-schema-file'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateList } from './_/validate-list'
 
-const schema = getSchemaFile('schema/validator-list-schema.json')
+const schema = getFile('schema/validator-list-schema.json')
 
 const validatorValidatorList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
