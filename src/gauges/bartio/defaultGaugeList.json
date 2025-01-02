@@ -196,7 +196,7 @@
       "beraRewardsVault": "0x2DD85Db7d6A7ECa430De2b234F6205F735dD038D",
       "lpTokenAddress": "0xd4B946c741eA1a826a463b227ac50Dc137487135",
       "mintUrl": "https://app.sweepnflip.io/add/0xcc8320b61a6f1719f5fc1c090f26b75dd75ca395/BERA?step=1",
-      "name": "BERA-BRFM",
+      "name": "WBERA-BRFM",
       "protocol": "sweep-n-flip",
       "types": ["amm"],
       "underlyingTokens": [
