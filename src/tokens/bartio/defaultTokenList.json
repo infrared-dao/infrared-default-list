@@ -201,7 +201,7 @@
     {
       "address": "0xcC8320B61A6F1719f5FC1c090F26b75dd75cA395",
       "chainId": 80084,
-      "decimals": 0,
+      "decimals": 18,
       "image": "brfm.webp",
       "name": "Bera's Farm",
       "symbol": "BRFM",
