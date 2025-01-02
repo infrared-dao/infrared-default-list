@@ -7,6 +7,10 @@ on:
       - src/tokens/**/*.json
       - src/validator/**/*.json
 
+env:
+  QUIKNODE_KEY: ${{ vars.QUIKNODE_KEY}}
+  QUIKNODE_SUBDOMAIN: ${{ vars.QUIKNODE_SUBDOMAIN}}
+
 jobs:
   validate:
     runs-on: ubuntu-latest

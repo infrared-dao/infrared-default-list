@@ -2,13 +2,13 @@ import { readdirSync } from 'node:fs'
 
 import type { TokenListSchema } from '@/types/token-list'
 
+import { getFile } from './_/get-file'
 import { getListFile } from './_/get-list-file'
-import { getSchemaFile } from './_/get-schema-file'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateImages } from './_/validate-images'
 import { validateList } from './_/validate-list'
 
-const schema = getSchemaFile('schema/token-list-schema.json')
+const schema = getFile('schema/token-list-schema.json')
 
 const validateTokenList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
