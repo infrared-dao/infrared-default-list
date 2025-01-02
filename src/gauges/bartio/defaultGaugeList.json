@@ -197,7 +197,7 @@
       "lpTokenAddress": "0xb18CEC4160E5310e79AEf0d06a8df223A35599cD",
       "mintUrl": "https://terplayer.org/terp-stake/v2",
       "name": "tTERP",
-      "protocol": "TerpLayer",
+      "protocol": "terplayer",
       "types": ["vault"],
       "underlyingTokens": ["0xb18CEC4160E5310e79AEf0d06a8df223A35599cD"]
     }
@@ -283,9 +283,9 @@
     },
     {
       "description": "Participate in Terplayer's testnet event to earn tTERP, and stake your tTERP to earn BGT and more!",
-      "id": "TerpLayer",
-      "image": "tterp.svg",
-      "name": "tTERP",
+      "id": "terplayer",
+      "image": "terplayer.svg",
+      "name": "terplayer",
       "url": "https://terplayer.org/terp-stake/v2"
     }
   ],
