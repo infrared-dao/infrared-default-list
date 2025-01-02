@@ -29,20 +29,19 @@
     "schemas-to-typescript": "concurrently \"json2ts schema/gauge-list-schema.json src/types/gauge-list.d.ts\" \"json2ts schema/token-list-schema.json src/types/token-list.d.ts\" \"json2ts schema/validator-list-schema.json src/types/validator-list.d.ts\" && pnpm lint",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "concurrently \"dotenv -- tsx scripts/validate-gauge-list.ts\" \"tsx scripts/validate-token-list.ts\" \"tsx scripts/validate-validator-list.ts\""
+    "validate": "concurrently \"tsx scripts/validate-gauge-list.ts\" \"tsx scripts/validate-token-list.ts\" \"tsx scripts/validate-validator-list.ts\""
   },
   "devDependencies": {
     "@infrared-dao/eslint-config": "^0.0.6",
     "@infrared-dao/prettier-config": "^0.0.2",
     "@infrared-dao/tsconfig": "^0.0.2",
     "@neplex/vectorizer": "^0.0.4",
-    "@types/node": "^22.10.2",
-    "ajv": "^8.12.0",
+    "@types/node": "^22.10.4",
+    "ajv": "^8.17.1",
     "ajv-formats": "^2.1.1",
-    "concurrently": "^9.1.0",
-    "dotenv-cli": "^8.0.0",
+    "concurrently": "^9.1.2",
     "glob": "^11.0.0",
-    "globals": "^15.13.0",
+    "globals": "^15.14.0",
     "json-schema-to-typescript": "^15.0.3",
     "prettier": "^3.4.2",
     "prettier-plugin-sort-json": "^4.0.0",
@@ -52,7 +51,7 @@
     "typescript": "^5.7.2",
     "viem": "^2.22.1"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.2",
   "engines": {
     "node": ">=20.5.1",
     "npm": "please-use-pnpm",
