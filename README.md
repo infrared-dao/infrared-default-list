@@ -32,7 +32,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 - You should use an SVG file.
 - If you absolutely do not have an SVG file add a png to `src/assets/tokens/new` or `src/assets/protocols/new`. Ensure it is larger than 128x128 and is very high quality.
 
-### 2. Update JSON files
+### 3. Update JSON files
 
 1. Navigate to `src/gauges/{network}/defaultGaugeList.json` where `{network}` is the network you're adding to (e.g., "bartio" for the Bartio testnet).
 
