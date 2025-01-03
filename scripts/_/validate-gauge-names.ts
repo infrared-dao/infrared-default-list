@@ -1,40 +1,12 @@
-import {
-  type Address,
-  createPublicClient,
-  erc20Abi,
-  fallback,
-  http,
-} from 'viem'
-import { berachainTestnetbArtio } from 'viem/chains'
+import type { Address } from 'viem'
 
 import type { GaugeListSchema } from '@/types/gauge-list'
 
 import { delay } from './delay'
+import { getTokenSymbol } from './get-token-symbol'
 
 const RPC_REQUESTS_PER_SECOND = 10
-
-const publicClient = createPublicClient({
-  chain: berachainTestnetbArtio,
-  transport: fallback([http()]),
-})
-
-const getVaultSymbol = async ({
-  errors,
-  underlyingToken,
-}: {
-  errors: Array<string>
-  underlyingToken: string
-}) => {
-  const symbol = await publicClient.readContract({
-    abi: erc20Abi,
-    address: underlyingToken as Address,
-    functionName: 'symbol',
-  })
-  if (!symbol) {
-    errors.push(`${underlyingToken} does not have a symbol on the contract.`)
-  }
-  return symbol
-}
+const ONE_SECOND = 1000
 
 export const validateGaugeNames = async ({
   errors,
@@ -51,10 +23,12 @@ export const validateGaugeNames = async ({
       gauge.underlyingTokens.map(async (underlyingToken) => {
         rpcLookupCount += 1
         if (rpcLookupCount % RPC_REQUESTS_PER_SECOND === 0) {
-          console.log('delay')
-          await delay(1000)
+          await delay(ONE_SECOND)
         }
-        return await getVaultSymbol({ errors, underlyingToken })
+        return await getTokenSymbol({
+          errors,
+          token: underlyingToken as Address,
+        })
       }),
     )
     const name = symbols.join('-')
