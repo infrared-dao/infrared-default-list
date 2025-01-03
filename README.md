@@ -10,6 +10,15 @@ Before you begin, ensure you have:
 2. Basic knowledge of JSON and Git
 3. Details for your gauge, token, or validator
 
+Please make sure that the respective beraRewardsVault is friendoftheChef. In order to check that please follow the guideline:
+
+1. Go to Berachef’s contract on beratrail & select “Read Contract“
+2. Go to function 9. isFriendoftheChef
+3. Under receiver parameter put the beraRewardsVault address
+4. Click “Query“
+5. If the boolean is “true”, the vault is yielding BGT (desired path)
+6. If the boolean is “false”, the vault is not yielding BGT. In this case, please refer to the Berachain team, their governance, and their documentation
+
 ## Steps to add
 
 ### 1. Fork the repository
@@ -23,7 +32,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 - You should use an SVG file.
 - If you absolutely do not have an SVG file add a png to `src/assets/tokens/new` or `src/assets/protocols/new`. Ensure it is larger than 128x128 and is very high quality.
 
-### 2. Update JSON files
+### 3. Update JSON files
 
 1. Navigate to `src/gauges/{network}/defaultGaugeList.json` where `{network}` is the network you're adding to (e.g., "bartio" for the Bartio testnet).
 
@@ -34,7 +43,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "beraRewardsVault": "0x...",
      "lpTokenAddress": "0x...",
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
-     "name": "Your Gauge Name",
+     "name": "HONEY-WBERA",
      "protocol": "your_protocol_id",
      "types": ["type1", "type2"],
      "underlyingTokens": ["0x...", "0x..."]
@@ -44,6 +53,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    Ensure that:
 
    - The `mintUrl` field is a direct link to provide liquidity for the LP token
+   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
    - All `underlyingTokens` are listed in the token list (`src/tokens/{network}/defaultTokenList.json`)
@@ -55,12 +65,16 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "description": "A brief description of your protocol.",
      "id": "your_unique_protocol_id",
      "image": "your-protocol-image.svg",
-     "name": "Your Protocol Name",
+     "name": "Protocol",
      "url": "https://your-protocol-url.com"
    }
    ```
 
-   Ensure you've added the protocol image to the `src/assets/protocols` folder if it's not already there.
+   Ensure that:
+
+   - The `id` field is lowercase.
+   - The `Name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
+   - You've added the protocol image to the `src/assets/protocols` folder if it's not already there.
 
 4. If your gauge uses tokens not in the token list, add them to `src/tokens/{network}/defaultTokenList.json`:
 

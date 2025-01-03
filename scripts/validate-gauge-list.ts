@@ -2,13 +2,14 @@ import { readdirSync } from 'node:fs'
 
 import type { GaugeListSchema } from '@/types/gauge-list'
 
+import { getFile } from './_/get-file'
 import { getListFile } from './_/get-list-file'
-import { getSchemaFile } from './_/get-schema-file'
 import { outputScriptStatus } from './_/output-script-status'
+import { validateGaugeNames } from './_/validate-gauge-names'
 import { validateImages } from './_/validate-images'
 import { validateList } from './_/validate-list'
 
-const schema = getSchemaFile('schema/gauge-list-schema.json')
+const schema = getFile('schema/gauge-list-schema.json')
 
 const validateGaugeList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
@@ -19,6 +20,7 @@ const validateGaugeList = async ({ network }: { network: string }) => {
 
   validateList({ errors, list, schema })
   await validateImages({ errors, listItem: list.protocols, type: 'protocols' })
+  await validateGaugeNames({ errors, list })
   outputScriptStatus({ errors, network, type: 'Gauge' })
 }
 

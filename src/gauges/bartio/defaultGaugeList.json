@@ -3,17 +3,20 @@
     {
       "beraRewardsVault": "0xd351940fd17c33BB18B6fA7982e376aa8f3d29ab",
       "lpTokenAddress": "0x1Afe9c399B40A65C783049E732d7Ad5D37e68F78",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x1afe9c399b40a65c783049e732d7ad5d37e68f78?chain=berachain_bartio",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1afe9c399b40a65c783049e732d7ad5d37e68f78?chain=berachain_bartio",
       "name": "HONEY-DIRAC",
       "protocol": "kodiak",
       "types": ["amm"],
-      "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03", "0x277aaDBd9ea3dB8Fe9eA40eA6E09F6203724BdaE"]
+      "underlyingTokens": [
+        "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
+        "0x277aaDBd9ea3dB8Fe9eA40eA6E09F6203724BdaE"
+      ]
     },
     {
       "beraRewardsVault": "0xC5Cb3459723B828B3974f7E58899249C2be3B33d",
       "lpTokenAddress": "0x1306D3c36eC7E38dd2c128fBe3097C2C2449af64",
       "mintUrl": "https://bartio.berps.berachain.com/vault",
-      "name": "BHONEY",
+      "name": "HONEY",
       "protocol": "berps",
       "types": ["perps"],
       "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"]
@@ -69,7 +72,7 @@
     {
       "beraRewardsVault": "0x7b15eec57c60f8b68df2b143c2ca5a772e787e86",
       "lpTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?chain=berachain_bartio",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?chain=berachain_bartio",
       "name": "iBGT-WBERA",
       "protocol": "kodiak",
       "types": ["amm"],
@@ -81,8 +84,8 @@
     {
       "beraRewardsVault": "0x175e2429bcb92643255abcbcdf47fff63f7990cc",
       "lpTokenAddress": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_bartio",
-      "name": "YEET-BERA",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_bartio",
+      "name": "YEET-WBERA",
       "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
@@ -93,8 +96,8 @@
     {
       "beraRewardsVault": "0xe5519d97ea854291c35a494b28929fa7abef12e8",
       "lpTokenAddress": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0xb73dee52f38539ba854979eab6342a60dd4c8c03?chain=berachain_bartio",
-      "name": "HONEY-STGUSDC",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb73dee52f38539ba854979eab6342a60dd4c8c03?chain=berachain_bartio",
+      "name": "HONEY-USDC",
       "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
@@ -118,7 +121,7 @@
       "beraRewardsVault": "0x72e222116fC6063f4eE5cA90A6C59916AAD8352a",
       "lpTokenAddress": "0x3a7f6f2F27f7794a7820a32313F4a68e36580864",
       "mintUrl": "https://magic.beraborrow.com/pool/deposit",
-      "name": "sNECT",
+      "name": "NECT",
       "protocol": "beraborrow",
       "types": ["cdp"],
       "underlyingTokens": ["0xf5AFCF50006944d17226978e594D4D25f4f92B40"]
@@ -126,7 +129,7 @@
     {
       "beraRewardsVault": "0x5693809338Ae09481B5Da3A916d1cD1193F1B99A",
       "lpTokenAddress": "0x63b0EdC427664D4330F72eEc890A86b3F98ce225",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x63b0edc427664d4330f72eec890a86b3f98ce225?chain=berachain_bartio",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x63b0edc427664d4330f72eec890a86b3f98ce225?chain=berachain_bartio",
       "name": "NECT-HONEY",
       "protocol": "kodiak",
       "types": ["amm"],
@@ -139,7 +142,7 @@
       "beraRewardsVault": "0x6582414E830d91C8016C10ceD72157106F908145",
       "lpTokenAddress": "0xdCeBAf53b18986bdE2aEb400a9acC3341Bb6ce3A",
       "mintUrl": "https://betabersion.junkyursas.com/vault",
-      "name": "juJNKY",
+      "name": "JNKY",
       "protocol": "junkyursas",
       "types": ["vault"],
       "underlyingTokens": ["0xa0525273423537BC76825B4389F3bAeC1968f83F"]
@@ -148,7 +151,7 @@
       "beraRewardsVault": "0x3E1FfDD1AD1e4774693CBCCdF9C737De8713D984",
       "lpTokenAddress": "0x12Afd7A3324B689e32eEa71902DCbA5ED72Ee67E",
       "mintUrl": "https://testnet.zeru.finance/v1/Assets?asset=0x0e4aaf1351de4c0264c5c7056ef3777b41bd8e03",
-      "name": "zberaHONEY",
+      "name": "HONEY",
       "protocol": "zeru",
       "types": ["vault"],
       "underlyingTokens": ["0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03"]
@@ -168,7 +171,7 @@
     {
       "beraRewardsVault": "0xdca3c519825714a87867839fe20d410ac755d0ff",
       "lpTokenAddress": "0x74e852a4f88bfbeff01275bb95d5ed77f2967d12",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x74e852a4f88bfbeff01275bb95d5ed77f2967d12?chain=berachain_bartio",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pool/0x74e852a4f88bfbeff01275bb95d5ed77f2967d12?chain=berachain_bartio",
       "name": "MIM-HONEY",
       "protocol": "kodiak",
       "types": ["amm"],
@@ -180,7 +183,7 @@
     {
       "beraRewardsVault": "0x76f36Cc45478F3f84574937976168af0cbD44F02",
       "lpTokenAddress": "0x760a5Cb9C84C16264A819A43C6c57F8dcE13662d",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/islands/0x760a5cb9c84c16264a819a43c6c57f8dce13662d?chain=berachain_bartio",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x970f463a7a61068dda84aa9e2ce895bc867283bd?chain=berachain_bartio",
       "name": "BUDS-WBERA",
       "protocol": "kodiak",
       "types": ["amm"],
@@ -193,10 +196,13 @@
       "beraRewardsVault": "0x2DD85Db7d6A7ECa430De2b234F6205F735dD038D",
       "lpTokenAddress": "0xd4B946c741eA1a826a463b227ac50Dc137487135",
       "mintUrl": "https://app.sweepnflip.io/add/0xcc8320b61a6f1719f5fc1c090f26b75dd75ca395/BERA?step=1",
-      "name": "BERA-BRFM",
+      "name": "WBERA-BRFM",
       "protocol": "sweep-n-flip",
       "types": ["amm"],
-      "underlyingTokens": ["0x7507c1dc16935B82698e4C63f2746A2fCf994dF8", "0xcC8320B61A6F1719f5FC1c090F26b75dd75cA395"]
+      "underlyingTokens": [
+        "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
+        "0xcC8320B61A6F1719f5FC1c090F26b75dd75cA395"
+      ]
     }
   ],
   "name": "Infrared Bartio Default Gauge List",
@@ -279,7 +285,7 @@
       "url": "https://zeru.finance"
     },
     {
-      "description": "NFT AMM - Instant swaps and liqudity provision for NFTs",
+      "description": "NFT AMM - Instant swaps and liquidity provision for NFTs",
       "id": "sweep-n-flip",
       "image": "sweep-n-flip.svg",
       "name": "Sweep n' Flip",
@@ -288,19 +294,19 @@
   ],
   "types": {
     "amm": {
-      "description": "Token that where minted to provide liquidity to AMM pools",
+      "description": "Token that were minted to provide liquidity to AMM pools",
       "name": "Automated Market Maker"
     },
     "cdp": {
-      "description": "Tokens that where minted to open a collateral debt position",
+      "description": "Tokens that were minted to open a collateral debt position",
       "name": "Collateral Debt Position"
     },
     "perps": {
-      "description": "Tokens that where minted to provide liquidity to a perpetual futures dex",
+      "description": "Tokens that were minted to provide liquidity to a perpetual futures dex",
       "name": "Perpetuals"
     },
     "vault": {
-      "description": "Tokens that where minted to provide liquidity to vault with a yield farming strategy",
+      "description": "Tokens that were minted to provide liquidity to vault with a yield farming strategy",
       "name": "Vault Token"
     }
   },

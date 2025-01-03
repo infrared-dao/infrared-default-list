@@ -1,25 +1,20 @@
-name: Handle new assets
+name: autofix.ci
 
 on:
   pull_request:
-    paths:
-      - src/assets/**
 
 permissions:
   checks: write
   contents: write
 
 jobs:
-  lint:
-    name: Handle new assets
+  autofix:
+    name: Lints, handles new assets, and commits changes
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
 
       - name: Cache dependencies
         uses: actions/cache@v4
@@ -35,9 +30,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: 9.12.2
+        uses: pnpm/action-setup@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -56,8 +49,14 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm clean-assets
 
+      - name: Prettier
+        if: ${{ !cancelled() }}
+        run: pnpm format
+
+      - name: Type check
+        if: ${{ !cancelled() }}
+        run: pnpm type-check
+
+
       - name: Commit clean assets
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "fix: clean assets"
-          commit_options: '--no-verify'
+        uses: autofix-ci/action@ff86a557419858bb967097bfc916833f5647fa8c
