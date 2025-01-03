@@ -34,7 +34,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 
 ### 3. Update JSON files
 
-1. Navigate to `src/gauges/{network}/defaultGaugeList.json` where `{network}` is the network you're adding to (e.g., "bartio" for the Bartio testnet).
+1. Navigate to `src/gauges/{network}.json` where `{network}` is the network you're adding to (e.g., "bartio" for the Bartio testnet).
 
 2. Add your gauge to the `gauges` array in the JSON file. Follow this structure:
 
@@ -56,7 +56,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
-   - All `underlyingTokens` are listed in the token list (`src/tokens/{network}/defaultTokenList.json`)
+   - All `underlyingTokens` are listed in the token list (`src/tokens/{network}.json`)
 
 3. If your protocol is not listed in the `protocols` array, add it:
 
@@ -76,7 +76,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `Name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
    - You've added the protocol image to the `src/assets/protocols` folder if it's not already there.
 
-4. If your gauge uses tokens not in the token list, add them to `src/tokens/{network}/defaultTokenList.json`:
+4. If your gauge uses tokens not in the token list, add them to `src/tokens/{network}.json`:
 
    ```json
    {

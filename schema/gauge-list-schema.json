@@ -36,43 +36,8 @@
         "type": "object"
       },
       "type": "array"
-    },
-    "name": { "type": "string" },
-    "protocols": {
-      "items": {
-        "properties": {
-          "description": { "type": "string" },
-          "id": { "type": "string" },
-          "image": { "type": "string" },
-          "name": { "type": "string" },
-          "url": { "format": "uri", "type": "string" }
-        },
-        "required": ["description", "id", "image", "name", "url"],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "types": {
-      "additionalProperties": {
-        "properties": {
-          "description": { "type": "string" },
-          "name": { "type": "string" }
-        },
-        "required": ["description", "name"],
-        "type": "object"
-      },
-      "type": "object"
-    },
-    "version": {
-      "properties": {
-        "major": { "type": "integer" },
-        "minor": { "type": "integer" },
-        "patch": { "type": "integer" }
-      },
-      "required": ["major", "minor", "patch"],
-      "type": "object"
     }
   },
-  "required": ["name", "protocols", "types", "gauges", "version"],
+  "required": ["gauges"],
   "type": "object"
 }

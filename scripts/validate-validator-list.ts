@@ -12,7 +12,7 @@ const schema = getFile('schema/validator-list-schema.json')
 const validatorValidatorList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
   const list: ValidatorListSchema = getListFile({
-    listPath: `src/validators/${network}/defaultValidatorList.json`,
+    listPath: `src/validators/${network}.json`,
     network,
   })
 
@@ -21,5 +21,5 @@ const validatorValidatorList = async ({ network }: { network: string }) => {
 }
 
 readdirSync('src/validators').forEach(async (network) => {
-  await validatorValidatorList({ network })
+  await validatorValidatorList({ network: network.replace('.json', '') })
 })

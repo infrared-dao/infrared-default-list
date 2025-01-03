@@ -26,10 +26,10 @@
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
-    "schemas-to-typescript": "concurrently \"json2ts schema/gauge-list-schema.json src/types/gauge-list.d.ts\" \"json2ts schema/token-list-schema.json src/types/token-list.d.ts\" \"json2ts schema/validator-list-schema.json src/types/validator-list.d.ts\" && pnpm lint",
+    "schemas-to-typescript": "concurrently \"json2ts schema/gauge-list-schema.json src/types/gauge-list.d.ts\" \"json2ts schema/gauge-types-schema.json src/types/gauge-types.d.ts\" \"json2ts schema/protocols-schema.json src/types/protocols.d.ts\" \"json2ts schema/token-list-schema.json src/types/token-list.d.ts\" \"json2ts schema/validator-list-schema.json src/types/validator-list.d.ts\" && pnpm lint",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "concurrently \"tsx scripts/validate-gauge-list.ts\" \"tsx scripts/validate-token-list.ts\" \"tsx scripts/validate-validator-list.ts\""
+    "validate": "concurrently \"tsx scripts/validate-gauge-list.ts\" \"tsx scripts/validate-gauge-types.ts\" \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-token-list.ts\" \"tsx scripts/validate-validator-list.ts\""
   },
   "devDependencies": {
     "@infrared-dao/eslint-config": "^0.0.6",

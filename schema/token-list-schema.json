@@ -1,11 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "keywords": {
-      "items": { "type": "string" },
-      "type": "array"
-    },
-    "name": { "type": "string" },
     "tokens": {
       "items": {
         "properties": {
@@ -34,17 +29,8 @@
         "type": "object"
       },
       "type": "array"
-    },
-    "version": {
-      "properties": {
-        "major": { "type": "integer" },
-        "minor": { "type": "integer" },
-        "patch": { "type": "integer" }
-      },
-      "required": ["major", "minor", "patch"],
-      "type": "object"
     }
   },
-  "required": ["keywords", "name", "tags", "tokens", "version"],
+  "required": ["tokens"],
   "type": "object"
 }
