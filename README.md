@@ -43,7 +43,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "beraRewardsVault": "0x...",
      "lpTokenAddress": "0x...",
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
-     "name": "Your Gauge Name",
+     "name": "HONEY-WBERA",
      "protocol": "your_protocol_id",
      "types": ["type1", "type2"],
      "underlyingTokens": ["0x...", "0x..."]
@@ -53,6 +53,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    Ensure that:
 
    - The `mintUrl` field is a direct link to provide liquidity for the LP token
+   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
    - All `underlyingTokens` are listed in the token list (`src/tokens/{network}/defaultTokenList.json`)
@@ -64,12 +65,16 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "description": "A brief description of your protocol.",
      "id": "your_unique_protocol_id",
      "image": "your-protocol-image.svg",
-     "name": "Your Protocol Name",
+     "name": "Protocol",
      "url": "https://your-protocol-url.com"
    }
    ```
 
-   Ensure you've added the protocol image to the `src/assets/protocols` folder if it's not already there.
+   Ensure that:
+
+   - The `id` field is lowercase.
+   - The `Name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
+   - You've added the protocol image to the `src/assets/protocols` folder if it's not already there.
 
 4. If your gauge uses tokens not in the token list, add them to `src/tokens/{network}/defaultTokenList.json`:
 
