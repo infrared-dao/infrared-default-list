@@ -8,10 +8,8 @@
 export interface TokenListSchema {
   tokens: {
     address: string
-    chainId: number
     decimals: number
     image: string
-    name: string
     symbol: string
     tags?: string[]
     [k: string]: unknown

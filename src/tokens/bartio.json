@@ -2,163 +2,127 @@
   "tokens": [
     {
       "address": "0x277aaDBd9ea3dB8Fe9eA40eA6E09F6203724BdaE",
-      "chainId": 80084,
       "decimals": 18,
       "image": "dirac.svg",
-      "name": "Dirac Finance Token",
       "symbol": "DIRAC",
       "tags": []
     },
     {
       "address": "0x46eFC86F0D7455F135CC9df501673739d513E982",
-      "chainId": 80084,
       "decimals": 18,
       "image": "ibgt.svg",
-      "name": "Infrared BGT",
       "symbol": "iBGT",
       "tags": ["featured"]
     },
     {
       "address": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
-      "chainId": 80084,
       "decimals": 18,
       "image": "wbera.svg",
-      "name": "Wrapped Berachain Token",
       "symbol": "WBERA",
       "tags": ["featured"]
     },
     {
       "address": "0x0000000000000000000000000000000000000000",
-      "chainId": 80084,
       "decimals": 18,
       "image": "bera.svg",
-      "name": "Berachain Token",
       "symbol": "BERA",
       "tags": ["featured"]
     },
     {
       "address": "0xbDa130737BDd9618301681329bF2e46A016ff9Ad",
-      "chainId": 80084,
       "decimals": 18,
       "image": "bgt.svg",
-      "name": "Bera Governance Token",
       "symbol": "BGT",
       "tags": ["featured"]
     },
     {
       "address": "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
-      "chainId": 80084,
       "decimals": 18,
       "image": "honey.svg",
-      "name": "Honey",
       "symbol": "HONEY",
       "tags": ["stablecoin", "featured"]
     },
     {
       "address": "0xd6D83aF58a19Cd14eF3CF6fe848C9A4d21e5727c",
-      "chainId": 80084,
       "decimals": 6,
       "image": "usdc.svg",
-      "name": "Stable Collateral USD Coin",
       "symbol": "STGUSDC",
       "tags": ["stablecoin", "collateral", "featured", "defaultCollateral"]
     },
     {
       "address": "0x05D0dD5135E3eF3aDE32a9eF9Cb06e8D37A6795D",
-      "chainId": 80084,
       "decimals": 6,
       "image": "usdt.svg",
-      "name": "Tether USD Coin",
       "symbol": "USDT",
       "tags": ["stablecoin", "collateral", "featured"]
     },
     {
       "address": "0x806Ef538b228844c73E8E692ADCFa8Eb2fCF729c",
-      "chainId": 80084,
       "decimals": 18,
       "image": "dai.svg",
-      "name": "Decentralized USD Coin",
       "symbol": "DAI",
       "tags": ["stablecoin", "collateral", "featured"]
     },
     {
       "address": "0x2577D24a26f8FA19c1058a8b0106E2c7303454a4",
-      "chainId": 80084,
       "decimals": 8,
       "image": "wbtc.svg",
-      "name": "WBTC",
       "symbol": "WBTC",
       "tags": ["featured", "deposit"]
     },
     {
       "address": "0xE28AfD8c634946833e89ee3F122C06d7C537E8A8",
-      "chainId": 80084,
       "decimals": 18,
       "image": "weth.svg",
-      "name": "WETH",
       "symbol": "WETH",
       "tags": ["featured", "deposit"]
     },
     {
       "address": "0xfc5e3743E9FAC8BB60408797607352E24Db7d65E",
-      "chainId": 80084,
       "decimals": 18,
       "image": "thpot.svg",
-      "name": "Test Honeypot Finance",
       "symbol": "tHPOT",
       "tags": []
     },
     {
       "address": "0x1740F679325ef3686B2f574e392007A92e4BeD41",
-      "chainId": 80084,
       "decimals": 18,
       "image": "yeet.webp",
-      "name": "$YEET",
       "symbol": "YEET",
       "tags": ["deposit"]
     },
     {
       "address": "0xa0525273423537BC76825B4389F3bAeC1968f83F",
-      "chainId": 80084,
       "decimals": 18,
       "image": "junky.svg",
-      "name": "Junky Ursas LFG",
       "symbol": "JNKY",
       "tags": []
     },
     {
       "address": "0xf5AFCF50006944d17226978e594D4D25f4f92B40",
-      "chainId": 80084,
       "decimals": 18,
       "image": "nect.webp",
-      "name": "NECTAR",
       "symbol": "NECT",
       "tags": []
     },
     {
       "address": "0x23bc120feA570576E6D7bAe5195c9D7CD3bB6615",
-      "chainId": 80084,
       "decimals": 18,
       "image": "zeru.svg",
-      "name": "ZERU",
       "symbol": "ZERU",
       "tags": []
     },
     {
       "address": "0x08B918dD18E087893bb9d711d9E0BBaA7a63Ef63",
-      "chainId": 80084,
       "decimals": 18,
       "image": "mim.svg",
-      "name": "Magic Internet Money",
       "symbol": "MIM",
       "tags": []
     },
     {
       "address": "0x9F43e40093327697Ff92d4b353D0A7B88b0DbBb6",
-      "chainId": 80084,
       "decimals": 18,
       "image": "buds.svg",
-      "name": "Buds",
       "symbol": "BUDS",
       "tags": []
     }

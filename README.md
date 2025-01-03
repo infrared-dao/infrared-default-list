@@ -81,10 +81,8 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```json
    {
      "address": "0x...",
-     "chainId": 80084,
      "decimals": 18,
      "image": "your-token-image.svg",
-     "name": "Your Token Name",
      "symbol": "XYZ",
      "tags": ["tag1", "tag2"]
    }

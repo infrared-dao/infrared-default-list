@@ -8,24 +8,15 @@
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
           },
-          "chainId": { "type": "number" },
           "decimals": { "type": "number" },
           "image": { "type": "string" },
-          "name": { "type": "string" },
           "symbol": { "type": "string" },
           "tags": {
             "items": { "type": "string" },
             "type": "array"
           }
         },
-        "required": [
-          "address",
-          "chainId",
-          "decimals",
-          "image",
-          "name",
-          "symbol"
-        ],
+        "required": ["address", "decimals", "image", "symbol"],
         "type": "object"
       },
       "type": "array"
