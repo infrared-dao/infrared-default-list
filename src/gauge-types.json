@@ -1,0 +1,20 @@
+{
+  "types": {
+    "amm": {
+      "description": "Token that were minted to provide liquidity to AMM pools",
+      "name": "Automated Market Maker"
+    },
+    "cdp": {
+      "description": "Tokens that were minted to open a collateral debt position",
+      "name": "Collateral Debt Position"
+    },
+    "perps": {
+      "description": "Tokens that were minted to provide liquidity to a perpetual futures dex",
+      "name": "Perpetuals"
+    },
+    "vault": {
+      "description": "Tokens that were minted to provide liquidity to vault with a yield farming strategy",
+      "name": "Vault Token"
+    }
+  }
+}

@@ -6,8 +6,6 @@
  */
 
 export interface ValidatorListSchema {
-  keywords?: string[]
-  name: string
   validators: {
     description: string
     id: string
@@ -17,11 +15,5 @@ export interface ValidatorListSchema {
     website?: string
     [k: string]: unknown
   }[]
-  version: {
-    major: number
-    minor: number
-    patch: number
-    [k: string]: unknown
-  }
   [k: string]: unknown
 }
