@@ -13,7 +13,7 @@ const schema = getFile('schema/token-list-schema.json')
 const validateTokenList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
   const list: TokenListSchema = getListFile({
-    listPath: `src/tokens/${network}/defaultTokenList.json`,
+    listPath: `src/tokens/${network}.json`,
     network,
   })
 
@@ -23,5 +23,5 @@ const validateTokenList = async ({ network }: { network: string }) => {
 }
 
 readdirSync('src/tokens').forEach(async (network) => {
-  await validateTokenList({ network })
+  await validateTokenList({ network: network.replace('.json', '') })
 })
