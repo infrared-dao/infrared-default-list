@@ -132,6 +132,13 @@
       "image": "buds.svg",
       "symbol": "BUDS",
       "tags": []
+    },
+    {
+      "address": "0xb18CEC4160E5310e79AEf0d06a8df223A35599cD",
+      "decimals": 18,
+      "image": "tterp.svg",
+      "symbol": "tTERP",
+      "tags": []
     }
   ]
 }
