@@ -76,6 +76,13 @@
       "image": "zeru.svg",
       "name": "Zeru",
       "url": "https://zeru.finance"
+    },
+    {
+      "description": "NFT AMM - Instant swaps and liquidity provision for NFTs",
+      "id": "sweep-n-flip",
+      "image": "sweep-n-flip.svg",
+      "name": "Sweep n' Flip",
+      "url": "https://berachain.sweepnflip.io"
     }
   ]
 }
