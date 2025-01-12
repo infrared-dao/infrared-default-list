@@ -3,7 +3,7 @@
     {
       "beraRewardsVault": "0x0cc03066a3a06F3AC68D3A0D36610F52f7C20877",
       "lpTokenAddress": "0x3ad1699779ef2c5a4600e649484402dfbd3c503c",
-      "mintUrl": "",
+      "mintUrl": "https://bartio.bex.berachain.com/",
       "name": "WBERA-HONEY",
       "protocol": "bex",
       "types": ["amm"],
@@ -15,7 +15,7 @@
     {
       "beraRewardsVault": "0x67993Fc90A8EC45625447Ad2ff454cfD3fbE9d79",
       "lpTokenAddress": "0x4A782a6bA2e47367A4b2A1551815c27dc15F4795",
-      "mintUrl": "",
+      "mintUrl": "https://bartio.bex.berachain.com/",
       "name": "WBERA-wBTC",
       "protocol": "bex",
       "types": ["amm"],
@@ -27,7 +27,7 @@
     {
       "beraRewardsVault": "0x842c6cc319de7af0cd43f55009b5c1519cb06800",
       "lpTokenAddress": "0x12b792cd01234134feb9b71ec105a90abb8f36e8",
-      "mintUrl": "",
+      "mintUrl": "https://bartio.bex.berachain.com/",
       "name": "WBERA-wETH",
       "protocol": "bex",
       "types": ["amm"],
@@ -39,7 +39,7 @@
     {
       "beraRewardsVault": "0xb9a3fc508dE5Bc8D027b9c11ACb7a71ed3807205",
       "lpTokenAddress": "0xd75ab18f4422282562fb27d79cb90c6ccfddac3b",
-      "mintUrl": "",
+      "mintUrl": "https://bartio.bex.berachain.com/",
       "name": "HONEY-USDC-BEE",
       "protocol": "bex",
       "types": ["amm"],
