@@ -51,7 +51,7 @@
     },
     {
       "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
-      "decimals": 18,
+      "decimals": 6,
       "image": "byusd.svg",
       "symbol": "BYUSD",
       "tags": ["stablecoin"]
