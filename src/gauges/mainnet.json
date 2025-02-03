@@ -36,7 +36,7 @@
     {
       "beraRewardsVault": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
       "lpTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
-      "name": "USDC.e-HONEY",
+      "name": "USDCe-HONEY",
       "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
