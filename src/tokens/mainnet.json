@@ -1,0 +1,60 @@
+{
+  "tokens": [
+    {
+      "address": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+      "decimals": 18,
+      "image": "ibera.svg",
+      "symbol": "iBERA",
+      "tags": ["featured"]
+    },
+    {
+      "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+      "decimals": 18,
+      "image": "ibgt.svg",
+      "symbol": "iBGT",
+      "tags": ["featured"]
+    },
+    {
+      "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+      "decimals": 18,
+      "image": "honey.svg",
+      "symbol": "HONEY",
+      "tags": ["stablecoin", "featured"]
+    },
+    {
+      "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
+      "decimals": 6,
+      "image": "usdce.svg",
+      "symbol": "USDCe",
+      "tags": ["stablecoin", "collateral", "featured", "defaultCollateral"]
+    },
+    {
+      "address": "0x6969696969696969696969696969696969696969",
+      "decimals": 18,
+      "image": "wbera.svg",
+      "symbol": "WBERA",
+      "tags": ["featured"]
+    },
+    {
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "decimals": 8,
+      "image": "wbtc.svg",
+      "symbol": "WBTC",
+      "tags": ["featured", "deposit"]
+    },
+    {
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "decimals": 18,
+      "image": "weth.svg",
+      "symbol": "WETH",
+      "tags": ["featured", "deposit"]
+    },
+    {
+      "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
+      "decimals": 18,
+      "image": "byusd.svg",
+      "symbol": "BYUSD",
+      "tags": ["stablecoin"]
+    }
+  ]
+}
