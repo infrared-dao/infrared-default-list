@@ -1,0 +1,59 @@
+{
+  "gauges": [
+    {
+      "beraRewardsVault": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
+      "lpTokenAddress": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
+      "name": "WBERA-HONEY",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },
+    {
+      "beraRewardsVault": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
+      "lpTokenAddress": "0x38fdD999Fe8783037dB1bBFE465759e312f2d809",
+      "name": "WBERA-WBTC",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
+      ]
+    },
+    {
+      "beraRewardsVault": "0x17376aD6167a5592FbEAA42e6068c132474a513d",
+      "lpTokenAddress": "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4",
+      "name": "WBERA-WETH",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+      ]
+    },
+    {
+      "beraRewardsVault": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
+      "lpTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
+      "name": "USDC.e-HONEY",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x549943e04f40284185054145c6E4e9568C1D3241",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },
+    {
+      "beraRewardsVault": "0x6649Bc987a7c0fB0199c523de1b1b330cd0457A8",
+      "lpTokenAddress": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
+      "name": "BYUSD-HONEY",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    }
+  ]
+}
