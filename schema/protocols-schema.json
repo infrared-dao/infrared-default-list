@@ -6,11 +6,19 @@
         "properties": {
           "description": { "type": "string" },
           "id": { "type": "string" },
-          "image": { "type": "string" },
+          "imageDark": { "type": "string" },
+          "imageLight": { "type": "string" },
           "name": { "type": "string" },
           "url": { "format": "uri", "type": "string" }
         },
-        "required": ["description", "id", "image", "name", "url"],
+        "required": [
+          "description",
+          "id",
+          "imageDark",
+          "imageLight",
+          "name",
+          "url"
+        ],
         "type": "object"
       },
       "type": "array"
