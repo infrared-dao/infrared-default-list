@@ -5,7 +5,7 @@
       "lpTokenAddress": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
       "mintUrl": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details",
       "name": "WBERA-HONEY",
-      "protocol": "beraswap",
+      "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
@@ -17,7 +17,7 @@
       "lpTokenAddress": "0x38fdD999Fe8783037dB1bBFE465759e312f2d809",
       "mintUrl": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details",
       "name": "WBERA-WBTC",
-      "protocol": "beraswap",
+      "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
@@ -29,7 +29,7 @@
       "lpTokenAddress": "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4",
       "mintUrl": "https://hub.berachain.com/pools/0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4000200000000000000000003/details",
       "name": "WBERA-WETH",
-      "protocol": "beraswap",
+      "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
@@ -41,7 +41,7 @@
       "lpTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
       "mintUrl": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details",
       "name": "USDC.e-HONEY",
-      "protocol": "beraswap",
+      "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x549943e04f40284185054145c6E4e9568C1D3241",
@@ -53,7 +53,7 @@
       "lpTokenAddress": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
       "mintUrl": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details",
       "name": "BYUSD-HONEY",
-      "protocol": "beraswap",
+      "protocol": "bex",
       "types": ["amm"],
       "underlyingTokens": [
         "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",

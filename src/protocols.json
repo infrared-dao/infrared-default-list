@@ -37,17 +37,10 @@
     },
     {
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
-      "id": "beraswap",
-      "image": "beraswap.svg",
-      "name": "Beraswap",
-      "url": "https://hub.berachain.com/swap"
-    },
-    {
-      "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
       "id": "bex",
       "image": "bex.svg",
-      "name": "BEX",
-      "url": "https://bartio.bex.berachain.com"
+      "name": "Beraswap",
+      "url": "https://hub.berachain.com/swap"
     },
     {
       "description": "Supply assets and unlock the potential to borrow HONEY. Earn BGT rewards while you supply and borrow.",
