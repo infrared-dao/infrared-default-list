@@ -69,6 +69,13 @@
       "image": "dolomite.svg",
       "name": "Dolomite",
       "url": "https://dolomite.io"
+    },
+    {
+      "description": "The premiere bonzi of Berachain",
+      "id": "yeet",
+      "image": "yeet.png",
+      "name": "YEET",
+      "url": "https://yeetit.xyz"
     }
   ]
 }
