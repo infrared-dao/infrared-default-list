@@ -146,6 +146,13 @@
       "image": "bwbera.svg",
       "symbol": "bWBERA",
       "tags": []
+    },
+    {
+      "address": "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
+      "decimals": 18,
+      "image": "yeet.webp",
+      "symbol": "YEET",
+      "tags": []
     }
   ]
 }
