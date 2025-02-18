@@ -224,6 +224,15 @@
         "0x18878Df23e2a36f81e820e4b47b4A40576D3159C",
         "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
-    }
+    },
+    {
+      "beraRewardsVault": "0xCE1e426E35eBc9f512944F59527304E3B771EA12",
+      "lpTokenAddress": "0xB318Cd79dC0743De041A26D3F0d467d49955E5bC",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "pumpBTC",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
   ]
 }
