@@ -229,7 +229,79 @@
       "beraRewardsVault": "0xCE1e426E35eBc9f512944F59527304E3B771EA12",
       "lpTokenAddress": "0xB318Cd79dC0743De041A26D3F0d467d49955E5bC",
       "mintUrl": "https://app.beraborrow.com",
-      "name": "pumpBTC",
+      "name": "boyco pumpBTC",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0x67519111267d6028e60fF622d3a23E3135Db74c0",
+      "lpTokenAddress": "0xe992d801a335A93CfE61f4b55f179298876331A9",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco SolvBTC",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0x313d7a6F26f1606b0DDf40c6c8b9ddF554b03A89",
+      "lpTokenAddress": "0x696A7A94740AD257902Da0EF1EC4A7D06587B14d",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco SolvBTC.BBN",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0x006b0D54B0B85C0F9A6041cABD97F2A545eCcf3c",
+      "lpTokenAddress": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco uniBTC",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0x9b77F1d3EDc1a19af1270409496D71315a34fccd",
+      "lpTokenAddress": "0x17EcD2889427B90121FC1f3815179D133C2735Ff",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco beraETH",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0xe327114c279E60f0395280883f2a980CEbaBcB56",
+      "lpTokenAddress": "0x9619348203929e6cd4784571cA315d919F25b345",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco STONE",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0xEe33f78B1968C4c889CA70a10b86961295f05fA4",
+      "lpTokenAddress": "0x9B4c7131a60a619199288d2Cb5B0414C3b2DF512",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco WETH",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0xf2905bbdac71cD12FaC7E818b5530F9F3Ec3A6c3",
+      "lpTokenAddress": "0x3981087a892F6c183caD42E1d8993Fa46bBED474",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco ylstETH",
+      "protocol": "beraborrow",
+      "types": ["cdp"],
+      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+    },
+    {
+      "beraRewardsVault": "0xA16eF3f0964a8d81a3f8126CE04858B896D670F0",
+      "lpTokenAddress": "0x37F556A992aDA07d1F0e336310964AD33C2A16B6",
+      "mintUrl": "https://app.beraborrow.com",
+      "name": "boyco rsETH",
       "protocol": "beraborrow",
       "types": ["cdp"],
       "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
