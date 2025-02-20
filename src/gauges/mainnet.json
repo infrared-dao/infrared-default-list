@@ -232,7 +232,7 @@
       "name": "boyco pumpBTC",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0x1fCca65fb6Ae3b2758b9b2B394CB227eAE404e1E"]
     },
     {
       "beraRewardsVault": "0x67519111267d6028e60fF622d3a23E3135Db74c0",
@@ -241,7 +241,7 @@
       "name": "boyco SolvBTC",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"]
     },
     {
       "beraRewardsVault": "0x313d7a6F26f1606b0DDf40c6c8b9ddF554b03A89",
@@ -250,7 +250,7 @@
       "name": "boyco SolvBTC.BBN",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0xCC0966D8418d412c599A6421b760a847eB169A8c"]
     },
     {
       "beraRewardsVault": "0x006b0D54B0B85C0F9A6041cABD97F2A545eCcf3c",
@@ -259,7 +259,7 @@
       "name": "boyco uniBTC",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0xC3827A4BC8224ee2D116637023b124CED6db6e90"]
     },
     {
       "beraRewardsVault": "0x9b77F1d3EDc1a19af1270409496D71315a34fccd",
@@ -268,7 +268,7 @@
       "name": "boyco beraETH",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0x6fc6545d5cDE268D5C7f1e476D444F39c995120d"]
     },
     {
       "beraRewardsVault": "0xe327114c279E60f0395280883f2a980CEbaBcB56",
@@ -277,7 +277,7 @@
       "name": "boyco STONE",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0xEc901DA9c68E90798BbBb74c11406A32A70652C3"]
     },
     {
       "beraRewardsVault": "0xEe33f78B1968C4c889CA70a10b86961295f05fA4",
@@ -286,7 +286,7 @@
       "name": "boyco WETH",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
     },
     {
       "beraRewardsVault": "0xf2905bbdac71cD12FaC7E818b5530F9F3Ec3A6c3",
@@ -295,7 +295,7 @@
       "name": "boyco ylstETH",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0xa958090601E21A82e9873042652e35891D945a8C"]
     },
     {
       "beraRewardsVault": "0xA16eF3f0964a8d81a3f8126CE04858B896D670F0",
@@ -304,7 +304,7 @@
       "name": "boyco rsETH",
       "protocol": "beraborrow",
       "types": ["cdp"],
-      "underlyingTokens": ["0x18878Df23e2a36f81e820e4b47b4A40576D3159C"]
+      "underlyingTokens": ["0x4186BFC76E2E237523CBC30FD220FE055156b41F"]
     },
   ]
 }
