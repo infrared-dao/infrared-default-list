@@ -3,70 +3,80 @@
     {
       "description": "Earn yield through decentralized derivatives strategies, inspired by TradFi and adapted to DeFi",
       "id": "diracfinance",
-      "image": "dirac.svg",
+      "imageDark": "dirac.svg",
+      "imageLight": "dirac.svg",
       "name": "Dirac",
       "url": "https://dirac.finance"
     },
     {
       "description": "Infrared simplifies interacting with Proof of Liquidity with our liquid staking products.",
       "id": "infrared",
-      "image": "infrared.svg",
+      "imageDark": "infrared.svg",
+      "imageLight": "infrared.svg",
       "name": "Infrared",
       "url": "https://infrared.finance"
     },
     {
       "description": "The premier GambleFi protocol on Berachain.",
       "id": "junkyursas",
-      "image": "junky.svg",
+      "imageDark": "junky.svg",
+      "imageLight": "junky.svg",
       "name": "Junky Ursas",
       "url": "https://betabersion.junkyursas.com/"
     },
     {
       "description": "Unlocking Instant liquidity for Berachain assets through the first PoL powered stablecoin NECT.",
       "id": "beraborrow",
-      "image": "beraborrow.webp",
+      "imageDark": "beraborrow.webp",
+      "imageLight": "beraborrow.webp",
       "name": "Beraborrow",
       "url": "https://www.beraborrow.com"
     },
     {
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
       "id": "bex",
-      "image": "bex.svg",
+      "imageDark": "bex.svg",
+      "imageLight": "bex.svg",
       "name": "BEX",
       "url": "https://hub.berachain.com/swap"
     },
     {
       "description": "Kodiak, is a vertically-integrated liquidity hub on Berachain",
       "id": "kodiak",
-      "image": "kodiak.svg",
+      "imageDark": "kodiak-dark.svg",
+      "imageLight": "kodiak-light.svg",
       "name": "Kodiak",
       "url": "https://app.kodiak.finance"
     },
     {
       "description": "Honeypot Finance a community-run DeFi Hub on Berachain that integrates a unique AMM model to unite a community-led launchpad and DEX",
       "id": "honeypot",
-      "image": "honeypot.svg",
+      "imageDark": "honeypot.svg",
+      "imageLight": "honeypot.svg",
       "name": "Honeypot",
       "url": "https://honeypotfinance.xyz"
     },
     {
       "description": "Zeru is a Decentralized Credit Infrastructure powered by eigen layer with vertically integrated lending protocol",
       "id": "zeru",
-      "image": "zeru.svg",
+      "imageDark": "zeru.svg",
+      "imageLight": "zeru.svg",
       "name": "Zeru",
       "url": "https://zeru.finance"
     },
     {
       "description": "WeBera is a permissionless yield abstraction layer designed to simplify participation in DeFi on the Berachain ecosystem.",
       "id": "webera",
-      "image": "webera.svg",
+      "imageDark": "webera.svg",
+      "imageLight": "webera.svg",
       "name": "Webera",
       "url": "https://webera.finance"
     },
     {
       "description": "Dolomite is a lending and borrowing platform that can support over 1,000 unique assets.",
       "id": "dolomite",
-      "image": "dolomite.svg",
+      "imageDark": "dolomite-dark.svg",
+      "imageLight": "dolomite-light.svg",
       "name": "Dolomite",
       "url": "https://dolomite.io"
     }
