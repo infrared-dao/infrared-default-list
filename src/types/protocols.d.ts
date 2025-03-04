@@ -9,7 +9,8 @@ export interface ProtocolsSchema {
   protocols: {
     description: string
     id: string
-    image: string
+    imageDark: string
+    imageLight: string
     name: string
     url: string
     [k: string]: unknown

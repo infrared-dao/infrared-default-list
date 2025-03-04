@@ -17,16 +17,17 @@ export const validateImages = async ({
   type: string
 }) => {
   for (const item of listItem) {
-    const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, item.image)
+    const itemImage = item.imageDark || item.imageLight || item.image
+    const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, itemImage as string)
     if (!existsSync(imagePath)) {
       errors.push(
-        `Image file "${item.image}" not found for ${type} "${item.name}" at ${imagePath}`,
+        `Image file "${itemImage}" not found for ${type} "${item.name}" at ${imagePath}`,
       )
     } else if (path.extname(imagePath).toLowerCase() === '.png') {
       const isCorrectSize = await checkImageSize(imagePath)
       if (!isCorrectSize) {
         errors.push(
-          `Image file "${item.image}" for ${type} "${item.name}" is not 128x128 pixels`,
+          `Image file "${itemImage}" for ${type} "${item.name}" is not 128x128 pixels`,
         )
       }
     }
