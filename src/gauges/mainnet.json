@@ -226,11 +226,11 @@
       ]
     },
     {
-      "beraRewardsVault": "0x8431b9A8fe5FcC36C406d41110D86744bdecDAAE",
-      "lpTokenAddress": "0x1207C619086A52edEf4a4b7Af881B5dDd367a919",
-      "mintUrl": "https://hub.berachain.com/pools/0x1207c619086a52edef4a4b7af881b5ddd367a919000200000000000000000006/details/",
+      "beraRewardsVault": "0x3Be1bE98eFAcA8c1Eb786Cbf38234c84B5052EeB",
+      "lpTokenAddress": "0x564f011d557aad1ca09bfc956eb8a17c35d490e0",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x564f011d557aad1ca09bfc956eb8a17c35d490e0?chain=berachain_mainnet",
       "name": "WBERA-iBGT",
-      "protocol": "bex",
+      "protocol": "kodiak",
       "types": ["amm"],
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
@@ -238,9 +238,21 @@
       ]
     },
     {
-      "beraRewardsVault": "0x9c392eDdF43CDff2C537Fa94169016Cfa1A1589f",
-      "lpTokenAddress": "0x4d0aC0ea757F0bb338457C7A135C41FC732CA67d",
-      "mintUrl": "https://hub.berachain.com/pools/0x4d0ac0ea757f0bb338457c7a135c41fc732ca67d000200000000000000000005/details/",
+      "beraRewardsVault": "0x92aF7d5fcDEF44C3df168ecfDCd03deA1807AF28",
+      "lpTokenAddress": "0x62C030B29a6Fef1B32677499e4a1F1852a8808c0",
+      "mintUrl": "https://hub.berachain.com/pools/0x62c030b29a6fef1b32677499e4a1f1852a8808c00000000000000000000000c6/details/",
+      "name": "WBERA-iBERA",
+      "protocol": "bex",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5"
+      ]
+    },
+    {
+      "beraRewardsVault": "0xa2c5adB20A446Fa71A1762002E3C9B4Dd37DBAf4",
+      "lpTokenAddress": "0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4?chain=berachain_mainnet",
       "name": "WBERA-iBERA",
       "protocol": "bex",
       "types": ["amm"],
