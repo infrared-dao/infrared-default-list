@@ -44,8 +44,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
      "protocol": "your_protocol_id",
      "stakeTokenAddress": "0x...",
-     "types": ["type1", "type2"],
-     "underlyingTokens": ["0x...", "0x..."]
+     "types": ["type1", "type2"]
    }
    ```
 
@@ -55,7 +54,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
-   - All `underlyingTokens` are listed in the token list (`src/tokens/{network}.json`)
 
 3. If your protocol is not listed in the `protocols` array, add it:
 
@@ -83,15 +81,29 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "decimals": 18,
      "image": "your-token-image.svg",
      "symbol": "XYZ",
+     "underlyingTokens": ["0x...", "0x..."]
+   }
+   ```
+
+   Add the token image to the `src/assets/tokens` folder if it's not already present.
+
+5. If your gauge uses base tokens not in the base token list, add them to `src/base-tokens/{network}.json`:
+
+   ```json
+   {
+     "address": "0x...",
+     "decimals": 18,
+     "image": "your-token-image.svg",
+     "symbol": "XYZ",
      "tags": ["tag1", "tag2"]
    }
    ```
 
    Add the token image to the `src/assets/tokens` folder if it's not already present.
 
-5. Commit your changes and push to your forked repository.
+6. Commit your changes and push to your forked repository.
 
-6. Create a Pull Request (PR) from your fork to this repository.
+7. Create a Pull Request (PR) from your fork to this repository.
 
 ## Guidelines
 
