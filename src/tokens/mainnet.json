@@ -4,6 +4,7 @@
       "address": "0x6751C09113a83a83a43829fD0b3BC0D7bdbe07bf",
       "decimals": 18,
       "image": "bwbera.svg",
+      "mintUrl": "https://app.beraborrow.com/den/borrow/wBERA",
       "name": "bWBERA",
       "symbol": "bWBERA",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
@@ -43,6 +44,7 @@
     {
       "address": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details",
       "name": "WBERA-HONEY",
       "symbol": "50WBERA-50HONEY-WEIGHTED",
       "underlyingTokens": [
@@ -53,6 +55,7 @@
     {
       "address": "0x38fdD999Fe8783037dB1bBFE465759e312f2d809",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details",
       "name": "WBERA-WBTC",
       "symbol": "50WBTC-50WBERA-WEIGHTED",
       "underlyingTokens": [
@@ -63,6 +66,7 @@
     {
       "address": "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4000200000000000000000003/details",
       "name": "WBERA-WETH",
       "symbol": "50WETH-50WBERA-WEIGHTED",
       "underlyingTokens": [
@@ -73,6 +77,7 @@
     {
       "address": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details",
       "name": "USDC.e-HONEY",
       "symbol": "USDC.e-HONEY-STABLE",
       "underlyingTokens": [
@@ -83,6 +88,7 @@
     {
       "address": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details",
       "name": "BYUSD-HONEY",
       "symbol": "BYUSD-HONEY-STABLE",
       "underlyingTokens": [
@@ -203,6 +209,7 @@
     {
       "address": "0x98bdeede9a45c28d229285d9d6e9139e9f505391",
       "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x98bdeede9a45c28d229285d9d6e9139e9f505391?chain=berachain_mainnet",
       "name": "OHM-HONEY",
       "symbol": "KODI OHM-HONEY",
       "underlyingTokens": [
@@ -213,6 +220,7 @@
     {
       "address": "0x1207C619086A52edEf4a4b7Af881B5dDd367a919",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x1207c619086a52edef4a4b7af881b5ddd367a919000200000000000000000006/details",
       "name": "WBERA-iBGT",
       "symbol": "50WBERA-50iBGT-WEIGHTED",
       "underlyingTokens": [
@@ -223,6 +231,7 @@
     {
       "address": "0x4d0aC0ea757F0bb338457C7A135C41FC732CA67d",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x4d0ac0ea757f0bb338457c7a135c41fc732ca67d000200000000000000000005/details",
       "name": "WBERA-iBERA",
       "symbol": "50WBERA-50iBERA-WEIGHTED",
       "underlyingTokens": [
@@ -233,6 +242,7 @@
     {
       "address": "0x564f011d557aad1ca09bfc956eb8a17c35d490e0",
       "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x564f011d557aad1ca09bfc956eb8a17c35d490e0?chain=berachain_mainnet",
       "name": "WBERA-iBGT",
       "symbol": "KODI WBERA-iBGT",
       "underlyingTokens": [
@@ -243,6 +253,7 @@
     {
       "address": "0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4",
       "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4?chain=berachain_mainnet",
       "name": "WBERA-iBERA",
       "symbol": "KODI WBERA-iBERA",
       "underlyingTokens": [
@@ -253,6 +264,7 @@
     {
       "address": "0x62C030B29a6Fef1B32677499e4a1F1852a8808c0",
       "decimals": 18,
+      "mintUrl": "https://hub.berachain.com/pools/0x62c030b29a6fef1b32677499e4a1f1852a8808c00000000000000000000000c6/details",
       "name": "WBERA-iBERA",
       "symbol": "WBERA-iBERA-STABLE",
       "underlyingTokens": [
