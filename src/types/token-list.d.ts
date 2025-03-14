@@ -10,6 +10,7 @@ export interface TokenListSchema {
     address: string
     decimals: number
     image?: string
+    mintUrl?: string
     name: string
     symbol: string
     underlyingTokens: string[]

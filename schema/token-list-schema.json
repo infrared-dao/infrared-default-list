@@ -10,6 +10,7 @@
           },
           "decimals": { "type": "number" },
           "image": { "type": "string" },
+          "mintUrl": { "format": "uri", "type": "string" },
           "name": { "type": "string" },
           "symbol": { "type": "string" },
           "underlyingTokens": {

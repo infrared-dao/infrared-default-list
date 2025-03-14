@@ -41,7 +41,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```json
    {
      "beraRewardsVault": "0x...",
-     "mintUrl": "https://your-protocol-url.com/provide-liquidity",
      "protocol": "your_protocol_id",
      "stakeTokenAddress": "0x...",
      "types": ["type1", "type2"]
@@ -50,8 +49,6 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 
    Ensure that:
 
-   - The `mintUrl` field is a direct link to provide liquidity for the LP token
-   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
 
@@ -80,12 +77,18 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "address": "0x...",
      "decimals": 18,
      "image": "your-token-image.svg",
+     "mintUrl": "https://your-protocol-url.com/provide-liquidity",
+     "name": "XYZ",
      "symbol": "XYZ",
      "underlyingTokens": ["0x...", "0x..."]
    }
    ```
 
-   Add the token image to the `src/assets/tokens` folder if it's not already present.
+   Ensure that:
+
+   - The `mintUrl` field is a direct link to provide liquidity for the LP token
+   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
+   - You've added the token image to the `src/assets/tokens` folder if it's not already there.
 
 5. If your gauge uses base tokens not in the base token list, add them to `src/base-tokens/{network}.json`:
 
