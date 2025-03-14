@@ -5,12 +5,13 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface GaugeListSchema {
-  gauges: {
-    beraRewardsVault: string
-    protocol: string
-    stakeTokenAddress: string
-    types: string[]
+export interface BaseTokenListSchema {
+  tokens: {
+    address: string
+    decimals: number
+    image: string
+    symbol: string
+    tags?: string[]
     [k: string]: unknown
   }[]
   [k: string]: unknown

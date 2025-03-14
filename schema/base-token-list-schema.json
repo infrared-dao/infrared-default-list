@@ -10,21 +10,13 @@
           },
           "decimals": { "type": "number" },
           "image": { "type": "string" },
-          "mintUrl": { "format": "uri", "type": "string" },
-          "name": { "type": "string" },
           "symbol": { "type": "string" },
-          "underlyingTokens": {
-            "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
+          "tags": {
+            "items": { "type": "string" },
             "type": "array"
           }
         },
-        "required": [
-          "address",
-          "decimals",
-          "name",
-          "symbol",
-          "underlyingTokens"
-        ],
+        "required": ["address", "decimals", "image", "symbol"],
         "type": "object"
       },
       "type": "array"

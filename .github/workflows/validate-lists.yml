@@ -1,9 +1,16 @@
-name: Validate gauge, token, and validator lists
+name: Validate base token, gauge, token, and validator lists
 
 on:
   pull_request:
     paths:
+      - schema/base-token-list-schema.json
+      - schema/gauge-list-schema.json
+      - schema/gauge-types-list-schema.json
+      - schema/protocols-list-schema.json
+      - schema/token-list-schema.json
+      - schema/validator-list-schema.json
       - src/gauges/**/*.json
+      - src/base-tokens/**/*.json
       - src/tokens/**/*.json
       - src/validator/**/*.json
 

@@ -9,9 +9,11 @@ export interface TokenListSchema {
   tokens: {
     address: string
     decimals: number
-    image: string
+    image?: string
+    mintUrl?: string
+    name: string
     symbol: string
-    tags?: string[]
+    underlyingTokens: string[]
     [k: string]: unknown
   }[]
   [k: string]: unknown

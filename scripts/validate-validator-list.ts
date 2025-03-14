@@ -16,7 +16,7 @@ const validatorValidatorList = async ({ network }: { network: string }) => {
     network,
   })
 
-  validateList({ errors, list, schema })
+  validateList({ errors, list, schema, type: 'validator' })
   outputScriptStatus({ errors, network, type: 'Validator' })
 }
 

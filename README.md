@@ -41,22 +41,16 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```json
    {
      "beraRewardsVault": "0x...",
-     "lpTokenAddress": "0x...",
-     "mintUrl": "https://your-protocol-url.com/provide-liquidity",
-     "name": "HONEY-WBERA",
      "protocol": "your_protocol_id",
-     "types": ["type1", "type2"],
-     "underlyingTokens": ["0x...", "0x..."]
+     "stakeTokenAddress": "0x...",
+     "types": ["type1", "type2"]
    }
    ```
 
    Ensure that:
 
-   - The `mintUrl` field is a direct link to provide liquidity for the LP token
-   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - `protocol` matches an `id` in the `protocols` array
    - `types` contains valid types from the `types` object
-   - All `underlyingTokens` are listed in the token list (`src/tokens/{network}.json`)
 
 3. If your protocol is not listed in the `protocols` array, add it:
 
@@ -83,6 +77,26 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "address": "0x...",
      "decimals": 18,
      "image": "your-token-image.svg",
+     "mintUrl": "https://your-protocol-url.com/provide-liquidity",
+     "name": "XYZ",
+     "symbol": "XYZ",
+     "underlyingTokens": ["0x...", "0x..."]
+   }
+   ```
+
+   Ensure that:
+
+   - The `mintUrl` field is a direct link to provide liquidity for the LP token
+   - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
+   - You've added the token image to the `src/assets/tokens` folder if it's not already there.
+
+5. If your gauge uses base tokens not in the base token list, add them to `src/base-tokens/{network}.json`:
+
+   ```json
+   {
+     "address": "0x...",
+     "decimals": 18,
+     "image": "your-token-image.svg",
      "symbol": "XYZ",
      "tags": ["tag1", "tag2"]
    }
@@ -90,9 +104,9 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 
    Add the token image to the `src/assets/tokens` folder if it's not already present.
 
-5. Commit your changes and push to your forked repository.
+6. Commit your changes and push to your forked repository.
 
-6. Create a Pull Request (PR) from your fork to this repository.
+7. Create a Pull Request (PR) from your fork to this repository.
 
 ## Guidelines
 

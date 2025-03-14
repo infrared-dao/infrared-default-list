@@ -8,29 +8,21 @@
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
           },
-          "lpTokenAddress": {
+          "protocol": { "type": "string" },
+          "stakeTokenAddress": {
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
           },
-          "mintUrl": { "format": "uri", "type": "string" },
-          "name": { "type": "string" },
-          "protocol": { "type": "string" },
           "types": {
             "items": { "type": "string" },
-            "type": "array"
-          },
-          "underlyingTokens": {
-            "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
             "type": "array"
           }
         },
         "required": [
           "beraRewardsVault",
-          "lpTokenAddress",
-          "name",
+          "stakeTokenAddress",
           "protocol",
-          "types",
-          "underlyingTokens"
+          "types"
         ],
         "type": "object"
       },
