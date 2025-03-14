@@ -41,10 +41,10 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```json
    {
      "beraRewardsVault": "0x...",
-     "lpTokenAddress": "0x...",
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
      "name": "HONEY-WBERA",
      "protocol": "your_protocol_id",
+     "stakeTokenAddress": "0x...",
      "types": ["type1", "type2"],
      "underlyingTokens": ["0x...", "0x..."]
    }
