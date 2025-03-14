@@ -1,9 +1,9 @@
 import { type Address, type PublicClient, zeroAddress } from 'viem'
 
 import type { supportedChains } from '@/config/chains'
+import type { BaseTokenListSchema } from '@/types/base-token-list'
 import type { GaugeListSchema } from '@/types/gauge-list'
 import type { ProtocolsSchema } from '@/types/protocols'
-import type { TokenListSchema } from '@/types/token-list'
 
 import { delay } from './delay'
 import { getFile } from './get-file'
@@ -87,7 +87,7 @@ const validateToken = ({
 }: {
   errors: Array<string>
   gauge: GaugeListSchema['gauges'][number]
-  tokensList: TokenListSchema
+  tokensList: BaseTokenListSchema
 }) => {
   for (const underlyingToken of gauge.underlyingTokens) {
     if (underlyingToken === zeroAddress) {
@@ -119,7 +119,7 @@ export const validateGaugeDetails = async ({
   const gauges: GaugeListSchema['gauges'] = list.gauges
   const rpcLookupCount = { value: 0 }
 
-  const tokensList: TokenListSchema = getListFile({
+  const tokensList: BaseTokenListSchema = getListFile({
     listPath: `src/tokens/${network}.json`,
     network,
   })

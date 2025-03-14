@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface TokenListSchema {
+export interface BaseTokenListSchema {
   tokens: {
     address: string
     decimals: number
