@@ -6,10 +6,11 @@
  */
 
 export interface TokenListSchema {
-  tokens?: {
+  tokens: {
     address: string
     decimals: number
     image?: string
+    name: string
     symbol: string
     underlyingTokens: string[]
     [k: string]: unknown

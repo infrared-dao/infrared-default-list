@@ -9,7 +9,7 @@ const protocols = getFile('src/protocols.json')
 const validateProtocols = async () => {
   const errors: Array<string> = []
 
-  validateList({ errors, list: protocols, schema })
+  validateList({ errors, list: protocols, schema, type: 'protocols' })
   await validateImages({
     errors,
     listItem: protocols.protocols,

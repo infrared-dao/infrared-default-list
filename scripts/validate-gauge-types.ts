@@ -10,7 +10,7 @@ const gaugeTypes: GaugeTypesSchema = getFile('src/gauge-types.json')
 const validateGaugeTypes = async () => {
   const errors: Array<string> = []
 
-  validateList({ errors, list: gaugeTypes, schema })
+  validateList({ errors, list: gaugeTypes, schema, type: 'gauge-types' })
   outputScriptStatus({ errors, type: 'Protocol types' })
 }
 

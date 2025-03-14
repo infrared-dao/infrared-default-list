@@ -23,7 +23,7 @@ const validateGaugeList = async ({
     network,
   })
 
-  validateList({ errors, list, schema })
+  validateList({ errors, list, schema, type: 'gauge' })
   validateGaugeDetails({ errors, list, network })
   outputScriptStatus({ errors, network, type: 'Gauge' })
 }
