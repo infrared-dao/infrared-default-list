@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "vaults": {
+      "items": {
+        "properties": {
+          "beraRewardsVault": {
+            "pattern": "^0x[a-fA-F0-9]{40}$",
+            "type": "string"
+          },
+          "slug": { "type": "string" },
+          "stakeTokenAddress": {
+            "pattern": "^0x[a-fA-F0-9]{40}$",
+            "type": "string"
+          }
+        },
+        "required": ["beraRewardsVault", "slug", "stakeTokenAddress"],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": ["vaults"],
+  "type": "object"
+}

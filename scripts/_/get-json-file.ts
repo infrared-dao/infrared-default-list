@@ -2,15 +2,15 @@ import { readFileSync } from 'node:fs'
 
 import { getErrorMessage } from './get-error-message'
 
-export const getListFile = ({
-  listPath,
+export const getJsonFile = ({
   network,
+  path,
 }: {
-  listPath: string
   network: string
+  path: string
 }) => {
   try {
-    return JSON.parse(readFileSync(listPath, 'utf-8'))
+    return JSON.parse(readFileSync(path, 'utf-8'))
   } catch (error) {
     console.error(
       `Error reading JSON files for network ${network}:`,

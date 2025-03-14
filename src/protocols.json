@@ -25,6 +25,14 @@
       "url": "https://hub.berachain.com/swap"
     },
     {
+      "description": "An EVM-identical L1 aligning security and liquidity powered by Proof Of Liquidity",
+      "id": "berachain",
+      "imageDark": "berachain.svg",
+      "imageLight": "berachain.svg",
+      "name": "Berachain",
+      "url": "https://berachain.com"
+    },
+    {
       "description": "Kodiak, is a vertically-integrated liquidity hub on Berachain",
       "id": "kodiak",
       "imageDark": "kodiak-dark.svg",

@@ -23,6 +23,9 @@ importers:
       '@types/node':
         specifier: ^22.10.4
         version: 22.10.4
+      '@types/slug':
+        specifier: ^5.0.9
+        version: 5.0.9
       ajv:
         specifier: ^8.17.1
         version: 8.17.1
@@ -50,6 +53,9 @@ importers:
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
+      slug:
+        specifier: ^10.0.0
+        version: 10.0.0
       svgo:
         specifier: ^3.3.2
         version: 3.3.2
@@ -656,6 +662,9 @@ packages:
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
+
+  '@types/slug@5.0.9':
+    resolution: {integrity: sha512-6Yp8BSplP35Esa/wOG1wLNKiqXevpQTEF/RcL/NV6BBQaMmZh4YlDwCgrrFSoUE4xAGvnKd5c+lkQJmPrBAzfQ==}
 
   '@typescript-eslint/eslint-plugin@8.11.0':
     resolution: {integrity: sha512-KhGn2LjW1PJT2A/GfDpiyOfS4a8xHQv2myUagTM5+zsormOmBlYsnQ6pobJ8XxJmh6hnHwa2Mbe3fPrDJoDhbA==}
@@ -1986,6 +1995,10 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
 
+  slug@10.0.0:
+    resolution: {integrity: sha512-M8s2PWOUeSCdD4S1NH5lCzXg2zFV1fozrtfr0FSKl65x+EF1rUowj+/vyFlnHgxPxWzT+DL0VXKfYc1DHJoymg==}
+    hasBin: true
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -2237,7 +2250,7 @@ snapshots:
 
   '@babel/generator@7.17.7':
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.26.8
       jsesc: 2.5.2
       source-map: 0.5.7
 
@@ -2704,6 +2717,8 @@ snapshots:
       undici-types: 6.20.0
 
   '@types/semver@7.5.8': {}
+
+  '@types/slug@5.0.9': {}
 
   '@typescript-eslint/eslint-plugin@8.11.0(@typescript-eslint/parser@8.11.0(eslint@9.13.0)(typescript@5.7.2))(eslint@9.13.0)(typescript@5.7.2)':
     dependencies:
@@ -4248,6 +4263,8 @@ snapshots:
       is-arrayish: 0.3.2
 
   slash@3.0.0: {}
+
+  slug@10.0.0: {}
 
   source-map-js@1.2.1: {}
 

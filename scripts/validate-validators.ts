@@ -1,22 +1,22 @@
 import { readdirSync } from 'node:fs'
 
-import type { ValidatorListSchema } from '@/types/validator-list'
+import type { ValidatorsSchema } from '@/types/validators'
 
 import { getFile } from './_/get-file'
-import { getListFile } from './_/get-list-file'
+import { getJsonFile } from './_/get-json-file'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateList } from './_/validate-list'
 
-const schema = getFile('schema/validator-list-schema.json')
+const schema = getFile('schema/validators-schema.json')
 
 const validatorValidatorList = async ({ network }: { network: string }) => {
   const errors: Array<string> = []
-  const list: ValidatorListSchema = getListFile({
-    listPath: `src/validators/${network}.json`,
+  const validators: ValidatorsSchema = getJsonFile({
     network,
+    path: `src/validators/${network}.json`,
   })
 
-  validateList({ errors, list, schema })
+  validateList({ errors, list: validators, schema, type: 'validator' })
   outputScriptStatus({ errors, network, type: 'Validator' })
 }
 

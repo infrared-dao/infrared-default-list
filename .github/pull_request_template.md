@@ -1,4 +1,4 @@
-## Gauge List Contribution
+## Contribution
 
 Please make sure you've completed the following before submitting your pull request:
 
