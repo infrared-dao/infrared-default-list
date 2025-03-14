@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "stake-tokens": {
+      "items": {
+        "properties": {
+          "address": {
+            "pattern": "^0x[a-fA-F0-9]{40}$",
+            "type": "string"
+          },
+          "decimals": { "type": "number" },
+          "image": { "type": "string" },
+          "symbol": { "type": "string" },
+          "underlyingTokens": {
+            "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
+            "type": "array"
+          }
+        },
+        "required": ["address", "decimals", "symbol", "underlyingTokens"],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": ["stake-tokens"],
+  "type": "object"
+}

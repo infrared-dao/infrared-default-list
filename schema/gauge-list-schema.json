@@ -9,7 +9,6 @@
             "type": "string"
           },
           "mintUrl": { "format": "uri", "type": "string" },
-          "name": { "type": "string" },
           "protocol": { "type": "string" },
           "stakeTokenAddress": {
             "pattern": "^0x[a-fA-F0-9]{40}$",
@@ -18,19 +17,13 @@
           "types": {
             "items": { "type": "string" },
             "type": "array"
-          },
-          "underlyingTokens": {
-            "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
-            "type": "array"
           }
         },
         "required": [
           "beraRewardsVault",
           "stakeTokenAddress",
-          "name",
           "protocol",
-          "types",
-          "underlyingTokens"
+          "types"
         ],
         "type": "object"
       },
