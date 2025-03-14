@@ -2,16 +2,16 @@ import { readdirSync } from 'node:fs'
 import { createPublicClient, http } from 'viem'
 
 import { supportedChains } from '@/config/chains'
-import type { BaseTokenListSchema } from '@/types/base-token-list'
+import type { TokenListSchema } from '@/types/token-list'
 
 import { getFile } from './_/get-file'
 import { getListFile } from './_/get-list-file'
 import { isValidNetwork } from './_/is-valid-network'
 import { outputScriptStatus } from './_/output-script-status'
-import { validateBaseTokenDetails } from './_/validate-base-token-details'
 import { validateList } from './_/validate-list'
+import { validateTokenDetails } from './_/validate-token-details'
 
-const schema = getFile('schema/base-token-list-schema.json')
+const schema = getFile('schema/token-list-schema.json')
 
 const validateBaseTokens = async ({
   network,
@@ -19,8 +19,8 @@ const validateBaseTokens = async ({
   network: keyof typeof supportedChains
 }) => {
   const errors: Array<string> = []
-  const list: BaseTokenListSchema = getListFile({
-    listPath: `src/base-tokens/${network}.json`,
+  const list: TokenListSchema = getListFile({
+    listPath: `src/tokens/${network}.json`,
     network,
   })
 
@@ -30,9 +30,9 @@ const validateBaseTokens = async ({
     transport: http(),
   })
 
-  validateList({ errors, list, schema, type: 'base-tokens' })
-  await validateBaseTokenDetails({ errors, list, publicClient })
-  outputScriptStatus({ errors, network, type: 'Base token' })
+  validateList({ errors, list, schema, type: 'tokens' })
+  await validateTokenDetails({ errors, list, publicClient })
+  outputScriptStatus({ errors, network, type: 'Token' })
 }
 
 readdirSync('src/base-tokens').forEach(async (file) => {
