@@ -1,5 +1,5 @@
 {
-  "stake-tokens": [
+  "tokens": [
     {
       "address": "0x6751C09113a83a83a43829fD0b3BC0D7bdbe07bf",
       "decimals": 18,
