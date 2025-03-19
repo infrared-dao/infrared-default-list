@@ -1,5 +1,5 @@
 {
-  "gauges": [
+  "vaults": [
     {
       "beraRewardsVault": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
       "protocol": "bex",

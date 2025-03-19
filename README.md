@@ -1,6 +1,6 @@
-# Extending the gauge, token, or validator lists
+# Extending the vault, token, or validator lists
 
-This README provides instructions for third parties on how to add their gauge, token, or validator to our application.
+This README provides instructions for third parties on how to add their vault, token, or validator to our application.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Before you begin, ensure you have:
 
 1. A GitHub account
 2. Basic knowledge of JSON and Git
-3. Details for your gauge, token, or validator
+3. Details for your vault, token, or validator
 
 Please make sure that the respective beraRewardsVault is friendoftheChef. In order to check that please follow the guideline:
 
@@ -34,9 +34,9 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 
 ### 3. Update JSON files
 
-1. Navigate to `src/gauges/{network}.json` where `{network}` is the network you're adding to (e.g., "mainnet" for the Berachain mainnet).
+1. Navigate to `src/vaults/{network}.json` where `{network}` is the network you're adding to (e.g., "mainnet" for the Berachain mainnet).
 
-2. Add your gauge to the `gauges` array in the JSON file. Follow this structure:
+2. Add your vault to the `vaults` array in the JSON file. Follow this structure:
 
    ```json
    {
@@ -71,7 +71,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `Name` field is a singular word in most cases. `Kodiak` instead of `Kodiak Finance` for example.
    - You've added the protocol image to the `src/assets/protocols` folder if it's not already there.
 
-4. If your gauge uses tokens not in the token list, add them to `src/tokens/{network}.json`:
+4. If your vault uses tokens not in the token list, add them to `src/tokens/{network}.json`:
 
    ```json
    {
@@ -91,7 +91,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - You've added the token image to the `src/assets/tokens` folder if it's not already there.
 
-5. If your gauge uses base tokens not in the base token list, add them to `src/base-tokens/{network}.json`:
+5. If your vault uses base tokens not in the base token list, add them to `src/base-tokens/{network}.json`:
 
    ```json
    {
@@ -112,10 +112,10 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 ## Guidelines
 
 - Ensure all addresses are valid and correctly formatted.
-- Use clear, descriptive names for your gauge, protocol, and tokens.
+- Use clear, descriptive names for your vault, protocol, and tokens.
 - Provide accurate and concise descriptions.
 - Use appropriate tags and types.
-- The `url` field for gauges should be a direct link to provide liquidity for the LP token.
+- The `url` field for vaults should be a direct link to provide liquidity for the LP token.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 
 ## Review process
@@ -124,7 +124,7 @@ After submitting your PR:
 
 1. Our team will review your submission.
 2. We may request changes or clarifications if needed.
-3. Once approved, your gauge will be merged into the main list and become visible in the app for the specified network.
+3. Once approved, your vault will be merged into the main list and become visible in the app for the specified network.
 
 Thank you for contributing to our ecosystem!
 

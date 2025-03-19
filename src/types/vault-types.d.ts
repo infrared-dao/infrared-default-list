@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface GaugeTypesSchema {
+export interface VaultTypesSchema {
   types: {
     [k: string]: {
       description: string

@@ -2,11 +2,11 @@ import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
 
 import type { BaseTokenListSchema } from '@/types/base-token-list'
-import type { GaugeListSchema } from '@/types/gauge-list'
-import type { GaugeTypesSchema } from '@/types/gauge-types'
 import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokenListSchema } from '@/types/token-list'
 import type { ValidatorListSchema } from '@/types/validator-list'
+import type { VaultTypesSchema } from '@/types/vault-types'
+import type { VaultsSchema } from '@/types/vaults'
 
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
@@ -20,8 +20,8 @@ export const validateList = ({
   errors: Array<string>
   list:
     | BaseTokenListSchema
-    | GaugeListSchema
-    | GaugeTypesSchema
+    | VaultsSchema
+    | VaultTypesSchema
     | ProtocolsSchema
     | TokenListSchema
     | ValidatorListSchema

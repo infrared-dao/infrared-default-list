@@ -1,22 +1,18 @@
-name: Validate base token, gauge, token, and validator lists
+name: Validate base tokens, vaults, tokens, and validators
 
 on:
   pull_request:
     paths:
       - schema/base-token-list-schema.json
-      - schema/gauge-list-schema.json
-      - schema/gauge-types-list-schema.json
+      - schema/vaults-schema.json
+      - schema/vault-types-list-schema.json
       - schema/protocols-list-schema.json
       - schema/token-list-schema.json
       - schema/validator-list-schema.json
-      - src/gauges/**/*.json
+      - src/vaults/**/*.json
       - src/base-tokens/**/*.json
       - src/tokens/**/*.json
       - src/validator/**/*.json
-
-env:
-  QUIKNODE_KEY: ${{ vars.QUIKNODE_KEY}}
-  QUIKNODE_SUBDOMAIN: ${{ vars.QUIKNODE_SUBDOMAIN}}
 
 jobs:
   validate:

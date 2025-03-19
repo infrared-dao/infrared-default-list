@@ -1,41 +1,41 @@
 import { readdirSync } from 'node:fs'
 
 import type { supportedChains } from '@/config/chains'
-import type { GaugeListSchema } from '@/types/gauge-list'
+import type { VaultsSchema } from '@/types/vaults'
 
 import { getFile } from './_/get-file'
 import { getListFile } from './_/get-list-file'
 import { isValidNetwork } from './_/is-valid-network'
 import { outputScriptStatus } from './_/output-script-status'
-import { validateGaugeDetails } from './_/validate-gauge-details'
 import { validateList } from './_/validate-list'
+import { validateVaultDetails } from './_/validate-vault-details'
 
-const schema = getFile('schema/gauge-list-schema.json')
+const schema = getFile('schema/vaults-schema.json')
 
-const validateGaugeList = async ({
+const validateVaults = async ({
   network,
 }: {
   network: keyof typeof supportedChains
 }) => {
   const errors: Array<string> = []
-  const list: GaugeListSchema = getListFile({
-    listPath: `src/gauges/${network}.json`,
+  const list: VaultsSchema = getListFile({
+    listPath: `src/vaults/${network}.json`,
     network,
   })
 
-  validateList({ errors, list, schema, type: 'gauge' })
-  validateGaugeDetails({ errors, list, network })
-  outputScriptStatus({ errors, network, type: 'Gauge' })
+  validateList({ errors, list, schema, type: 'vault' })
+  validateVaultDetails({ errors, list, network })
+  outputScriptStatus({ errors, network, type: 'Vault' })
 }
 
-readdirSync('src/gauges').forEach(async (file) => {
+readdirSync('src/vaults').forEach(async (file) => {
   const network = file.replace('.json', '')
 
   if (!isValidNetwork(network)) {
     throw new Error(`Unsupported network: ${network}`)
   }
 
-  await validateGaugeList({
+  await validateVaults({
     network,
   })
 })

@@ -1,9 +1,9 @@
 import slugify from 'slugify'
 
 import type { supportedChains } from '@/config/chains'
-import type { GaugeListSchema } from '@/types/gauge-list'
 import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokenListSchema } from '@/types/token-list'
+import type { VaultsSchema } from '@/types/vaults'
 
 import { getFile } from './get-file'
 import { getListFile } from './get-list-file'
@@ -12,65 +12,65 @@ const protocolsList: ProtocolsSchema = getFile('src/protocols.json')
 
 const validateProtocol = ({
   errors,
-  gauge,
+  vault,
 }: {
   errors: Array<string>
-  gauge: GaugeListSchema['gauges'][number]
+  vault: VaultsSchema['vaults'][number]
 }) => {
   const protocol = protocolsList.protocols.find(
-    ({ id }) => id === gauge.protocol,
+    ({ id }) => id === vault.protocol,
   )
 
   if (!protocol) {
-    errors.push(`${gauge.slug} does not have a protocol for ${gauge.protocol}.`)
+    errors.push(`${vault.slug} does not have a protocol for ${vault.protocol}.`)
   }
 }
 
 const validateStakeTokenAndSlug = ({
   errors,
-  gauge,
   tokensList,
+  vault,
 }: {
   errors: Array<string>
-  gauge: GaugeListSchema['gauges'][number]
   tokensList: TokenListSchema
+  vault: VaultsSchema['vaults'][number]
 }) => {
   const stakeToken = tokensList.tokens.find(
-    ({ address }) => address === gauge.stakeTokenAddress,
+    ({ address }) => address === vault.stakeTokenAddress,
   )
 
   if (!stakeToken) {
     errors.push(
-      `${gauge.slug} does not have a token for ${gauge.stakeTokenAddress}.`,
+      `${vault.slug} does not have a token for ${vault.stakeTokenAddress}.`,
     )
     return
   }
 
-  const expectedSlug = `${slugify(gauge.protocol, { lower: true })}-${slugify(stakeToken.name, { lower: true })}`
+  const expectedSlug = `${slugify(vault.protocol, { lower: true })}-${slugify(stakeToken.name, { lower: true })}`
 
-  if (gauge.slug !== expectedSlug) {
-    errors.push(`${gauge.slug}’s slug does not match ${expectedSlug}`)
+  if (vault.slug !== expectedSlug) {
+    errors.push(`${vault.slug}’s slug does not match ${expectedSlug}`)
   }
 }
 
-export const validateGaugeDetails = ({
+export const validateVaultDetails = ({
   errors,
   list,
   network,
 }: {
   errors: Array<string>
-  list: GaugeListSchema
+  list: VaultsSchema
   network: keyof typeof supportedChains
 }) => {
-  const gauges: GaugeListSchema['gauges'] = list.gauges
+  const vaults: VaultsSchema['vaults'] = list.vaults
 
   const tokensList: TokenListSchema = getListFile({
     listPath: `src/tokens/${network}.json`,
     network,
   })
 
-  for (const gauge of gauges) {
-    validateProtocol({ errors, gauge })
-    validateStakeTokenAndSlug({ errors, gauge, tokensList })
+  for (const vault of vaults) {
+    validateProtocol({ errors, vault })
+    validateStakeTokenAndSlug({ errors, tokensList, vault })
   }
 }
