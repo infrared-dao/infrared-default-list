@@ -1,6 +1,15 @@
 {
   "tokens": [
     {
+      "address": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+      "decimals": 18,
+      "image": "ibera.svg",
+      "mintUrl": "https://infrared.finance/ibera",
+      "name": "iBERA",
+      "symbol": "iBERA",
+      "underlyingTokens": ["0x0000000000000000000000000000000000000000"]
+    },
+    {
       "address": "0x6751C09113a83a83a43829fD0b3BC0D7bdbe07bf",
       "decimals": 18,
       "image": "bwbera.svg",
