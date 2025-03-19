@@ -9,6 +9,7 @@ export interface GaugeListSchema {
   gauges: {
     beraRewardsVault: string
     protocol: string
+    slug: string
     stakeTokenAddress: string
     types: string[]
     [k: string]: unknown

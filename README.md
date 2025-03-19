@@ -42,6 +42,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    {
      "beraRewardsVault": "0x...",
      "protocol": "your_protocol_id",
+     "slug": "protocol-stake-token-name",
      "stakeTokenAddress": "0x...",
      "types": ["type1", "type2"]
    }

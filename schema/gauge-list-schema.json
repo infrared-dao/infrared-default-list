@@ -9,6 +9,7 @@
             "type": "string"
           },
           "protocol": { "type": "string" },
+          "slug": { "type": "string" },
           "stakeTokenAddress": {
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
@@ -20,6 +21,7 @@
         },
         "required": [
           "beraRewardsVault",
+          "slug",
           "stakeTokenAddress",
           "protocol",
           "types"
