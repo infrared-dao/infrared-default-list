@@ -145,9 +145,15 @@
       "stakeTokenAddress": "0x1207C619086A52edEf4a4b7Af881B5dDd367a919"
     },
     {
-      "beraRewardsVault": "0x9c392eDdF43CDff2C537Fa94169016Cfa1A1589f",
+      "beraRewardsVault": "0x92aF7d5fcDEF44C3df168ecfDCd03deA1807AF28",
       "protocol": "bex",
       "slug": "bex-wbera-ibera",
+      "stakeTokenAddress": "0x62C030B29a6Fef1B32677499e4a1F1852a8808c0"
+    },
+    {
+      "beraRewardsVault": "0x9c392eDdF43CDff2C537Fa94169016Cfa1A1589f",
+      "protocol": "bex",
+      "slug": "bex-wbera-ibera-legacy-1",
       "stakeTokenAddress": "0x4d0aC0ea757F0bb338457C7A135C41FC732CA67d"
     },
     {
@@ -161,12 +167,6 @@
       "protocol": "kodiak",
       "slug": "kodiak-wbera-ibera",
       "stakeTokenAddress": "0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4"
-    },
-    {
-      "beraRewardsVault": "0x92aF7d5fcDEF44C3df168ecfDCd03deA1807AF28",
-      "protocol": "bex",
-      "slug": "bex-wbera-ibera",
-      "stakeTokenAddress": "0x62C030B29a6Fef1B32677499e4a1F1852a8808c0"
     }
   ]
 }

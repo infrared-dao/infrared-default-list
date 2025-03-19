@@ -51,7 +51,13 @@ const validateStakeTokenAndSlug = ({
   const expectedSlug = `${slugify(vault.protocol, { lower: true })}-${slugify(stakeToken.name, { lower: true })}`
 
   if (vault.slug !== expectedSlug) {
-    errors.push(`${vault.slug}’s slug does not match ${expectedSlug}`)
+    if (slugs.includes(expectedSlug)) {
+      if (!vault.slug.startsWith(expectedSlug)) {
+        errors.push(`${vault.slug}’s slug does not start with ${expectedSlug}`)
+      }
+    } else {
+      errors.push(`${vault.slug}’s slug does not match ${expectedSlug}`)
+    }
   }
 
   if (slugs.includes(vault.slug)) {
