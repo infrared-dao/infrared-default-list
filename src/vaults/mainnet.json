@@ -1,6 +1,13 @@
 {
   "vaults": [
     {
+      "beraRewardsVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
+      "protocol": "infrared",
+      "slug": "infrared-ibgt",
+      "stakeTokenAddress": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+      "types": ["amm"]
+    },
+    {
       "beraRewardsVault": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
       "protocol": "bex",
       "slug": "bex-wbera-honey",
