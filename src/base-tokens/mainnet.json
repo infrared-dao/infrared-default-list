@@ -4,71 +4,61 @@
       "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
       "decimals": 18,
       "image": "ibgt.svg",
-      "symbol": "iBGT",
-      "tags": ["featured"]
+      "symbol": "iBGT"
     },
     {
       "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
       "decimals": 18,
       "image": "honey.svg",
-      "symbol": "HONEY",
-      "tags": ["stablecoin", "featured"]
+      "symbol": "HONEY"
     },
     {
       "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
       "decimals": 6,
       "image": "usdce.svg",
-      "symbol": "USDC.e",
-      "tags": ["stablecoin", "collateral", "featured", "defaultCollateral"]
+      "symbol": "USDC.e"
     },
     {
       "address": "0x0000000000000000000000000000000000000000",
       "decimals": 18,
       "image": "bera.svg",
-      "symbol": "BERA",
-      "tags": ["featured"]
+      "symbol": "BERA"
     },
     {
       "address": "0x6969696969696969696969696969696969696969",
       "decimals": 18,
       "image": "wbera.svg",
-      "symbol": "WBERA",
-      "tags": ["featured"]
+      "symbol": "WBERA"
     },
     {
       "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
       "decimals": 8,
       "image": "wbtc.svg",
-      "symbol": "WBTC",
-      "tags": ["featured", "deposit"]
+      "symbol": "WBTC"
     },
     {
       "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
       "decimals": 18,
       "image": "weth.svg",
-      "symbol": "WETH",
-      "tags": ["featured", "deposit"]
+      "symbol": "WETH"
     },
     {
       "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
       "decimals": 6,
       "image": "byusd.svg",
-      "symbol": "BYUSD",
-      "tags": ["stablecoin"]
+      "symbol": "BYUSD"
     },
     {
       "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
       "decimals": 6,
       "image": "usdt.svg",
-      "symbol": "USD₮0",
-      "tags": ["stablecoin"]
+      "symbol": "USD₮0"
     },
     {
       "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
       "decimals": 18,
       "image": "usde.svg",
-      "symbol": "USDe",
-      "tags": ["stablecoin"]
+      "symbol": "USDe"
     },
     {
       "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
@@ -86,22 +76,19 @@
       "address": "0x6fc6545d5cDE268D5C7f1e476D444F39c995120d",
       "decimals": 18,
       "image": "beraeth.svg",
-      "symbol": "beraETH",
-      "tags": []
+      "symbol": "beraETH"
     },
     {
       "address": "0xEc901DA9c68E90798BbBb74c11406A32A70652C3",
       "decimals": 18,
       "image": "stone.svg",
-      "symbol": "STONE",
-      "tags": []
+      "symbol": "STONE"
     },
     {
       "address": "0x18878Df23e2a36f81e820e4b47b4A40576D3159C",
       "decimals": 9,
       "image": "ohm.svg",
-      "symbol": "OHM",
-      "tags": []
+      "symbol": "OHM"
     }
   ]
 }

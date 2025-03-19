@@ -98,8 +98,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "address": "0x...",
      "decimals": 18,
      "image": "your-token-image.svg",
-     "symbol": "XYZ",
-     "tags": ["tag1", "tag2"]
+     "symbol": "XYZ"
    }
    ```
 

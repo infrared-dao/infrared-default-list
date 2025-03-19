@@ -10,11 +10,7 @@
           },
           "decimals": { "type": "number" },
           "image": { "type": "string" },
-          "symbol": { "type": "string" },
-          "tags": {
-            "items": { "type": "string" },
-            "type": "array"
-          }
+          "symbol": { "type": "string" }
         },
         "required": ["address", "decimals", "image", "symbol"],
         "type": "object"
