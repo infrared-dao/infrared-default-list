@@ -4,6 +4,7 @@ import type { TokensSchema } from '@/types/tokens'
 
 import { delay } from './delay'
 import { getTokenSymbol } from './get-token-symbol'
+import { validateDecimals } from './validate-decimals'
 import { validateImage } from './validate-image'
 import { validateSymbol } from './validate-symbol'
 
@@ -75,6 +76,7 @@ export const validateTokenDetails = async ({
   for (const token of tokens) {
     await validateName({ errors, publicClient, rpcLookupCount, token })
     await validateSymbol({ errors, publicClient, token })
+    await validateDecimals({ errors, publicClient, token })
     await validateImage({
       errors,
       item: token,

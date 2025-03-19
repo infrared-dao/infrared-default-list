@@ -1,6 +1,8 @@
 import { type Address, erc20Abi, type PublicClient, zeroAddress } from 'viem'
 
-export const getTokenSymbol = async ({
+const BERA_DECIMALS = 18
+
+export const getTokenDecimals = async ({
   errors,
   publicClient,
   tokenAddress,
@@ -10,16 +12,16 @@ export const getTokenSymbol = async ({
   tokenAddress: Address
 }) => {
   if (tokenAddress === zeroAddress) {
-    return 'BERA' // hack for BERA
+    return BERA_DECIMALS // hack for BERA
   }
 
   const symbol = await publicClient.readContract({
     abi: erc20Abi,
     address: tokenAddress,
-    functionName: 'symbol',
+    functionName: 'decimals',
   })
   if (!symbol) {
-    errors.push(`${tokenAddress} does not have a symbol on the contract.`)
+    errors.push(`${tokenAddress} does not have decimals on the contract.`)
   }
   return symbol
 }

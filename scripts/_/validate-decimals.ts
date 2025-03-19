@@ -2,9 +2,9 @@ import { type Address, type PublicClient } from 'viem'
 
 import type { TokensSchema } from '@/types/tokens'
 
-import { getTokenSymbol } from './get-token-symbol'
+import { getTokenDecimals } from './get-token-decimals'
 
-export const validateSymbol = async ({
+export const validateDecimals = async ({
   errors,
   publicClient,
   token,
@@ -13,20 +13,15 @@ export const validateSymbol = async ({
   publicClient: PublicClient
   token: TokensSchema['tokens'][number]
 }) => {
-  if (token.symbol === '') {
-    errors.push(`Missing symbol for ${token.address}.`)
-    return
-  }
-
-  const symbol = await getTokenSymbol({
+  const decimals = await getTokenDecimals({
     errors,
     publicClient,
     tokenAddress: token.address as Address,
   })
 
-  if (token.symbol !== symbol) {
+  if (token.decimals !== decimals) {
     errors.push(
-      `${token.symbol}’s symbol does not match the on-chain symbol ${symbol}.`,
+      `${token.symbol}’s decimals does not match the on-chain decimals ${decimals}.`,
     )
   }
 }
