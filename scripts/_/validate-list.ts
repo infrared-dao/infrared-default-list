@@ -1,10 +1,9 @@
-import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
+import Ajv from 'ajv/dist/2020'
 
-import type { BaseTokenListSchema } from '@/types/base-token-list'
 import type { ProtocolsSchema } from '@/types/protocols'
-import type { TokenListSchema } from '@/types/token-list'
-import type { ValidatorListSchema } from '@/types/validator-list'
+import type { TokensSchema } from '@/types/tokens'
+import type { ValidatorsSchema } from '@/types/validators'
 import type { VaultTypesSchema } from '@/types/vault-types'
 import type { VaultsSchema } from '@/types/vaults'
 
@@ -19,12 +18,11 @@ export const validateList = ({
 }: {
   errors: Array<string>
   list:
-    | BaseTokenListSchema
     | VaultsSchema
     | VaultTypesSchema
     | ProtocolsSchema
-    | TokenListSchema
-    | ValidatorListSchema
+    | TokensSchema
+    | ValidatorsSchema
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   schema: any
   type: string

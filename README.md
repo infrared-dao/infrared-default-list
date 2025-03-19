@@ -81,6 +81,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
      "name": "XYZ",
      "symbol": "XYZ",
+     "type": "amm",
      "underlyingTokens": ["0x...", "0x..."]
    }
    ```
@@ -91,22 +92,9 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    - The `name` field only uses the symbols of the underlying tokens with a dash between. Example: `HONEY-WBERA`.
    - You've added the token image to the `src/assets/tokens` folder if it's not already there.
 
-5. If your vault uses base tokens not in the base token list, add them to `src/base-tokens/{network}.json`:
+5. Commit your changes and push to your forked repository.
 
-   ```json
-   {
-     "address": "0x...",
-     "decimals": 18,
-     "image": "your-token-image.svg",
-     "symbol": "XYZ"
-   }
-   ```
-
-   Add the token image to the `src/assets/tokens` folder if it's not already present.
-
-6. Commit your changes and push to your forked repository.
-
-7. Create a Pull Request (PR) from your fork to this repository.
+6. Create a Pull Request (PR) from your fork to this repository.
 
 ## Guidelines
 

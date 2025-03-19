@@ -5,12 +5,12 @@ import { outputScriptStatus } from './_/output-script-status'
 import { validateList } from './_/validate-list'
 
 const schema = getFile('schema/vault-types-schema.json')
-const gaugeTypes: VaultTypesSchema = getFile('src/vault-types.json')
+const vaultTypes: VaultTypesSchema = getFile('src/vault-types.json')
 
 const validateVaultTypes = async () => {
   const errors: Array<string> = []
 
-  validateList({ errors, list: gaugeTypes, schema, type: 'vault-types' })
+  validateList({ errors, list: vaultTypes, schema, type: 'vault-types' })
   outputScriptStatus({ errors, type: 'Protocol types' })
 }
 

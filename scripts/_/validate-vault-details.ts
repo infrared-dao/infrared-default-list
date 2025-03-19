@@ -2,7 +2,7 @@ import slugify from 'slugify'
 
 import type { supportedChains } from '@/config/chains'
 import type { ProtocolsSchema } from '@/types/protocols'
-import type { TokenListSchema } from '@/types/token-list'
+import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
 import { getFile } from './get-file'
@@ -28,14 +28,14 @@ const validateProtocol = ({
 
 const validateStakeTokenAndSlug = ({
   errors,
-  tokensList,
+  tokens,
   vault,
 }: {
   errors: Array<string>
-  tokensList: TokenListSchema
+  tokens: TokensSchema
   vault: VaultsSchema['vaults'][number]
 }) => {
-  const stakeToken = tokensList.tokens.find(
+  const stakeToken = tokens.tokens.find(
     ({ address }) => address === vault.stakeTokenAddress,
   )
 
@@ -64,13 +64,13 @@ export const validateVaultDetails = ({
 }) => {
   const vaults: VaultsSchema['vaults'] = list.vaults
 
-  const tokensList: TokenListSchema = getListFile({
+  const tokens: TokensSchema = getListFile({
     listPath: `src/tokens/${network}.json`,
     network,
   })
 
   for (const vault of vaults) {
     validateProtocol({ errors, vault })
-    validateStakeTokenAndSlug({ errors, tokensList, vault })
+    validateStakeTokenAndSlug({ errors, tokens, vault })
   }
 }

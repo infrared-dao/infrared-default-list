@@ -1,6 +1,6 @@
 import type { Address, PublicClient } from 'viem'
 
-import type { TokenListSchema } from '@/types/token-list'
+import type { TokensSchema } from '@/types/tokens'
 
 import { delay } from './delay'
 import { getTokenSymbol } from './get-token-symbol'
@@ -23,15 +23,15 @@ const validateName = async ({
   errors: Array<string>
   publicClient: PublicClient
   rpcLookupCount: Counter
-  token: TokenListSchema['tokens'][number]
+  token: TokensSchema['tokens'][number]
 }) => {
-  const lpTokenSymbol = await getTokenSymbol({
+  const tokenSymbol = await getTokenSymbol({
     errors,
     publicClient,
-    token: token.address as Address,
+    tokenAddress: token.address as Address,
   })
 
-  if (token.name !== lpTokenSymbol) {
+  if (token.name !== tokenSymbol && token.underlyingTokens) {
     const symbols = await Promise.all(
       token.underlyingTokens.map(async (underlyingToken) => {
         rpcLookupCount.value += 1
@@ -41,7 +41,7 @@ const validateName = async ({
         return await getTokenSymbol({
           errors,
           publicClient,
-          token: underlyingToken as Address,
+          tokenAddress: underlyingToken as Address,
         })
       }),
     )
@@ -54,7 +54,7 @@ const validateName = async ({
       }
 
       errors.push(
-        `${token.name} does not match ${lpTokenSymbol} or ${underlyingTokenSymbols}.`,
+        `${token.name} does not match ${tokenSymbol} or ${underlyingTokenSymbols}.`,
       )
     }
   }
@@ -66,10 +66,10 @@ export const validateTokenDetails = async ({
   publicClient,
 }: {
   errors: Array<string>
-  list: TokenListSchema
+  list: TokensSchema
   publicClient: PublicClient
 }) => {
-  const tokens: TokenListSchema['tokens'] = list.tokens
+  const tokens: TokensSchema['tokens'] = list.tokens
   const rpcLookupCount = { value: 0 }
 
   for (const token of tokens) {

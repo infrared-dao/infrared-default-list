@@ -1,7 +1,8 @@
-import { type Address, erc20Abi, type PublicClient, zeroAddress } from 'viem'
+import { type Address, type PublicClient, zeroAddress } from 'viem'
 
-import type { BaseTokenListSchema } from '@/types/base-token-list'
-import type { TokenListSchema } from '@/types/token-list'
+import type { TokensSchema } from '@/types/tokens'
+
+import { getTokenSymbol } from './get-token-symbol'
 
 export const validateSymbol = async ({
   errors,
@@ -10,9 +11,7 @@ export const validateSymbol = async ({
 }: {
   errors: Array<string>
   publicClient: PublicClient
-  token:
-    | BaseTokenListSchema['tokens'][number]
-    | TokenListSchema['tokens'][number]
+  token: TokensSchema['tokens'][number]
 }) => {
   if (token.address === zeroAddress) {
     // BERA
@@ -23,10 +22,10 @@ export const validateSymbol = async ({
     return
   }
 
-  const symbol = await publicClient.readContract({
-    abi: erc20Abi,
-    address: token.address as Address,
-    functionName: 'symbol',
+  const symbol = await getTokenSymbol({
+    errors,
+    publicClient,
+    tokenAddress: token.address as Address,
   })
 
   if (token.symbol !== symbol) {
