@@ -28,10 +28,12 @@ const validateProtocol = ({
 
 const validateStakeTokenAndSlug = ({
   errors,
+  slugs,
   tokens,
   vault,
 }: {
   errors: Array<string>
+  slugs: Array<string>
   tokens: TokensSchema
   vault: VaultsSchema['vaults'][number]
 }) => {
@@ -51,6 +53,13 @@ const validateStakeTokenAndSlug = ({
   if (vault.slug !== expectedSlug) {
     errors.push(`${vault.slug}’s slug does not match ${expectedSlug}`)
   }
+
+  if (slugs.includes(vault.slug)) {
+    errors.push(
+      `Slug "${vault.slug}" is not unique. Vault slugs must be unique.`,
+    )
+  }
+  slugs.push(vault.slug)
 }
 
 export const validateVaultDetails = ({
@@ -63,14 +72,14 @@ export const validateVaultDetails = ({
   network: keyof typeof supportedChains
 }) => {
   const vaults: VaultsSchema['vaults'] = list.vaults
-
   const tokens: TokensSchema = getListFile({
     listPath: `src/tokens/${network}.json`,
     network,
   })
+  const slugs: string[] = []
 
   for (const vault of vaults) {
     validateProtocol({ errors, vault })
-    validateStakeTokenAndSlug({ errors, tokens, vault })
+    validateStakeTokenAndSlug({ errors, slugs, tokens, vault })
   }
 }
