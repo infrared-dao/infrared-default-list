@@ -41,7 +41,7 @@ const validateStakeTokenAndSlug = ({
 
   if (!stakeToken) {
     errors.push(
-      `${vault.slug} does not have a token for ${vault.stakeTokenAddress}.`,
+      `${vault.slug} does not have a token for ${vault.stakeTokenAddress}`,
     )
     return
   }

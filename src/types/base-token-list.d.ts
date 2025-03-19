@@ -11,7 +11,6 @@ export interface BaseTokenListSchema {
     decimals: number
     image: string
     symbol: string
-    tags?: string[]
     [k: string]: unknown
   }[]
   [k: string]: unknown

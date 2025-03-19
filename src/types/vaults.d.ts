@@ -11,7 +11,6 @@ export interface VaultsSchema {
     protocol: string
     slug: string
     stakeTokenAddress: string
-    types: string[]
     [k: string]: unknown
   }[]
   [k: string]: unknown

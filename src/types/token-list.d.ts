@@ -13,6 +13,7 @@ export interface TokenListSchema {
     mintUrl?: string
     name: string
     symbol: string
+    type: string
     underlyingTokens: string[]
     [k: string]: unknown
   }[]

@@ -13,6 +13,7 @@
           "mintUrl": { "format": "uri", "type": "string" },
           "name": { "type": "string" },
           "symbol": { "type": "string" },
+          "type": { "type": "string" },
           "underlyingTokens": {
             "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
             "type": "array"
@@ -23,6 +24,7 @@
           "decimals",
           "name",
           "symbol",
+          "type",
           "underlyingTokens"
         ],
         "type": "object"

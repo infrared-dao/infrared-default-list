@@ -13,18 +13,13 @@
           "stakeTokenAddress": {
             "pattern": "^0x[a-fA-F0-9]{40}$",
             "type": "string"
-          },
-          "types": {
-            "items": { "type": "string" },
-            "type": "array"
           }
         },
         "required": [
           "beraRewardsVault",
           "slug",
           "stakeTokenAddress",
-          "protocol",
-          "types"
+          "protocol"
         ],
         "type": "object"
       },
