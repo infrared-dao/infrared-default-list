@@ -33,7 +33,9 @@
       "decimals": 18,
       "image": "wbera.svg",
       "name": "WBERA",
-      "symbol": "WBERA"
+      "symbol": "WBERA",
+      "type": "??",
+      "underlyingTokens": ["0x0000000000000000000000000000000000000000"]
     },
     {
       "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",

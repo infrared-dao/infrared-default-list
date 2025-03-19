@@ -3,7 +3,10 @@
   "properties": {
     "tokens": {
       "items": {
-        "dependentRequired": { "type": ["underlyingTokens"] },
+        "dependentRequired": {
+          "type": ["underlyingTokens"],
+          "underlyingTokens": ["type"]
+        },
         "properties": {
           "address": {
             "pattern": "^0x[a-fA-F0-9]{40}$",
