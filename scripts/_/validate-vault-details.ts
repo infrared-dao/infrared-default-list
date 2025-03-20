@@ -1,30 +1,10 @@
 import slugify from 'slugify'
 
 import type { supportedChains } from '@/config/chains'
-import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
-import { getFile } from './get-file'
 import { getJsonFile } from './get-json-file'
-
-const protocolsList: ProtocolsSchema = getFile('src/protocols.json')
-
-const validateProtocol = ({
-  errors,
-  vault,
-}: {
-  errors: Array<string>
-  vault: VaultsSchema['vaults'][number]
-}) => {
-  const protocol = protocolsList.protocols.find(
-    ({ id }) => id === vault.protocol,
-  )
-
-  if (!protocol) {
-    errors.push(`${vault.slug} does not have a protocol for ${vault.protocol}.`)
-  }
-}
 
 const validateStakeTokenAndSlug = ({
   errors,
@@ -48,7 +28,14 @@ const validateStakeTokenAndSlug = ({
     return
   }
 
-  const expectedSlug = `${slugify(vault.protocol, { lower: true })}-${slugify(stakeToken.name, { lower: true })}`
+  if (!('protocol' in stakeToken)) {
+    errors.push(
+      `${stakeToken.name} does not have a protocol (vault validation)`,
+    )
+    return
+  }
+
+  const expectedSlug = `${slugify(stakeToken.protocol, { lower: true })}-${slugify(stakeToken.name, { lower: true })}`
 
   if (vault.slug !== expectedSlug) {
     if (slugs.includes(expectedSlug)) {
@@ -84,7 +71,6 @@ export const validateVaultDetails = ({
   const slugs: Array<string> = []
 
   for (const vault of vaults) {
-    validateProtocol({ errors, vault })
     validateStakeTokenAndSlug({ errors, slugs, tokens, vault })
   }
 }

@@ -30,6 +30,7 @@
               "image": { "type": "string" },
               "mintUrl": { "format": "uri", "type": "string" },
               "name": { "type": "string" },
+              "protocol": { "type": "string" },
               "symbol": { "type": "string" },
               "type": {
                 "enum": ["amm", "cdp", "perpetuals", "unknown", "vault"]
@@ -43,6 +44,7 @@
               "address",
               "decimals",
               "name",
+              "protocol",
               "symbol",
               "type",
               "underlyingTokens"

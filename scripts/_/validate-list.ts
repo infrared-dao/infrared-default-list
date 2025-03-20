@@ -2,9 +2,9 @@ import addFormats from 'ajv-formats'
 import Ajv from 'ajv/dist/2020'
 
 import type { ProtocolsSchema } from '@/types/protocols'
+import type { TokenTypesSchema } from '@/types/token-types'
 import type { TokensSchema } from '@/types/tokens'
 import type { ValidatorsSchema } from '@/types/validators'
-import type { VaultTypesSchema } from '@/types/vault-types'
 import type { VaultsSchema } from '@/types/vaults'
 
 const ajv = new Ajv({ allErrors: true })
@@ -19,7 +19,7 @@ export const validateList = ({
   errors: Array<string>
   list:
     | VaultsSchema
-    | VaultTypesSchema
+    | TokenTypesSchema
     | ProtocolsSchema
     | TokensSchema
     | ValidatorsSchema

@@ -20,6 +20,7 @@ export interface TokensSchema {
         image?: string
         mintUrl?: string
         name: string
+        protocol: string
         symbol: string
         type: 'amm' | 'cdp' | 'perpetuals' | 'unknown' | 'vault'
         underlyingTokens: string[]

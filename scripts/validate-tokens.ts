@@ -13,7 +13,7 @@ import { validateTokenDetails } from './_/validate-token-details'
 
 const schema = getFile('schema/tokens-schema.json')
 
-const validateBaseTokens = async ({
+const validateTokens = async ({
   network,
 }: {
   network: keyof typeof supportedChains
@@ -42,5 +42,5 @@ readdirSync('src/tokens').forEach(async (file) => {
     throw new Error(`Unsupported network: ${network}`)
   }
 
-  await validateBaseTokens({ network })
+  await validateTokens({ network })
 })

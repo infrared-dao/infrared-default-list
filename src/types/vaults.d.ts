@@ -8,7 +8,6 @@
 export interface VaultsSchema {
   vaults: {
     beraRewardsVault: string
-    protocol: string
     slug: string
     stakeTokenAddress: string
     [k: string]: unknown

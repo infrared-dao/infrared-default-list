@@ -1,8 +1,10 @@
 import type { Address, PublicClient } from 'viem'
 
+import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokensSchema } from '@/types/tokens'
 
 import { delay } from './delay'
+import { getFile } from './get-file'
 import { getTokenSymbol } from './get-token-symbol'
 import { validateDecimals } from './validate-decimals'
 import { validateImage } from './validate-image'
@@ -65,6 +67,28 @@ const validateName = async ({
   }
 }
 
+const protocolsList: ProtocolsSchema = getFile('src/protocols.json')
+
+const validateProtocol = ({
+  errors,
+  token,
+}: {
+  errors: Array<string>
+  token: TokensSchema['tokens'][number]
+}) => {
+  if (!('protocol' in token)) {
+    return
+  }
+
+  const protocol = protocolsList.protocols.find(
+    ({ id }) => id === token.protocol,
+  )
+
+  if (!protocol) {
+    errors.push(`${token.name} does not have a protocol (token validation)`)
+  }
+}
+
 export const validateTokenDetails = async ({
   errors,
   publicClient,
@@ -78,6 +102,7 @@ export const validateTokenDetails = async ({
 
   for (const token of tokens) {
     await validateName({ errors, publicClient, rpcLookupCount, token })
+    validateProtocol({ errors, token })
     await validateSymbol({ errors, publicClient, token })
     await validateDecimals({ errors, publicClient, token })
     await validateImage({
