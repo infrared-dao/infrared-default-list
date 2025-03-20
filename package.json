@@ -27,10 +27,10 @@
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
-    "schemas-to-typescript": "concurrently \"json2ts schema/vaults-schema.json src/types/vaults.d.ts\" \"json2ts schema/token-types-schema.json src/types/token-types.d.ts\" \"json2ts schema/protocols-schema.json src/types/protocols.d.ts\" \"json2ts schema/tokens-schema.json src/types/tokens.d.ts\" \"json2ts schema/validators-schema.json src/types/validators.d.ts\" && pnpm lint",
+    "schemas-to-typescript": "concurrently \"json2ts schema/vaults-schema.json src/types/vaults.d.ts\" \"json2ts schema/protocols-schema.json src/types/protocols.d.ts\" \"json2ts schema/tokens-schema.json src/types/tokens.d.ts\" \"json2ts schema/validators-schema.json src/types/validators.d.ts\" && pnpm lint",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "concurrently \"tsx scripts/validate-vaults.ts\" \"tsx scripts/validate-token-types.ts\" \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-validators.ts\""
+    "validate": "concurrently \"tsx scripts/validate-vaults.ts\" \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-validators.ts\""
   },
   "devDependencies": {
     "@infrared-dao/eslint-config": "^0.0.6",

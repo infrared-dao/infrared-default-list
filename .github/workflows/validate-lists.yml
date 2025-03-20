@@ -5,7 +5,6 @@ on:
     paths:
       - schema/protocols-schema.json
       - schema/tokens-schema.json
-      - schema/token-types-schema.json
       - schema/validators-schema.json
       - schema/vaults-schema.json
       - src/vaults/**/*.json
