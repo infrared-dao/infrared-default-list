@@ -1,7 +1,7 @@
 {
   "types": {
     "amm": {
-      "description": "Token that were minted to provide liquidity to AMM pools",
+      "description": "Tokens that were minted to provide liquidity to AMM pools",
       "name": "Automated Market Maker"
     },
     "cdp": {
