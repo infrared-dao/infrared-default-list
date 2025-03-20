@@ -32,31 +32,35 @@ const validateName = async ({
     tokenAddress: token.address as Address,
   })
 
-  if (token.name !== tokenSymbol && 'underlyingTokens' in token) {
-    const symbols = await Promise.all(
-      token.underlyingTokens.map(async (underlyingToken) => {
+  if (token.name !== tokenSymbol) {
+    if ('underlyingTokens' in token) {
+      const symbols = await Promise.all(
+        token.underlyingTokens.map(async (underlyingToken) => {
+          rpcLookupCount.value += 1
+          if (rpcLookupCount.value % RPC_REQUESTS_PER_SECOND === 0) {
+            await delay(ONE_SECOND)
+          }
+          return await getTokenSymbol({
+            errors,
+            publicClient,
+            tokenAddress: underlyingToken as Address,
+          })
+        }),
+      )
+      const underlyingTokenSymbols = symbols.join('-')
+
+      if (token.name !== underlyingTokenSymbols) {
         rpcLookupCount.value += 1
         if (rpcLookupCount.value % RPC_REQUESTS_PER_SECOND === 0) {
           await delay(ONE_SECOND)
         }
-        return await getTokenSymbol({
-          errors,
-          publicClient,
-          tokenAddress: underlyingToken as Address,
-        })
-      }),
-    )
-    const underlyingTokenSymbols = symbols.join('-')
 
-    if (token.name !== underlyingTokenSymbols) {
-      rpcLookupCount.value += 1
-      if (rpcLookupCount.value % RPC_REQUESTS_PER_SECOND === 0) {
-        await delay(ONE_SECOND)
+        errors.push(
+          `${token.name} does not match ${tokenSymbol} or ${underlyingTokenSymbols}`,
+        )
       }
-
-      errors.push(
-        `${token.name} does not match ${tokenSymbol} or ${underlyingTokenSymbols}.`,
-      )
+    } else {
+      errors.push(`${token.name} does not match ${tokenSymbol}`)
     }
   }
 }
