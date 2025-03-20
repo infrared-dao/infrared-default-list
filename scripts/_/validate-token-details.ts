@@ -63,14 +63,13 @@ const validateName = async ({
 
 export const validateTokenDetails = async ({
   errors,
-  list,
   publicClient,
+  tokens,
 }: {
   errors: Array<string>
-  list: TokensSchema
   publicClient: PublicClient
+  tokens: TokensSchema['tokens']
 }) => {
-  const tokens: TokensSchema['tokens'] = list.tokens
   const rpcLookupCount = { value: 0 }
 
   for (const token of tokens) {

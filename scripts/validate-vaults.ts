@@ -4,7 +4,7 @@ import type { supportedChains } from '@/config/chains'
 import type { VaultsSchema } from '@/types/vaults'
 
 import { getFile } from './_/get-file'
-import { getListFile } from './_/get-list-file'
+import { getJsonFile } from './_/get-json-file'
 import { isValidNetwork } from './_/is-valid-network'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateList } from './_/validate-list'
@@ -18,13 +18,13 @@ const validateVaults = async ({
   network: keyof typeof supportedChains
 }) => {
   const errors: Array<string> = []
-  const list: VaultsSchema = getListFile({
-    listPath: `src/vaults/${network}.json`,
+  const vaults: VaultsSchema = getJsonFile({
     network,
+    path: `src/vaults/${network}.json`,
   })
 
-  validateList({ errors, list, schema, type: 'vault' })
-  validateVaultDetails({ errors, list, network })
+  validateList({ errors, list: vaults, schema, type: 'vault' })
+  validateVaultDetails({ errors, network, vaults: vaults.vaults })
   outputScriptStatus({ errors, network, type: 'Vault' })
 }
 

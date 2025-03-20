@@ -5,7 +5,7 @@ import { supportedChains } from '@/config/chains'
 import type { TokensSchema } from '@/types/tokens'
 
 import { getFile } from './_/get-file'
-import { getListFile } from './_/get-list-file'
+import { getJsonFile } from './_/get-json-file'
 import { isValidNetwork } from './_/is-valid-network'
 import { outputScriptStatus } from './_/output-script-status'
 import { validateList } from './_/validate-list'
@@ -19,9 +19,9 @@ const validateBaseTokens = async ({
   network: keyof typeof supportedChains
 }) => {
   const errors: Array<string> = []
-  const list: TokensSchema = getListFile({
-    listPath: `src/tokens/${network}.json`,
+  const tokens: TokensSchema = getJsonFile({
     network,
+    path: `src/tokens/${network}.json`,
   })
 
   const chain = supportedChains[network]
@@ -30,8 +30,8 @@ const validateBaseTokens = async ({
     transport: http(),
   })
 
-  validateList({ errors, list, schema, type: 'tokens' })
-  await validateTokenDetails({ errors, list, publicClient })
+  validateList({ errors, list: tokens, schema, type: 'tokens' })
+  await validateTokenDetails({ errors, publicClient, tokens: tokens.tokens })
   outputScriptStatus({ errors, network, type: 'Token' })
 }
 

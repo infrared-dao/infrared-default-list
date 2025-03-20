@@ -6,7 +6,7 @@ import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
 import { getFile } from './get-file'
-import { getListFile } from './get-list-file'
+import { getJsonFile } from './get-json-file'
 
 const protocolsList: ProtocolsSchema = getFile('src/protocols.json')
 
@@ -70,19 +70,18 @@ const validateStakeTokenAndSlug = ({
 
 export const validateVaultDetails = ({
   errors,
-  list,
   network,
+  vaults,
 }: {
   errors: Array<string>
-  list: VaultsSchema
   network: keyof typeof supportedChains
+  vaults: VaultsSchema['vaults']
 }) => {
-  const vaults: VaultsSchema['vaults'] = list.vaults
-  const tokens: TokensSchema = getListFile({
-    listPath: `src/tokens/${network}.json`,
+  const tokens: TokensSchema = getJsonFile({
     network,
+    path: `src/tokens/${network}.json`,
   })
-  const slugs: string[] = []
+  const slugs: Array<string> = []
 
   for (const vault of vaults) {
     validateProtocol({ errors, vault })

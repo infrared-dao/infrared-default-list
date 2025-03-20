@@ -4,8 +4,8 @@ on:
   pull_request:
     paths:
       - schema/vaults-schema.json
-      - schema/vault-types-list-schema.json
-      - schema/protocols-list-schema.json
+      - schema/vault-types-schema.json
+      - schema/protocols-schema.json
       - schema/tokens-schema.json
       - schema/validators-schema.json
       - src/vaults/**/*.json

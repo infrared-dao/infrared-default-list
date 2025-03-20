@@ -1,4 +1,4 @@
-import { type Address, type PublicClient } from 'viem'
+import type { Address, PublicClient } from 'viem'
 
 import type { TokensSchema } from '@/types/tokens'
 
