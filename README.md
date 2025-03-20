@@ -59,7 +59,8 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    {
      "description": "A brief description of your protocol.",
      "id": "your_unique_protocol_id",
-     "image": "your-protocol-image.svg",
+     "imageDark": "your-protocol-image.svg",
+     "imageLight": "your-protocol-image.svg",
      "name": "Protocol",
      "url": "https://your-protocol-url.com"
    }
