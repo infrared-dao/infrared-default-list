@@ -34,7 +34,7 @@
       "image": "wbera.svg",
       "name": "WBERA",
       "symbol": "WBERA",
-      "type": "??",
+      "type": "unknown",
       "underlyingTokens": ["0x0000000000000000000000000000000000000000"]
     },
     {
@@ -114,7 +114,7 @@
       "mintUrl": "https://infrared.finance/ibera",
       "name": "iBERA",
       "symbol": "iBERA",
-      "type": "??",
+      "type": "unknown",
       "underlyingTokens": ["0x0000000000000000000000000000000000000000"]
     },
     {

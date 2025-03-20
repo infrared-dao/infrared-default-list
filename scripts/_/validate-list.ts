@@ -33,9 +33,7 @@ export const validateList = ({
 
   if (!valid) {
     validate.errors?.forEach((error) => {
-      errors.push(
-        `Error in ${type} list: ${error.message} at ${error.instancePath}`,
-      )
+      errors.push(`Error in ${type}: ${error.message} at ${error.instancePath}`)
     })
   }
 }
