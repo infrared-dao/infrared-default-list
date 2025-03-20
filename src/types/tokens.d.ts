@@ -6,16 +6,24 @@
  */
 
 export interface TokensSchema {
-  tokens: {
-    address: string
-    decimals: number
-    image?: string
-    mintUrl?: string
-    name: string
-    symbol: string
-    type?: string
-    underlyingTokens?: string[]
-    [k: string]: unknown
-  }[]
+  tokens: (
+    | {
+        address: string
+        decimals: number
+        image: string
+        name: string
+        symbol: string
+      }
+    | {
+        address: string
+        decimals: number
+        image?: string
+        mintUrl?: string
+        name: string
+        symbol: string
+        type: string
+        underlyingTokens: string[]
+      }
+  )[]
   [k: string]: unknown
 }

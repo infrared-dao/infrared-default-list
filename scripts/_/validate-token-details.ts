@@ -32,7 +32,7 @@ const validateName = async ({
     tokenAddress: token.address as Address,
   })
 
-  if (token.name !== tokenSymbol && token.underlyingTokens) {
+  if (token.name !== tokenSymbol && 'underlyingTokens' in token) {
     const symbols = await Promise.all(
       token.underlyingTokens.map(async (underlyingToken) => {
         rpcLookupCount.value += 1

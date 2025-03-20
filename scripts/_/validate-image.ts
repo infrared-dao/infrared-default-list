@@ -1,7 +1,6 @@
 import { existsSync } from 'node:fs'
 import path from 'path'
 
-import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokensSchema } from '@/types/tokens'
 
 import { checkImageSize } from './check-image-size'
@@ -14,30 +13,29 @@ export const validateImage = async ({
   type,
 }: {
   errors: Array<string>
-  item: ProtocolsSchema['protocols'][number] | TokensSchema['tokens'][number]
+  item: TokensSchema['tokens'][number]
   required: boolean
   type: string
 }) => {
-  const itemImage = item.imageDark || item.imageLight || item.image
-  if (!itemImage) {
+  if (!item.image) {
     if (required) {
       errors.push(
-        `Image file "${itemImage}" not found for ${type} "${item.name}"`,
+        `Image file "${item.image}" not found for ${type} "${item.name}"`,
       )
     }
     return
   }
-  const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, itemImage as string)
+  const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, item.image as string)
   if (!existsSync(imagePath)) {
     errors.push(
-      `Image file "${itemImage}" not found for ${type} "${item.name}" at ${imagePath}`,
+      `Image file "${item.image}" not found for ${type} "${item.name}" at ${imagePath}`,
     )
   }
   if (path.extname(imagePath).toLowerCase() === '.png') {
     const isCorrectSize = await checkImageSize(imagePath)
     if (!isCorrectSize) {
       errors.push(
-        `Image file "${itemImage}" for ${type} "${item.name}" is not 128x128 pixels`,
+        `Image file "${item.image}" for ${type} "${item.name}" is not 128x128 pixels`,
       )
     }
   }

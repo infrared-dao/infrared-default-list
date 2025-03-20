@@ -2,22 +2,21 @@ import { existsSync } from 'node:fs'
 import path from 'path'
 
 import type { ProtocolsSchema } from '@/types/protocols'
-import type { TokensSchema } from '@/types/tokens'
 
 import { checkImageSize } from './check-image-size'
 import { ASSETS_FOLDER } from './constants'
 
-export const validateImages = async ({
+export const validateProtocolImages = async ({
   errors,
   listItem,
   type,
 }: {
   errors: Array<string>
-  listItem: ProtocolsSchema['protocols'] | TokensSchema['tokens']
+  listItem: ProtocolsSchema['protocols']
   type: string
 }) => {
   for (const item of listItem) {
-    const itemImage = item.imageDark || item.imageLight || item.image
+    const itemImage = item.imageDark || item.imageLight
     const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, itemImage as string)
     if (!existsSync(imagePath)) {
       errors.push(

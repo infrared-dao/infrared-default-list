@@ -3,27 +3,51 @@
   "properties": {
     "tokens": {
       "items": {
-        "dependentRequired": {
-          "type": ["underlyingTokens"],
-          "underlyingTokens": ["type"]
-        },
-        "properties": {
-          "address": {
-            "pattern": "^0x[a-fA-F0-9]{40}$",
-            "type": "string"
+        "oneOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "address": {
+                "pattern": "^0x[a-fA-F0-9]{40}$",
+                "type": "string"
+              },
+              "decimals": { "type": "number" },
+              "image": { "type": "string" },
+              "name": { "type": "string" },
+              "symbol": { "type": "string" }
+            },
+            "required": ["address", "decimals", "image", "name", "symbol"],
+            "type": "object"
           },
-          "decimals": { "type": "number" },
-          "image": { "type": "string" },
-          "mintUrl": { "format": "uri", "type": "string" },
-          "name": { "type": "string" },
-          "symbol": { "type": "string" },
-          "type": { "type": "string" },
-          "underlyingTokens": {
-            "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
-            "type": "array"
+          {
+            "additionalProperties": false,
+            "properties": {
+              "address": {
+                "pattern": "^0x[a-fA-F0-9]{40}$",
+                "type": "string"
+              },
+              "decimals": { "type": "number" },
+              "image": { "type": "string" },
+              "mintUrl": { "format": "uri", "type": "string" },
+              "name": { "type": "string" },
+              "symbol": { "type": "string" },
+              "type": { "type": "string" },
+              "underlyingTokens": {
+                "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
+                "type": "array"
+              }
+            },
+            "required": [
+              "address",
+              "decimals",
+              "name",
+              "symbol",
+              "type",
+              "underlyingTokens"
+            ],
+            "type": "object"
           }
-        },
-        "required": ["address", "decimals", "name", "symbol"],
+        ],
         "type": "object"
       },
       "type": "array"
