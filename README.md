@@ -116,3 +116,6 @@ Thank you for contributing to our ecosystem!
 ### Internal review process
 
 If a `png`/`webp` image is submitted, ensure a `svg` has been generated. If not, ensure the assets are in the `assets/*/new` folder and run `convert-new-assets-to-svg`. If the svg looks good and is smaller than the webp then use it, otherwise use the webp.
+
+
+0x0710ABFfB1A54211a5e88d18Bf9854Cba86d0819˙
