@@ -146,6 +146,13 @@
       "image": "bwbera.svg",
       "symbol": "bWBERA",
       "tags": []
-    }
+    },
+    {
+        "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+        "decimals": 18,
+        "image": "rUSD.svg",
+        "symbol": "rUSD",
+        "tags": []
+      }
   ]
 }
