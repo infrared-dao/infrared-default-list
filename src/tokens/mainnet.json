@@ -113,10 +113,38 @@
       "tags": []
     },
     {
-      "address": "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
+      "address": "0x7f2b60fdff1494a0e3e060532c9980d7fad0404b",
       "decimals": 18,
-      "image": "yeet.webp",
-      "symbol": "YEET",
+      "image": "dhoney.svg",
+      "symbol": "dHONEY",
+      "tags": ["stablecoin"]
+    },
+    {
+      "address": "0xf7b5127b510e568fdc39e6bb54e2081bfad489af",
+      "decimals": 18,
+      "image": "dweth.svg",
+      "symbol": "dWETH",
+      "tags": []
+    },
+    {
+      "address": "0x29cf6e8ecefb8d3c9dd2b727c1b7d1df1a754f6f",
+      "decimals": 8,
+      "image": "dwbtc.svg",
+      "symbol": "dWBTC",
+      "tags": []
+    },
+    {
+      "address": "0xf2d2d55daf93b0660297eaa10969ebe90ead5ce8",
+      "decimals": 6,
+      "image": "dusdt.svg",
+      "symbol": "dUSD₮0",
+      "tags": []
+    },
+    {
+      "address": "0x6751c09113a83a83a43829fd0b3bc0d7bdbe07bf",
+      "decimals": 18,
+      "image": "bwbera.svg",
+      "symbol": "bWBERA",
       "tags": []
     }
   ]

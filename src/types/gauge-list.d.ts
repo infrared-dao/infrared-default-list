@@ -9,7 +9,7 @@ export interface GaugeListSchema {
   gauges: {
     beraRewardsVault: string
     lpTokenAddress: string
-    mintUrl: string
+    mintUrl?: string
     name: string
     protocol: string
     types: string[]
