@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "tokens": {
+      "items": {
+        "oneOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "address": {
+                "pattern": "^0x[a-fA-F0-9]{40}$",
+                "type": "string"
+              },
+              "decimals": { "type": "number" },
+              "image": { "type": "string" },
+              "name": { "type": "string" },
+              "symbol": { "type": "string" }
+            },
+            "required": ["address", "decimals", "image", "name", "symbol"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "address": {
+                "pattern": "^0x[a-fA-F0-9]{40}$",
+                "type": "string"
+              },
+              "decimals": { "type": "number" },
+              "image": { "type": "string" },
+              "mintUrl": { "format": "uri", "type": "string" },
+              "name": { "type": "string" },
+              "protocol": { "type": "string" },
+              "symbol": { "type": "string" },
+              "type": {
+                "enum": ["amm", "cdp", "perpetuals", "unknown", "vault"]
+              },
+              "underlyingTokens": {
+                "items": { "pattern": "^0x[a-fA-F0-9]{40}$", "type": "string" },
+                "type": "array"
+              }
+            },
+            "required": [
+              "address",
+              "decimals",
+              "name",
+              "protocol",
+              "symbol",
+              "type",
+              "underlyingTokens"
+            ],
+            "type": "object"
+          }
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": ["tokens"],
+  "type": "object"
+}

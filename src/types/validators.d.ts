@@ -5,13 +5,14 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface TokenListSchema {
-  tokens: {
-    address: string
-    decimals: number
-    image: string
-    symbol: string
-    tags?: string[]
+export interface ValidatorsSchema {
+  validators: {
+    description: string
+    id: string
+    logoURI?: string
+    name: string
+    twitter?: string
+    website?: string
     [k: string]: unknown
   }[]
   [k: string]: unknown

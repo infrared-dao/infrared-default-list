@@ -1,11 +1,10 @@
-import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
+import Ajv from 'ajv/dist/2020'
 
-import type { GaugeListSchema } from '@/types/gauge-list'
-import type { GaugeTypesSchema } from '@/types/gauge-types'
 import type { ProtocolsSchema } from '@/types/protocols'
-import type { TokenListSchema } from '@/types/token-list'
-import type { ValidatorListSchema } from '@/types/validator-list'
+import type { TokensSchema } from '@/types/tokens'
+import type { ValidatorsSchema } from '@/types/validators'
+import type { VaultsSchema } from '@/types/vaults'
 
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
@@ -14,16 +13,13 @@ export const validateList = ({
   errors,
   list,
   schema,
+  type,
 }: {
   errors: Array<string>
-  list:
-    | GaugeListSchema
-    | GaugeTypesSchema
-    | ProtocolsSchema
-    | TokenListSchema
-    | ValidatorListSchema
+  list: VaultsSchema | ProtocolsSchema | TokensSchema | ValidatorsSchema
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   schema: any
+  type: string
 }) => {
   // Validate the overall structure
   const validate = ajv.compile(schema)
@@ -31,9 +27,7 @@ export const validateList = ({
 
   if (!valid) {
     validate.errors?.forEach((error) => {
-      errors.push(
-        `Error in gauge list: ${error.message} at ${error.instancePath}`,
-      )
+      errors.push(`Error in ${type}: ${error.message} at ${error.instancePath}`)
     })
   }
 }
