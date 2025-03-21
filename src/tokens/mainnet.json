@@ -14,7 +14,7 @@
       "name": "iBGT",
       "protocol": "infrared",
       "symbol": "iBGT",
-      "type": "unknown",
+      "type": "vault",
       "underlyingTokens": ["0x656b95E550C07a9ffe548bd4085c72418Ceb1dba"]
     },
     {
