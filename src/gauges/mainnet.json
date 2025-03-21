@@ -317,6 +317,20 @@
         "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
         "0x6969696969696969696969696969696969696969"
       ]
+    },
+    {
+      "beraRewardsVault": "0x0710ABFfB1A54211a5e88d18Bf9854Cba86d0819",
+      "lpTokenAddress": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xec8ba456b4e009408d0776cde8b91f8717d13fa1?chain=berachain_mainnet",
+      "name": "YEET-WBERA",
+      "protocol": "kodiak",
+      "types": [
+        "amm"
+      ],
+      "underlyingTokens": [
+        "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
+        "0x6969696969696969696969696969696969696969"
+      ]
     }
   ]
 }
