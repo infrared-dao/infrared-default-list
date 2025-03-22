@@ -1,10 +1,13 @@
-import slugify from 'slugify'
+import slug from 'slug'
 
 import type { supportedChains } from '@/config/chains'
 import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
 import { getJsonFile } from './get-json-file'
+
+slug.charmap['.'] = '.' // allow periods in urls. They are valid
+slug.charmap['₮'] = '₮' // allow some unicode characters
 
 const validateStakeTokenAndSlug = ({
   errors,
@@ -35,7 +38,7 @@ const validateStakeTokenAndSlug = ({
     return
   }
 
-  const expectedSlug = `${slugify(stakeToken.protocol, { lower: true })}-${slugify(stakeToken.name, { lower: true })}`
+  const expectedSlug = `${slug(stakeToken.protocol)}-${slug(stakeToken.name)}`
 
   if (vault.slug !== expectedSlug) {
     if (slugs.includes(expectedSlug)) {
