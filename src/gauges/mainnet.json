@@ -295,15 +295,27 @@
       ]
     },
     {
-        "beraRewardsVault": "0x34852c863d266100f573d4d1fd1d0cfe20602da0",
-        "lpTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6",
-        "name": "rUSD-HONEY",
-        "protocol": "kodiak",
-        "types": ["amm"],
-        "underlyingTokens": [
-          "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
-          "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
-        ]
-      }
+      "beraRewardsVault": "0x34852c863d266100f573d4d1fd1d0cfe20602da0",
+      "lpTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6",
+      "name": "rUSD-HONEY",
+      "protocol": "kodiak",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },
+    {
+      "beraRewardsVault": "0xde9d49a63fbb7c7d211b26a7d0dabdf8e0d4b4fe",
+      "lpTokenAddress": "0xc227c8639a41db8393dd1b4eac41464a62d64fb4",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?farm=0x3c8e4d4324f7ab2e3238c23a2838a762ecb7051d&chain=berachain_mainnet",
+      "name": "OHM-WBERA",
+      "protocol": "kodiak",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x18878Df23e2a36f81e820e4b47b4A40576D3159C",
+        "0x6969696969696969696969696969696969696969"
+      ]
+    }
   ]
 }
