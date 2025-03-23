@@ -305,6 +305,30 @@
         "0x18878Df23e2a36f81e820e4b47b4A40576D3159C",
         "0x6969696969696969696969696969696969696969"
       ]
+    },
+    {
+      "beraRewardsVault": "0x10545e882f2ac24f0450fed9758d9c7aeaeb2f99",
+      "lpTokenAddress": "0x3879451f4f69f0c2d37cad45319cff2e7d29c596",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x3879451f4f69f0c2d37cad45319cff2e7d29c596?chain=berachain_mainnet",
+      "name": "WBTC-SolvBTC",
+      "protocol": "kodiak",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+      ]
+    },
+    {
+      "beraRewardsVault": "0x9ef357d09a1dbe4f92baaa31ba4bc8044bb9ed41",
+      "lpTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x43e487126c4f37d1915cf02a90b5c5295afb1790?chain=berachain_mainnet",
+      "name": "SolvBTC-SolvBTC.BBN",
+      "protocol": "kodiak",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+        "0xCC0966D8418d412c599A6421b760a847eB169A8c"
+      ]
     }
   ]
 }
