@@ -39,6 +39,14 @@
       "imageLight": "dolomite-light.svg",
       "name": "Dolomite",
       "url": "https://dolomite.io"
+    },
+    {
+      "description": "NAV is a decentralized platform for creating and trading synthetic assets.",
+      "id": "nav",
+      "imageDark": "nav.svg",
+      "imageLight": "nav.svg",
+      "name": "NAV",
+      "url": "https://nav.finance"
     }
   ]
 }

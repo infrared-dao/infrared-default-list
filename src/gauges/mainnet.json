@@ -305,6 +305,18 @@
         "0x18878Df23e2a36f81e820e4b47b4A40576D3159C",
         "0x6969696969696969696969696969696969696969"
       ]
+    },
+    {
+      "beraRewardsVault": "0x66eb42c499372e897929efbf6026821b0a148119",
+      "lpTokenAddress": "0xef8c3239e0d8be9d58f145e18f5909ddad681365",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xef8c3239e0d8be9d58f145e18f5909ddad681365?chain=berachain_mainnet",
+      "name": "NAV",
+      "protocol": "NAV-WBERA",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0x6536cEAD649249cae42FC9bfb1F999429b3ec755",
+        "0x6969696969696969696969696969696969696969"
+      ]
     }
   ]
 }
