@@ -146,6 +146,20 @@
       "image": "bwbera.svg",
       "symbol": "bWBERA",
       "tags": []
+    },
+    {
+      "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+      "decimals": 18,
+      "image": "solvbtc.svg",
+      "symbol": "SolvBTC",
+      "tags": []
+    },
+    {
+      "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+      "decimals": 18,
+      "image": "solvbtcbbn.svg",
+      "symbol": "SolvBTC.BBN",
+      "tags": []
     }
   ]
 }
