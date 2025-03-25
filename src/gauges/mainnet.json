@@ -501,6 +501,19 @@
         "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
         "0x6969696969696969696969696969696969696969"
       ]
+    },
+    {
+      "beraRewardsVault": "0x4551c0e216f59cc081b6610637668b770ffdf843",
+      "lpTokenAddress": "0xdca120bd3a13250b67f6faa5c29c1f38ec6ebece",
+      "mintUrl": "https://v2.info.kodiak.finance/pair/0xdca120bd3a13250b67f6faa5c29c1f38ec6ebece?chain=berachain_mainnet",
+      "name": "WBERA-HOLD",
+      "protocol": "kodiak",
+      "slug": "kodiak-wbera-hold",
+      "types": ["amm"],
+      "underlyingTokens": [
+        "0xff0a636dfc44bb0129b631cdd38d21b613290c98",
+        "0x6969696969696969696969696969696969696969"
+      ]
     }
   ]
 }
