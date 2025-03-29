@@ -488,6 +488,20 @@
       ]
     },
     {
+      "address": "0x26bbc26415c6316890565f5f73017f85ee70b60c",
+      "decimals": 18,
+      "image": "dbusd.svg",
+      "mintUrl": "https://app.madhoney.fi/vault",
+      "name": "D8X LP Token",
+      "protocol": "d8x",
+      "symbol": "dbUSD",
+      "type": "perpetuals",
+      "underlyingTokens": [
+        "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },
+    {
       "address": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B",
       "decimals": 18,
       "image": "dhoney.svg",

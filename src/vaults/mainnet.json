@@ -101,6 +101,11 @@
       "stakeTokenAddress": "0x567f32e86be3e3963cdbc1887b5043b701f113d9"
     },
     {
+      "beraRewardsVault": "0x347106734e7b129dde92333a0007d64a4b08e266",
+      "slug": "d8x-dbusd",
+      "stakeTokenAddress": "0x26bbc26415c6316890565f5f73017f85ee70b60c"
+    },
+    {
       "beraRewardsVault": "0x0ec12590CBb9280ab22b81F62be587c5200A9711",
       "slug": "dolomite-dhoney",
       "stakeTokenAddress": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B"

@@ -49,6 +49,14 @@
       "url": "https://burrbear.io"
     },
     {
+      "description": "D8X powers leveraged trading on DEXs like MadHoney. Trade Berachain's prime assets, provide liquidity and earn.",
+      "id": "d8x",
+      "imageDark": "d8x-dark.svg",
+      "imageLight": "d8x-light.svg",
+      "name": "D8X",
+      "url": "https://d8x.exchange/"
+    },
+    {
       "description": "Dolomite is a lending and borrowing platform that can support over 1,000 unique assets.",
       "id": "dolomite",
       "imageDark": "dolomite-dark.svg",
