@@ -532,6 +532,17 @@
       "underlyingTokens": ["0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"]
     },
     {
+      "address": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+      "decimals": 18,
+      "image": "dbera.svg",
+      "mintUrl": "https://app.dolomite.io/balances",
+      "name": "dBERA",
+      "protocol": "dolomite",
+      "symbol": "dBERA",
+      "type": "cdp",
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
       "address": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
       "decimals": 18,
       "image": "ibera.svg",
