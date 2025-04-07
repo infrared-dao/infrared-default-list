@@ -6,6 +6,8 @@ import type { TokensSchema } from '@/types/tokens'
 import type { ValidatorsSchema } from '@/types/validators'
 import type { VaultsSchema } from '@/types/vaults'
 
+import { checkForDuplicates } from './check-for-duplicates'
+
 const ajv = new Ajv({ allErrors: true })
 addFormats(ajv)
 
@@ -30,4 +32,6 @@ export const validateList = ({
       errors.push(`Error in ${type}: ${error.message} at ${error.instancePath}`)
     })
   }
+
+  checkForDuplicates(list, type, errors)
 }
