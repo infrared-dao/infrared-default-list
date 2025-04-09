@@ -73,7 +73,16 @@ export const validateVaultDetails = ({
   })
   const slugs: Array<string> = []
 
+  const beraRewardsVaults = new Set<string>()
+
   for (const vault of vaults) {
+    const lowerCasedBeraRewardsVaults = vault.beraRewardsVault.toLowerCase()
+    if (beraRewardsVaults.has(lowerCasedBeraRewardsVaults)) {
+      errors.push(
+        `Error in vaults: Duplicate beraRewardsVault found: ${vault.beraRewardsVault}`,
+      )
+    }
+    beraRewardsVaults.add(lowerCasedBeraRewardsVaults)
     validateStakeTokenAndSlug({ errors, slugs, tokens, vault })
   }
 }
