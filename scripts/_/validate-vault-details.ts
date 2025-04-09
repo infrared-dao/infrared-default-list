@@ -1,5 +1,5 @@
 import slug from 'slug'
-import type { PublicClient } from 'viem'
+import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
 import type { supportedChains } from '@/config/chains'
 import type { TokensSchema } from '@/types/tokens'
@@ -22,8 +22,8 @@ const validateStakeTokenAndSlug = ({
   tokens: TokensSchema
   vault: VaultsSchema['vaults'][number]
 }) => {
-  const stakeToken = tokens.tokens.find(
-    ({ address }) => address === vault.stakeTokenAddress,
+  const stakeToken = tokens.tokens.find(({ address }) =>
+    isAddressEqual(address as Address, vault.stakeTokenAddress as Address),
   )
 
   if (!stakeToken) {
