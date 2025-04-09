@@ -1,10 +1,12 @@
 import slug from 'slug'
+import type { PublicClient } from 'viem'
 
 import type { supportedChains } from '@/config/chains'
 import type { TokensSchema } from '@/types/tokens'
 import type { VaultsSchema } from '@/types/vaults'
 
 import { getJsonFile } from './get-json-file'
+import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
 slug.charmap['₮'] = '₮' // allow some unicode characters
@@ -61,10 +63,12 @@ const validateStakeTokenAndSlug = ({
 export const validateVaultDetails = ({
   errors,
   network,
+  publicClient,
   vaults,
 }: {
   errors: Array<string>
   network: keyof typeof supportedChains
+  publicClient: PublicClient
   vaults: VaultsSchema['vaults']
 }) => {
   const tokens: TokensSchema = getJsonFile({
@@ -75,5 +79,10 @@ export const validateVaultDetails = ({
 
   for (const vault of vaults) {
     validateStakeTokenAndSlug({ errors, slugs, tokens, vault })
+    validateBeraRewardsVault({
+      errors,
+      publicClient,
+      vault,
+    })
   }
 }
