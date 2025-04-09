@@ -156,6 +156,11 @@
       "stakeTokenAddress": "0xd9a747880393f7c33cEf1aea36909b36d421F7E5"
     },
     {
+      "beraRewardsVault": "0x359424085d84c490a7b276e4bc72cef90a04068b",
+      "slug": "kodiak-bread-ohm",
+      "stakeTokenAddress": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4"
+    },
+    {
       "beraRewardsVault": "0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4",
       "slug": "kodiak-ezeth-weth",
       "stakeTokenAddress": "0x5fADc07d47D3dC1e81932eaFBE39fdEF9ba11865"
@@ -314,11 +319,6 @@
       "beraRewardsVault": "0x4eA84882228a5C881675151E951235e45256a484",
       "slug": "wasabi-swbera",
       "stakeTokenAddress": "0xc95ab9eff8fb48760703c74416764b8f898afa1b"
-    },
-    {
-      "beraRewardsVault": "0x359424085d84c490a7b276e4bc72cef90a04068b",
-      "slug": "kodiak-bread-ohm",
-      "stakeTokenAddress": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4"
     }
   ]
 }

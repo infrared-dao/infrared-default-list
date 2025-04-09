@@ -660,6 +660,19 @@
       ]
     },
     {
+      "address": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4",
+      "decimals": 18,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd9a747880393f7c33cef1aea36909b36d421f7e5?farm=0xc080b212caaa1ebbccde1434d6efe6359eda2084&chain=berachain_mainnet",
+      "name": "BREAD-OHM",
+      "protocol": "kodiak",
+      "symbol": "KODI BREAD-OHM",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0003eedfdd020bf60d10cf684abac7c4534b7ead",
+        "0x18878df23e2a36f81e820e4b47b4a40576d3159c"
+      ]
+    },
+    {
       "address": "0xd9a747880393f7c33cEf1aea36909b36d421F7E5",
       "decimals": 18,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd9a747880393f7c33cEf1aea36909b36d421F7E5?chain=berachain_mainnet",
@@ -1082,22 +1095,7 @@
       "protocol": "wasabi",
       "symbol": "sWBERA",
       "type": "cdp",
-      "underlyingTokens": [
-        "0x6969696969696969696969696969696969696969"
-      ]
-    },
-    {
-      "address": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4",
-      "decimals": 18,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd9a747880393f7c33cef1aea36909b36d421f7e5?farm=0xc080b212caaa1ebbccde1434d6efe6359eda2084&chain=berachain_mainnet",
-      "name": "BREAD-OHM",
-      "protocol": "kodiak",
-      "symbol": "KODI BREAD-OHM",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x0003eedfdd020bf60d10cf684abac7c4534b7ead",
-        "0x18878df23e2a36f81e820e4b47b4a40576d3159c"
-      ]
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     }
   ]
 }
