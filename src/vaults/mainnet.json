@@ -314,6 +314,11 @@
       "beraRewardsVault": "0x4eA84882228a5C881675151E951235e45256a484",
       "slug": "wasabi-swbera",
       "stakeTokenAddress": "0xc95ab9eff8fb48760703c74416764b8f898afa1b"
+    },
+    {
+      "beraRewardsVault": "0x359424085d84c490a7b276e4bc72cef90a04068b",
+      "slug": "kodiak-bread-ohm",
+      "stakeTokenAddress": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4"
     }
   ]
 }
