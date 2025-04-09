@@ -6,29 +6,50 @@ import type { ProtocolsSchema } from '@/types/protocols'
 import { checkImageSize } from './check-image-size'
 import { ASSETS_FOLDER } from './constants'
 
-export const validateProtocolImages = async ({
+const validateImage = async ({
   errors,
-  listItem,
+  imagePath,
+  protocol,
   type,
 }: {
   errors: Array<string>
-  listItem: ProtocolsSchema['protocols']
+  imagePath: string
+  protocol: ProtocolsSchema['protocols'][number]
   type: string
 }) => {
-  for (const item of listItem) {
-    const itemImage = item.imageDark || item.imageLight
-    const imagePath = path.join(`${ASSETS_FOLDER}/${type}`, itemImage as string)
-    if (!existsSync(imagePath)) {
+  if (!existsSync(imagePath)) {
+    errors.push()
+  } else if (path.extname(imagePath).toLowerCase() === '.png') {
+    const isCorrectSize = await checkImageSize(imagePath)
+    if (!isCorrectSize) {
       errors.push(
-        `Image file "${itemImage}" not found for ${type} "${item.name}" at ${imagePath}`,
+        `Image file "${imagePath}" for ${type} "${protocol.name}" is not 128x128 pixels`,
       )
-    } else if (path.extname(imagePath).toLowerCase() === '.png') {
-      const isCorrectSize = await checkImageSize(imagePath)
-      if (!isCorrectSize) {
-        errors.push(
-          `Image file "${itemImage}" for ${type} "${item.name}" is not 128x128 pixels`,
-        )
-      }
     }
   }
+}
+
+export const validateProtocolImages = async ({
+  errors,
+  protocol,
+  type,
+}: {
+  errors: Array<string>
+  protocol: ProtocolsSchema['protocols'][number]
+  type: string
+}) => {
+  // Check dark image
+  const imageDarkPath = path.join(
+    `${ASSETS_FOLDER}/${type}`,
+    protocol.imageDark as string,
+  )
+  await validateImage({ errors, imagePath: imageDarkPath, protocol, type })
+
+  // Check light image
+  const imageLightPath = path.join(
+    `${ASSETS_FOLDER}/${type}`,
+    protocol.imageLight as string,
+  )
+
+  await validateImage({ errors, imagePath: imageLightPath, protocol, type })
 }

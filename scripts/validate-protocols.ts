@@ -11,11 +11,13 @@ const validateProtocols = async () => {
   const errors: Array<string> = []
 
   validateList({ errors, list: protocols, schema, type: 'protocols' })
-  await validateProtocolImages({
-    errors,
-    listItem: protocols.protocols,
-    type: 'protocols',
-  })
+  for (const protocol of protocols.protocols) {
+    await validateProtocolImages({
+      errors,
+      protocol,
+      type: 'protocols',
+    })
+  }
   outputScriptStatus({ errors, type: 'Protocols' })
 }
 
