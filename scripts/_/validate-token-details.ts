@@ -1,4 +1,4 @@
-import { type Address, isAddressEqual, PublicClient } from 'viem'
+import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
 import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokensSchema } from '@/types/tokens'
@@ -133,7 +133,17 @@ export const validateTokenDetails = async ({
   publicClient: PublicClient
   tokens: TokensSchema['tokens']
 }) => {
+  const addresses = new Set<string>()
+
   for (const token of tokens) {
+    const lowercasedAddress = token.address.toLowerCase()
+    if (addresses.has(lowercasedAddress)) {
+      errors.push(
+        `Error in tokens: Duplicate token address found: ${token.address}`,
+      )
+    }
+    addresses.add(lowercasedAddress)
+
     await validateDecimals({ errors, publicClient, token })
     await validateImage({
       errors,
