@@ -20,12 +20,14 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    "./protocols": "./src/protocols.json",
-    "./tokens/mainnet": "./src/tokens/mainnet.json",
+    "./protocols": "./output/protocols.ts",
+    "./tokens/mainnet": "./output/tokens/mainnet.ts",
     "./types/protocols": "./src/types/protocols.d.ts",
     "./types/tokens": "./src/types/tokens.d.ts",
     "./types/vaults": "./src/types/vaults.d.ts",
-    "./vaults/mainnet": "./src/vaults/mainnet.json"
+    "./types/validators": "./src/types/validators.d.ts",
+    "./vaults/mainnet": "./output/vaults/mainnet.ts",
+    "./vaults/validators": "./output/vaults/validators.ts"
   },
   "scripts": {
     "check": "concurrently \"pnpm schemas-to-typescript\" \"pnpm sort\" \"pnpm validate\" && pnpm lint",
@@ -34,12 +36,14 @@
     "clean-assets:svg": "svgo -rf src -o src",
     "convert-new-assets-to-svg": "tsx scripts/convert-new-assets-to-svg.ts",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
+    "json-to-ts": "tsx scripts/json-to-ts.ts",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
     "schemas-to-typescript": "concurrently \"json2ts schema/vaults-schema.json src/types/vaults.d.ts\" \"json2ts schema/protocols-schema.json src/types/protocols.d.ts\" \"json2ts schema/tokens-schema.json src/types/tokens.d.ts\" \"json2ts schema/validators-schema.json src/types/validators.d.ts\"",
     "schemas-to-typescript-and-format": "pnpm schemas-to-typescript && pnpm format",
     "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\" \"tsx scripts/sort-validators.ts\"",
     "sort-and-format": "pnpm sort && pnpm format",
+    "publish": "pnpm json-to-ts && pnpm lint && npm publish --access public",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
     "validate": "concurrently \"tsx scripts/validate-vaults.ts\" \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-validators.ts\""

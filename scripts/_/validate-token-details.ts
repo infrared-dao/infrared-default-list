@@ -1,4 +1,4 @@
-import { type Address, isAddressEqual, PublicClient } from 'viem'
+import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
 import type { ProtocolsSchema } from '@/types/protocols'
 import type { TokensSchema } from '@/types/tokens'
