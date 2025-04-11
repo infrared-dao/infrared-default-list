@@ -1,6 +1,7 @@
 import { readdirSync } from 'node:fs'
+import { createPublicClient, http } from 'viem'
 
-import type { supportedChains } from '@/config/chains'
+import { supportedChains } from '@/config/chains'
 import type { VaultsSchema } from '@/types/vaults'
 
 import { getFile } from './_/get-file'
@@ -25,8 +26,15 @@ const validateVaults = async ({
     path,
   })
 
+  const chain = supportedChains[network]
+  const publicClient = createPublicClient({
+    chain,
+    transport: http(),
+  })
+
   validateList({ errors, list: vaults, schema, type: 'vaults' })
-  validateVaultDetails({ errors, network, vaults: vaults.vaults })
+  validateVaultDetails({ errors, network, publicClient, vaults: vaults.vaults })
+
   outputScriptStatus({ errors, network, type: 'Vaults' })
 }
 
