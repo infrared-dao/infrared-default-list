@@ -20,7 +20,7 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    "./protocols": "./output/protocols",
+    "./protocols": "./output/protocols.ts",
     "./tokens/mainnet": "./output/tokens/mainnet.ts",
     "./types/protocols": "./src/types/protocols.d.ts",
     "./types/tokens": "./src/types/tokens.d.ts",
