@@ -1,3 +1,6 @@
+/* eslint-disable no-prototype-builtins */
+
+/* eslint-disable no-nested-ternary */
 import { writeFile } from 'node:fs/promises'
 
 import type { TokensSchema } from '@/types/tokens'
