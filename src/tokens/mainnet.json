@@ -311,7 +311,7 @@
     {
       "address": "0x6969696969696969696969696969696969696969",
       "decimals": 18,
-      "image": "wbera.svg",
+      "image": "wbera.webp",
       "mintUrl": "https://hub.berachain.com/swap",
       "name": "WBERA",
       "protocol": "berachain",
