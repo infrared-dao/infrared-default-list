@@ -384,4 +384,14 @@ export const vaults = [
     slug: 'wasabi-swbera',
     stakeTokenAddress: '0xc95ab9eff8fb48760703c74416764b8f898afa1b',
   },
+  {
+    beraRewardsVault: '0x5ecefd0f14b0085d5ec3600fd1a97fa1366f97d9',
+    slug: 'webera-vault-ibera',
+    stakeTokenAddress: '0x396a3d0b799b1a0b1eaa17e75b4dea412400860b',
+  },
+  {
+    beraRewardsVault: '0x5e747644dd7a3e58485db8e836ca7654242dae2a',
+    slug: 'webera-vault-wbera',
+    stakeTokenAddress: '0x55a050f76541c2554e9dfa3a0b4e665914bf92ea',
+  },
 ]
