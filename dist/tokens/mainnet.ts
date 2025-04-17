@@ -149,7 +149,7 @@ export const tokens = [
   {
     address: '0x009af46Df68DB0E76BFe9EA35663f6Ed17877956',
     decimals: 18,
-    image: 'ooga.webp',
+    image: 'ooga.svg',
     name: 'Ooga Token',
     symbol: 'OOGA',
   },
