@@ -384,4 +384,29 @@ export const vaults = [
     slug: 'wasabi-swbera',
     stakeTokenAddress: '0xc95ab9eff8fb48760703c74416764b8f898afa1b',
   },
+  {
+    beraRewardsVault: '0x8412561FADDD6C85F5a17e07E0F29428B813E69B',
+    slug: 'beradrome-henlocker100m',
+    stakeTokenAddress: '0xC857F2bA47B0560E0B8fCd4Dd82b943B5ee88d2b',
+  },
+  {
+    beraRewardsVault: '0xA713816E8d190EFdf35d66b723eb63f8c8c4d5D2',
+    slug: 'beradrome-henlocker330m',
+    stakeTokenAddress: '0x94CA1028eE60E5B28CdA22c0e7b6743017a9B7b6',
+  },
+  {
+    beraRewardsVault: '0x15970fcf2dbb9FfCC4e2f79c3Fd777B871540D5b',
+    slug: 'beradrome-henlocker420m',
+    stakeTokenAddress: '0x94b12404D6163c3E49ED876fb25034A946A40Dd8',
+  },
+  {
+    beraRewardsVault: '0x610b6A27A3A83Cea0574C5001F30d9EEA3699b1a',
+    slug: 'beradrome-henlocker690m',
+    stakeTokenAddress: '0x872130cED110e2a4325693C0802B6A0112B3615B',
+  },
+  {
+    beraRewardsVault: '0xA6A3E6fb89FA4C6554e82D05b449639EeBfc564f',
+    slug: 'beradrome-henlocker1b',
+    stakeTokenAddress: '0xFb32f8c7D363790A6CCd89f8d20047612aba633B',
+  },
 ]
