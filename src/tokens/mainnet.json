@@ -1342,6 +1342,186 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
+      "address": "0x069cA0e214152aC4f4814493fBE0Ef2ad973129A",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-wbtc-bera",
+      "protocol": "beefy",
+      "name": "Moo Kodiak WBTC-WBERA",
+      "symbol": "mooKodiakWBTC-WBERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xF06EA29FCF4765200742d29E685973a1870EaC98"
+      ]
+    },
+    {
+      "address": "0x0eC5AC8d9614006853fcDC5FBB6Fa5bced701827",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-bera-ibera",
+      "protocol": "beefy",
+      "name": "Moo Kodiak WBERA-iBERA",
+      "symbol": "mooKodiakWBERA-iBERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xE3EeB9e48934634d8B5B39A0d15DD89eE0F969C4"
+      ]
+    },
+    {
+      "address": "0x189518d8130060C75072c954caf962D12EeA19F8",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-bera-nav",
+      "protocol": "beefy",
+      "name": "Moo Kodiak NAV-BERA",
+      "symbol": "mooKodiakNAV-BERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xEf8C3239E0D8Be9d58f145E18F5909Ddad681365"
+      ]
+    },
+    {
+      "address": "0x2b59b672569A6bb4D0058b569a13aF87c6bB9a3b",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-ohm-honey",
+      "protocol": "beefy",
+      "name": "Moo Kodiak OHM-HONEY",
+      "symbol": "mooKodiakOHM-HONEY",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x98bDEEde9A45C28d229285d9d6e9139e9F505391"
+      ]
+    },
+    {
+      "address": "0x3bAFeB462E27154CBc58405355E71e85c091F0A4",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/beraswap-byusd-honey",
+      "protocol": "beefy",
+      "name": "Moo Beraswap Berachain BYUSD/HONEY",
+      "symbol": "mooBeraswapBerachainBYUSD/HONEY",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8"
+      ]
+    },
+    {
+      "address": "0x65d17B3fFea64602B0014659141a2Cd530aBadd1",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/beraswap-wbera-honey",
+      "protocol": "beefy",
+      "name": "Moo Beraswap Berachain WBERA/HONEY",
+      "symbol": "mooBeraswapBerachainWBERA/HONEY",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x2c4a603A2aA5596287A06886862dc29d56DbC354"
+      ]
+    },
+    {
+      "address": "0x7d3b4317F7b9d3B677163E3543fafa694Ad8BD06",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/beraswap-ibera-wbera",
+      "protocol": "beefy",
+      "name": "Moo Infrared Berachain iBERA/WBERA",
+      "symbol": "mooInfraredBerachainiBERA/WBERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x62C030B29a6Fef1B32677499e4a1F1852a8808c0"
+      ]
+    },
+    {
+      "address": "0x816716ebDB0D4c882d364C61aD3373eEAD91C86a",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/beraswap-wbera-wbtc",
+      "protocol": "beefy",
+      "name": "Moo Beraswap Berachain WBERA/WBTC",
+      "symbol": "mooBeraswapBerachainWBERA/WBTC",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x38fdD999Fe8783037dB1bBFE465759e312f2d809"
+      ]
+    },
+    {
+      "address": "0x873629E73CD5FAc9e3Ee1963A796Ad0aBDf17542",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/beraswap-usdc.e-honey",
+      "protocol": "beefy",
+      "name": "Moo Beraswap Berachain USDC.e/HONEY",
+      "symbol": "mooBeraswapBerachainUSDC.e/HONEY",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621"
+      ]
+    },
+    {
+      "address": "0x9AA6183B8E1148969b082B5585b8A7021fA1b6ce",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-bera-bm",
+      "protocol": "beefy",
+      "name": "Moo Kodiak bm-BERA",
+      "symbol": "mooKodiak-bm-BERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x0FD67ac75F9DF51f5d81F582417B318F44b45f5c"
+      ]
+    },
+    {
+      "address": "0x9f841372612E0106Cd540AB976656cDd8F1553C5",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/beraswap-wbera-weth",
+      "protocol": "beefy",
+      "name": "Moo Beraswap Berachain WBERA/WETH",
+      "symbol": "mooBeraswapBerachainWBERA/WETH",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4"
+      ]
+    },
+    {
+      "address": "0xd16fA9b21786F8F23b9DEaC61197830E0e15752b",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/infrared-ibgt",
+      "protocol": "beefy",
+      "name": "Moo Infrared Berachain iBGT",
+      "symbol": "mooInfraredBerachainiBGT",
+      "type": "vault",
+      "underlyingTokens": [
+        "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"
+      ]
+    },
+    {
+      "address": "0xd171365adfA3427e0d069677EB67264c183CD03c",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-usdbr-honey",
+      "protocol": "beefy",
+      "name": "Moo Kodiak USDbr-HONEY",
+      "symbol": "mooKodiakUSDbr-HONEY",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x28a54EaeEc63fBb1175d13466a9ada5f3175D577"
+      ]
+    },
+    {
+      "address": "0xe35395eFe6A5eF7b01b9104B36710d73e7D67cb3",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-bera-honey",
+      "protocol": "beefy",
+      "name": "Moo Kodiak WBERA-HONEY",
+      "symbol": "mooKodiakWBERA-HONEY",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da"
+      ]
+    },
+    {
+      "address": "0xf26066a8Ef7c49a150Ef33E3adD6889a9d85e07E",
+      "decimals": 18,
+      "mintUrl": "https://app.beefy.finance/vaults/kodiak-bera-ibgt",
+      "protocol": "beefy",
+      "name": "Moo Kodiak WBERA-iBGT",
+      "symbol": "mooKodiakWBERA-iBGT",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x564f011D557aAd1cA09BFC956Eb8a17C35d490e0"
+      ]
     }
   ]
 }

@@ -111,6 +111,14 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
+    },
+    {
+      "description": "Multichain Yield Optimizer",
+      "id": "beefy",
+      "imageDark": "beefy-dark.svg",
+      "imageLight": "beefy-light.svg",
+      "name": "Beefy",
+      "url": "https://beefy.com"
     }
   ]
 }
