@@ -282,7 +282,7 @@ export const tokens = [
   {
     address: '0xC99e948E9D183848a6c4F5E6C1d225F02f171d79',
     decimals: 18,
-    image: 'pollen.webp',
+    image: 'pollen.svg',
     name: 'POLLEN',
     symbol: 'POLLEN',
   },
