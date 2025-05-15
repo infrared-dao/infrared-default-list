@@ -372,6 +372,13 @@
       "symbol": "xSolvBTC"
     },
     {
+      "address": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B",
+      "decimals": 18,
+      "image": "solvbtcbera.svg",
+      "name": "SolvBTC.Bera",
+      "symbol": "SolvBTC.Bera"
+    },
+    {
       "address": "0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4",
       "decimals": 18,
       "image": "ybera.svg",

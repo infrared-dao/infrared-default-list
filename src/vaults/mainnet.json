@@ -371,6 +371,11 @@
       "stakeTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790"
     },
     {
+      "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
+      "slug": "SolvBTC.Bera",
+      "stakeTokenAddress": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B"
+    },
+    {
       "beraRewardsVault": "0xCf77d23cFC561E34e3b6137C736EA5CB395BcDA0",
       "slug": "kodiak-stbgt-wbera",
       "stakeTokenAddress": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343"
