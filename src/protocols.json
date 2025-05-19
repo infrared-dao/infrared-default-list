@@ -84,6 +84,14 @@
       "url": "https://dolomite.io"
     },
     {
+      "description": "Elixir is the most widely adopted network for RWAs: exclusively bringing funds from BlackRock, Hamilton Lane, Apollo and others to DeFi.",
+      "id": "elixir",
+      "imageDark": "elixir.svg",
+      "imageLight": "elixir.svg",
+      "name": "Elixir",
+      "url": "https://elixir.xyz"
+    },
+    {
       "description": "Ether.fi Liquid vaults offer automated DeFi strategies.",
       "id": "etherfi",
       "imageDark": "etherfi.svg",

@@ -994,6 +994,17 @@
       "underlyingTokens": ["0x09D4214C03D01F49544C0448DBE3A27f768F2b34"]
     },
     {
+      "address": "0xF2bEa39f04Fb7A8fA4A404F013650f2A4f0b0c57",
+      "decimals": 18,
+      "image": "dsdeusd.svg",
+      "mintUrl": "https://app.dolomite.io/balances",
+      "name": "dsdeUSD",
+      "protocol": "dolomite",
+      "symbol": "dsdeUSD",
+      "type": "cdp",
+      "underlyingTokens": ["0xAF51434Ac57f05e0Bc397739c15CF653dbdBd86D"]
+    },
+    {
       "address": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
       "decimals": 8,
       "image": "dunibtc.svg",
