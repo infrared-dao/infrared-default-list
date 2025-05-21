@@ -101,6 +101,14 @@
       "url": "https://app.euler.finance"
     },
     {
+      "description": "Goldilocks is a DAO committed to building defi insfrastructure on Berachain.",
+      "id": "goldilocks",
+      "imageDark": "goldilocks.svg",
+      "imageLight": "goldilocks.svg",
+      "name": "Goldilocks",
+      "url": "https://www.goldilocksdao.io/"
+    },
+    {
       "description": "Infrared simplifies interacting with Proof of Liquidity with our liquid staking products.",
       "id": "infrared",
       "imageDark": "infrared.svg",
