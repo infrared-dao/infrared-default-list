@@ -589,6 +589,11 @@
       "beraRewardsVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "slug": "webera-wewbera",
       "stakeTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea"
+    },
+    {
+      "beraRewardsVault": "0xf5049dd5b043e8af5758c03ff0cf80626ffef6df",
+      "slug": "mead-honey",
+      "stakeTokenAddress": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab"
     }
   ]
 }

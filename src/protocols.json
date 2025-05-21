@@ -155,6 +155,14 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
+    },
+    {
+      "description": "Earn yield. Stay liquid. Leverage your liquidity provision, borrow, and lend.",
+      "id": "roots",
+      "imageDark": "roots.svg",
+      "imageLight": "roots.svg",
+      "name": "Roots",
+      "url": "https://rootsfi.com/"
     }
   ]
 }
