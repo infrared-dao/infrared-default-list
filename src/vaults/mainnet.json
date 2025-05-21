@@ -35,6 +35,11 @@
       "slug": "bex-ibera-wgbera",
       "stakeTokenAddress": "0x5BC9C1C2a387b7048F915e30bc3AA7820c9c67c3"
     },
+  {
+      "beraRewardsVault": "0xf5049dd5b043e8af5758c03ff0cf80626ffef6df",
+      "slug": "bex-mead-honey",
+      "stakeTokenAddress": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab"
+    },    
     {
       "beraRewardsVault": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
       "slug": "bex-usdc.e-honey",
