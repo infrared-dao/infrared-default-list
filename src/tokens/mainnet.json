@@ -190,10 +190,10 @@
       "symbol": "LBTC"
     },
     {
-      "address": "0xEDB5180661F56077292C92Ab40B1AC57A279a396",
+      "address": "0xedb5180661f56077292c92ab40b1ac57a279a396",
       "decimals": 18,
       "image": "mead.svg",
-      "name": "Roots Stable",
+      "name": "MEAD",
       "symbol": "MEAD"
     },
     {
@@ -414,13 +414,6 @@
       "symbol": "YEET"
     },
     {
-      "address": "0xedb5180661f56077292c92ab40b1ac57a279a396",
-      "decimals": 18,
-      "image": "mead.svg",
-      "name": "MEAD",
-      "symbol": "MEAD"
-    },
-    {
       "address": "0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
       "decimals": 18,
       "image": "wbera-henlo.svg",
@@ -530,7 +523,7 @@
       "symbol": "MEAD-HONEY-STABLE",
       "type": "amm",
       "underlyingTokens": [
-        "0xEDB5180661F56077292C92Ab40B1AC57A279a396",
+        "0xedb5180661f56077292c92ab40b1ac57a279a396",
         "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
     },

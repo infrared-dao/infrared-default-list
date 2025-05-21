@@ -117,6 +117,14 @@
       "url": "https://app.kodiak.finance"
     },
     {
+      "description": "Earn yield. Stay liquid. Leverage your liquidity provision, borrow, and lend.",
+      "id": "roots",
+      "imageDark": "roots.svg",
+      "imageLight": "roots.svg",
+      "name": "Roots",
+      "url": "https://rootsfi.com/"
+    },
+    {
       "description": "Solv Protocol (SOLV) is a decentralized finance platform designed to unlock the earning potential of Bitcoin",
       "id": "solv",
       "imageDark": "solv-dark.svg",
@@ -155,14 +163,6 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
-    },
-    {
-      "description": "Earn yield. Stay liquid. Leverage your liquidity provision, borrow, and lend.",
-      "id": "roots",
-      "imageDark": "roots.svg",
-      "imageLight": "roots.svg",
-      "name": "Roots",
-      "url": "https://rootsfi.com/"
     }
   ]
 }
