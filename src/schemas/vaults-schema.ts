@@ -1,9 +1,16 @@
-import { string, type InferOutput, array, strictObject } from 'valibot'
+import {
+  string,
+  type InferOutput,
+  array,
+  strictObject,
+  optional,
+} from 'valibot'
 
 import { AddressSchema } from './address-schema'
 
 export const DefaultListVaultSchema = strictObject({
   beraRewardsVault: AddressSchema,
+  isReplacedBy: optional(AddressSchema),
   slug: string(),
   stakeTokenAddress: AddressSchema,
 })

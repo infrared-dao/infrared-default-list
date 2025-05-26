@@ -28,6 +28,7 @@ export type DefaultListBasicToken = InferOutput<
 export const DefaultListTokenWithUnderlyingSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
+  isReplacedBy: optional(AddressSchema),
   mintUrl: pipe(string(), nonEmpty('Please enter a mintUrl'), url()),
   protocol: string(),
   type: picklist(['amm', 'cdp', 'perpetuals', 'unknown', 'vault']),

@@ -62,6 +62,7 @@
     },
     {
       "beraRewardsVault": "0x9c392eDdF43CDff2C537Fa94169016Cfa1A1589f",
+      "isReplacedBy": "0x92aF7d5fcDEF44C3df168ecfDCd03deA1807AF28",
       "slug": "bex-wbera-ibera-legacy-1",
       "stakeTokenAddress": "0x4d0aC0ea757F0bb338457C7A135C41FC732CA67d"
     },

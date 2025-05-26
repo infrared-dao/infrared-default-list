@@ -573,6 +573,7 @@
       "address": "0x4d0aC0ea757F0bb338457C7A135C41FC732CA67d",
       "decimals": 18,
       "image": "wbera-ibera.svg",
+      "isReplacedBy": "0x62C030B29a6Fef1B32677499e4a1F1852a8808c0",
       "mintUrl": "https://hub.berachain.com/pools/0x4d0ac0ea757f0bb338457c7a135c41fc732ca67d000200000000000000000005/details",
       "name": "WBERA-iBERA",
       "protocol": "bex",
