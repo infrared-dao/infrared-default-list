@@ -576,6 +576,11 @@
       "stakeTokenAddress": "0xd948212f077e552533158becbc1882c1b19c40fe"
     },
     {
+  "beraRewardsVault": "0x39b08cCbdfD9B0D3C45F1FD02E9b57B44C88ed71",
+  "slug": "osbgt-ewbera-4",
+  "stakeTokenAddress": "0x0B77545A4EB1B995e79BF85e0ed8d6Ee288ca632"
+},
+    {
       "beraRewardsVault": "0x4eA84882228a5C881675151E951235e45256a484",
       "slug": "wasabi-swbera",
       "stakeTokenAddress": "0xc95ab9eff8fb48760703c74416764b8f898afa1b"
