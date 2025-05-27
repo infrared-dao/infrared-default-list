@@ -589,6 +589,11 @@
       "beraRewardsVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "slug": "webera-wewbera",
       "stakeTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea"
+    },
+    {
+      "beraRewardsVault": "0x576374e222ec51608f9631f074536b9f897d2638",
+      "slug": "BurrBear-WBTC-SolvBTC-xSolvBTC",
+      "stakeTokenAddress": "0xcbef1b65399065c2de2c495971e90466ff38f2d0"
     }
   ]
 }
