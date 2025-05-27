@@ -1098,11 +1098,11 @@
     {
       "address": "0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0",
       "decimals": 18,
-      "image": "ewbera4.png",
+      "image": "ewbera-4.svg",
       "mintUrl": "https://app.euler.finance/vault/0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0?network=berachain",
-      "name": "EWBERA-4",
-      "protocol": "Euler",
-      "symbol": "EWBERA-4",
+      "name": "eWBERA-4",
+      "protocol": "euler",
+      "symbol": "eWBERA-4",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     },
