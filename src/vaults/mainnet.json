@@ -551,6 +551,11 @@
       "stakeTokenAddress": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1"
     },
     {
+      "beraRewardsVault": "0x39b08cCbdfD9B0D3C45F1FD02E9b57B44C88ed71",
+      "slug": "osbgt-ewbera-4",
+      "stakeTokenAddress": "0x0B77545A4EB1B995e79BF85e0ed8d6Ee288ca632"
+    },
+    {
       "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
       "slug": "solv-solvbtc.bera",
       "stakeTokenAddress": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B"
@@ -575,11 +580,6 @@
       "slug": "wasabi-shoney",
       "stakeTokenAddress": "0xd948212f077e552533158becbc1882c1b19c40fe"
     },
-    {
-  "beraRewardsVault": "0x39b08cCbdfD9B0D3C45F1FD02E9b57B44C88ed71",
-  "slug": "osbgt-ewbera-4",
-  "stakeTokenAddress": "0x0B77545A4EB1B995e79BF85e0ed8d6Ee288ca632"
-},
     {
       "beraRewardsVault": "0x4eA84882228a5C881675151E951235e45256a484",
       "slug": "wasabi-swbera",
