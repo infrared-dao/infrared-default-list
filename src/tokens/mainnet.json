@@ -1983,6 +1983,21 @@
       "symbol": "weWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
+      "address": "0xcbef1b65399065c2de2c495971e90466ff38f2d0",
+      "decimals": 18,
+      "image": "wbtc-solvbtc-xsolvbtc.svg",
+      "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xcbef1b65399065c2de2c495971e90466ff38f2d000000000000000000000001e/add-liquidity",
+      "name": "WBTC/solvBTC/xSolvBTC",
+      "protocol": "burrbear",
+      "symbol": "WBTC/solvBTC/xSolvBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+        "0xcc0966d8418d412c599a6421b760a847eb169a8c"
+      ]
     }
   ]
 }
