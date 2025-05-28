@@ -1141,6 +1141,7 @@
     {
       "address": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
       "decimals": 18,
+      "image": "",
       "mintUrl": "https://app.euler.finance/vault/0xcaa70d2aa873ef057980844e18d9a9560bdffcc0?network=berachain",
       "name": "eWBERA-4",
       "protocol": "euler",
