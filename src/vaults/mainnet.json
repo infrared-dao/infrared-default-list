@@ -281,11 +281,6 @@
       "stakeTokenAddress": "0x112b77a77753b092306b1c04bd70215fed4e00a1"
     },
     {
-      "beraRewardsVault": "0xeee277a91f9f50cda5d188522c921820a848cd99",
-      "slug": "goldilocks-oribgt-oribgtot",
-      "stakeTokenAddress": "0xdb78b4166580917c9604f8ddfbea5f49b493845c"
-    },
-    {
       "beraRewardsVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
       "slug": "infrared-ibgt",
       "stakeTokenAddress": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b"
@@ -574,6 +569,11 @@
       "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
       "slug": "solv-solvbtc.bera",
       "stakeTokenAddress": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b"
+    },
+    {
+      "beraRewardsVault": "0xeee277a91f9f50cda5d188522c921820a848cd99",
+      "slug": "steer-oribgt-oribgtot",
+      "stakeTokenAddress": "0xdb78b4166580917c9604f8ddfbea5f49b493845c"
     },
     {
       "beraRewardsVault": "0x5ab58fd0c6e74ae10a74a5fd43e5b6d26e46a18f",
