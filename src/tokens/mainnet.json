@@ -1147,7 +1147,7 @@
       "symbol": "eWBERA-4",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },    
+    },
     {
       "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
       "decimals": 18,
