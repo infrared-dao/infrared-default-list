@@ -498,7 +498,7 @@
       "symbol": "WBERA",
       "type": "unknown",
       "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
-    },    
+    },
     {
       "address": "0x53f786662ff5fbec135f913ab93c6b3366e90a46",
       "decimals": 18,
