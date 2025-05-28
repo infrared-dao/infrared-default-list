@@ -1135,9 +1135,20 @@
       "name": "eNECT",
       "protocol": "euler",
       "symbol": "eNECT-1",
-      "type": "vault",
+      "type": "cdp",
       "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
     },
+    {
+      "address": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
+      "decimals": 18,
+      "image": "ewbera-4.svg",
+      "mintUrl": "https://app.euler.finance/vault/0xcaa70d2aa873ef057980844e18d9a9560bdffcc0?network=berachain",
+      "name": "eWBERA-4",
+      "protocol": "euler",
+      "symbol": "eWBERA-4",
+      "type": "cdp",
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },    
     {
       "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
       "decimals": 18,
