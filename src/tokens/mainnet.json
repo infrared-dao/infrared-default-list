@@ -1284,7 +1284,7 @@
       "decimals": 18,
       "image": "ewbera4-osbgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632?chain=berachain_mainnet",
-      "name": "eWBERA4-osBGT",
+      "name": "eWBERA-4-osBGT",
       "protocol": "kodiak",
       "symbol": "KODI eWBERA-4-osBGT",
       "type": "amm",
