@@ -326,6 +326,11 @@
       "stakeTokenAddress": "0x5e4fe86c4f6fb2203fbfb77fd6ec3cb300b639aa"
     },
     {
+      "beraRewardsVault": "0x39b08ccbdfd9b0d3c45f1fd02e9b57b44c88ed71",
+      "slug": "kodiak-ewbera-4-osbgt",
+      "stakeTokenAddress": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0"
+    },
+    {
       "beraRewardsVault": "0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4",
       "slug": "kodiak-ezeth-weth",
       "stakeTokenAddress": "0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865"
