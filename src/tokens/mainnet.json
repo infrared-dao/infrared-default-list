@@ -365,13 +365,6 @@
       "symbol": "USDe"
     },
     {
-      "address": "0x6969696969696969696969696969696969696969",
-      "decimals": 18,
-      "image": "wbera.svg",
-      "name": "WBERA",
-      "symbol": "WBERA"
-    },
-    {
       "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
       "decimals": 8,
       "image": "wbtc.svg",
@@ -495,6 +488,17 @@
       "type": "cdp",
       "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
     },
+    {
+      "address": "0x6969696969696969696969696969696969696969",
+      "decimals": 18,
+      "image": "wbera.svg",
+      "mintUrl": "https://hub.berachain.com/swap",
+      "name": "WBERA",
+      "protocol": "berachain",
+      "symbol": "WBERA",
+      "type": "unknown",
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
+    },    
     {
       "address": "0x53f786662ff5fbec135f913ab93c6b3366e90a46",
       "decimals": 18,
@@ -1131,7 +1135,7 @@
       "name": "eNECT",
       "protocol": "euler",
       "symbol": "eNECT-1",
-      "type": "cdp",
+      "type": "vault",
       "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
     },
     {
@@ -1959,7 +1963,7 @@
       "name": "SolvBTC.BERA",
       "protocol": "solv",
       "symbol": "SolvBTC.BERA",
-      "type": "vault",
+      "type": "unknown",
       "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     },
     {
