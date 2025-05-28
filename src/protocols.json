@@ -109,14 +109,6 @@
       "url": "https://app.euler.finance"
     },
     {
-      "description": "Goldilocks is a DAO committed to building defi insfrastructure on Berachain.",
-      "id": "goldilocks",
-      "imageDark": "goldilocks.svg",
-      "imageLight": "goldilocks.svg",
-      "name": "Goldilocks",
-      "url": "https://www.goldilocksdao.io/"
-    },
-    {
       "description": "Infrared simplifies interacting with Proof of Liquidity with our liquid staking products.",
       "id": "infrared",
       "imageDark": "infrared.svg",
@@ -139,6 +131,14 @@
       "imageLight": "solv-light.svg",
       "name": "Solv Protocol",
       "url": "https://solv.finance/"
+    },
+    {
+      "description": "Enterprise‑grade vaults, liquidity engines, and AI policy tools powering 1000+ tokens across 40+ chains.",
+      "id": "steer",
+      "imageDark": "steer.svg",
+      "imageLight": "steer.svg",
+      "name": "Steer",
+      "url": "https://app.steer.finance"
     },
     {
       "description": "Wasabee is a DEX from Honeypot Finance powered by Algebra",
