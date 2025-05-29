@@ -106,9 +106,9 @@
       "stakeTokenAddress": "0xcffbfd665bedb19b47837461a5abf4388c560d35"
     },
     {
-      "beraRewardsVault": "0x7E6E4DacFF9aB49804667e1d7B76E921a8fbBE44",
+      "beraRewardsVault": "0x7e6e4dacff9ab49804667e1d7b76e921a8fbbe44",
       "slug": "bullish-bullishv2",
-      "stakeTokenAddress": "0xdDD3Ea5De9c70973E224D938B8f392EC4CC0171C"
+      "stakeTokenAddress": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c"
     },
     {
       "beraRewardsVault": "0x9bc3d407d930910a7af515d473ce9633624c1574",

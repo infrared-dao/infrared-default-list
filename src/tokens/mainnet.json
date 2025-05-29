@@ -92,11 +92,13 @@
       "symbol": "BREAD"
     },
     {
-      "address": "0xdDD3Ea5De9c70973E224D938B8f392EC4CC0171C",
+      "address": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c",
       "decimals": 18,
-      "image": "bullishv2.svg",
-      "name": "Bull Ish v2",
-      "symbol": "BULL ISH V2"
+      "image": "bull-ish-v2.svg",
+      "name": "BULL ISH V2",
+      "protocol": "bullish",
+      "symbol": "BULL ISH V2",
+      "type": "game-reward"
     },
     {
       "address": "0x28e0e3b9817012b356119df9e217c25932d609c2",
