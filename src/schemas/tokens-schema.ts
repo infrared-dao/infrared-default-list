@@ -30,7 +30,9 @@ export const DefaultListBasicTokenSchema = strictObject({
   decimals: number(),
   image: string(),
   name: string(),
+  protocol: optional(ProtocolSchema),
   symbol: string(),
+  type: optional(TokenTypeSchema),
 })
 export type DefaultListBasicToken = InferOutput<
   typeof DefaultListBasicTokenSchema
