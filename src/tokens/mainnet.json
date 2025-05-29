@@ -99,6 +99,13 @@
       "symbol": "BURR"
     },
     {
+      "address": "0xdDD3Ea5De9c70973E224D938B8f392EC4CC0171C",
+      "decimals": 18,
+      "image": "bullishv2.svg",
+      "name": "Bull Ish v2",
+      "symbol": "BULL ISH V2"
+    },
+    {
       "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
       "decimals": 6,
       "image": "byusd.svg",
