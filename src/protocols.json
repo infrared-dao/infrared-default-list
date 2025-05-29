@@ -44,10 +44,10 @@
     {
       "description": "A minigame for BULLAS NFT holders and farming opportunities",
       "id": "bullish",
-      "imageDark": "bullish.png",
-      "imageLight": "bullish.png",
-      "name": "Bullish",
-      "url": "https://game.bullas.xyz/"
+      "imageDark": "bullish-dark.svg",
+      "imageLight": "bullish-light.svg",
+      "name": "Bull ish",
+      "url": "https://game.bullas.xyz"
     },
     {
       "description": "Swap tokens and manage your assets on BurrBear Protocol.",
