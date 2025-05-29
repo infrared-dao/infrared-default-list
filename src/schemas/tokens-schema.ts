@@ -15,6 +15,15 @@ import {
 
 import { AddressSchema } from './address-schema'
 
+const ProtocolSchema = string()
+const TokenTypeSchema = picklist([
+  'amm',
+  'cdp',
+  'perpetuals',
+  'unknown',
+  'vault',
+])
+
 export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
   decimals: number(),
@@ -29,8 +38,8 @@ export const DefaultListTokenWithUnderlyingSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
   mintUrl: pipe(string(), nonEmpty('Please enter a mintUrl'), url()),
-  protocol: string(),
-  type: picklist(['amm', 'cdp', 'perpetuals', 'unknown', 'vault']),
+  protocol: ProtocolSchema,
+  type: TokenTypeSchema,
   underlyingTokens: array(AddressSchema),
 })
 export type DefaultListTokenWithUnderlying = InferOutput<
