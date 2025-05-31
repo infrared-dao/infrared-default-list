@@ -19,8 +19,8 @@ const ProtocolSchema = string()
 const TokenTypeSchema = picklist([
   'amm',
   'cdp',
-  'game-reward',
   'perpetuals',
+  'points',
   'unknown',
   'vault',
 ])
