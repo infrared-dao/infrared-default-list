@@ -31,7 +31,7 @@ const validateStakeTokenAndSlug = ({
     return
   }
 
-  if (!('protocol' in stakeToken)) {
+  if (!('protocol' in stakeToken) || !stakeToken.protocol) {
     errors.push(
       `${stakeToken.name} does not have a protocol (vault validation)`,
     )

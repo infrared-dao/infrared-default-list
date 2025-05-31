@@ -14,7 +14,7 @@ export const sortTokens = async ({
   const sortedTokens = tokens.sort((a, b) => {
     if (Object.prototype.hasOwnProperty.call(a, 'underlyingTokens')) {
       if (Object.prototype.hasOwnProperty.call(b, 'underlyingTokens')) {
-        if ('protocol' in a && 'protocol' in b) {
+        if ('protocol' in a && a.protocol && 'protocol' in b && b.protocol) {
           return (
             a.protocol.localeCompare(b.protocol) ||
             a.name.localeCompare(b.name) ||

@@ -106,6 +106,11 @@
       "stakeTokenAddress": "0xcffbfd665bedb19b47837461a5abf4388c560d35"
     },
     {
+      "beraRewardsVault": "0x7e6e4dacff9ab49804667e1d7b76e921a8fbbe44",
+      "slug": "bullish-bull-ish-v2",
+      "stakeTokenAddress": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c"
+    },
+    {
       "beraRewardsVault": "0x9bc3d407d930910a7af515d473ce9633624c1574",
       "slug": "burrbear-burr-wgbera",
       "stakeTokenAddress": "0xac8a437d1e6905e419431662aead90fb04ac3008"
