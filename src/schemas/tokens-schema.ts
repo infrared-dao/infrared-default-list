@@ -29,6 +29,7 @@ export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
   decimals: number(),
   image: string(),
+  isTransferable: optional(boolean()),
   name: string(),
   protocol: optional(ProtocolSchema),
   symbol: string(),

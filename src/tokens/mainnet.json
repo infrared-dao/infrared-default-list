@@ -95,6 +95,7 @@
       "address": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c",
       "decimals": 18,
       "image": "bull-ish-v2.svg",
+      "isTransferable": false,
       "name": "BULL ISH V2",
       "protocol": "bullish",
       "symbol": "BULL ISH V2",
