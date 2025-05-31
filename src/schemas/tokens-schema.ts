@@ -1,16 +1,16 @@
 import {
-  number,
-  string,
-  type InferOutput,
   array,
-  url,
+  boolean,
+  nonEmpty,
+  number,
+  optional,
   picklist,
   pipe,
-  nonEmpty,
   strictObject,
+  string,
+  type InferOutput,
   union,
-  boolean,
-  optional,
+  url,
 } from 'valibot'
 
 import { AddressSchema } from './address-schema'
