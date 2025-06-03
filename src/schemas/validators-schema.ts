@@ -1,6 +1,6 @@
-import { string, type InferOutput, array, strictObject } from 'valibot'
+import { array, object, type InferOutput, string } from 'valibot'
 
-export const DefaultListValidatorSchema = strictObject({
+export const DefaultListValidatorSchema = object({
   name: string(),
 })
 export type DefaultListValidator = InferOutput<

@@ -1,15 +1,15 @@
 import {
-  string,
-  type InferOutput,
   array,
-  optional,
-  strictObject,
-  pipe,
+  type InferOutput,
   nonEmpty,
+  object,
+  optional,
+  pipe,
+  string,
   url,
 } from 'valibot'
 
-export const DefaultListProtocolSchema = strictObject({
+export const DefaultListProtocolSchema = object({
   description: string(),
   id: string(),
   imageDark: string(),

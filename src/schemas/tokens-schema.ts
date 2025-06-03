@@ -1,21 +1,21 @@
 import {
-  number,
-  string,
-  type InferOutput,
   array,
-  url,
+  boolean,
+  type InferOutput,
+  nonEmpty,
+  number,
+  object,
+  optional,
   picklist,
   pipe,
-  nonEmpty,
-  strictObject,
+  string,
   union,
-  boolean,
-  optional,
+  url,
 } from 'valibot'
 
 import { AddressSchema } from './address-schema'
 
-export const DefaultListBasicTokenSchema = strictObject({
+export const DefaultListBasicTokenSchema = object({
   address: AddressSchema,
   decimals: number(),
   image: string(),
@@ -25,7 +25,7 @@ export const DefaultListBasicTokenSchema = strictObject({
 export type DefaultListBasicToken = InferOutput<
   typeof DefaultListBasicTokenSchema
 >
-export const DefaultListTokenWithUnderlyingSchema = strictObject({
+export const DefaultListTokenWithUnderlyingSchema = object({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
   mintUrl: pipe(string(), nonEmpty('Please enter a mintUrl'), url()),
