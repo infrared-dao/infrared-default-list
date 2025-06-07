@@ -133,6 +133,14 @@
       "url": "https://solv.finance/"
     },
     {
+      "description": "Enterprise‑grade vaults, liquidity engines, and AI policy tools powering 1000+ tokens across 40+ chains.",
+      "id": "steer",
+      "imageDark": "steer.svg",
+      "imageLight": "steer.svg",
+      "name": "Steer",
+      "url": "https://app.steer.finance"
+    },
+    {
       "description": "Wasabee is a DEX from Honeypot Finance powered by Algebra",
       "id": "wasabee",
       "imageDark": "wasabee.svg",
