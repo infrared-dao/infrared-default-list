@@ -1,0 +1,178 @@
+{
+  "vaults": [
+    {
+      "beraRewardsVault": "0xc196d595dece185ea39f8e1c3ce07a274ac31985",
+      "originalSlug": "kodiak-susda-usda",
+      "slug": "kodiak-susda-usda-replaced",
+      "stakeTokenAddress": "0x7cebcc76a2faecc0ae378b340815fcbb71ec1fe0"
+    },
+    {
+      "beraRewardsVault": "0x9136df2daabe52a97340cce8c53d4c1314d52c18",
+      "originalSlug": "dolomite-drusd",
+      "slug": "dolomite-drusd-replaced",
+      "stakeTokenAddress": "0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d"
+    },
+    {
+      "beraRewardsVault": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
+      "originalSlug": "bex-byusd-honey",
+      "slug": "bex-byusd-honey-replaced",
+      "stakeTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8"
+    },
+    {
+      "beraRewardsVault": "0x34852c863d266100f573d4d1fd1d0cfe20602da0",
+      "originalSlug": "kodiak-rusd-honey",
+      "slug": "kodiak-rusd-honey-replaced",
+      "stakeTokenAddress": "0x7fd165b73775884a38aa8f2b384a53a3ca7400e6"
+    },
+    {
+      "beraRewardsVault": "0x0308f87226efacc51983bea842be57dc45de772c",
+      "originalSlug": "kodiak-wbtc-weth",
+      "slug": "kodiak-wbtc-weth-replaced",
+      "stakeTokenAddress": "0x58fdb6eebf7df7ce4137994436fb0e629bb84b84"
+    },
+    {
+      "beraRewardsVault": "0x815596fa7c4d983d1ca5304e5b48978424c1b448",
+      "originalSlug": "kodiak-ohm-honey",
+      "slug": "kodiak-ohm-honey-replaced",
+      "stakeTokenAddress": "0x98bdeede9a45c28d229285d9d6e9139e9f505391"
+    },
+    {
+      "beraRewardsVault": "0xf99be47baf0c22b7eb5eac42c8d91b9942dc7e84",
+      "originalSlug": "bex-usdc.e-honey",
+      "slug": "bex-usdc.e-honey-replaced",
+      "stakeTokenAddress": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621"
+    },
+    {
+      "beraRewardsVault": "0x3fc5cb0290c82680afe9ef8cdde5468d74c85705",
+      "originalSlug": "kodiak-solvbtc-xsolvbtc",
+      "slug": "kodiak-solvbtc-xsolvbtc-replaced",
+      "stakeTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790"
+    },
+    {
+      "beraRewardsVault": "0x8ee2627aff73e285f1a83b6e8bb7e9945f404a1b",
+      "originalSlug": "kodiak-wbtc-unibtc",
+      "slug": "kodiak-wbtc-unibtc-replaced",
+      "stakeTokenAddress": "0xb67d60fc02e0870eddca24d4fa8ea516c890152b"
+    },
+    {
+      "beraRewardsVault": "0x3d0d211365c8a483394426dacd5a73b0154feedb",
+      "originalSlug": "dolomite-dwbera",
+      "slug": "dolomite-dwbera-replaced",
+      "stakeTokenAddress": "0xaa97d791afc02af30cf0b046172bb05b3c306517"
+    },
+    {
+      "beraRewardsVault": "0xc6506d205c92f9acd69779ed0c547557f3ad4607",
+      "originalSlug": "kodiak-weth-honey",
+      "slug": "kodiak-weth-honey-replaced",
+      "stakeTokenAddress": "0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95"
+    },
+    {
+      "beraRewardsVault": "0x9df027ed06635ecdfe811009f2291d347ea90357",
+      "originalSlug": "kodiak-wbtc-honey",
+      "slug": "kodiak-wbtc-honey-replaced",
+      "stakeTokenAddress": "0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf"
+    },
+    {
+      "beraRewardsVault": "0xdb2f42bedc87586c6e4b510cfc4675d6d86ff886",
+      "originalSlug": "dolomite-dweth",
+      "slug": "dolomite-dweth-replaced",
+      "stakeTokenAddress": "0xf7b5127b510e568fdc39e6bb54e2081bfad489af"
+    },
+    {
+      "beraRewardsVault": "0x17376ad6167a5592fbeaa42e6068c132474a513d",
+      "originalSlug": "bex-wbera-weth",
+      "slug": "bex-wbera-weth-replaced",
+      "stakeTokenAddress": "0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4"
+    },
+    {
+      "beraRewardsVault": "0xc2baa8443cda8ebe51a640905a8e6bc4e1f9872c",
+      "originalSlug": "bex-wbera-honey",
+      "slug": "bex-wbera-honey-replaced",
+      "stakeTokenAddress": "0x2c4a603a2aa5596287a06886862dc29d56dbc354"
+    },
+    {
+      "beraRewardsVault": "0x086f82fa0ca310cc835a9db4f53697687ef149c7",
+      "originalSlug": "bex-wbera-wbtc",
+      "slug": "bex-wbera-wbtc-replaced",
+      "stakeTokenAddress": "0x38fdd999fe8783037db1bbfe465759e312f2d809"
+    },
+    {
+      "beraRewardsVault": "0x11fadf69a02340a676b4bd2a27ffd952094fae99",
+      "originalSlug": "kodiak-wbtc-solvbtc",
+      "slug": "kodiak-wbtc-solvbtc-replaced",
+      "stakeTokenAddress": "0x3879451f4f69f0c2d37cad45319cff2e7d29c596"
+    },
+    {
+      "beraRewardsVault": "0xcd1982b07adfa787a88dc1157b9fa3221d25fcaf",
+      "originalSlug": "kodiak-weth-stone",
+      "slug": "kodiak-weth-stone-replaced",
+      "stakeTokenAddress": "0x97431f104be73fc0e6fc731ce84486da05c48871"
+    },
+    {
+      "beraRewardsVault": "0x0ec12590cbb9280ab22b81f62be587c5200a9711",
+      "originalSlug": "dolomite-dhoney",
+      "slug": "dolomite-dhoney-replaced",
+      "stakeTokenAddress": "0x7f2b60fdff1494a0e3e060532c9980d7fad0404b"
+    },
+    {
+      "beraRewardsVault": "0xedd27ce3793d655e3d15e29e297f4848de1ef092",
+      "originalSlug": "kodiak-weth-beraeth",
+      "slug": "kodiak-weth-beraeth-replaced",
+      "stakeTokenAddress": "0x03bccf796cdef61064c4a2effdd21f1ac8c29e92"
+    },
+    {
+      "beraRewardsVault": "0x09b113ae50b5af0988b9a1dc50bfe602e7c24ef7",
+      "originalSlug": "kodiak-susde-honey",
+      "slug": "kodiak-susde-honey-replaced",
+      "stakeTokenAddress": "0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8"
+    },
+    {
+      "beraRewardsVault": "0x19ecf480652a7de3a60dd7fd7012daed6c79e3e9",
+      "originalSlug": "kodiak-beraeth-stone",
+      "slug": "kodiak-beraeth-stone-replaced",
+      "stakeTokenAddress": "0x57161d6272f47cd48ba165646c802f001040c2e0"
+    },
+    {
+      "beraRewardsVault": "0x315d38ee321608cb8520d563750d64ac1bb17344",
+      "originalSlug": "kodiak-usdc.e-honey",
+      "slug": "kodiak-usdc.e-honey-replaced",
+      "stakeTokenAddress": "0xb73dee52f38539ba854979eab6342a60dd4c8c03"
+    },
+    {
+      "beraRewardsVault": "0x75da1d58a8d97f7b626224e7e71fa44db13689f2",
+      "originalSlug": "kodiak-usde-honey",
+      "slug": "kodiak-usde-honey-replaced",
+      "stakeTokenAddress": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9"
+    },
+    {
+      "beraRewardsVault": "0x37ee07f45593762dee5f90a0b77e9e3badf5b1ac",
+      "originalSlug": "kodiak-usd₮0-honey",
+      "slug": "kodiak-usd₮0-honey-replaced",
+      "stakeTokenAddress": "0x12c195768f65f282ea5f1b5c42755fbc910b0d8f"
+    },
+    {
+      "beraRewardsVault": "0x5eadccc8153c423f96433da3fa1288cd621cdd52",
+      "originalSlug": "kodiak-mim-honey",
+      "slug": "kodiak-mim-honey-replaced",
+      "stakeTokenAddress": "0x933b2e6a71edbf11bba75c5ad241d246b145e0b0"
+    },
+    {
+      "beraRewardsVault": "0xc70e2af5eede9431536314bbbdf884e20179e3b7",
+      "originalSlug": "dolomite-dunibtc",
+      "slug": "dolomite-dunibtc-replaced",
+      "stakeTokenAddress": "0xd6eb8ae479edf452d264493708c85aa798cccdfd"
+    },
+    {
+      "beraRewardsVault": "0x7d960f4d9534acb6f0fc963cc807b21655f35c76",
+      "originalSlug": "dolomite-dwbtc",
+      "slug": "dolomite-dwbtc-replaced",
+      "stakeTokenAddress": "0x29cf6e8ecefb8d3c9dd2b727c1b7d1df1a754f6f"
+    },
+    {
+      "beraRewardsVault": "0x9c3110123c515caf1866b28c031dfeb5ed8ebf0c",
+      "originalSlug": "dolomite-dusd₮0",
+      "slug": "dolomite-dusd₮0-replaced",
+      "stakeTokenAddress": "0xf2d2d55daf93b0660297eaa10969ebe90ead5ce8"
+    }
+  ]
+}

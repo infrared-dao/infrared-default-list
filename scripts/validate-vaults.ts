@@ -71,7 +71,7 @@ const validateVaultsByChain = async ({
 
 const validateVaults = async () => {
   const promises = readdirSync(folderPath).map(async (file) => {
-    const chain = file.replace('.json', '')
+    const chain = file.replace('.json', '').replace('-replaced', '')
 
     if (!isValidChain(chain)) {
       throw new Error(`Unsupported chain: ${chain}`)

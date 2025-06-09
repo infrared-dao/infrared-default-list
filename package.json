@@ -27,7 +27,8 @@
     "./schemas/validators": "./src/schemas/validators-schema.ts",
     "./schemas/vaults": "./src/schemas/vaults-schema.ts",
     "./tokens/mainnet": "./src/tokens/mainnet.json",
-    "./vaults/mainnet": "./src/vaults/mainnet.json"
+    "./vaults/mainnet": "./src/vaults/mainnet.json",
+    "./vaults/mainnet-replaced": "./src/vaults/mainnet-replaced.json"
   },
   "scripts": {
     "clean-assets": "svgo -rf src -o src",

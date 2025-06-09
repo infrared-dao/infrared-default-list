@@ -13,7 +13,7 @@ import { sortVaults } from './_/sort-vaults'
 const folderPath = 'src/vaults'
 
 readdirSync(folderPath).forEach(async (file) => {
-  const chain = file.replace('.json', '')
+  const chain = file.replace('.json', '').replace('-replaced', '')
 
   if (!isValidChain(chain)) {
     throw new Error(`Unsupported chain: ${chain}`)
