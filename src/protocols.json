@@ -103,6 +103,14 @@
       "imageLight": "yeet.svg",
       "name": "YEET",
       "url": "https://yeetit.xyz"
+    },
+    {
+      "description": "Beradrome is Berachain’s native restaking & liquidity marketplace",
+      "id": "beradrome",
+      "imageDark": "beradrome.svg",
+      "imageLight": "beradrome.svg",
+      "name": "Beradrome",
+      "url": "https://www.beradrome.com/"
     }
   ]
 }
