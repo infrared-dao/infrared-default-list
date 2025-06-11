@@ -1320,6 +1320,61 @@
       "symbol": "sWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
+      "address": "0xC857F2bA47B0560E0B8fCd4Dd82b943B5ee88d2b",
+      "decimals": 18,
+      "image": "henlo.svg",
+      "mintUrl": "https://www.beradrome.com/farms/0x926Aa5F8Eb3193F853711806D3f7dF3dEba99aAf",
+      "name": "Beradrome HENLOCKED100M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED100M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5"]
+    },
+    {
+      "address": "0x94CA1028eE60E5B28CdA22c0e7b6743017a9B7b6",
+      "decimals": 18,
+      "image": "henlo.svg",
+      "mintUrl": "https://www.beradrome.com/farms/0xB6dF86D016Bb026f7DfD55a6A0361eaB35ee2E7f",
+      "name": "Beradrome HENLOCKED330M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED330M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5"]
+    },
+    {
+      "address": "0x94b12404D6163c3E49ED876fb25034A946A40Dd8",
+      "decimals": 18,
+      "image": "henlo.svg",
+      "mintUrl": "https://www.beradrome.com/farms/0xe909901b40225959972554B0CeBe460b4213d194",
+      "name": "Beradrome HENLOCKED420M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED420M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5"]
+    },
+    {
+      "address": "0x872130cED110e2a4325693C0802B6A0112B3615B",
+      "decimals": 18,
+      "image": "henlo.svg",
+      "mintUrl": "https://www.beradrome.com/farms/0xde67e60209A42D62BB1EBa4878eFC4b3B367c172",
+      "name": "Beradrome HENLOCKED690M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED690M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5"]
+    },
+    {
+      "address": "0xFb32f8c7D363790A6CCd89f8d20047612aba633B",
+      "decimals": 18,
+      "image": "henlo.svg",
+      "mintUrl": "https://www.beradrome.com/farms/0x534B96f6f0B134A9fBb0eAa1881546dfb327B632",
+      "name": "Beradrome HENLOCKED1B",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED1B",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5"]
     }
   ]
 }
