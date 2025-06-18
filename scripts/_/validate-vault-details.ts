@@ -4,6 +4,7 @@ import { type Address, isAddressEqual, type PublicClient } from 'viem'
 import type { DefaultListTokens } from '@/schemas/tokens-schema'
 import type { DefaultListVault } from '@/schemas/vaults-schema'
 
+import { checkUniqueness } from './check-uniqueness'
 import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
@@ -43,7 +44,13 @@ const validateStakeTokenAndSlug = ({
     .toLowerCase()
 
   let expectedSlug = ''
-  if (stakeToken.name.startsWith(stakeToken.protocol)) {
+  const protocol = stakeToken.protocol.toLowerCase()
+  const stakeTokenName = stakeToken.name.toLowerCase()
+  if (
+    stakeTokenName.startsWith(protocol + ' ') ||
+    stakeTokenName.startsWith(protocol + '-') ||
+    stakeTokenName.startsWith(protocol + '_')
+  ) {
     expectedSlug = cleanStakeTokenName
   } else {
     expectedSlug = `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`
@@ -82,12 +89,13 @@ export const validateVaultDetails = async ({
   tokens: DefaultListTokens
   vault: DefaultListVault
 }) => {
-  if (beraRewardsVaults.has(vault.beraRewardsVault)) {
-    errors.push(
-      `Duplicate beraRewardsVault found: ${vault.beraRewardsVault}. beraRewardsVaults must be unique.`,
-    )
-  }
-  beraRewardsVaults.add(vault.beraRewardsVault)
+  checkUniqueness({
+    errors,
+    fieldName: 'beraRewardsVault',
+    set: beraRewardsVaults,
+    value: vault.beraRewardsVault,
+  })
+
   validateStakeTokenAndSlug({ errors, slugs, tokens, vault })
   await validateBeraRewardsVault({
     errors,

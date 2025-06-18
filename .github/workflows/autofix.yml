@@ -7,6 +7,9 @@ permissions:
   checks: write
   contents: write
 
+env:
+  QUICKNODE_TOKEN: ${{ secrets.QUICKNODE_TOKEN }}
+
 jobs:
   autofix:
     name: Lints, handles new assets, and commits changes

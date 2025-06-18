@@ -3,11 +3,24 @@ import {
   type InferOutput,
   nonEmpty,
   optional,
+  picklist,
   pipe,
   strictObject,
   string,
   url,
 } from 'valibot'
+
+export const ProtocolTypeSchema = picklist([
+  'aggregator',
+  'defi',
+  'derivatives',
+  'dex',
+  'lst',
+  'money-market',
+  'yield',
+  'unknown',
+])
+export type ProtocolType = InferOutput<typeof ProtocolTypeSchema>
 
 export const DefaultListProtocolSchema = strictObject({
   description: string(),
@@ -17,7 +30,7 @@ export const DefaultListProtocolSchema = strictObject({
   imageOnTop: optional(string()),
   name: string(),
   prefix: optional(string()),
-  type: string(),
+  type: ProtocolTypeSchema,
   url: pipe(string(), nonEmpty('Please enter a url'), url()),
 })
 export type DefaultListProtocol = InferOutput<typeof DefaultListProtocolSchema>

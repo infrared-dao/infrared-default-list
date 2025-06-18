@@ -98,7 +98,7 @@
       "image": "bull-ish-v2.svg",
       "isSoulbound": true,
       "isUnpriced": true,
-      "mintUrl": "https://game.bullas.xyz/",
+      "mintUrl": "https://game.bullas.xyz",
       "name": "BULL ISH V2",
       "protocol": "bullish",
       "symbol": "BULL ISH V2",
@@ -448,6 +448,13 @@
       "symbol": "YEET"
     },
     {
+      "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+      "decimals": 18,
+      "image": "zero.svg",
+      "name": "Zero",
+      "symbol": "ZERO"
+    },
+    {
       "address": "0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
       "decimals": 18,
       "image": "wbera-beramo.svg",
@@ -522,6 +529,81 @@
       "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
     },
     {
+      "address": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
+      "decimals": 18,
+      "image": "beradrome-henlocked100m.svg",
+      "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isSoulbound": true,
+      "isStakeDisabled": true,
+      "mintUrl": "https://www.beradrome.com/farms/0x926aa5f8eb3193f853711806d3f7df3deba99aaf",
+      "name": "HENLOCKED100M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED100M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+    },
+    {
+      "address": "0xfb32f8c7d363790a6ccd89f8d20047612aba633b",
+      "decimals": 18,
+      "image": "beradrome-henlocked1b.svg",
+      "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isSoulbound": true,
+      "isStakeDisabled": true,
+      "mintUrl": "https://www.beradrome.com/farms/0x534b96f6f0b134a9fbb0eaa1881546dfb327b632",
+      "name": "HENLOCKED1B",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED1B",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+    },
+    {
+      "address": "0x94ca1028ee60e5b28cda22c0e7b6743017a9b7b6",
+      "decimals": 18,
+      "image": "beradrome-henlocked330m.svg",
+      "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isSoulbound": true,
+      "isStakeDisabled": true,
+      "mintUrl": "https://www.beradrome.com/farms/0xb6df86d016bb026f7dfd55a6a0361eab35ee2e7f",
+      "name": "HENLOCKED330M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED330M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+    },
+    {
+      "address": "0x94b12404d6163c3e49ed876fb25034a946a40dd8",
+      "decimals": 18,
+      "image": "beradrome-henlocked420m.svg",
+      "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isSoulbound": true,
+      "isStakeDisabled": true,
+      "mintUrl": "https://www.beradrome.com/farms/0xe909901b40225959972554b0cebe460b4213d194",
+      "name": "HENLOCKED420M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED420M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+    },
+    {
+      "address": "0x872130ced110e2a4325693c0802b6a0112b3615b",
+      "decimals": 18,
+      "image": "beradrome-henlocked690m.svg",
+      "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isSoulbound": true,
+      "isStakeDisabled": true,
+      "mintUrl": "https://www.beradrome.com/farms/0xde67e60209a42d62bb1eba4878efc4b3b367c172",
+      "name": "HENLOCKED690M",
+      "protocol": "beradrome",
+      "symbol": "Beradrome HENLOCKED690M",
+      "type": "unknown",
+      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+    },
+    {
       "address": "0x53f786662ff5fbec135f913ab93c6b3366e90a46",
       "decimals": 18,
       "image": "asugar-honey.svg",
@@ -553,7 +635,7 @@
       "address": "0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3",
       "decimals": 18,
       "image": "ibera-wgbera.svg",
-      "mintUrl": "https://hub.berachain.com/pools/0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3000000000000000000000152/details/",
+      "mintUrl": "https://hub.berachain.com/pools/0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3000000000000000000000152/details",
       "name": "iBERA-wgBERA",
       "protocol": "bex",
       "symbol": "iBERA-wgBERA-STABLE",
@@ -567,7 +649,7 @@
       "address": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab",
       "decimals": 18,
       "image": "mead-honey.svg",
-      "mintUrl": "https://hub.berachain.com/pools/0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab000000000000000000000162/details/",
+      "mintUrl": "https://hub.berachain.com/pools/0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab000000000000000000000162/details",
       "name": "MEAD-HONEY",
       "protocol": "bex",
       "symbol": "MEAD-HONEY-STABLE",
@@ -1120,6 +1202,8 @@
       "decimals": 8,
       "image": "primeliquidberabtc.svg",
       "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isStakeDisabled": true,
       "mintUrl": "https://www.ether.fi/app/liquid/bera-btc",
       "name": "primeLiquidBeraBTC",
       "protocol": "etherfi",
@@ -1132,6 +1216,8 @@
       "decimals": 18,
       "image": "primeliquidberaeth.svg",
       "imageNotFromUnderlying": true,
+      "isNotWorkingWithEnso": true,
+      "isStakeDisabled": true,
       "mintUrl": "https://www.ether.fi/app/liquid/bera-eth",
       "name": "primeLiquidBeraETH",
       "protocol": "etherfi",
@@ -1996,6 +2082,20 @@
       "underlyingTokens": [
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0x091e41545e4a82e08f35bb51850e905537ced72e",
+      "decimals": 18,
+      "image": "zero-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x091e41545e4a82e08f35bb51850e905537ced72e?chain=berachain_mainnet",
+      "name": "ZERO-wBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI ZERO-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+        "0x6969696969696969696969696969696969696969"
       ]
     },
     {

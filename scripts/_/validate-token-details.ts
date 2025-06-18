@@ -10,6 +10,7 @@ import type {
   DefaultListTokens,
 } from '@/schemas/tokens-schema'
 
+import { checkUniqueness } from './check-uniqueness'
 import { getJsonFile } from './get-json-file'
 import { getTokenName } from './get-token-name'
 import { getTokenSymbol } from './get-token-symbol'
@@ -74,10 +75,14 @@ const validateName = ({
 
         if ('protocol' in token) {
           const protocol = protocols.find(({ id }) => id === token.protocol)
-          const expectedTokenName = `${protocol?.prefix}${underlyingTokenSymbols}`
-          if (token.name !== expectedTokenName) {
+          const expectedTokenNames = [
+            `${protocol?.prefix ? protocol?.prefix : ''}${underlyingTokenSymbols}`,
+            token.name.replace(protocol?.name || '', ''),
+          ]
+
+          if (!expectedTokenNames.includes(token.name)) {
             errors.push(
-              `${token.name} does not match ${expectedTokenName} or ${underlyingTokenSymbols}`,
+              `${token.name} does not match ${expectedTokenNames.join(' or ')} or ${underlyingTokenSymbols}`,
             )
           }
         }
@@ -155,12 +160,12 @@ export const validateTokenDetails = async ({
   tokens: DefaultListTokens
 }) => {
   const lowercasedAddress = token.address.toLowerCase()
-  if (addresses.has(lowercasedAddress)) {
-    errors.push(
-      `Duplicate token address found: ${token.address}. Token addresses must be unique.`,
-    )
-  }
-  addresses.add(lowercasedAddress)
+  checkUniqueness({
+    errors,
+    fieldName: 'address',
+    set: addresses,
+    value: lowercasedAddress,
+  })
 
   await validateDecimals({ errors, publicClient, token })
   await validateTokenImage({

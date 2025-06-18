@@ -10,22 +10,31 @@
       "url": "https://aquabera.com"
     },
     {
-      "description": "Multichain yield optimizer offering automated, compounding strategies across DeFi platforms.",
+      "description": "On‑chain yield infrastructure empowering institutions with modular staking tools.",
+      "id": "bedrock",
+      "imageDark": "bedrock.svg",
+      "imageLight": "bedrock.svg",
+      "name": "Bedrock",
+      "type": "lst",
+      "url": "https://www.bedrock.technology"
+    },
+    {
+      "description": "Multichain yield optimizer automating harvesting and compounding across DeFi ecosystems.",
       "id": "beefy",
       "imageDark": "beefy-dark.svg",
       "imageLight": "beefy-light.svg",
       "name": "Beefy",
-      "type": "aggregator",
+      "type": "yield",
       "url": "https://beefy.com"
     },
     {
-      "description": "Instant liquidity protocol offering flexible borrowing options across multiple assets.",
+      "description": "Instant liquidity protocol unlocking flexible borrowing across a range of assets.",
       "id": "beraborrow",
       "imageDark": "beraborrow.svg",
       "imageLight": "beraborrow.svg",
       "name": "Beraborrow",
       "prefix": "b",
-      "type": "other",
+      "type": "money-market",
       "url": "https://www.beraborrow.com"
     },
     {
@@ -38,6 +47,24 @@
       "url": "https://berachain.com"
     },
     {
+      "description": "Permissionless racing platform bringing gamified speed and rewards to DeFi.",
+      "id": "beradrome",
+      "imageDark": "beradrome.svg",
+      "imageLight": "beradrome.svg",
+      "name": "Beradrome",
+      "type": "dex",
+      "url": "https://www.beradrome.com"
+    },
+    {
+      "description": "Risk‑balanced delta‑neutral farming for efficient capital use in DeFi.",
+      "id": "beratrax",
+      "imageDark": "beratrax.svg",
+      "imageLight": "beratrax.svg",
+      "name": "Beratrax",
+      "type": "yield",
+      "url": "https://beratrax.com"
+    },
+    {
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
       "id": "bex",
       "imageDark": "bex.svg",
@@ -47,7 +74,7 @@
       "url": "https://hub.berachain.com/swap"
     },
     {
-      "description": "Native AMM on Berachain, enabling seamless token swaps and liquidity provision with low fees.",
+      "description": "Native AMM enabling seamless swaps and low‑slippage liquidity provision.",
       "id": "bulla",
       "imageDark": "bulla.svg",
       "imageLight": "bulla.svg",
@@ -65,80 +92,107 @@
       "url": "https://game.bullas.xyz"
     },
     {
-      "description": "DeFi platform focused on innovative financial products and community-driven initiatives.",
+      "description": "Community‑centric DeFi suite building unique financial tools and experiences.",
       "id": "burrbear",
       "imageDark": "burrbear.svg",
       "imageLight": "burrbear.svg",
       "name": "BurrBear",
-      "type": "dex",
+      "type": "yield",
       "url": "https://burrbear.io"
     },
     {
-      "description": "DeFi liquidity metalayer powering high yields and unlocking new derivatives for on-chain assets.",
+      "description": "DeFi liquidity meta‑layer powering yield optimization and new asset derivatives.",
       "id": "concrete",
       "imageDark": "concrete.svg",
       "imageLight": "concrete.svg",
       "name": "Concrete",
       "prefix": "ct",
-      "type": "unknown",
+      "type": "defi",
       "url": "https://concrete.xyz"
     },
     {
-      "description": "D2 Finance is a multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies",
+      "description": "Multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies.",
       "id": "d2finance",
       "imageDark": "d2finance.svg",
       "imageLight": "d2finance.svg",
       "name": "D2 Finance",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://d2.finance/strategies"
     },
     {
-      "description": "Decentralized derivatives exchange providing innovative trading products and services.",
+      "description": "Decentralized derivatives exchange offering innovative products for traders.",
       "id": "d8x",
       "imageDark": "d8x-dark.svg",
       "imageLight": "d8x-light.svg",
       "name": "D8X",
-      "type": "unknown",
+      "type": "derivatives",
       "url": "https://d8x.exchange"
     },
     {
-      "description": "Decentralized margin trading platform offering advanced trading tools and strategies.",
+      "description": "On‑chain NFT and token social network fueling community engagement and discovery.",
+      "id": "dapdap",
+      "imageDark": "dapdap.svg",
+      "imageLight": "dapdap.svg",
+      "name": "DapDap",
+      "type": "defi",
+      "url": "https://www.dapdap.net"
+    },
+    {
+      "description": "Lending and savings protocol unlocking real‑world yield for token holders.",
+      "id": "dinero",
+      "imageDark": "dinero.svg",
+      "imageLight": "dinero.svg",
+      "name": "Dinero",
+      "type": "lst",
+      "url": "https://dinero.xyz"
+    },
+    {
+      "description": "Decentralized margin trading and money market with intuitive tools and transparent execution.",
       "id": "dolomite",
       "imageDark": "dolomite-dark.svg",
       "imageLight": "dolomite-light.svg",
       "imageOnTop": "dolomite-on-top.svg",
       "name": "Dolomite",
       "prefix": "d",
-      "type": "lending",
+      "type": "money-market",
       "url": "https://dolomite.io"
     },
     {
-      "description": "Decentralized Ethereum staking protocol offering secure and efficient staking solutions.",
+      "description": "Stablecoin yield aggregator optimizing returns across money‑market strategies.",
+      "id": "equilibria",
+      "imageDark": "equilibria.svg",
+      "imageLight": "equilibria.svg",
+      "name": "Equilibria",
+      "type": "yield",
+      "url": "https://equilibria.fi"
+    },
+    {
+      "description": "Ethereum staking made easy via a secure, permissionless staking protocol.",
       "id": "etherfi",
       "imageDark": "etherfi.svg",
       "imageLight": "etherfi.svg",
       "name": "ether.fi",
-      "type": "unknown",
+      "type": "lst",
       "url": "https://ether.fi"
     },
     {
-      "description": "Permissionless lending protocol with risk-adjusted interest rates and innovative features.",
+      "description": "Permissionless lending with risk‑sensitive interest rates and composable markets.",
       "id": "euler",
       "imageDark": "euler.svg",
       "imageLight": "euler.svg",
       "imageOnTop": "euler-on-top.svg",
       "name": "Euler",
       "prefix": "e",
-      "type": "unknown",
+      "type": "money-market",
       "url": "https://app.euler.finance"
     },
     {
-      "description": "Vault strategies optimized for Berachain assets, offering balanced risk and reward profiles.",
+      "description": "Vaults balancing risk and reward with dynamic yield strategies.",
       "id": "goldilocks",
       "imageDark": "goldilocks.svg",
       "imageLight": "goldilocks.svg",
       "name": "Goldilocks",
-      "type": "other",
+      "type": "yield",
       "url": "https://www.goldilocksdao.io"
     },
     {
@@ -151,7 +205,7 @@
       "url": "https://infrared.finance"
     },
     {
-      "description": "Efficient on-chain derivatives trading platform with low fees and deep liquidity.",
+      "description": "On‑chain derivatives and spot DEX with deep liquidity, low fees, and composable perps.",
       "id": "kodiak",
       "imageDark": "kodiak-dark.svg",
       "imageLight": "kodiak-light.svg",
@@ -160,22 +214,67 @@
       "url": "https://app.kodiak.finance"
     },
     {
-      "description": "Tokenized automation platform bringing leveraged yield strategies to DeFi users.",
+      "description": "Modular vault protocol for staking, yield stacking, and optimized DeFi returns.",
+      "id": "lair",
+      "imageDark": "lair.svg",
+      "imageLight": "lair.svg",
+      "name": "Lair",
+      "type": "yield",
+      "url": "https://lair.fi"
+    },
+    {
+      "description": "Trade derivatives with deep liquidity and smart order routing on‑chain.",
+      "id": "moby",
+      "imageDark": "moby.svg",
+      "imageLight": "moby.svg",
+      "name": "Moby",
+      "type": "yield",
+      "url": "https://moby.trade"
+    },
+    {
+      "description": "Yield infrastructure enabling tokenized vaults, staking, and restaking through programmable incentives.",
+      "id": "openstate",
+      "imageDark": "openstate.svg",
+      "imageLight": "openstate.svg",
+      "name": "Openstate",
+      "type": "lst",
+      "url": "https://openstate.com"
+    },
+    {
+      "description": "Tokenized automation platform driving on‑chain yield strategies with composable workflows.",
       "id": "origami",
       "imageDark": "origami-dark.svg",
       "imageLight": "origami-light.svg",
       "name": "Origami",
-      "type": "aggregator",
+      "type": "yield",
       "url": "https://origami.finance"
     },
     {
-      "description": "Unlocking liquidity for digital assets through innovative financial instruments and solutions.",
+      "description": "Tokenize and trade future yield. Unlock fixed rates or speculate across yield curves.",
+      "id": "pendle",
+      "imageDark": "pendle.svg",
+      "imageLight": "pendle.svg",
+      "name": "Pendle",
+      "type": "yield",
+      "url": "https://www.pendle.finance"
+    },
+    {
+      "description": "Unlocking liquidity for digital assets via flexible financial instruments.",
       "id": "solv",
       "imageDark": "solv-dark.svg",
       "imageLight": "solv-light.svg",
       "name": "Solv Protocol",
-      "type": "unknown",
-      "url": "https://solv.finance/"
+      "type": "lst",
+      "url": "https://solv.finance"
+    },
+    {
+      "description": "Stake to earn sync‑swap infrastructure offering seamless cross‑chain liquidity.",
+      "id": "stakestone",
+      "imageDark": "stakestone.svg",
+      "imageLight": "stakestone.svg",
+      "name": "StakeStone",
+      "type": "lst",
+      "url": "https://stakestone.io"
     },
     {
       "description": "Enterprise‑grade vaults, liquidity engines, and AI policy tools powering 1000+ tokens across 40+ chains.",
@@ -187,48 +286,48 @@
       "url": "https://app.steer.finance"
     },
     {
-      "description": "Innovative DeFi solutions on Berachain, offering unique financial products and services.",
+      "description": "DeFi infrastructure offering next‑gen financial products and tooling.",
       "id": "wasabee",
       "imageDark": "wasabee.svg",
       "imageLight": "wasabee.svg",
       "name": "Wasabee",
-      "type": "unknown",
+      "type": "defi",
       "url": "https://wasabee.honeypotfinance.xyz"
     },
     {
-      "description": "Options protocol for DeFi traders, providing advanced trading strategies and tools.",
+      "description": "Options protocol empowering DeFi traders with advanced strategy capabilities.",
       "id": "wasabi",
       "imageDark": "wasabi-dark.svg",
       "imageLight": "wasabi-light.svg",
       "name": "Wasabi",
-      "type": "unknown",
+      "type": "derivatives",
       "url": "https://wasabi.xyz"
     },
     {
-      "description": "Empowering decentralized finance on Berachain with cutting-edge financial solutions.",
+      "description": "Enabling decentralized finance through modular financial infrastructure.",
       "id": "webera",
       "imageDark": "webera.svg",
       "imageLight": "webera.svg",
       "name": "WeBera",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://app.webera.finance"
     },
     {
-      "description": "Thermonuclear gigabonzi with multiple ways to play and earn rewards in the DeFi space.",
+      "description": "Reward‑driven ecosystem offering gamified participation and yield opportunities.",
       "id": "yeet",
       "imageDark": "yeet.svg",
       "imageLight": "yeet.svg",
       "name": "YEET",
-      "type": "unknown",
+      "type": "yield",
       "url": "https://yeetit.xyz"
     },
     {
-      "description": "Lending protocol for L2s, LRTs, RWAs & BTCFi—capital-efficient, secure, and multichain-ready.",
+      "description": "Lending protocol for L2s, RWAs & BTCFi. Capital‑efficient, secure, multichain borrowing.",
       "id": "zerolend",
       "imageDark": "zerolend-dark.svg",
       "imageLight": "zerolend-light.svg",
       "name": "ZeroLend",
-      "type": "unknown",
+      "type": "money-market",
       "url": "https://zerolend.xyz"
     }
   ]

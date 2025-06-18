@@ -26,6 +26,31 @@
       "stakeTokenAddress": "0x597877ccf65be938bd214c4c46907669e3e62128"
     },
     {
+      "beraRewardsVault": "0x8412561faddd6c85f5a17e07e0f29428b813e69b",
+      "slug": "beradrome-henlocked100m",
+      "stakeTokenAddress": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b"
+    },
+    {
+      "beraRewardsVault": "0xa6a3e6fb89fa4c6554e82d05b449639eebfc564f",
+      "slug": "beradrome-henlocked1b",
+      "stakeTokenAddress": "0xfb32f8c7d363790a6ccd89f8d20047612aba633b"
+    },
+    {
+      "beraRewardsVault": "0xa713816e8d190efdf35d66b723eb63f8c8c4d5d2",
+      "slug": "beradrome-henlocked330m",
+      "stakeTokenAddress": "0x94ca1028ee60e5b28cda22c0e7b6743017a9b7b6"
+    },
+    {
+      "beraRewardsVault": "0x15970fcf2dbb9ffcc4e2f79c3fd777b871540d5b",
+      "slug": "beradrome-henlocked420m",
+      "stakeTokenAddress": "0x94b12404d6163c3e49ed876fb25034a946a40dd8"
+    },
+    {
+      "beraRewardsVault": "0x610b6a27a3a83cea0574c5001f30d9eea3699b1a",
+      "slug": "beradrome-henlocked690m",
+      "stakeTokenAddress": "0x872130ced110e2a4325693c0802b6a0112b3615b"
+    },
+    {
       "beraRewardsVault": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
       "slug": "bex-asugar-honey",
       "stakeTokenAddress": "0x53f786662ff5fbec135f913ab93c6b3366e90a46"
@@ -64,11 +89,6 @@
       "beraRewardsVault": "0x92af7d5fcdef44c3df168ecfdcd03dea1807af28",
       "slug": "bex-wbera-ibera",
       "stakeTokenAddress": "0x62c030b29a6fef1b32677499e4a1f1852a8808c0"
-    },
-    {
-      "beraRewardsVault": "0x9c392eddf43cdff2c537fa94169016cfa1a1589f",
-      "slug": "bex-wbera-ibera-legacy-1",
-      "stakeTokenAddress": "0x4d0ac0ea757f0bb338457c7a135c41fc732ca67d"
     },
     {
       "beraRewardsVault": "0xe8ed00b1b142e8d84ef773c4fccaa18682d5a401",
@@ -574,6 +594,11 @@
       "beraRewardsVault": "0x5fc9d951787c297b3b1ade8a871b84d9aa717608",
       "slug": "kodiak-yeet-wgbera",
       "stakeTokenAddress": "0x412c9f79779ae6c3a13a318252b29c559be756ca"
+    },
+    {
+      "beraRewardsVault": "0xfe5fe99a4e5ae1f6212c1b32ed4ed6d1c1c6de57",
+      "slug": "kodiak-zero-wbera",
+      "stakeTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e"
     },
     {
       "beraRewardsVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
