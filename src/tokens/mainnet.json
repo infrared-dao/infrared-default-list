@@ -2204,7 +2204,6 @@
       "address": "0x8f32C1b7C9E2c60D357B7949a43540162248a21E",
       "decimals": 18,
       "image": "wgbera-wbera.svg",
-      "imageNotFromUnderlying": true,
       "mintUrl": "https://hub.berachain.com/pools/0x8f32c1b7c9e2c60d357b7949a43540162248a21e00000000000000000000014a/details/",
       "name": "wgBERA | WBERA",
       "protocol": "bex",
