@@ -11,6 +11,11 @@
       "stakeTokenAddress": "0x04fd6a7b02e2e48caedad7135420604de5f834f8"
     },
     {
+      "beraRewardsVault": "0xdB0bd1f417E1b3906D348473A6C11978c0E1552A",
+      "slug": "beraborrow-bbwgbera",
+      "stakeTokenAddress": "0x8628e618b66E7CdDBe0AdC84B96bEa3977954507"
+    },
+    {
       "beraRewardsVault": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
       "slug": "beraborrow-bunibtc",
       "stakeTokenAddress": "0x62cf6e355c77edb6f5c8eb2085a85cf4de4c1852"
