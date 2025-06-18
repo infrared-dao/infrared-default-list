@@ -111,6 +111,11 @@
       "stakeTokenAddress": "0x258d8933b625566fbe057874121783a2808adafa"
     },
     {
+      "beraRewardsVault": "0xA068760E9bEc127b7Cd1655Ea2EC992AA0A1631D",
+      "slug": "bex-wgbera-wbera",
+      "stakeTokenAddress": "0x8f32C1b7C9E2c60D357B7949a43540162248a21E"
+    },
+    {
       "beraRewardsVault": "0xec54b5d168e7128bc1f06d12ef0e5ab6f4c59ed9",
       "slug": "bex-wizz-wbera",
       "stakeTokenAddress": "0x1b7b061091bd2c900723107889fe44f825d6c921"
