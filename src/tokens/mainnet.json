@@ -928,6 +928,22 @@
       ]
     },
     {
+      "address": "0xb34fca9739249578d93a22ce02bf7fad277bad35",
+      "decimals": 18,
+      "image": "nect-usdce-usdt0-honey.svg",
+      "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xb34fca9739249578d93a22ce02bf7fad277bad35000000000000000000000013/add-liquidity",
+      "name": "NECT-USDC.e-USD₮0-HONEY",
+      "protocol": "burrbear",
+      "symbol": "NECT-USDC.e-USD₮0-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+        "0x549943e04f40284185054145c6e4e9568c1d3241",
+        "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
       "address": "0xe49ff31b2b3fd346b0d1832d9fe224ee0d1c1f9e",
       "decimals": 27,
       "image": "ctberabaddieshoney.svg",
