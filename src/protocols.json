@@ -57,12 +57,12 @@
     },
     {
       "description": "A proof-of-engagement ecosystem blending gamification to drive meaningful on-chain actions.",
-      "id": "beraji",
-      "imageDark": "beraji-dark.svg",
-      "imageLight": "beraji-light.svg",
-      "name": "Beraji",
+      "id": "jiko",
+      "imageDark": "jiko-dark.svg",
+      "imageLight": "jiko-light.svg",
+      "name": "Jiko",
       "type": "defi",
-      "url": "https://beraji.com/"
+      "url": "https://app.beraji.com/"
     },
     {
       "description": "Risk‑balanced delta‑neutral farming for efficient capital use in DeFi.",
