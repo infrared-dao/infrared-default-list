@@ -56,15 +56,6 @@
       "url": "https://www.beradrome.com"
     },
     {
-      "description": "A proof-of-engagement ecosystem blending gamification to drive meaningful on-chain actions.",
-      "id": "jiko",
-      "imageDark": "jiko-dark.svg",
-      "imageLight": "jiko-light.svg",
-      "name": "Jiko",
-      "type": "defi",
-      "url": "https://app.beraji.com/"
-    },
-    {
       "description": "Risk‑balanced delta‑neutral farming for efficient capital use in DeFi.",
       "id": "beratrax",
       "imageDark": "beratrax.svg",
@@ -212,6 +203,15 @@
       "name": "Infrared",
       "type": "unknown",
       "url": "https://infrared.finance"
+    },
+    {
+      "description": "A proof-of-engagement ecosystem blending gamification to drive meaningful on-chain actions.",
+      "id": "jiko",
+      "imageDark": "jiko-dark.svg",
+      "imageLight": "jiko-light.svg",
+      "name": "Jiko",
+      "type": "defi",
+      "url": "https://app.beraji.com/"
     },
     {
       "description": "On‑chain derivatives and spot DEX with deep liquidity, low fees, and composable perps.",
