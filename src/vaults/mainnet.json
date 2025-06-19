@@ -621,6 +621,11 @@
       "stakeTokenAddress": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b"
     },
     {
+      "beraRewardsVault": "0xeee277a91f9f50cda5d188522c921820a848cd99",
+      "slug": "steer-oribgt-oribgtot",
+      "stakeTokenAddress": "0xdb78b4166580917c9604f8ddfbea5f49b493845c"
+    },
+    {
       "beraRewardsVault": "0x5ab58fd0c6e74ae10a74a5fd43e5b6d26e46a18f",
       "slug": "wasabee-wbera-ibera",
       "stakeTokenAddress": "0xe57d868d244d2cf2e9679eaba2a3048e58674565"

@@ -2152,6 +2152,20 @@
       "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     },
     {
+      "address": "0xdb78b4166580917c9604f8ddfbea5f49b493845c",
+      "decimals": 18,
+      "image": "oribgt-oribgtot.svg",
+      "mintUrl": "https://app.steer.finance/vault/0xdb78b4166580917c9604f8ddfbea5f49b493845c",
+      "name": "oriBGT-oriBGTOT",
+      "protocol": "steer",
+      "symbol": "STEERUV20",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x69f1e971257419b1e9c405a553f252c64a29a30a",
+        "0x978448a7866aed0146ad5c5e5d3d8424e2b16356"
+      ]
+    },
+    {
       "address": "0xe57d868d244d2cf2e9679eaba2a3048e58674565",
       "decimals": 18,
       "image": "wbera-ibera.svg",
