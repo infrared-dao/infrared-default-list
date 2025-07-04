@@ -61,6 +61,11 @@
       "stakeTokenAddress": "0x36fa291f4a4ae41e4be2a979136ebd7eb97950e7"
     },
     {
+      "beraRewardsVault": "0xa6cab22b1b64532af6779d7227983d1be1bd317e",
+      "slug": "beradrome-kodiak-plug-wbera",
+      "stakeTokenAddress": "0xE8b92cd9771ebaad873A8E1b1B55404aECfDBc9d"
+    },
+    {
       "beraRewardsVault": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
       "slug": "bex-asugar-honey",
       "stakeTokenAddress": "0x53f786662ff5fbec135f913ab93c6b3366e90a46"
