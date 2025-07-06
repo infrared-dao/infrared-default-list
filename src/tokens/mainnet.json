@@ -1657,6 +1657,34 @@
       ]
     },
     {
+      "address": "0x7aabe00795cf8b9692c979ea584112b8c2fe46f4",
+      "decimals": 18,
+      "image": "solvbtc-bnb-xsolvbtc.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7aabe00795cf8b9692c979ea584112b8c2fe46f4?chain=berachain_mainnet",
+      "name": "SolvBTC.BNB-xSolvBTC",
+      "protocol": "kodiak",
+      "symbol": "KODI SolvBTC.BNB-xSolvBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1B25cA174c158440621Ff96E4B1262cb5cc8942F",
+        "0xCC0966D8418d412c599A6421b760a847eB169A8c"
+      ]
+    },
+    {
+      "address": "0x2cDcdf2E38cDe5C93226450Eb096B26ED03bd6f1",
+      "decimals": 18,
+      "image": "solvbtc-bnb-solvbtc.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2cDcdf2E38cDe5C93226450Eb096B26ED03bd6f1?chain=berachain_mainnet",
+      "name": "SolvBTC.BNB-SolvBTC",
+      "protocol": "kodiak",
+      "symbol": "KODI SolvBTC.BNB-SolvBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1B25cA174c158440621Ff96E4B1262cb5cc8942F",
+        "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77"
+      ]
+    },
+    {
       "address": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343",
       "decimals": 18,
       "image": "stbgt-wbera.svg",
@@ -2179,10 +2207,22 @@
       "decimals": 18,
       "image": "solvbtc-bera.svg",
       "imageNotFromUnderlying": true,
-      "mintUrl": "https://app.solv.finance/bera?network=ethereum",
+      "mintUrl": "https://app.solv.finance/bera?network=bera",
       "name": "SolvBTC.BERA",
       "protocol": "solv",
       "symbol": "SolvBTC.BERA",
+      "type": "vault",
+      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+    },
+    {
+      "address": "0x1B25cA174c158440621Ff96E4B1262cb5cc8942F",
+      "decimals": 18,
+      "image": "solvbtc-bnb.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://app.solv.finance/bnb?network=bera",
+      "name": "SolvBTC.BNB",
+      "protocol": "solv",
+      "symbol": "SolvBTC.BNB",
       "type": "vault",
       "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     },
