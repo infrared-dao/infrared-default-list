@@ -177,7 +177,7 @@
     {
       "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
       "decimals": 18,
-      "image": "kodiak-plug-wbera.svg",
+      "image": "kodiak-plug-wbera-v2.svg",
       "name": "Kodiak PLUG-WBERA-V2",
       "symbol": "Kodiak PLUG-WBERA-V2"
     },
@@ -619,7 +619,7 @@
     {
       "address": "0xE8b92cd9771ebaad873A8E1b1B55404aECfDBc9d",
       "decimals": 18,
-      "image": "kodiak-plug-wbera.svg",
+      "image": "kodiak-plug-wbera-v2.svg",
       "imageNotFromUnderlying": true,
       "isNotWorkingWithEnso": true,
       "isSoulbound": false,
