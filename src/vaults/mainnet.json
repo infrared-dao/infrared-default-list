@@ -441,6 +441,16 @@
       "stakeTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790"
     },
     {
+      "beraRewardsVault": "0x6DD21938C08Dbc67FE6819Ed11d904077Ae49Fa4",
+      "slug": "kodiak-solvbtc.bnb-xsolvbtc",
+      "stakeTokenAddress": "0xe21eFA586CC88271c8c87642440Ed49CCd000Ccc"
+    },
+    {
+      "beraRewardsVault": "0xc7986e8BB129389380C6D6BE9Ca94266B42c8592",
+      "slug": "kodiak-solvbtc.bnb-solvbtc",
+      "stakeTokenAddress": "0x35B3833cbDCFaf3a842c90b775C632032648907D"
+    },
+    {
       "beraRewardsVault": "0xcf77d23cfc561e34e3b6137c736ea5cb395bcda0",
       "slug": "kodiak-stbgt-wbera",
       "stakeTokenAddress": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343"
