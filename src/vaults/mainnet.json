@@ -441,14 +441,14 @@
       "stakeTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790"
     },
     {
-      "beraRewardsVault": "0x6DD21938C08Dbc67FE6819Ed11d904077Ae49Fa4",
-      "slug": "kodiak-solvbtc.bnb-xsolvbtc",
-      "stakeTokenAddress": "0xe21eFA586CC88271c8c87642440Ed49CCd000Ccc"
+      "beraRewardsVault": "0xc7986e8bb129389380c6d6be9ca94266b42c8592",
+      "slug": "kodiak-solvbtc.bnb-solvbtc",
+      "stakeTokenAddress": "0x35b3833cbdcfaf3a842c90b775c632032648907d"
     },
     {
-      "beraRewardsVault": "0xc7986e8BB129389380C6D6BE9Ca94266B42c8592",
-      "slug": "kodiak-solvbtc.bnb-solvbtc",
-      "stakeTokenAddress": "0x35B3833cbDCFaf3a842c90b775C632032648907D"
+      "beraRewardsVault": "0x6dd21938c08dbc67fe6819ed11d904077ae49fa4",
+      "slug": "kodiak-solvbtc.bnb-xsolvbtc",
+      "stakeTokenAddress": "0xe21efa586cc88271c8c87642440ed49ccd000ccc"
     },
     {
       "beraRewardsVault": "0xcf77d23cfc561e34e3b6137c736ea5cb395bcda0",
