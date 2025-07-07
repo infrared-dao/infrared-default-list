@@ -2215,7 +2215,7 @@
       "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     },
     {
-      "address": "0x1B25cA174c158440621Ff96E4B1262cb5cc8942F",
+      "address": "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
       "decimals": 18,
       "image": "solvbtc-bnb.svg",
       "imageNotFromUnderlying": true,
