@@ -34,9 +34,9 @@ export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
   decimals: number(),
   image: string(),
+  isDepositDisabled: optional(boolean()),
   isNotWorkingWithEnso: optional(boolean()),
   isSoulbound: optional(boolean()),
-  isStakeDisabled: optional(boolean()),
   isUnpriced: optional(boolean()),
   name: string(),
   symbol: string(),
@@ -44,7 +44,7 @@ export const DefaultListBasicTokenSchema = strictObject({
 export type DefaultListBasicToken = InferOutput<
   typeof DefaultListBasicTokenSchema
 >
-export const DefaultListStakeTokenSchema = strictObject({
+export const DefaultListDepositTokenSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
   mintUrl: MintUrlSchema,
@@ -52,13 +52,13 @@ export const DefaultListStakeTokenSchema = strictObject({
   type: TokenTypeSchema,
   underlyingTokens: optional(array(AddressSchema)),
 })
-export type DefaultListStakeToken = InferOutput<
-  typeof DefaultListStakeTokenSchema
+export type DefaultListDepositToken = InferOutput<
+  typeof DefaultListDepositTokenSchema
 >
 
 export const DefaultListTokenSchema = union([
   DefaultListBasicTokenSchema,
-  DefaultListStakeTokenSchema,
+  DefaultListDepositTokenSchema,
 ])
 export type DefaultListToken = InferOutput<typeof DefaultListTokenSchema>
 

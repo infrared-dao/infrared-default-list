@@ -9,5 +9,5 @@ export const cleanVault = ({
 }): DefaultListVault => ({
   ...vault,
   beraRewardsVault: lowercaseAddress(vault.beraRewardsVault),
-  stakeTokenAddress: lowercaseAddress(vault.stakeTokenAddress),
+  depositTokenAddress: lowercaseAddress(vault.depositTokenAddress),
 })

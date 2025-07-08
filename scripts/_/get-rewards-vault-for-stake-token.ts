@@ -16,15 +16,15 @@ const rewardsVaultFactoryAbi = [
 ] as const
 
 export const getRewardsVaultForStakeToken = async ({
+  depositTokenAddress,
   publicClient,
-  stakeTokenAddress,
 }: {
+  depositTokenAddress: Address
   publicClient: PublicClient
-  stakeTokenAddress: Address
 }) =>
   publicClient.readContract({
     abi: rewardsVaultFactoryAbi,
     address: REWARDS_VAULT_FACTORY_ADDRESS,
-    args: [stakeTokenAddress],
+    args: [depositTokenAddress],
     functionName: 'getVault',
   })

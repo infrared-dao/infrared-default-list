@@ -22,12 +22,12 @@ const validateStakeTokenAndSlug = ({
   vault: DefaultListVault
 }) => {
   const stakeToken = tokens.find(({ address }) =>
-    isAddressEqual(address as Address, vault.stakeTokenAddress as Address),
+    isAddressEqual(address as Address, vault.depositTokenAddress as Address),
   )
 
   if (!stakeToken) {
     errors.push(
-      `${vault.slug} does not have a token for ${vault.stakeTokenAddress}`,
+      `${vault.slug} does not have a token for ${vault.depositTokenAddress}`,
     )
     return
   }

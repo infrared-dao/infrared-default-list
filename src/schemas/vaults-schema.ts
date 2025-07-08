@@ -4,8 +4,9 @@ import { AddressSchema } from './address-schema'
 
 export const DefaultListVaultSchema = strictObject({
   beraRewardsVault: AddressSchema,
+  depositTokenAddress: AddressSchema,
   slug: string(),
-  stakeTokenAddress: AddressSchema,
+  stakeTokenAddress: AddressSchema, // for backend
 })
 export type DefaultListVault = InferOutput<typeof DefaultListVaultSchema>
 

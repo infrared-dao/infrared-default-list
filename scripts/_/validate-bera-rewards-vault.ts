@@ -14,20 +14,20 @@ export const validateBeraRewardsVault = async ({
   vault: DefaultListVault
 }) => {
   const rewardsVaultAddress = await getRewardsVaultForStakeToken({
+    depositTokenAddress: vault.depositTokenAddress as Address,
     publicClient,
-    stakeTokenAddress: vault.stakeTokenAddress as Address,
   })
 
   if (!rewardsVaultAddress) {
     errors.push(
-      `Could not fetch rewards vault address for ${vault.stakeTokenAddress}`,
+      `Could not fetch rewards vault address for ${vault.depositTokenAddress}`,
     )
     return
   }
 
   if (!isAddressEqual(rewardsVaultAddress, vault.beraRewardsVault as Address)) {
     errors.push(
-      `${vault.beraRewardsVault} does not match the on-chain rewards vault address for ${vault.stakeTokenAddress}. It should be ${rewardsVaultAddress}`,
+      `${vault.beraRewardsVault} does not match the on-chain rewards vault address for ${vault.depositTokenAddress}. It should be ${rewardsVaultAddress}`,
     )
   }
 }

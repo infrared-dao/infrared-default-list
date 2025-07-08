@@ -286,6 +286,13 @@
       "symbol": "PLUG"
     },
     {
+      "address": "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
+      "decimals": 18,
+      "image": "plutus.svg",
+      "name": "Plutus token",
+      "symbol": "PLUTUS"
+    },
+    {
       "address": "0xc99e948e9d183848a6c4f5e6c1d225f02f171d79",
       "decimals": 18,
       "image": "pollen.svg",
@@ -1272,8 +1279,8 @@
       "decimals": 8,
       "image": "primeliquidberabtc.svg",
       "imageNotFromUnderlying": true,
+      "isDepositDisabled": true,
       "isNotWorkingWithEnso": true,
-      "isStakeDisabled": true,
       "mintUrl": "https://www.ether.fi/app/liquid/bera-btc",
       "name": "primeLiquidBeraBTC",
       "protocol": "etherfi",
@@ -1286,8 +1293,8 @@
       "decimals": 18,
       "image": "primeliquidberaeth.svg",
       "imageNotFromUnderlying": true,
+      "isDepositDisabled": true,
       "isNotWorkingWithEnso": true,
-      "isStakeDisabled": true,
       "mintUrl": "https://www.ether.fi/app/liquid/bera-eth",
       "name": "primeLiquidBeraETH",
       "protocol": "etherfi",
@@ -1645,6 +1652,20 @@
       "type": "amm",
       "underlyingTokens": [
         "0x009af46df68db0e76bfe9ea35663f6ed17877956",
+        "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
+      "address": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1",
+      "decimals": 18,
+      "image": "plutus-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1?chain=berachain_mainnet",
+      "name": "PLUTUS-WBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI PLUTUS-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
         "0x6969696969696969696969696969696969696969"
       ]
     },
