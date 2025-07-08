@@ -684,6 +684,11 @@
       "beraRewardsVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "slug": "webera-wewbera",
       "stakeTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea"
+    },
+    {
+      "beraRewardsVault": "0x9e4ff9f6f255ecb3fb3937e81439a2c69377f3af",
+      "slug": "plutus-wbera",
+      "stakeTokenAddress": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1"
     }
   ]
 }

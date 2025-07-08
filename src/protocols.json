@@ -338,6 +338,15 @@
       "name": "ZeroLend",
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "Liquidity, Yield, and Stability — chains simplified.",
+      "id": "plutus",
+      "imageDark": "plutus.svg",
+      "imageLight": "plutus.svg",
+      "name": "Plutus",
+      "type": "yield",
+      "url": "https://plutus.fi"
     }
   ]
 }

@@ -293,6 +293,13 @@
       "symbol": "POLLEN"
     },
     {
+      "address": "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
+      "decimals": 18,
+      "image": "plutus.svg",
+      "name": "Plutus token",
+      "symbol": "PLUTUS"
+    },
+    {
       "address": "0xb8b1af593dc37b33a2c87c8db1c9051fc32858b7",
       "decimals": 18,
       "image": "ramen.svg",
@@ -2213,6 +2220,20 @@
       "underlyingTokens": [
         "0x0000382fbb422b4f593931fc6f2d25cc16600000",
         "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b"
+      ]
+    },
+    {
+      "address": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1",
+      "decimals": 18,
+      "image": "plutus-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1?chain=berachain_mainnet",
+      "name": "PLUTUS-wBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI PLUTUS-WBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
+        "0x6969696969696969696969696969696969696969"
       ]
     },
     {
