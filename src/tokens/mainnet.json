@@ -464,8 +464,11 @@
       "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
       "decimals": 18,
       "image": "yeet.svg",
+      "mintUrl": "https://yeetit.xyz",
       "name": "YEET",
-      "symbol": "YEET"
+      "protocol": "yeet",
+      "symbol": "YEET",
+      "type": "unknown"
     },
     {
       "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
@@ -2379,15 +2382,16 @@
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     },
     {
-      "address": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
+      "address": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "decimals": 18,
-      "image": "satsolvbtcbera.svg",
-      "mintUrl": "https://app.satlayer.xyz/vaults/restake",
-      "name": "satSolvBTC.BERA",
-      "protocol": "satlayer",
-      "symbol": "satSolvBTC.BERA",
-      "type": "restaking",
-      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+      "image": "yeet-rwt.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://yeetit.xyz",
+      "name": "Yeet",
+      "protocol": "yeet",
+      "symbol": "YEET-RWT",
+      "type": "unknown",
+      "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
     }
   ]
 }

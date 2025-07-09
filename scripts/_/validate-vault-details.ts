@@ -43,26 +43,26 @@ const validateStakeTokenAndSlug = ({
     .replace(/\s|_|\//g, '-')
     .toLowerCase()
 
-  let expectedSlug = ''
-  const protocol = stakeToken.protocol.toLowerCase()
-  const stakeTokenName = stakeToken.name.toLowerCase()
-  if (
-    stakeTokenName.startsWith(protocol + ' ') ||
-    stakeTokenName.startsWith(protocol + '-') ||
-    stakeTokenName.startsWith(protocol + '_')
-  ) {
-    expectedSlug = cleanStakeTokenName
-  } else {
-    expectedSlug = `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`
-  }
+  const expectedSlugs = [
+    cleanStakeTokenName,
+    `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`,
+  ]
 
-  if (vault.slug !== expectedSlug) {
-    if (slugs.includes(expectedSlug)) {
-      if (!vault.slug.startsWith(expectedSlug)) {
-        errors.push(`${vault.slug}’s slug does not start with ${expectedSlug}`)
+  if (!expectedSlugs.includes(vault.slug)) {
+    if (slugs.some((slug) => expectedSlugs.includes(slug))) {
+      if (
+        !expectedSlugs.some((expectedSlug) =>
+          vault.slug.startsWith(expectedSlug),
+        )
+      ) {
+        errors.push(
+          `${vault.slug}’s slug does not start with ${expectedSlugs.join(' or ')}`,
+        )
       }
     } else {
-      errors.push(`${vault.slug}’s slug does not match ${expectedSlug}`)
+      errors.push(
+        `${vault.slug}’s slug does not match ${expectedSlugs.join(' or ')}`,
+      )
     }
   }
 

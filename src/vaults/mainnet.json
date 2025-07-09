@@ -829,10 +829,10 @@
       "stakeTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea"
     },
     {
-      "beraRewardsVault": "0x3211e960fff36715b9046c51a3af6826d1a226e7",
-      "depositTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
-      "slug": "satlayer-satsolvbtcbera",
-      "stakeTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b"
+      "beraRewardsVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
+      "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
+      "slug": "yeet",
+      "stakeTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec"
     }
   ]
 }
