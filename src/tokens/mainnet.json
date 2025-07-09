@@ -2392,6 +2392,17 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
+      "decimals": 18,
+      "image": "satsolvbtcbera.svg",
+      "mintUrl": "https://app.satlayer.xyz/vaults/restake",
+      "name": "satSolvBTC.BERA",
+      "protocol": "satlayer",
+      "symbol": "satSolvBTC.BERA",
+      "type": "restaking",
+      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
     }
   ]
 }
