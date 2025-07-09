@@ -345,7 +345,7 @@
       "imageDark": "satlayer.svg",
       "imageLight": "satlayer.svg",
       "name": "SatLayer",
-      "type": "restaking",
+      "type": "unknown",
       "url": "https://www.satlayer.xyz"
     }
   ]
