@@ -338,6 +338,15 @@
       "name": "ZeroLend",
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "The economic layer for Bitcoin, making the best asset now fully programmable.",
+      "id": "satlayer",
+      "imageDark": "satlayer.svg",
+      "imageLight": "satlayer.svg",
+      "name": "SatLayer",
+      "type": "restaking",
+      "url": "https://www.satlayer.xyz"
     }
   ]
 }
