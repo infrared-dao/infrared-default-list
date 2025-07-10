@@ -1299,10 +1299,10 @@
       "underlyingTokens": ["0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"]
     },
     {
-      "address": "0x027DcAfB223f69d41Bd413C50854017718419585",
+      "address": "0x027dcafb223f69d41bd413c50854017718419585",
       "decimals": 18,
       "image": "ehoney-3.svg",
-      "mintUrl": "https://app.euler.finance/vault/0x027DcAfB223f69d41Bd413C50854017718419585?network=berachain",
+      "mintUrl": "https://app.euler.finance/vault/0x027dcafb223f69d41bd413c50854017718419585?network=berachain",
       "name": "eHONEY",
       "protocol": "euler",
       "symbol": "eHONEY-3",
