@@ -1,6 +1,15 @@
 {
   "protocols": [
     {
+      "description": "Unlocking liquidity for bespoke assets on berachain via NFT money market",
+      "id": "paddlefi",
+      "imageDark": "paddlefi.svg",
+      "imageLight": "paddlefi.svg",
+      "name": "PaddleFi",
+      "type": "unknown",
+      "url": "https://dapp.paddlefi.com/moneymarket"
+    },
+    {
       "description": "AquaBera makes managing, growing, and launching crypto on Berachain simple, safe, and rewarding.",
       "id": "aquabera",
       "imageDark": "aquabera.svg",
