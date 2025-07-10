@@ -379,10 +379,10 @@
       "stakeTokenAddress": "0xb83742330443f7413dbd2abdfc046db0474a944e"
     },
     {
-      "beraRewardsVault": "0xab1ecd0d1b6730c059a686115741cb131f804368",
-      "depositTokenAddress": "0xaf3ab50bdaea7acfa07fad209bbad504f28c8bcf",
+      "beraRewardsVault": "0x4426220787fb7c195677bc1753c14e84f9a7692c",
+      "depositTokenAddress": "0x027dcafb223f69d41bd413c50854017718419585",
       "slug": "euler-ehoney",
-      "stakeTokenAddress": "0xaf3ab50bdaea7acfa07fad209bbad504f28c8bcf"
+      "stakeTokenAddress": "0x027DcAfB223f69d41Bd413C50854017718419585"
     },
     {
       "beraRewardsVault": "0xe4c24b1da97325b183df8e4e489d54d2f6e15d58",
