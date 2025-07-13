@@ -1,12 +1,6 @@
 {
   "vaults": [
     {
-      "beraRewardsVault": "0xeb7499ee3034a82458e91c036b0e73732d1267f5",
-      "depositTokenAddress": "0xe16761787cf9bb0d3fc2e5c726dae906ce81b102",
-      "slug": "paddle-wbera-steadyteddys",
-      "stakeTokenAddress": "0xe16761787cF9bB0D3fC2E5C726dAe906ce81B102"
-    },
-    {
       "beraRewardsVault": "0x4796039d56892a324585d77a76059b1cd2b9d02a",
       "depositTokenAddress": "0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
       "slug": "aquabera-wbera-beramo",
@@ -779,6 +773,12 @@
       "depositTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e",
       "slug": "kodiak-zero-wbera",
       "stakeTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e"
+    },
+    {
+      "beraRewardsVault": "0xeb7499ee3034a82458e91c036b0e73732d1267f5",
+      "depositTokenAddress": "0xe16761787cf9bb0d3fc2e5c726dae906ce81b102",
+      "slug": "paddlefi-wbera-steadyteddys",
+      "stakeTokenAddress": "0xe16761787cF9bB0D3fC2E5C726dAe906ce81B102"
     },
     {
       "beraRewardsVault": "0x3211e960fff36715b9046c51a3af6826d1a226e7",

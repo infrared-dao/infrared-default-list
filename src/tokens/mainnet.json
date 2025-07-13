@@ -2256,9 +2256,11 @@
     {
       "address": "0xe16761787cf9bb0d3fc2e5c726dae906ce81b102",
       "decimals": 18,
-      "image": "psteady-teddys-wbera.svg",
+      "image": "wbera-steadyteddys.svg",
+      "imageCustomWidth": true,
+      "imageNotFromUnderlying": true,
       "mintUrl": "https://dapp.paddlefi.com/moneymarket",
-      "name": "Paddle steady_teddys-WBERA",
+      "name": "WBERA-steadyteddys",
       "protocol": "paddlefi",
       "symbol": "Psteady_teddys-WBERA",
       "type": "cdp",

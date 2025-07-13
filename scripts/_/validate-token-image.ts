@@ -39,8 +39,10 @@ export const validateTokenImage = async ({
 }) => {
   const hasUnderlyingTokens =
     'underlyingTokens' in token && !!token.underlyingTokens
+  const customWidth = 'imageCustomWidth' in token && !!token.imageCustomWidth
 
   return validateImage({
+    customWidth,
     errors,
     folder: 'tokens',
     height: IMAGE_SIZE,

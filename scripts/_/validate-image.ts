@@ -7,6 +7,7 @@ import { getFile } from './get-file'
 const viewboxRegex = /viewBox="(\d+\s\d+\s\d+\s\d+)"/
 
 export const validateImage = async ({
+  customWidth,
   errors,
   folder,
   height = IMAGE_SIZE,
@@ -17,6 +18,7 @@ export const validateImage = async ({
   type,
   width = IMAGE_SIZE,
 }: {
+  customWidth?: boolean
   errors: Array<string>
   folder: string
   height?: number
@@ -87,7 +89,7 @@ export const validateImage = async ({
         `${type} image file "${image}" must have a height of ${height}px, not ${svgHeight}px for "${identifier}" at ${imagePath}`,
       )
     }
-    if (width !== undefined && width !== svgWidth) {
+    if (width !== undefined && width !== svgWidth && !customWidth) {
       errors.push(
         `${type} image file "${image}" must have a width of ${width}px, not ${svgWidth}px for "${identifier}" at ${imagePath}`,
       )

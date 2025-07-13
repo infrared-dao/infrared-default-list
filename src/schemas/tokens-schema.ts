@@ -47,6 +47,7 @@ export type DefaultListBasicToken = InferOutput<
 export const DefaultListDepositTokenSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageNotFromUnderlying: optional(boolean()),
+  imageCustomWidth: optional(boolean()),
   mintUrl: MintUrlSchema,
   protocol: ProtocolSchema,
   type: TokenTypeSchema,
