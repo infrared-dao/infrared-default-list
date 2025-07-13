@@ -2421,9 +2421,9 @@
     {
       "address": "0x6eE01549960F47B2e64Cb9fb26a9107e735910b5",
       "decimals": 18,
-      "image": "hpot.svg",
+      "image": "honeypot.svg",
       "imageNotFromUnderlying": true,
-      "mintUrl": "https://leaderboard.honeypotfinance.xyz/",
+      "mintUrl": "https://honeypotfinance.xyz",
       "name": "Very Awesome Unified Liquidity Token",
       "protocol": "Honeypot Finance",
       "symbol": "VAULT",

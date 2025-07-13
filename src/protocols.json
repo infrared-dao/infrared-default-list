@@ -360,11 +360,11 @@
     {
       "description": "Honeypot Finance All-in-One Vault is the first true implementation of dynamic, action-based incentivization on Berachain.",
       "id": "honeypot",
-      "imageDark": "hpot.svg",
-      "imageLight": "hpot.svg",
+      "imageDark": "honeypot.svg",
+      "imageLight": "honeypot.svg",
       "name": "Honeypot Finance",
       "type": "yield",
-      "url": "https://leaderboard.honeypotfinance.xyz/"
+      "url": "https://honeypotfinance.xyz"
     }
   ]
 }
