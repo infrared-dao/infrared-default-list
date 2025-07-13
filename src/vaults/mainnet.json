@@ -845,6 +845,12 @@
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet",
       "stakeTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec"
+    },
+    {
+      "beraRewardsVault": "0xcf4f3eafe6ee37b33c5047f0e6562f764285de9d",
+      "depositTokenAddress": "0x6eE01549960F47B2e64Cb9fb26a9107e735910b5",
+      "slug": "Honeypot Finance",
+      "stakeTokenAddress": "0x6eE01549960F47B2e64Cb9fb26a9107e735910b5"
     }
   ]
 }

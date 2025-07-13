@@ -356,6 +356,15 @@
       "name": "ZeroLend",
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "Honeypot Finance All-in-One Vault is the first true implementation of dynamic, action-based incentivization on Berachain.",
+      "id": "honeypot",
+      "imageDark": "hpot.svg",
+      "imageLight": "hpot.svg",
+      "name": "Honeypot Finance",
+      "type": "yield",
+      "url": "https://leaderboard.honeypotfinance.xyz/"
     }
   ]
 }
