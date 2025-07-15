@@ -1001,6 +1001,20 @@
       ]
     },
     {
+      "address": "0xC4C039178a79e614609e592d7689eCB3107758b1",
+      "decimals": 18,
+      "image": "burr-nect.svg",
+      "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xc4c039178a79e614609e592d7689ecb3107758b1000200000000000000000020/add-liquidity",
+      "name": "BURR-NECT",
+      "protocol": "burrbear",
+      "symbol": "20NECT-80BURR",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+        "0x28e0e3B9817012b356119dF9e217c25932D609c2"
+      ]
+    },
+    {
       "address": "0xe49ff31b2b3fd346b0d1832d9fe224ee0d1c1f9e",
       "decimals": 27,
       "image": "ctberabaddieshoney.svg",

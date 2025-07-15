@@ -223,6 +223,12 @@
       "stakeTokenAddress": "0xcbef1b65399065c2de2c495971e90466ff38f2d0"
     },
     {
+      "beraRewardsVault": "0xf326CB487D9542a0c43b7c6C9a252fa626403023",
+      "depositTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1",
+      "slug": "burrbear-burr-nect",
+      "stakeTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1"
+    },
+    {
       "beraRewardsVault": "0x310532d9d047c5972cd60852c1a4b675edc55fad",
       "depositTokenAddress": "0xe49ff31b2b3fd346b0d1832d9fe224ee0d1c1f9e",
       "slug": "concrete-ctberabaddieshoney",
