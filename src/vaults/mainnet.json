@@ -817,6 +817,12 @@
       "stakeTokenAddress": "0xdb78b4166580917c9604f8ddfbea5f49b493845c"
     },
     {
+      "beraRewardsVault": "0xc7fee55e923ddbc6c596b8fe7e14889bc3005b3c",
+      "depositTokenAddress": "0x3640587709a387b54b0df555cd651a95a54fa900",
+      "slug": "wasabee-bee-wbera",
+      "stakeTokenAddress": "0x3640587709a387B54B0DF555cD651A95A54fA900"
+    },
+    {
       "beraRewardsVault": "0x5ab58fd0c6e74ae10a74a5fd43e5b6d26e46a18f",
       "depositTokenAddress": "0xe57d868d244d2cf2e9679eaba2a3048e58674565",
       "slug": "wasabee-wbera-ibera",
