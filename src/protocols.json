@@ -374,6 +374,15 @@
       "name": "ZeroLend",
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "High performance, feature rich perp DEX.",
+      "id": "kuma",
+      "imageDark": "kuma.svg",
+      "imageLight": "kuma.svg",
+      "name": "Kuma",
+      "type": "dex",
+      "url": "https://exchange.kuma.bid"
     }
   ]
 }
