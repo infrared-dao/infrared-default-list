@@ -2485,6 +2485,18 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0x273c832797Bfda1C0826a786670D041282Bd6aFc",
+      "decimals": 18,
+      "image": "krt.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://exchange.kuma.bid/rewards/trade",
+      "name": "Kuma Reward Token",
+      "protocol": "kuma",
+      "symbol": "KRT",
+      "type": "dex",
+      "underlyingTokens": []
     }
   ]
 }

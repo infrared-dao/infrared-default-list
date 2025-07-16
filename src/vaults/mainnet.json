@@ -869,6 +869,12 @@
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet",
       "stakeTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec"
+    },
+    { 
+      "beraRewardsVault": "0x5540E29749F6C8f5DcF49fcC17c67E97A8e7335b",
+      "depositTokenAddress": "0x273c832797Bfda1C0826a786670D041282Bd6aFc",
+      "slug": "kuma",
+      "stakeTokenAddress": "0x273c832797Bfda1C0826a786670D041282Bd6aFc"
     }
   ]
 }
