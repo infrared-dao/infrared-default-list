@@ -42,7 +42,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 
 ### 3. Update JSON files
 
-1. Navigate to `src/vaults/{network}.json` where `{network}` is the network you're adding to (e.g., "mainnet" for the Berachain mainnet).
+1. Navigate to `src/pol-vaults/{network}.json` where `{network}` is the network you're adding to (e.g., "mainnet" for the Berachain mainnet).
 
 2. Add your vault to the `vaults` array in the JSON file. Follow this structure:
 
@@ -106,7 +106,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 - Use clear, descriptive names for your vault, protocol, and tokens.
 - Provide accurate and concise descriptions.
 - Use appropriate tags and types.
-- The `url` field for vaults should be a direct link to provide liquidity for the LP token.
+- The `url` field for pol-vaults should be a direct link to provide liquidity for the LP token.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 
 ## Review process

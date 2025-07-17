@@ -69,7 +69,7 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm type-check
 
-      - name: Validate protocols, tokens, validators, and vaults
+      - name: Validate protocols, tokens, and PoL vaults
         run: pnpm validate
 
       - name: Commit clean assets
