@@ -8,6 +8,6 @@ export const cleanPolVault = ({
   polVault: DefaultListPolVault
 }): DefaultListPolVault => ({
   ...polVault,
-  beraRewardsVault: lowercaseAddress(polVault.beraRewardsVault),
+  beraRewardVault: lowercaseAddress(polVault.beraRewardVault),
   depositTokenAddress: lowercaseAddress(polVault.depositTokenAddress),
 })

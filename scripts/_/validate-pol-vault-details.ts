@@ -5,7 +5,7 @@ import type { DefaultListPolVault } from '@/schemas/pol-vaults-schema'
 import type { DefaultListTokens } from '@/schemas/tokens-schema'
 
 import { checkUniqueness } from './check-uniqueness'
-import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
+import { validateBeraRewardVault } from './validate-bera-reward-vault'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
 slug.charmap['₮'] = '₮' // allow some unicode characters
@@ -75,14 +75,14 @@ const validateStakeTokenAndSlug = ({
 }
 
 export const validatePolVaultDetails = async ({
-  beraRewardsVaults,
+  beraRewardVaults,
   errors,
   polVault,
   publicClient,
   slugs,
   tokens,
 }: {
-  beraRewardsVaults: Set<string>
+  beraRewardVaults: Set<string>
   errors: Array<string>
   polVault: DefaultListPolVault
   publicClient: PublicClient
@@ -91,13 +91,13 @@ export const validatePolVaultDetails = async ({
 }) => {
   checkUniqueness({
     errors,
-    fieldName: 'beraRewardsVault',
-    set: beraRewardsVaults,
-    value: polVault.beraRewardsVault,
+    fieldName: 'beraRewardVault',
+    set: beraRewardVaults,
+    value: polVault.beraRewardVault,
   })
 
   validateStakeTokenAndSlug({ errors, polVault, slugs, tokens })
-  await validateBeraRewardsVault({
+  await validateBeraRewardVault({
     errors,
     polVault,
     publicClient,

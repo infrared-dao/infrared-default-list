@@ -3,7 +3,7 @@ import { string, type InferOutput, array, strictObject } from 'valibot'
 import { AddressSchema } from './address-schema'
 
 export const DefaultListPolVaultSchema = strictObject({
-  beraRewardsVault: AddressSchema,
+  beraRewardVault: AddressSchema,
   depositTokenAddress: AddressSchema,
   slug: string(),
 })

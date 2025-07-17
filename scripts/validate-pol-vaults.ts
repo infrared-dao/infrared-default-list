@@ -55,12 +55,12 @@ const validateVaultsByChain = async ({
   })
   console.log(publicClient.chain.rpcUrls)
   const slugs: Array<string> = []
-  const beraRewardsVaults = new Set<string>()
+  const beraRewardVaults = new Set<string>()
 
   const promisedPolVaultDetails = polVaults.map(
     async (polVault) =>
       await validatePolVaultDetails({
-        beraRewardsVaults,
+        beraRewardVaults,
         errors,
         polVault,
         publicClient,
