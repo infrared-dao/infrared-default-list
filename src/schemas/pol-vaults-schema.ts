@@ -6,7 +6,6 @@ export const DefaultListPolVaultSchema = strictObject({
   beraRewardsVault: AddressSchema,
   depositTokenAddress: AddressSchema,
   slug: string(),
-  stakeTokenAddress: AddressSchema, // for backend
 })
 export type DefaultListPolVault = InferOutput<typeof DefaultListPolVaultSchema>
 
