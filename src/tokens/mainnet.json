@@ -202,6 +202,8 @@
       "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
       "decimals": 18,
       "image": "krt.svg",
+      "isSoulbound": true,
+      "isUnpriced": true,
       "mintUrl": "https://exchange.kuma.bid/rewards/trade",
       "name": "Kuma Reward Token",
       "protocol": "kuma",
