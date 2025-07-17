@@ -10,11 +10,11 @@ Before you begin, ensure you have:
 2. Basic knowledge of JSON and Git
 3. Details for your vault, token, or validator
 
-Please make sure that the respective beraRewardsVault is whitelisted. In order to check that please follow the guideline:
+Please make sure that the respective beraRewardVault is whitelisted. In order to check that please follow the guideline:
 
 1. Go to Berachef’s contract on Berascan(0xdf960E8F3F19C481dDE769edEDD439ea1a63426a) & select “Read Contract“
 2. Go to function 16. isWhitelistedVault
-3. Under receiver parameter put the beraRewardsVault address
+3. Under receiver parameter put the beraRewardVault address
 4. Click “Query“
 5. If the boolean is “true”, the vault is yielding BGT (desired path)
 6. If the boolean is “false”, the vault is not yielding BGT. In this case, please refer to the Berachain team, their governance, and their documentation
@@ -42,16 +42,15 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 
 ### 3. Update JSON files
 
-1. Navigate to `src/vaults/{network}.json` where `{network}` is the network you're adding to (e.g., "mainnet" for the Berachain mainnet).
+1. Navigate to `src/pol-vaults/{network}.json` where `{network}` is the network you're adding to (e.g., "mainnet" for the Berachain mainnet).
 
 2. Add your vault to the `vaults` array in the JSON file. Follow this structure:
 
    ```json
    {
-     "beraRewardsVault": "0x...",
+     "beraRewardVault": "0x...",
      "depositTokenAddress": "0x...",
-     "slug": "protocol-stake-token-name",
-     "stakeTokenAddress": "0x..."
+     "slug": "protocol-stake-token-name"
    }
    ```
 
@@ -106,7 +105,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
 - Use clear, descriptive names for your vault, protocol, and tokens.
 - Provide accurate and concise descriptions.
 - Use appropriate tags and types.
-- The `url` field for vaults should be a direct link to provide liquidity for the LP token.
+- The `url` field for pol-vaults should be a direct link to provide liquidity for the LP token.
 - Make sure you're updating the correct network-specific files (replace `{network}` with the appropriate network name).
 
 ## Review process

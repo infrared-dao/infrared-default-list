@@ -5,24 +5,24 @@ import { createPublicClient } from 'viem'
 
 import { supportedChains } from '@/config/chains'
 import {
+  type DefaultListPolVaults,
+  DefaultListPolVaultsSchema,
+} from '@/schemas/pol-vaults-schema'
+import {
   type DefaultListTokens,
   DefaultListTokensSchema,
 } from '@/schemas/tokens-schema'
-import {
-  type DefaultListVaults,
-  DefaultListVaultsSchema,
-} from '@/schemas/vaults-schema'
 
+import { cleanPolVault } from './_/clean-pol-vault'
 import { cleanToken } from './_/clean-token'
-import { cleanVault } from './_/clean-vault'
 import { formatDataToJson } from './_/format-data-to-json'
 import { getJsonFile } from './_/get-json-file'
 import { isValidChain } from './_/is-valid-chain'
 import { outputScriptStatus } from './_/output-script-status'
 import { transports } from './_/transports'
-import { validateVaultDetails } from './_/validate-vault-details'
+import { validatePolVaultDetails } from './_/validate-pol-vault-details'
 
-const folderPath = 'src/vaults'
+const folderPath = 'src/pol-vaults'
 
 const validateVaultsByChain = async ({
   chain,
@@ -31,12 +31,12 @@ const validateVaultsByChain = async ({
 }) => {
   const path = `${folderPath}/${chain}.json`
   const errors: Array<string> = []
-  const vaultsFile: { vaults: DefaultListVaults } = getJsonFile({
+  const polVaultsFile: { vaults: DefaultListPolVaults } = getJsonFile({
     chain,
     path,
   })
-  const vaults = parse(DefaultListVaultsSchema, vaultsFile.vaults).map(
-    (vault) => cleanVault({ vault }),
+  const polVaults = parse(DefaultListPolVaultsSchema, polVaultsFile.vaults).map(
+    (polVault) => cleanPolVault({ polVault }),
   )
   const tokensFile: { tokens: DefaultListTokens } = getJsonFile({
     chain,
@@ -55,25 +55,25 @@ const validateVaultsByChain = async ({
   })
   console.log(publicClient.chain.rpcUrls)
   const slugs: Array<string> = []
-  const beraRewardsVaults = new Set<string>()
+  const beraRewardVaults = new Set<string>()
 
-  const promisedVaultDetails = vaults.map(
-    async (vault) =>
-      await validateVaultDetails({
-        beraRewardsVaults,
+  const promisedPolVaultDetails = polVaults.map(
+    async (polVault) =>
+      await validatePolVaultDetails({
+        beraRewardVaults,
         errors,
+        polVault,
         publicClient,
         slugs,
         tokens,
-        vault,
       }),
   )
-  await Promise.all(promisedVaultDetails)
-  await writeFile(path, formatDataToJson({ data: { vaults } }))
-  outputScriptStatus({ chain, errors, type: 'Vaults' })
+  await Promise.all(promisedPolVaultDetails)
+  await writeFile(path, formatDataToJson({ data: { vaults: polVaults } }))
+  outputScriptStatus({ chain, errors, type: 'PoL vaults' })
 }
 
-const validateVaults = async () => {
+const validatePolVaults = async () => {
   const promises = readdirSync(folderPath).map(async (file) => {
     const chain = file.replace('.json', '')
 
@@ -86,4 +86,4 @@ const validateVaults = async () => {
   await Promise.all(promises)
 }
 
-await validateVaults()
+await validatePolVaults()

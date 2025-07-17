@@ -1,40 +1,40 @@
 import slug from 'slug'
 import { type Address, isAddressEqual, type PublicClient } from 'viem'
 
+import type { DefaultListPolVault } from '@/schemas/pol-vaults-schema'
 import type { DefaultListTokens } from '@/schemas/tokens-schema'
-import type { DefaultListVault } from '@/schemas/vaults-schema'
 
 import { checkUniqueness } from './check-uniqueness'
-import { validateBeraRewardsVault } from './validate-bera-rewards-vault'
+import { validateBeraRewardVault } from './validate-bera-reward-vault'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
 slug.charmap['₮'] = '₮' // allow some unicode characters
 
 const validateStakeTokenAndSlug = ({
   errors,
+  polVault,
   slugs,
   tokens,
-  vault,
 }: {
   errors: Array<string>
+  polVault: DefaultListPolVault
   slugs: Array<string>
   tokens: DefaultListTokens
-  vault: DefaultListVault
 }) => {
   const stakeToken = tokens.find(({ address }) =>
-    isAddressEqual(address as Address, vault.depositTokenAddress as Address),
+    isAddressEqual(address as Address, polVault.depositTokenAddress as Address),
   )
 
   if (!stakeToken) {
     errors.push(
-      `${vault.slug} does not have a token for ${vault.depositTokenAddress}`,
+      `${polVault.slug} does not have a token for ${polVault.depositTokenAddress}`,
     )
     return
   }
 
   if (!('protocol' in stakeToken) || !stakeToken.protocol) {
     errors.push(
-      `${stakeToken.name} does not have a protocol (vault validation)`,
+      `${stakeToken.name} does not have a protocol (pol vault validation)`,
     )
     return
   }
@@ -48,58 +48,58 @@ const validateStakeTokenAndSlug = ({
     `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`,
   ]
 
-  if (!expectedSlugs.includes(vault.slug)) {
+  if (!expectedSlugs.includes(polVault.slug)) {
     if (slugs.some((slug) => expectedSlugs.includes(slug))) {
       if (
         !expectedSlugs.some((expectedSlug) =>
-          vault.slug.startsWith(expectedSlug),
+          polVault.slug.startsWith(expectedSlug),
         )
       ) {
         errors.push(
-          `${vault.slug}’s slug does not start with ${expectedSlugs.join(' or ')}`,
+          `${polVault.slug}’s slug does not start with ${expectedSlugs.join(' or ')}`,
         )
       }
     } else {
       errors.push(
-        `${vault.slug}’s slug does not match ${expectedSlugs.join(' or ')}`,
+        `${polVault.slug}’s slug does not match ${expectedSlugs.join(' or ')}`,
       )
     }
   }
 
-  if (slugs.includes(vault.slug)) {
+  if (slugs.includes(polVault.slug)) {
     errors.push(
-      `Duplicate slug found: ${vault.slug}. Vault slugs must be unique.`,
+      `Duplicate slug found: ${polVault.slug}. PoL vault slugs must be unique.`,
     )
   }
-  slugs.push(vault.slug)
+  slugs.push(polVault.slug)
 }
 
-export const validateVaultDetails = async ({
-  beraRewardsVaults,
+export const validatePolVaultDetails = async ({
+  beraRewardVaults,
   errors,
+  polVault,
   publicClient,
   slugs,
   tokens,
-  vault,
 }: {
-  beraRewardsVaults: Set<string>
+  beraRewardVaults: Set<string>
   errors: Array<string>
+  polVault: DefaultListPolVault
   publicClient: PublicClient
   slugs: Array<string>
   tokens: DefaultListTokens
-  vault: DefaultListVault
 }) => {
   checkUniqueness({
     errors,
-    fieldName: 'beraRewardsVault',
-    set: beraRewardsVaults,
-    value: vault.beraRewardsVault,
+    fieldName: 'beraRewardVault',
+    set: beraRewardVaults,
+    value: polVault.beraRewardVault,
   })
 
-  validateStakeTokenAndSlug({ errors, slugs, tokens, vault })
-  await validateBeraRewardsVault({
+  validateStakeTokenAndSlug({ errors, polVault, slugs, tokens })
+  await validateBeraRewardVault({
     errors,
+    polVault,
     publicClient,
-    vault,
   })
 }

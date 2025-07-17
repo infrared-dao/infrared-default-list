@@ -20,14 +20,14 @@
   "type": "module",
   "exports": {
     "./assets/*": "./assets/*",
+    "./pol-vaults/mainnet": "./src/pol-vaults/mainnet.json",
+    "./pol-vaults/bepolia": "./src/pol-vaults/bepolia.json",
     "./protocols": "./src/protocols.json",
     "./schemas/protocols": "./src/schemas/protocols-schema.ts",
     "./schemas/tokens": "./src/schemas/tokens-schema.ts",
-    "./schemas/vaults": "./src/schemas/vaults-schema.ts",
+    "./schemas/pol-vaults": "./src/schemas/pol-vaults-schema.ts",
     "./tokens/mainnet": "./src/tokens/mainnet.json",
-    "./tokens/bepolia": "./src/tokens/bepolia.json",
-    "./vaults/mainnet": "./src/vaults/mainnet.json",
-    "./vaults/bepolia": "./src/vaults/bepolia.json"
+    "./tokens/bepolia": "./src/tokens/bepolia.json"
   },
   "scripts": {
     "clean-assets": "svgo -rf src -o src",
@@ -37,14 +37,14 @@
     "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
-    "sort": "concurrently \"tsx scripts/sort-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\"",
+    "sort": "concurrently \"tsx scripts/sort-pol-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\"",
     "sort-and-format": "pnpm sort && pnpm format",
     "sort-package-json": "pnpm dlx sort-package-json",
     "type-check": "tsc --noEmit",
-    "validate": "concurrently \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-vaults.ts\" && pnpm sort-and-format",
+    "validate": "concurrently \"tsx scripts/validate-protocols.ts\" \"tsx scripts/validate-tokens.ts\" \"tsx scripts/validate-pol-vaults.ts\" && pnpm sort-and-format",
+    "validate-pol-vaults": "tsx scripts/validate-pol-vaults.ts && tsx scripts/sort-pol-vaults.ts && pnpm format",
     "validate-protocols": "tsx scripts/validate-protocols.ts && tsx scripts/sort-protocols.ts && pnpm format",
-    "validate-tokens": "tsx scripts/validate-tokens.ts && tsx scripts/sort-tokens.ts && pnpm format",
-    "validate-vaults": "tsx scripts/validate-vaults.ts && tsx scripts/sort-vaults.ts && pnpm format"
+    "validate-tokens": "tsx scripts/validate-tokens.ts && tsx scripts/sort-tokens.ts && pnpm format"
   },
   "devDependencies": {
     "@infrared-dao/eslint-config": "^0.0.8",
