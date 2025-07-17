@@ -199,6 +199,18 @@
       "symbol": "HONEY"
     },
     {
+      "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
+      "decimals": 18,
+      "image": "krt.svg",
+      "isSoulbound": true,
+      "isUnpriced": true,
+      "mintUrl": "https://exchange.kuma.bid/rewards/trade",
+      "name": "Kuma Reward Token",
+      "protocol": "kuma",
+      "symbol": "KRT",
+      "type": "unknown"
+    },
+    {
       "address": "0xf3530788deb3d21e8fa2c3cbbf93317fb38a0d3c",
       "decimals": 18,
       "image": "lair.svg",

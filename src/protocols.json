@@ -232,6 +232,15 @@
       "url": "https://app.kodiak.finance"
     },
     {
+      "description": "High performance, feature rich perp DEX.",
+      "id": "kuma",
+      "imageDark": "kuma.svg",
+      "imageLight": "kuma.svg",
+      "name": "Kuma",
+      "type": "dex",
+      "url": "https://exchange.kuma.bid"
+    },
+    {
       "description": "Modular vault protocol for staking, yield stacking, and optimized DeFi returns.",
       "id": "lair",
       "imageDark": "lair.svg",
