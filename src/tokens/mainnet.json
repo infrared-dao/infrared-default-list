@@ -2082,6 +2082,20 @@
       ]
     },
     {
+      "address": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
+      "decimals": 18,
+      "image": "wbera-usdc.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c?chain=berachain_mainnet",
+      "name": "WBERA-USDC",
+      "protocol": "kodiak",
+      "symbol": "CHRM WBERA-USDC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x549943e04f40284185054145c6e4e9568c1d3241"
+      ]
+    },
+    {
       "address": "0xfc4994e0a4780ba7536d7e79611468b6bde14cae",
       "decimals": 18,
       "image": "wbtc-ebtc.svg",
