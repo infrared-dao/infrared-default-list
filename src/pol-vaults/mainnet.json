@@ -66,11 +66,6 @@
       "slug": "bex-asugar-honey"
     },
     {
-      "beraRewardVault": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
-      "depositTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
-      "slug": "bex-byusd-honey"
-    },
-    {
       "beraRewardVault": "0x11cb30910e6c01c431c64242587838fbebb4bac4",
       "depositTokenAddress": "0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3",
       "slug": "bex-ibera-wgbera"
@@ -574,6 +569,11 @@
       "beraRewardVault": "0x6b23e121c6a13c959d69493ea5ca015a5847596a",
       "depositTokenAddress": "0x93a913351cae2d8c82c4b85f699726947eb76d32",
       "slug": "kodiak-wbera-ramen"
+    },
+    {
+      "beraRewardVault": "0x11e13b70247e2bcc87544b366c47013ac51955a5",
+      "depositTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
+      "slug": "kodiak-wbera-usdc"
     },
     {
       "beraRewardVault": "0x8aa4a546d6437067fab027904eac0b7c78857737",

@@ -1,4 +1,4 @@
-import { string, type InferOutput, array, strictObject } from 'valibot'
+import { array, type InferOutput, strictObject, string } from 'valibot'
 
 import { AddressSchema } from './address-schema'
 

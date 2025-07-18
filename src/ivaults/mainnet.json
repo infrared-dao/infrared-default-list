@@ -1,0 +1,9 @@
+{
+  "vaults": [
+    {
+      "beraRewardVault": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
+      "depositTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
+      "slug": "bex-byusd-honey"
+    }
+  ]
+}
