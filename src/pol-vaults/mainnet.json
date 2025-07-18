@@ -730,5 +730,10 @@
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
     }
+    {
+      "beraRewardVault": "0x11e13b70247e2bcc87544b366c47013ac51955a52",
+      "depositTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
+      "slug": "charm-wbera-usdc"
+    }
   ]
 }
