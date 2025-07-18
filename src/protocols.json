@@ -383,6 +383,16 @@
       "name": "ZeroLend",
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "The easiest way to provide and manage liquidity.",
+      "id": "charm",
+      "imageDark": "charm.svg",
+      "imageLight": "charm.svg",
+      "name": "Charm",
+      "type": "yield",
+      "url": "https://charm.fi"
     }
+
   ]
 }
