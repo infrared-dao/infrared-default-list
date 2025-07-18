@@ -2082,6 +2082,20 @@
       ]
     },
     {
+      "address": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
+      "decimals": 18,
+      "image": "wbera-usdc.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c?chain=berachain_mainnet",
+      "name": "WBERA-USDC",
+      "protocol": "kodiak",
+      "symbol": "CHRM WBERA-USDC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x549943e04f40284185054145c6e4e9568c1d3241"
+      ]
+    },
+    {
       "address": "0xfc4994e0a4780ba7536d7e79611468b6bde14cae",
       "decimals": 18,
       "image": "wbtc-ebtc.svg",
@@ -2497,20 +2511,6 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
-    },
-    {
-      "address": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
-      "decimals": 18,
-      "image": "wbera-usdc.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c?farm=0x11e13b70247e2bcc87544b366c47013ac51955a5&chain=berachain_mainnet",
-      "name": "CHARM WBERA-USDC-0.3%",
-      "protocol": "kodiak",
-      "symbol": "CHRM WBERA-USDC",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x549943e04f40284185054145c6E4e9568C1D3241",
-        "0x6969696969696969696969696969696969696969"
-      ]
     }
   ]
 }
