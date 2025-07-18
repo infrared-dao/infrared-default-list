@@ -7,12 +7,14 @@ export const checkUniqueness = ({
   errors: Array<string>
   fieldName: string
   set: Set<string>
-  value: string
+  value: string | undefined
 }) => {
-  if (set.has(value)) {
-    errors.push(
-      `Duplicate protocol found: ${value}. Protocol ${fieldName}s must be unique.`,
-    )
+  if (value) {
+    if (set.has(value)) {
+      errors.push(
+        `Duplicate protocol found: ${value}. Protocol ${fieldName}s must be unique.`,
+      )
+    }
+    set.add(value)
   }
-  set.add(value)
 }
