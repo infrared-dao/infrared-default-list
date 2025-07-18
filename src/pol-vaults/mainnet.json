@@ -66,11 +66,6 @@
       "slug": "bex-asugar-honey"
     },
     {
-      "beraRewardVault": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
-      "depositTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
-      "slug": "bex-byusd-honey"
-    },
-    {
       "beraRewardVault": "0x11cb30910e6c01c431c64242587838fbebb4bac4",
       "depositTokenAddress": "0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3",
       "slug": "bex-ibera-wgbera"
