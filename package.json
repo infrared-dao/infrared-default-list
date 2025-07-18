@@ -20,6 +20,8 @@
   "type": "module",
   "exports": {
     "./assets/*": "./assets/*",
+    "./ivaults/mainnet": "./src/ivaults/mainnet.json",
+    "./ivaults/bepolia": "./src/ivaults/bepolia.json",
     "./pol-vaults/mainnet": "./src/pol-vaults/mainnet.json",
     "./pol-vaults/bepolia": "./src/pol-vaults/bepolia.json",
     "./protocols": "./src/protocols.json",
