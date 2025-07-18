@@ -576,6 +576,11 @@
       "slug": "kodiak-wbera-ramen"
     },
     {
+      "beraRewardVault": "0x11e13b70247e2bcc87544b366c47013ac51955a5",
+      "depositTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
+      "slug": "kodiak-wbera-usdc"
+    },
+    {
       "beraRewardVault": "0x8aa4a546d6437067fab027904eac0b7c78857737",
       "depositTokenAddress": "0xfc4994e0a4780ba7536d7e79611468b6bde14cae",
       "slug": "kodiak-wbtc-ebtc"
@@ -729,11 +734,6 @@
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
-    },
-    {
-      "beraRewardVault": "0x11e13b70247e2bcc87544b366c47013ac51955a5",
-      "depositTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
-      "slug": "charm-wbera-usdc"
     }
   ]
 }
