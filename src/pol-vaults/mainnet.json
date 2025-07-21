@@ -461,6 +461,11 @@
       "slug": "kodiak-solvbtc-xsolvbtc"
     },
     {
+      "beraRewardVault": "0x0767038700605b50967eea1e6440d6fd6c92c237",
+      "depositTokenAddress": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
+      "slug": "kodiak-sol-honey"
+    },
+    {
       "beraRewardVault": "0xc7986e8bb129389380c6d6be9ca94266b42c8592",
       "depositTokenAddress": "0x35b3833cbdcfaf3a842c90b775c632032648907d",
       "slug": "kodiak-solvbtc.bnb-solvbtc"
