@@ -879,7 +879,8 @@
     {
       "beraRewardVault": "0x11e13b70247e2bcc87544b366c47013ac51955a5",
       "depositTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
-      "slug": "kodiak-wbera-usdc"
+      "slug": "kodiak-wbera-usdc",
+      "stakeTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c"
     }
   ]
 }
