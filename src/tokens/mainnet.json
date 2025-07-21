@@ -340,6 +340,13 @@
       "symbol": "rUSD"
     },
     {
+      "address": "0x225B86198ba36321a8A840291416aEd62494043f",
+      "decimals": 9,
+      "image": "solana.svg",
+      "name": "Solana",
+      "symbol": "Sol"
+    },
+    {
       "address": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
       "decimals": 18,
       "image": "solvbtc.svg",
@@ -1757,6 +1764,20 @@
       "underlyingTokens": [
         "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
         "0x779ded0c9e1022225f8e0630b35a9b54be713736"
+      ]
+    },
+    {
+      "address": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
+      "decimals": 18,
+      "image": "sol-honey.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4d1b02ff3ce55b816bb916ad8f80479434830ea4?chain=berachain_mainnet",
+      "name": "SOL-HONEY",
+      "protocol": "kodiak",
+      "symbol": "KODI SOL-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x225B86198ba36321a8A840291416aEd62494043f",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
       ]
     },
     {
