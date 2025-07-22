@@ -456,6 +456,11 @@
       "slug": "kodiak-rusd-usd₮0"
     },
     {
+      "beraRewardVault": "0x0767038700605b50967eea1e6440d6fd6c92c237",
+      "depositTokenAddress": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
+      "slug": "kodiak-sol-honey"
+    },
+    {
       "beraRewardVault": "0x3fc5cb0290c82680afe9ef8cdde5468d74c85705",
       "depositTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790",
       "slug": "kodiak-solvbtc-xsolvbtc"
