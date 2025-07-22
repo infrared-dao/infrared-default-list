@@ -340,11 +340,11 @@
       "symbol": "rUSD"
     },
     {
-      "address": "0x225B86198ba36321a8A840291416aEd62494043f",
+      "address": "0x225b86198ba36321a8a840291416aed62494043f",
       "decimals": 9,
-      "image": "solana.svg",
-      "name": "Solana",
-      "symbol": "Sol"
+      "image": "wrapped-sol.svg",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
     },
     {
       "address": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
@@ -1776,8 +1776,8 @@
       "symbol": "KODI SOL-HONEY",
       "type": "amm",
       "underlyingTokens": [
-        "0x225B86198ba36321a8A840291416aEd62494043f",
-        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+        "0x225b86198ba36321a8a840291416aed62494043f",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
