@@ -21,6 +21,8 @@ export const ProtocolTypeSchema = picklist([
   'unknown',
 ])
 export type ProtocolType = InferOutput<typeof ProtocolTypeSchema>
+export const ProductsTypeSchema = array(picklist(['iBERA', 'iBGT', 'vaults']))
+export type ProductsType = InferOutput<typeof ProductsTypeSchema>
 
 export const DefaultListProtocolSchema = strictObject({
   description: string(),
@@ -30,6 +32,7 @@ export const DefaultListProtocolSchema = strictObject({
   imageOnTop: optional(string()),
   name: string(),
   prefix: optional(string()),
+  products: optional(ProductsTypeSchema),
   type: ProtocolTypeSchema,
   url: pipe(string(), nonEmpty('Please enter a url'), url()),
 })
