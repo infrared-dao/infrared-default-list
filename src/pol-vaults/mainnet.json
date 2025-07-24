@@ -11,6 +11,11 @@
       "slug": "aquabera-wbera-henlo"
     },
     {
+      "beraRewardVault": "0x2ce23c67a3fb0b9c6c8e3546725871e74b2a08ab",
+      "depositTokenAddress": "0x30e148a79b898efa1ab1285f5eca71972a7e0ace",
+      "slug": "bera-sumer-token"
+    },
+    {
       "beraRewardVault": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
       "depositTokenAddress": "0x62cf6e355c77edb6f5c8eb2085a85cf4de4c1852",
       "slug": "beraborrow-bunibtc"
@@ -734,11 +739,6 @@
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
-    },
-    {
-      "beraRewardVault": "0x2ce23c67a3fb0b9c6c8e3546725871e74b2a08ab",
-      "depositTokenAddress": "0x30e148a79b898efa1ab1285f5eca71972a7e0ace",
-      "slug": "bera-sumer-token"
     }
   ]
 }

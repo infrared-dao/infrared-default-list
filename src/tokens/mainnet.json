@@ -2418,6 +2418,17 @@
       ]
     },
     {
+      "address": "0x30E148a79B898EFa1Ab1285F5Eca71972a7e0acE",
+      "decimals": 18,
+      "image": "sumer.svg",
+      "mintUrl": "https://app.sumer.money",
+      "name": "Bera Sumer Token",
+      "protocol": "sumer",
+      "symbol": "bSumer",
+      "type": "vault",
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
       "address": "0x3640587709a387b54b0df555cd651a95a54fa900",
       "decimals": 18,
       "image": "bee-wbera.svg",
@@ -2532,17 +2543,6 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
-    },
-    {
-      "address": "0x30E148a79B898EFa1Ab1285F5Eca71972a7e0acE",
-      "decimals": 18,
-      "image": "sumer.svg",
-      "mintUrl": "https://app.sumer.money",
-      "name": "Bera Sumer Token",
-      "protocol": "sumer",
-      "symbol": "bSumer",
-      "type": "vault",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     }
   ]
 }
