@@ -367,6 +367,15 @@
       "url": "https://app.steer.finance"
     },
     {
+      "description": "Sumer is a liquidity infrastructure that combines lending, synthetic assets and cross chain liquidity into one unified pool to maximize capital efficiency.",
+      "id": "sumer",
+      "imageDark": "sumer.svg",
+      "imageLight": "sumer.svg",
+      "name": "Sumer",
+      "type": "money-market",
+      "url": "https://sumer.money"
+    },
+    {
       "description": "DeFi infrastructure offering next‑gen financial products and tooling.",
       "id": "wasabee",
       "imageDark": "wasabee.svg",

@@ -100,6 +100,18 @@
       "symbol": "BREAD"
     },
     {
+      "address": "0x30e148a79b898efa1ab1285f5eca71972a7e0ace",
+      "decimals": 18,
+      "image": "bsumer.svg",
+      "isSoulbound": true,
+      "isUnpriced": true,
+      "mintUrl": "https://app.sumer.money/?chain=80094",
+      "name": "bSumer",
+      "protocol": "sumer",
+      "symbol": "bSumer",
+      "type": "vault"
+    },
+    {
       "address": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c",
       "decimals": 18,
       "image": "bull-ish-v2.svg",
