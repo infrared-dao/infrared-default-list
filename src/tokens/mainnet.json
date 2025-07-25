@@ -450,7 +450,7 @@
       "symbol": "WBTC"
     },
     {
-      "address": "0x334404782aB67b4F6B2A619873E579E971f9AAB7",
+      "address": "0x334404782ab67b4f6b2a619873e579e971f9aab7",
       "decimals": 18,
       "image": "wbyusd.svg",
       "name": "Wrapped BYUSD",
