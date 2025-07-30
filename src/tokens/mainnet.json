@@ -2,6 +2,7 @@
   "tokens": [
     {
       "address": "0xcc6a16bcfda7d0ebe168f69ef7b946e96a90e67f",
+      "chainId": 80094,
       "decimals": 18,
       "image": "aibera.svg",
       "name": "HoneyFun AI",
@@ -9,6 +10,7 @@
     },
     {
       "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
+      "chainId": 80094,
       "decimals": 18,
       "image": "asugar.svg",
       "name": "aSugar",
@@ -16,6 +18,7 @@
     },
     {
       "address": "0x89d2e832edaaff8c228a57a1602a1f7950ea2d39",
+      "chainId": 80094,
       "decimals": 18,
       "image": "avl.svg",
       "name": "AVL",
@@ -23,6 +26,7 @@
     },
     {
       "address": "0x93a0cb3ee34aa983db262f904021911ecd199228",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bee.svg",
       "name": "Bee Token",
@@ -30,6 +34,7 @@
     },
     {
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bera.svg",
       "name": "BERA",
@@ -37,6 +42,7 @@
     },
     {
       "address": "0x6fc6545d5cde268d5c7f1e476d444f39c995120d",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beraeth.svg",
       "name": "Berachain Staked ETH",
@@ -44,6 +50,7 @@
     },
     {
       "address": "0x1f7210257fa157227d09449229a9266b0d581337",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beramo.svg",
       "name": "BERAMO",
@@ -51,6 +58,7 @@
     },
     {
       "address": "0x656b95e550c07a9ffe548bd4085c72418ceb1dba",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bgt.svg",
       "isSoulbound": true,
@@ -59,6 +67,7 @@
     },
     {
       "address": "0x6b26f778bfae56cfb4bf9b62c678d9d40e725227",
+      "chainId": 80094,
       "decimals": 8,
       "image": "bitcoin.svg",
       "name": "HarryPotterObamaSonic10Inu",
@@ -66,6 +75,7 @@
     },
     {
       "address": "0x147c9a7f5265d7ca9a671c3817b212a0cf88856e",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bixbt.svg",
       "name": "BeraXBT",
@@ -73,6 +83,7 @@
     },
     {
       "address": "0xb749584f9fc418cf905d54f462fdbfdc7462011b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bm.svg",
       "name": "bm",
@@ -80,6 +91,7 @@
     },
     {
       "address": "0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087",
+      "chainId": 80094,
       "decimals": 18,
       "image": "br.svg",
       "name": "Bedrock",
@@ -87,6 +99,7 @@
     },
     {
       "address": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "chainId": 80094,
       "decimals": 8,
       "image": "brbtc.svg",
       "name": "brBTC",
@@ -94,6 +107,7 @@
     },
     {
       "address": "0x0003eedfdd020bf60d10cf684abac7c4534b7ead",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bread.svg",
       "name": "Bread",
@@ -101,6 +115,7 @@
     },
     {
       "address": "0x30e148a79b898efa1ab1285f5eca71972a7e0ace",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bsumer.svg",
       "isSoulbound": true,
@@ -113,6 +128,7 @@
     },
     {
       "address": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bull-ish-v2.svg",
       "isSoulbound": true,
@@ -125,6 +141,7 @@
     },
     {
       "address": "0x28e0e3b9817012b356119df9e217c25932d609c2",
+      "chainId": 80094,
       "decimals": 18,
       "image": "burr.svg",
       "name": "Burr Governance Token",
@@ -132,6 +149,7 @@
     },
     {
       "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
+      "chainId": 80094,
       "decimals": 6,
       "image": "byusd.svg",
       "name": "BYUSD",
@@ -139,6 +157,7 @@
     },
     {
       "address": "0x09d9420332bff75522a45fcff4855f82a0a3ff50",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dinero.svg",
       "name": "Dinero OFT",
@@ -146,6 +165,7 @@
     },
     {
       "address": "0x0f81001ef0a83ecce5ccebf63eb302c70a39a654",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dolo.svg",
       "name": "Dolomite",
@@ -153,6 +173,7 @@
     },
     {
       "address": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+      "chainId": 80094,
       "decimals": 8,
       "image": "ebtc.svg",
       "name": "ether.fi BTC",
@@ -160,6 +181,7 @@
     },
     {
       "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ezeth.svg",
       "name": "Renzo Restaked ETH",
@@ -167,6 +189,7 @@
     },
     {
       "address": "0xbac93a69c62a1518136ff840b788ba715cbdfe2b",
+      "chainId": 80094,
       "decimals": 8,
       "image": "fbtc.svg",
       "name": "Fire Bitcoin",
@@ -174,6 +197,7 @@
     },
     {
       "address": "0xca9088895e3390e503cac9ae95abaccdba20822e",
+      "chainId": 80094,
       "decimals": 18,
       "image": "grq.svg",
       "name": "GetRichQuick",
@@ -181,6 +205,7 @@
     },
     {
       "address": "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "henlo.svg",
       "name": "henlo",
@@ -188,6 +213,7 @@
     },
     {
       "address": "0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea",
+      "chainId": 80094,
       "decimals": 18,
       "image": "hohm.svg",
       "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea/info",
@@ -198,6 +224,7 @@
     },
     {
       "address": "0xff0a636dfc44bb0129b631cdd38d21b613290c98",
+      "chainId": 80094,
       "decimals": 18,
       "image": "hold.svg",
       "name": "Holdstation",
@@ -205,6 +232,7 @@
     },
     {
       "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
+      "chainId": 80094,
       "decimals": 18,
       "image": "honey.svg",
       "name": "HONEY",
@@ -212,6 +240,7 @@
     },
     {
       "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
+      "chainId": 80094,
       "decimals": 18,
       "image": "krt.svg",
       "isSoulbound": true,
@@ -224,6 +253,7 @@
     },
     {
       "address": "0xf3530788deb3d21e8fa2c3cbbf93317fb38a0d3c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "lair.svg",
       "name": "LAIR",
@@ -231,6 +261,7 @@
     },
     {
       "address": "0xbaadcc2962417c01af99fb2b7c75706b9bd6babe",
+      "chainId": 80094,
       "decimals": 18,
       "image": "lbgt.svg",
       "name": "Liquid BGT",
@@ -238,6 +269,7 @@
     },
     {
       "address": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+      "chainId": 80094,
       "decimals": 8,
       "image": "lbtc.svg",
       "name": "Lombard Staked Bitcoin",
@@ -245,6 +277,7 @@
     },
     {
       "address": "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
+      "chainId": 80094,
       "decimals": 18,
       "image": "mbgt.svg",
       "name": "market BGT",
@@ -252,6 +285,7 @@
     },
     {
       "address": "0xedb5180661f56077292c92ab40b1ac57a279a396",
+      "chainId": 80094,
       "decimals": 18,
       "image": "mead.svg",
       "name": "Roots Stable",
@@ -259,6 +293,7 @@
     },
     {
       "address": "0x5b82028cfc477c4e7dda7ff33d59a23fa7be002a",
+      "chainId": 80094,
       "decimals": 18,
       "image": "mim.svg",
       "name": "Magic Internet Money",
@@ -266,6 +301,7 @@
     },
     {
       "address": "0x6536cead649249cae42fc9bfb1f999429b3ec755",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nav.svg",
       "name": "NavFinance",
@@ -273,6 +309,7 @@
     },
     {
       "address": "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nect.svg",
       "name": "Nectar",
@@ -280,6 +317,7 @@
     },
     {
       "address": "0x18878df23e2a36f81e820e4b47b4a40576d3159c",
+      "chainId": 80094,
       "decimals": 9,
       "image": "ohm.svg",
       "name": "Olympus",
@@ -287,6 +325,7 @@
     },
     {
       "address": "0x009af46df68db0e76bfe9ea35663f6ed17877956",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ooga.svg",
       "name": "Ooga Token",
@@ -294,6 +333,7 @@
     },
     {
       "address": "0x69f1e971257419b1e9c405a553f252c64a29a30a",
+      "chainId": 80094,
       "decimals": 18,
       "image": "oribgt.svg",
       "mintUrl": "https://origami.finance/collections/berachain-collection/80094-0x69f1e971257419b1e9c405a553f252c64a29a30a/info",
@@ -304,6 +344,7 @@
     },
     {
       "address": "0x978448a7866aed0146ad5c5e5d3d8424e2b16356",
+      "chainId": 80094,
       "decimals": 18,
       "image": "oribgtot.svg",
       "name": "oriBGT-OT",
@@ -311,6 +352,7 @@
     },
     {
       "address": "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58",
+      "chainId": 80094,
       "decimals": 18,
       "image": "osbgt.svg",
       "name": "OpenState BGT",
@@ -318,6 +360,7 @@
     },
     {
       "address": "0x231a6bd8eb88cfa42776b7ac575cecaf82bf1e21",
+      "chainId": 80094,
       "decimals": 18,
       "image": "plug.svg",
       "name": "Beraplug",
@@ -325,6 +368,7 @@
     },
     {
       "address": "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
+      "chainId": 80094,
       "decimals": 18,
       "image": "plutus.svg",
       "name": "Plutus token",
@@ -332,6 +376,7 @@
     },
     {
       "address": "0xc99e948e9d183848a6c4f5e6c1d225f02f171d79",
+      "chainId": 80094,
       "decimals": 18,
       "image": "pollen.svg",
       "name": "POLLEN",
@@ -339,6 +384,7 @@
     },
     {
       "address": "0xb8b1af593dc37b33a2c87c8db1c9051fc32858b7",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ramen.svg",
       "name": "RAMEN",
@@ -346,6 +392,7 @@
     },
     {
       "address": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
+      "chainId": 80094,
       "decimals": 18,
       "image": "rusd.svg",
       "name": "Reservoir Stablecoin",
@@ -353,6 +400,7 @@
     },
     {
       "address": "0x225b86198ba36321a8a840291416aed62494043f",
+      "chainId": 80094,
       "decimals": 9,
       "image": "wrapped-sol.svg",
       "name": "Wrapped SOL",
@@ -360,6 +408,7 @@
     },
     {
       "address": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+      "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc.svg",
       "name": "Solv BTC",
@@ -367,6 +416,7 @@
     },
     {
       "address": "0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb",
+      "chainId": 80094,
       "decimals": 18,
       "image": "stbgt.svg",
       "name": "stBGT",
@@ -374,6 +424,7 @@
     },
     {
       "address": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
+      "chainId": 80094,
       "decimals": 18,
       "image": "stg.svg",
       "name": "StargateToken",
@@ -381,6 +432,7 @@
     },
     {
       "address": "0xec901da9c68e90798bbbb74c11406a32a70652c3",
+      "chainId": 80094,
       "decimals": 18,
       "image": "stone.svg",
       "name": "StakeStone Ether",
@@ -388,6 +440,7 @@
     },
     {
       "address": "0x2840f9d9f96321435ab0f977e7fdbf32ea8b304f",
+      "chainId": 80094,
       "decimals": 18,
       "image": "susda.svg",
       "name": "USDa saving token",
@@ -395,6 +448,7 @@
     },
     {
       "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "chainId": 80094,
       "decimals": 18,
       "image": "susde.svg",
       "name": "Staked USDe",
@@ -402,6 +456,7 @@
     },
     {
       "address": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
+      "chainId": 80094,
       "decimals": 8,
       "image": "unibtc.svg",
       "name": "uniBTC",
@@ -409,6 +464,7 @@
     },
     {
       "address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "chainId": 80094,
       "decimals": 6,
       "image": "usdt0.svg",
       "name": "USD₮0",
@@ -416,6 +472,7 @@
     },
     {
       "address": "0xff12470a969dd362eb6595ffb44c82c959fe9acc",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usda.svg",
       "name": "USDa",
@@ -423,6 +480,7 @@
     },
     {
       "address": "0x6d4223dae2a8744a85a6d44e97f3f61679f87ee6",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usdbr.svg",
       "name": "USDbr",
@@ -430,6 +488,7 @@
     },
     {
       "address": "0x549943e04f40284185054145c6e4e9568c1d3241",
+      "chainId": 80094,
       "decimals": 6,
       "image": "usdc-e.svg",
       "name": "Bridged USDC (Stargate)",
@@ -437,6 +496,7 @@
     },
     {
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usde.svg",
       "name": "USDe",
@@ -444,6 +504,7 @@
     },
     {
       "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+      "chainId": 80094,
       "decimals": 8,
       "image": "wbtc.svg",
       "name": "WBTC",
@@ -451,6 +512,7 @@
     },
     {
       "address": "0x334404782ab67b4f6b2a619873e579e971f9aab7",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbyusd.svg",
       "name": "Wrapped BYUSD",
@@ -458,6 +520,7 @@
     },
     {
       "address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weeth.svg",
       "name": "Wrapped eETH",
@@ -465,6 +528,7 @@
     },
     {
       "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth.svg",
       "name": "WETH",
@@ -472,6 +536,7 @@
     },
     {
       "address": "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wgbera.svg",
       "name": "wgBERA",
@@ -479,6 +544,7 @@
     },
     {
       "address": "0x01c8a5ccad23a4d3764ef71c403862160aa2913a",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wizz.svg",
       "name": "Wizzwoods Token",
@@ -486,6 +552,7 @@
     },
     {
       "address": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "xsolvbtc.svg",
       "name": "xSolvBTC",
@@ -493,6 +560,7 @@
     },
     {
       "address": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
+      "chainId": 80094,
       "decimals": 6,
       "image": "xusd.svg",
       "name": "Staked Stream USD",
@@ -500,6 +568,7 @@
     },
     {
       "address": "0x982940ebfc5caa2f5b5a82aac2dfa99f18bb7da4",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ybera.svg",
       "name": "Bearn BERA",
@@ -507,6 +576,7 @@
     },
     {
       "address": "0x7e768f47dfdd5dae874aac233f1bc5817137e453",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ybgt.svg",
       "name": "Bearn BGT",
@@ -514,6 +584,7 @@
     },
     {
       "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
+      "chainId": 80094,
       "decimals": 18,
       "image": "yeet.svg",
       "mintUrl": "https://yeetit.xyz",
@@ -524,6 +595,7 @@
     },
     {
       "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+      "chainId": 80094,
       "decimals": 18,
       "image": "zero.svg",
       "name": "Zero",
@@ -531,6 +603,7 @@
     },
     {
       "address": "0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-beramo.svg",
       "mintUrl": "https://app.aquabera.com/vault/0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
@@ -545,6 +618,7 @@
     },
     {
       "address": "0x04fd6a7b02e2e48caedad7135420604de5f834f8",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-henlo.svg",
       "mintUrl": "https://app.aquabera.com/vault/0x04fd6a7b02e2e48caedad7135420604de5f834f8",
@@ -559,6 +633,7 @@
     },
     {
       "address": "0x62cf6e355c77edb6f5c8eb2085a85cf4de4c1852",
+      "chainId": 80094,
       "decimals": 8,
       "image": "bunibtc.svg",
       "mintUrl": "https://app.beraborrow.com/den/borrow/unibtc",
@@ -570,6 +645,7 @@
     },
     {
       "address": "0x6751c09113a83a83a43829fd0b3bc0d7bdbe07bf",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bwbera.svg",
       "mintUrl": "https://app.beraborrow.com/den/borrow/wbera",
@@ -581,6 +657,7 @@
     },
     {
       "address": "0x8628e618b66e7cddbe0adc84b96bea3977954507",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bwgbera.svg",
       "mintUrl": "https://app.beraborrow.com/den/borrow/wgbera",
@@ -592,6 +669,7 @@
     },
     {
       "address": "0x597877ccf65be938bd214c4c46907669e3e62128",
+      "chainId": 80094,
       "decimals": 18,
       "image": "snect.svg",
       "imageNotFromUnderlying": true,
@@ -604,6 +682,7 @@
     },
     {
       "address": "0x6969696969696969696969696969696969696969",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera.svg",
       "imageNotFromUnderlying": true,
@@ -616,6 +695,7 @@
     },
     {
       "address": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beradrome-henlocked100m.svg",
       "imageNotFromUnderlying": true,
@@ -630,6 +710,7 @@
     },
     {
       "address": "0xfb32f8c7d363790a6ccd89f8d20047612aba633b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beradrome-henlocked1b.svg",
       "imageNotFromUnderlying": true,
@@ -644,6 +725,7 @@
     },
     {
       "address": "0x94ca1028ee60e5b28cda22c0e7b6743017a9b7b6",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beradrome-henlocked330m.svg",
       "imageNotFromUnderlying": true,
@@ -658,6 +740,7 @@
     },
     {
       "address": "0x94b12404d6163c3e49ed876fb25034a946a40dd8",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beradrome-henlocked420m.svg",
       "imageNotFromUnderlying": true,
@@ -672,6 +755,7 @@
     },
     {
       "address": "0x872130ced110e2a4325693c0802b6a0112b3615b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beradrome-henlocked690m.svg",
       "imageNotFromUnderlying": true,
@@ -686,6 +770,7 @@
     },
     {
       "address": "0x36fa291f4a4ae41e4be2a979136ebd7eb97950e7",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-locks.svg",
       "mintUrl": "https://www.beradrome.com/farms/0x74a38bfeedd95f65cbbf72eedf01eac77778bcf9",
@@ -700,6 +785,7 @@
     },
     {
       "address": "0x53f786662ff5fbec135f913ab93c6b3366e90a46",
+      "chainId": 80094,
       "decimals": 18,
       "image": "asugar-honey.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
@@ -714,6 +800,7 @@
     },
     {
       "address": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
+      "chainId": 80094,
       "decimals": 18,
       "image": "byusd-honey.svg",
       "mintUrl": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details",
@@ -728,6 +815,7 @@
     },
     {
       "address": "0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibera-wgbera.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3000000000000000000000152/details",
@@ -742,6 +830,7 @@
     },
     {
       "address": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab",
+      "chainId": 80094,
       "decimals": 18,
       "image": "mead-honey.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab000000000000000000000162/details",
@@ -756,6 +845,7 @@
     },
     {
       "address": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usdc-e-honey.svg",
       "mintUrl": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details",
@@ -770,6 +860,7 @@
     },
     {
       "address": "0x2461e93d5963c2bb69de499676763e67a63c7ba5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-dinero.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x2461e93d5963c2bb69de499676763e67a63c7ba50002000000000000000000c2/details",
@@ -784,6 +875,7 @@
     },
     {
       "address": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-honey.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details",
@@ -798,6 +890,7 @@
     },
     {
       "address": "0x4d0ac0ea757f0bb338457c7a135c41fc732ca67d",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ibera.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x4d0ac0ea757f0bb338457c7a135c41fc732ca67d000200000000000000000005/details",
@@ -812,6 +905,7 @@
     },
     {
       "address": "0x62c030b29a6fef1b32677499e4a1f1852a8808c0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ibera.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x62c030b29a6fef1b32677499e4a1f1852a8808c00000000000000000000000c6/details",
@@ -826,6 +920,7 @@
     },
     {
       "address": "0x705fc16ba5a1eb67051934f2fb17eacae660f6c7",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-lbgt.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x705fc16ba5a1eb67051934f2fb17eacae660f6c70002000000000000000000d5/details",
@@ -840,6 +935,7 @@
     },
     {
       "address": "0x38fdd999fe8783037db1bbfe465759e312f2d809",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-wbtc.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details",
@@ -854,6 +950,7 @@
     },
     {
       "address": "0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-weth.svg",
       "mintUrl": "https://hub.berachain.com/pools/0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4000200000000000000000003/details",
@@ -868,6 +965,7 @@
     },
     {
       "address": "0x258d8933b625566fbe057874121783a2808adafa",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-beraeth.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x258d8933b625566fbe057874121783a2808adafa0000000000000000000000c1/details",
@@ -882,6 +980,7 @@
     },
     {
       "address": "0x8f32c1b7c9e2c60d357b7949a43540162248a21e",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wgbera-wbera.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x8f32c1b7c9e2c60d357b7949a43540162248a21e00000000000000000000014a/details/",
@@ -896,6 +995,7 @@
     },
     {
       "address": "0x1b7b061091bd2c900723107889fe44f825d6c921",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wizz-wbera.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x1b7b061091bd2c900723107889fe44f825d6c92100020000000000000000010c/details",
@@ -910,6 +1010,7 @@
     },
     {
       "address": "0xb5d46214f4ec7f910cb433e412d32ee817986e90",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-honey.svg",
       "mintUrl": "https://www.bulla.exchange/vault/details/wbera-honey-narrow",
@@ -924,6 +1025,7 @@
     },
     {
       "address": "0xcffbfd665bedb19b47837461a5abf4388c560d35",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ibgt.svg",
       "mintUrl": "https://www.bulla.exchange/vault/details/wbera-ibgt-narrow",
@@ -938,6 +1040,7 @@
     },
     {
       "address": "0xc4c039178a79e614609e592d7689ecb3107758b1",
+      "chainId": 80094,
       "decimals": 18,
       "image": "burr-nect.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xc4c039178a79e614609e592d7689ecb3107758b1000200000000000000000020/add-liquidity",
@@ -952,6 +1055,7 @@
     },
     {
       "address": "0xac8a437d1e6905e419431662aead90fb04ac3008",
+      "chainId": 80094,
       "decimals": 18,
       "image": "burr-wgbera.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xac8a437d1e6905e419431662aead90fb04ac300800020000000000000000000f/add-liquidity",
@@ -966,6 +1070,7 @@
     },
     {
       "address": "0x7ce7cb1893cfbd680cbfb9dd2a9ae6a62bde66a8",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibgt-lbgt.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0x7ce7cb1893cfbd680cbfb9dd2a9ae6a62bde66a800000000000000000000000d/add-liquidity",
@@ -980,6 +1085,7 @@
     },
     {
       "address": "0xd170e25f6bcb5ace2108628c647be47d59900ade",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nect-plug.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xd170e25f6bcb5ace2108628c647be47d59900ade00020000000000000000000c/add-liquidity",
@@ -994,6 +1100,7 @@
     },
     {
       "address": "0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nect-usdc-e-honey.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004/add-liquidity",
@@ -1009,6 +1116,7 @@
     },
     {
       "address": "0xb34fca9739249578d93a22ce02bf7fad277bad35",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nect-usdc-e-usdt0-honey.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xb34fca9739249578d93a22ce02bf7fad277bad35000000000000000000000013/add-liquidity",
@@ -1025,6 +1133,7 @@
     },
     {
       "address": "0xe416c064946112c1626d6700d1081a750b1b1dd7",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nect-wgbera.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xe416c064946112c1626d6700d1081a750b1b1dd7000200000000000000000008/add-liquidity",
@@ -1039,6 +1148,7 @@
     },
     {
       "address": "0x567f32e86be3e3963cdbc1887b5043b701f113d9",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-wgbera.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0x567f32e86be3e3963cdbc1887b5043b701f113d9000000000000000000000006/add-liquidity",
@@ -1053,6 +1163,7 @@
     },
     {
       "address": "0xcbef1b65399065c2de2c495971e90466ff38f2d0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-solvbtc-xsolvbtc.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xcbef1b65399065c2de2c495971e90466ff38f2d000000000000000000000001e/add-liquidity",
@@ -1068,6 +1179,7 @@
     },
     {
       "address": "0xe49ff31b2b3fd346b0d1832d9fe224ee0d1c1f9e",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberabaddieshoney.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1079,6 +1191,7 @@
     },
     {
       "address": "0xa15e1de8a220ca9c63db4e8a1e9043fb953b3713",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberabaddieswbera.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1090,6 +1203,7 @@
     },
     {
       "address": "0x49bee393825bbac404fefe6e24f34854f30905d2",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberaeth.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1101,6 +1215,7 @@
     },
     {
       "address": "0x127bf6361ff7495f2a69d83d9ad2092d3dfee7ab",
+      "chainId": 80094,
       "decimals": 17,
       "image": "ctberafbtc.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1112,6 +1227,7 @@
     },
     {
       "address": "0x81235952ad93987f74e074994def2a7e1d6f1fb0",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberahoney.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1123,6 +1239,7 @@
     },
     {
       "address": "0xb6e3c1154e07f8a3dc04a9a28648c7aa30511120",
+      "chainId": 80094,
       "decimals": 17,
       "image": "ctberalbtc.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1134,6 +1251,7 @@
     },
     {
       "address": "0xd08e3652e6b29ebdd58fe93b422513862fb49899",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberasusde.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1145,6 +1263,7 @@
     },
     {
       "address": "0x068d072d1ee7647b9d649a7c2046166aa81af3d3",
+      "chainId": 80094,
       "decimals": 17,
       "image": "ctberaunibtc.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1156,6 +1275,7 @@
     },
     {
       "address": "0xe96e0d5dda2e24050f43af92ebb3293f6e605c9a",
+      "chainId": 80094,
       "decimals": 15,
       "image": "ctberausdt0.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1167,6 +1287,7 @@
     },
     {
       "address": "0xc3cac88fd629652bbe0c3454d5d3049368a73849",
+      "chainId": 80094,
       "decimals": 15,
       "image": "ctberausdc-e.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1178,6 +1299,7 @@
     },
     {
       "address": "0x585934afbf1fa9f563b80283f8b916dd8f66a9b6",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberausde.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1189,6 +1311,7 @@
     },
     {
       "address": "0xec577e989c02b294d5b8f4324224a5b63f5beef7",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberawbera.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1200,6 +1323,7 @@
     },
     {
       "address": "0x335e7b56054f830883d1509afdce58dedcefb29c",
+      "chainId": 80094,
       "decimals": 17,
       "image": "ctberawbtc.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1211,6 +1335,7 @@
     },
     {
       "address": "0x8d3e53f5521927e5c78d42b4f9e08ae8df91b772",
+      "chainId": 80094,
       "decimals": 27,
       "image": "ctberaweth.svg",
       "mintUrl": "https://app.concrete.xyz/earn",
@@ -1222,6 +1347,7 @@
     },
     {
       "address": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79",
+      "chainId": 80094,
       "decimals": 6,
       "image": "dgnberaland.svg",
       "imageNotFromUnderlying": true,
@@ -1234,6 +1360,7 @@
     },
     {
       "address": "0x36b933554782b108bb9962ac00c498acbceb706d",
+      "chainId": 80094,
       "decimals": 6,
       "image": "hyperbera-usdc.svg",
       "imageNotFromUnderlying": true,
@@ -1246,6 +1373,7 @@
     },
     {
       "address": "0x26bbc26415c6316890565f5f73017f85ee70b60c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dbusd.svg",
       "imageNotFromUnderlying": true,
@@ -1261,6 +1389,7 @@
     },
     {
       "address": "0x7f2b60fdff1494a0e3e060532c9980d7fad0404b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dhoney.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1272,6 +1401,7 @@
     },
     {
       "address": "0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d",
+      "chainId": 80094,
       "decimals": 18,
       "image": "drusd.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1283,6 +1413,7 @@
     },
     {
       "address": "0xd6eb8ae479edf452d264493708c85aa798cccdfd",
+      "chainId": 80094,
       "decimals": 8,
       "image": "dunibtc.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1294,6 +1425,7 @@
     },
     {
       "address": "0xf2d2d55daf93b0660297eaa10969ebe90ead5ce8",
+      "chainId": 80094,
       "decimals": 6,
       "image": "dusdt0.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1305,6 +1437,7 @@
     },
     {
       "address": "0xaa97d791afc02af30cf0b046172bb05b3c306517",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dwbera.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1316,6 +1449,7 @@
     },
     {
       "address": "0x29cf6e8ecefb8d3c9dd2b727c1b7d1df1a754f6f",
+      "chainId": 80094,
       "decimals": 8,
       "image": "dwbtc.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1327,6 +1461,7 @@
     },
     {
       "address": "0xf7b5127b510e568fdc39e6bb54e2081bfad489af",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dweth.svg",
       "mintUrl": "https://app.dolomite.io/balances",
@@ -1338,6 +1473,7 @@
     },
     {
       "address": "0x46fcd35431f5b371224acc2e2e91732867b1a77e",
+      "chainId": 80094,
       "decimals": 8,
       "image": "primeliquidberabtc.svg",
       "imageNotFromUnderlying": true,
@@ -1352,6 +1488,7 @@
     },
     {
       "address": "0xb83742330443f7413dbd2abdfc046db0474a944e",
+      "chainId": 80094,
       "decimals": 18,
       "image": "primeliquidberaeth.svg",
       "imageNotFromUnderlying": true,
@@ -1366,6 +1503,7 @@
     },
     {
       "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
+      "chainId": 80094,
       "decimals": 18,
       "image": "enect-1.svg",
       "mintUrl": "https://app.euler.finance/vault/0x112b77a77753b092306b1c04bd70215fed4e00a1?network=berachain",
@@ -1377,6 +1515,7 @@
     },
     {
       "address": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ewbera-4.svg",
       "imageNotFromUnderlying": true,
@@ -1389,6 +1528,7 @@
     },
     {
       "address": "0xb7e448e5677d212b8c8da7d6312e8afc49800466",
+      "chainId": 80094,
       "decimals": 18,
       "image": "locks.svg",
       "imageNotFromUnderlying": true,
@@ -1401,6 +1541,7 @@
     },
     {
       "address": "0x6ee01549960f47b2e64cb9fb26a9107e735910b5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "very-awesome-unified-liquidity-token.svg",
       "imageNotFromUnderlying": true,
@@ -1413,6 +1554,7 @@
     },
     {
       "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibera.svg",
       "imageNotFromUnderlying": true,
@@ -1425,6 +1567,7 @@
     },
     {
       "address": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibgt.svg",
       "imageNotFromUnderlying": true,
@@ -1437,6 +1580,7 @@
     },
     {
       "address": "0x57161d6272f47cd48ba165646c802f001040c2e0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beraeth-stone.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x57161d6272f47cd48ba165646c802f001040c2e0?chain=berachain_mainnet",
@@ -1451,6 +1595,7 @@
     },
     {
       "address": "0x7aef016302c3a27417372cf3aa74a1708d1ca291",
+      "chainId": 80094,
       "decimals": 18,
       "image": "beramo-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7aef016302c3a27417372cf3aa74a1708d1ca291?chain=berachain_mainnet",
@@ -1465,6 +1610,7 @@
     },
     {
       "address": "0xe454c546c8f3875e928910abc653de5f8c432f11",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bixbt-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe454c546c8f3875e928910abc653de5f8c432f11?chain=berachain_mainnet",
@@ -1479,6 +1625,7 @@
     },
     {
       "address": "0x0fd67ac75f9df51f5d81f582417b318f44b45f5c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bm-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x0fd67ac75f9df51f5d81f582417b318f44b45f5c?chain=berachain_mainnet",
@@ -1493,6 +1640,7 @@
     },
     {
       "address": "0x1ac0e38ee5f66f6fa46e1644bb6b73bee598b953",
+      "chainId": 80094,
       "decimals": 18,
       "image": "brbtc-unibtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1ac0e38ee5f66f6fa46e1644bb6b73bee598b953?chain=berachain_mainnet",
@@ -1507,6 +1655,7 @@
     },
     {
       "address": "0x54c603173ca92a42b81f8838d705fd3e0f98d5d4",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bread-lbgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x54c603173ca92a42b81f8838d705fd3e0f98d5d4?chain=berachain_mainnet",
@@ -1521,6 +1670,7 @@
     },
     {
       "address": "0xd9a747880393f7c33cef1aea36909b36d421f7e5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bread-ohm.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd9a747880393f7c33cef1aea36909b36d421f7e5?chain=berachain_mainnet",
@@ -1535,6 +1685,7 @@
     },
     {
       "address": "0x5e4fe86c4f6fb2203fbfb77fd6ec3cb300b639aa",
+      "chainId": 80094,
       "decimals": 18,
       "image": "dolo-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5e4fe86c4f6fb2203fbfb77fd6ec3cb300b639aa?chain=berachain_mainnet",
@@ -1549,6 +1700,7 @@
     },
     {
       "address": "0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ewbera-4-osbgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632?chain=berachain_mainnet",
@@ -1563,6 +1715,7 @@
     },
     {
       "address": "0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ezeth-weth.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865?chain=berachain_mainnet",
@@ -1577,6 +1730,7 @@
     },
     {
       "address": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896",
+      "chainId": 80094,
       "decimals": 18,
       "image": "hohm-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2a6f7008a884563df6fbf2d7676e696a44bb8896?chain=berachain_mainnet",
@@ -1591,6 +1745,7 @@
     },
     {
       "address": "0xdca120bd3a13250b67f6faa5c29c1f38ec6ebece",
+      "chainId": 80094,
       "decimals": 18,
       "image": "hold-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xdca120bd3a13250b67f6faa5c29c1f38ec6ebece?chain=berachain_mainnet",
@@ -1605,6 +1760,7 @@
     },
     {
       "address": "0x24afceb372b755f4953e738d6b38e9e4646d9f57",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibera-ibgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x24afceb372b755f4953e738d6b38e9e4646d9f57?chain=berachain_mainnet",
@@ -1619,6 +1775,7 @@
     },
     {
       "address": "0xad445256ff81171043a5e7cd8831e4371b000176",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibera-osbgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xad445256ff81171043a5e7cd8831e4371b000176?chain=berachain_mainnet",
@@ -1633,6 +1790,7 @@
     },
     {
       "address": "0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ibera-wgbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3?chain=berachain_mainnet",
@@ -1647,6 +1805,7 @@
     },
     {
       "address": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
+      "chainId": 80094,
       "decimals": 18,
       "image": "mbgt-ibera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf?chain=berachain_mainnet",
@@ -1661,6 +1820,7 @@
     },
     {
       "address": "0x933b2e6a71edbf11bba75c5ad241d246b145e0b0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "mim-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x933b2e6a71edbf11bba75c5ad241d246b145e0b0?chain=berachain_mainnet",
@@ -1675,6 +1835,7 @@
     },
     {
       "address": "0xef8c3239e0d8be9d58f145e18f5909ddad681365",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nav-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xef8c3239e0d8be9d58f145e18f5909ddad681365?chain=berachain_mainnet",
@@ -1689,6 +1850,7 @@
     },
     {
       "address": "0x8ef48ae9df6165acc9754297bf28f5877c229c03",
+      "chainId": 80094,
       "decimals": 18,
       "image": "nect-usdt0.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x8ef48ae9df6165acc9754297bf28f5877c229c03?chain=berachain_mainnet",
@@ -1703,6 +1865,7 @@
     },
     {
       "address": "0x98bdeede9a45c28d229285d9d6e9139e9f505391",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ohm-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x98bdeede9a45c28d229285d9d6e9139e9f505391?chain=berachain_mainnet",
@@ -1717,6 +1880,7 @@
     },
     {
       "address": "0xc227c8639a41db8393dd1b4eac41464a62d64fb4",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ohm-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?chain=berachain_mainnet",
@@ -1731,6 +1895,7 @@
     },
     {
       "address": "0x9b155cf7a4e5911ac35ab2173d0f58e1d39570fd",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ooga-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9b155cf7a4e5911ac35ab2173d0f58e1d39570fd?chain=berachain_mainnet",
@@ -1745,6 +1910,7 @@
     },
     {
       "address": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1",
+      "chainId": 80094,
       "decimals": 18,
       "image": "plutus-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1?chain=berachain_mainnet",
@@ -1759,6 +1925,7 @@
     },
     {
       "address": "0x7fd165b73775884a38aa8f2b384a53a3ca7400e6",
+      "chainId": 80094,
       "decimals": 18,
       "image": "rusd-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?chain=berachain_mainnet",
@@ -1773,6 +1940,7 @@
     },
     {
       "address": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5",
+      "chainId": 80094,
       "decimals": 18,
       "image": "rusd-usdt0.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5?chain=berachain_mainnet",
@@ -1787,6 +1955,7 @@
     },
     {
       "address": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
+      "chainId": 80094,
       "decimals": 18,
       "image": "sol-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4d1b02ff3ce55b816bb916ad8f80479434830ea4?chain=berachain_mainnet",
@@ -1801,6 +1970,7 @@
     },
     {
       "address": "0x43e487126c4f37d1915cf02a90b5c5295afb1790",
+      "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc-xsolvbtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x43e487126c4f37d1915cf02a90b5c5295afb1790?chain=berachain_mainnet",
@@ -1815,6 +1985,7 @@
     },
     {
       "address": "0x35b3833cbdcfaf3a842c90b775c632032648907d",
+      "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc-bnb-solvbtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x35b3833cbdcfaf3a842c90b775c632032648907d?chain=berachain_mainnet",
@@ -1829,6 +2000,7 @@
     },
     {
       "address": "0xe21efa586cc88271c8c87642440ed49ccd000ccc",
+      "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc-bnb-xsolvbtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe21efa586cc88271c8c87642440ed49ccd000ccc?chain=berachain_mainnet",
@@ -1843,6 +2015,7 @@
     },
     {
       "address": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343",
+      "chainId": 80094,
       "decimals": 18,
       "image": "stbgt-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x8b161685135e9fbc5475169e1addc0f2c4b7c343?chain=berachain_mainnet",
@@ -1857,6 +2030,7 @@
     },
     {
       "address": "0x595b1ecd5ec42fb5f321d4162b04965eab8f1388",
+      "chainId": 80094,
       "decimals": 18,
       "image": "stg-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x595b1ecd5ec42fb5f321d4162b04965eab8f1388?chain=berachain_mainnet",
@@ -1871,6 +2045,7 @@
     },
     {
       "address": "0x7cebcc76a2faecc0ae378b340815fcbb71ec1fe0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "susda-usda.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7cebcc76a2faecc0ae378b340815fcbb71ec1fe0?chain=berachain_mainnet",
@@ -1885,6 +2060,7 @@
     },
     {
       "address": "0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8",
+      "chainId": 80094,
       "decimals": 18,
       "image": "susde-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8?chain=berachain_mainnet",
@@ -1899,6 +2075,7 @@
     },
     {
       "address": "0x12c195768f65f282ea5f1b5c42755fbc910b0d8f",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usdt0-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x12c195768f65f282ea5f1b5c42755fbc910b0d8f?chain=berachain_mainnet",
@@ -1913,6 +2090,7 @@
     },
     {
       "address": "0x28a54eaeec63fbb1175d13466a9ada5f3175d577",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usdbr-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x28a54eaeec63fbb1175d13466a9ada5f3175d577?chain=berachain_mainnet",
@@ -1927,6 +2105,7 @@
     },
     {
       "address": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usdc-e-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb73dee52f38539ba854979eab6342a60dd4c8c03?chain=berachain_mainnet",
@@ -1941,6 +2120,7 @@
     },
     {
       "address": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
+      "chainId": 80094,
       "decimals": 18,
       "image": "usde-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_mainnet",
@@ -1955,6 +2135,7 @@
     },
     {
       "address": "0x217b9476ecd8783c59ed0ed64c359b8f2b9ccd3a",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-aibera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x217b9476ecd8783c59ed0ed64c359b8f2b9ccd3a?chain=berachain_mainnet",
@@ -1969,6 +2150,7 @@
     },
     {
       "address": "0x2bdb8c39a3808eb9a03de69925b6b158a57c57e6",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-avl.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2bdb8c39a3808eb9a03de69925b6b158a57c57e6?chain=berachain_mainnet",
@@ -1983,6 +2165,7 @@
     },
     {
       "address": "0x2cafe99db26cf86ae8587f5934830d25ad5c3cb3",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-bitcoin.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2cafe99db26cf86ae8587f5934830d25ad5c3cb3?chain=berachain_mainnet",
@@ -1997,6 +2180,7 @@
     },
     {
       "address": "0x56449b16ff2b1e5ee61f532ceffda8f408f718a1",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-br.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x56449b16ff2b1e5ee61f532ceffda8f408f718a1?chain=berachain_mainnet",
@@ -2011,6 +2195,7 @@
     },
     {
       "address": "0x68cac522833f38e088eec5e356956c02f0268063",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-grq.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x68cac522833f38e088eec5e356956c02f0268063?chain=berachain_mainnet",
@@ -2025,6 +2210,7 @@
     },
     {
       "address": "0x4a254b11810b8ebb63c5468e438fc561cb1bb1da",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4a254b11810b8ebb63c5468e438fc561cb1bb1da?chain=berachain_mainnet",
@@ -2039,6 +2225,7 @@
     },
     {
       "address": "0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ibera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4?chain=berachain_mainnet",
@@ -2053,6 +2240,7 @@
     },
     {
       "address": "0x564f011d557aad1ca09bfc956eb8a17c35d490e0",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ibgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x564f011d557aad1ca09bfc956eb8a17c35d490e0?chain=berachain_mainnet",
@@ -2067,6 +2255,7 @@
     },
     {
       "address": "0x9f6cf7acb2f16f7d906eeecb0a6020a5cf91a41d",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-lair.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9f6cf7acb2f16f7d906eeecb0a6020a5cf91a41d?chain=berachain_mainnet",
@@ -2081,6 +2270,7 @@
     },
     {
       "address": "0x337ef1eb6c8bbed571170fc2b468608ab9e2aac8",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-lbgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x337ef1eb6c8bbed571170fc2b468608ab9e2aac8?chain=berachain_mainnet",
@@ -2095,6 +2285,7 @@
     },
     {
       "address": "0xd6620e78b89e8fdb5dfa675d55001c7fad424bdc",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-pollen.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd6620e78b89e8fdb5dfa675d55001c7fad424bdc?chain=berachain_mainnet",
@@ -2109,6 +2300,7 @@
     },
     {
       "address": "0x93a913351cae2d8c82c4b85f699726947eb76d32",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ramen.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x93a913351cae2d8c82c4b85f699726947eb76d32?chain=berachain_mainnet",
@@ -2123,6 +2315,7 @@
     },
     {
       "address": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-usdc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c?chain=berachain_mainnet",
@@ -2137,6 +2330,7 @@
     },
     {
       "address": "0xfc4994e0a4780ba7536d7e79611468b6bde14cae",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-ebtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xfc4994e0a4780ba7536d7e79611468b6bde14cae?chain=berachain_mainnet",
@@ -2151,6 +2345,7 @@
     },
     {
       "address": "0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf?chain=berachain_mainnet",
@@ -2165,6 +2360,7 @@
     },
     {
       "address": "0x3879451f4f69f0c2d37cad45319cff2e7d29c596",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-solvbtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x3879451f4f69f0c2d37cad45319cff2e7d29c596?chain=berachain_mainnet",
@@ -2179,6 +2375,7 @@
     },
     {
       "address": "0xb67d60fc02e0870eddca24d4fa8ea516c890152b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-unibtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb67d60fc02e0870eddca24d4fa8ea516c890152b?chain=berachain_mainnet",
@@ -2193,6 +2390,7 @@
     },
     {
       "address": "0xf06ea29fcf4765200742d29e685973a1870eac98",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xf06ea29fcf4765200742d29e685973a1870eac98?chain=berachain_mainnet",
@@ -2207,6 +2405,7 @@
     },
     {
       "address": "0x58fdb6eebf7df7ce4137994436fb0e629bb84b84",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbtc-weth.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x58fdb6eebf7df7ce4137994436fb0e629bb84b84?chain=berachain_mainnet",
@@ -2221,6 +2420,7 @@
     },
     {
       "address": "0x03bccf796cdef61064c4a2effdd21f1ac8c29e92",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-beraeth.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x03bccf796cdef61064c4a2effdd21f1ac8c29e92?chain=berachain_mainnet",
@@ -2235,6 +2435,7 @@
     },
     {
       "address": "0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95?chain=berachain_mainnet",
@@ -2249,6 +2450,7 @@
     },
     {
       "address": "0x97431f104be73fc0e6fc731ce84486da05c48871",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-stone.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x97431f104be73fc0e6fc731ce84486da05c48871?chain=berachain_mainnet",
@@ -2263,6 +2465,7 @@
     },
     {
       "address": "0x9659dc8c1565e0bd82627267e3b4eed1a377ebe6",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9659dc8c1565e0bd82627267e3b4eed1a377ebe6?chain=berachain_mainnet",
@@ -2277,6 +2480,7 @@
     },
     {
       "address": "0xa0cabfc04fc420b3d31ba431d18eb5bd33b3f334",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-weeth.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xa0cabfc04fc420b3d31ba431d18eb5bd33b3f334?chain=berachain_mainnet",
@@ -2291,6 +2495,7 @@
     },
     {
       "address": "0x939fb917bf8579c959094364708ef03f17e71f25",
+      "chainId": 80094,
       "decimals": 18,
       "image": "xusd-honey.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x939fb917bf8579c959094364708ef03f17e71f25?chain=berachain_mainnet",
@@ -2305,6 +2510,7 @@
     },
     {
       "address": "0x5347e5133b22a680ee94b7e62803e848f8d8c92e",
+      "chainId": 80094,
       "decimals": 18,
       "image": "ybgt-ybera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5347e5133b22a680ee94b7e62803e848f8d8c92e?chain=berachain_mainnet",
@@ -2319,6 +2525,7 @@
     },
     {
       "address": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1",
+      "chainId": 80094,
       "decimals": 18,
       "image": "yeet-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xec8ba456b4e009408d0776cde8b91f8717d13fa1?chain=berachain_mainnet",
@@ -2333,6 +2540,7 @@
     },
     {
       "address": "0x412c9f79779ae6c3a13a318252b29c559be756ca",
+      "chainId": 80094,
       "decimals": 18,
       "image": "yeet-wgbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x412c9f79779ae6c3a13a318252b29c559be756ca?chain=berachain_mainnet",
@@ -2347,6 +2555,7 @@
     },
     {
       "address": "0xabcea3ead918c3c5eca9b85d25b5e463a35a5e66",
+      "chainId": 80094,
       "decimals": 18,
       "image": "zero-ibgt.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xabcea3ead918c3c5eca9b85d25b5e463a35a5e66?chain=berachain_mainnet",
@@ -2361,6 +2570,7 @@
     },
     {
       "address": "0x091e41545e4a82e08f35bb51850e905537ced72e",
+      "chainId": 80094,
       "decimals": 18,
       "image": "zero-wbera.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x091e41545e4a82e08f35bb51850e905537ced72e?chain=berachain_mainnet",
@@ -2375,6 +2585,7 @@
     },
     {
       "address": "0xe16761787cf9bb0d3fc2e5c726dae906ce81b102",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-steadyteddys.svg",
       "imageCustomWidth": true,
@@ -2388,6 +2599,7 @@
     },
     {
       "address": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "satsolvbtc-bera.svg",
       "imageNotFromUnderlying": true,
@@ -2400,6 +2612,7 @@
     },
     {
       "address": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc-bera.svg",
       "imageNotFromUnderlying": true,
@@ -2412,6 +2625,7 @@
     },
     {
       "address": "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
+      "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc-bnb.svg",
       "imageNotFromUnderlying": true,
@@ -2424,6 +2638,7 @@
     },
     {
       "address": "0xdb78b4166580917c9604f8ddfbea5f49b493845c",
+      "chainId": 80094,
       "decimals": 18,
       "image": "oribgt-oribgtot.svg",
       "mintUrl": "https://app.steer.finance/vault/0xdb78b4166580917c9604f8ddfbea5f49b493845c",
@@ -2438,6 +2653,7 @@
     },
     {
       "address": "0x3640587709a387b54b0df555cd651a95a54fa900",
+      "chainId": 80094,
       "decimals": 18,
       "image": "bee-wbera.svg",
       "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0x3640587709a387b54b0df555cd651a95a54fa900",
@@ -2452,6 +2668,7 @@
     },
     {
       "address": "0xe57d868d244d2cf2e9679eaba2a3048e58674565",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ibera.svg",
       "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0xe57d868d244d2cf2e9679eaba2a3048e58674565",
@@ -2466,6 +2683,7 @@
     },
     {
       "address": "0xac04b1abadf214b57f7ade1dd905ab7acac23a6b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wbera-wgbera.svg",
       "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0xac04b1abadf214b57f7ade1dd905ab7acac23a6b",
@@ -2480,6 +2698,7 @@
     },
     {
       "address": "0xec06041013b3a97c58b9ab61eae9079bc594eda3",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weth-wbera.svg",
       "mintUrl": "https://wasabee.honeypotfinance.xyz/vault/0xec06041013b3a97c58b9ab61eae9079bc594eda3",
@@ -2494,6 +2713,7 @@
     },
     {
       "address": "0xd948212f077e552533158becbc1882c1b19c40fe",
+      "chainId": 80094,
       "decimals": 18,
       "image": "shoney.svg",
       "imageNotFromUnderlying": true,
@@ -2506,6 +2726,7 @@
     },
     {
       "address": "0xc95ab9eff8fb48760703c74416764b8f898afa1b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "swbera.svg",
       "imageNotFromUnderlying": true,
@@ -2518,6 +2739,7 @@
     },
     {
       "address": "0x396a3d0b799b1a0b1eaa17e75b4dea412400860b",
+      "chainId": 80094,
       "decimals": 18,
       "image": "weibera.svg",
       "imageNotFromUnderlying": true,
@@ -2530,6 +2752,7 @@
     },
     {
       "address": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea",
+      "chainId": 80094,
       "decimals": 18,
       "image": "wewbera.svg",
       "imageNotFromUnderlying": true,
@@ -2542,6 +2765,7 @@
     },
     {
       "address": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
+      "chainId": 80094,
       "decimals": 18,
       "image": "yeet-rwt.svg",
       "imageNotFromUnderlying": true,

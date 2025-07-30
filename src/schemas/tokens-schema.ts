@@ -12,6 +12,7 @@ import {
   union,
   url,
 } from 'valibot'
+import { berachain, berachainBepolia } from 'viem/chains'
 
 import { AddressSchema } from './address-schema'
 
@@ -30,8 +31,11 @@ export const TokenTypeSchema = picklist([
   'vault',
 ])
 
+export const chainIds = picklist([berachain.id, berachainBepolia.id])
+
 export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
+  chainId: chainIds,
   decimals: number(),
   image: string(),
   isDepositDisabled: optional(boolean()),

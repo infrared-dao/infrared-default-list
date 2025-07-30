@@ -77,6 +77,7 @@ Add any new token assets to `/src/assets/tokens` and new protocol assets to `src
    ```json
    {
      "address": "0x...",
+     "chainId": 80094,
      "decimals": 18,
      "image": "your-token-image.svg",
      "mintUrl": "https://your-protocol-url.com/provide-liquidity",
