@@ -2047,9 +2047,9 @@
       "decimals": 18,
       "image": "solvbtc-bnb-solvbtc.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xC60Ea9801B3F1B01dA373C05381e6cE8ff94D76f?chain=berachain_mainnet",
-      "name": "SolvBTC.BNB-SolvBTC-2%",
+      "name": "SolvBTC.BNB-SolvBTC",
       "protocol": "kodiak",
-      "symbol": "KODI SolvBTC.BNB-SolvBTC-2%",
+      "symbol": "KODI SolvBTC.BNB-SolvBTC",
       "type": "amm",
       "underlyingTokens": [
         "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
