@@ -1,6 +1,7 @@
 import {
   array,
   boolean,
+  type InferOutput,
   nonEmpty,
   number,
   optional,
@@ -8,7 +9,6 @@ import {
   pipe,
   strictObject,
   string,
-  type InferOutput,
   union,
   url,
 } from 'valibot'
@@ -52,6 +52,7 @@ export const DefaultListDepositTokenSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
   imageCustomWidth: optional(boolean()),
   imageNotFromUnderlying: optional(boolean()),
+  kodiakTradingFee: optional(number()),
   mintUrl: MintUrlSchema,
   protocol: ProtocolSchema,
   type: TokenTypeSchema,
