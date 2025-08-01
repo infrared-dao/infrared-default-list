@@ -2027,6 +2027,22 @@
       ]
     },
     {
+      "address": "0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "solvbtc-bnb-solvbtc-2%.svg",
+      "kodiakTradingFee": 2,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f?chain=berachain_mainnet",
+      "name": "SolvBTC.BNB-SolvBTC-2%",
+      "protocol": "kodiak",
+      "symbol": "KODI SolvBTC.BNB-SolvBTC",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
+        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77"
+      ]
+    },
+    {
       "address": "0xe21efa586cc88271c8c87642440ed49ccd000ccc",
       "chainId": 80094,
       "decimals": 18,

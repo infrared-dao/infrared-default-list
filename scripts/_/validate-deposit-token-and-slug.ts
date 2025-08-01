@@ -7,8 +7,9 @@ import type { DefaultListTokens } from '@/schemas/tokens-schema'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
 slug.charmap['₮'] = '₮' // allow some unicode characters
+slug.charmap['%'] = '%25' // allow periods in urls. They are valid
 
-export const validateStakeTokenAndSlug = ({
+export const validateDepositTokenAndSlug = ({
   errors,
   slugs,
   tokens,
@@ -19,31 +20,31 @@ export const validateStakeTokenAndSlug = ({
   tokens: DefaultListTokens
   vault: DefaultListIVault | DefaultListPolVault
 }) => {
-  const stakeToken = tokens.find(({ address }) =>
+  const depositToken = tokens.find(({ address }) =>
     isAddressEqual(address as Address, vault.depositTokenAddress as Address),
   )
 
-  if (!stakeToken) {
+  if (!depositToken) {
     errors.push(
       `${vault.slug} does not have a token for ${vault.depositTokenAddress}`,
     )
     return
   }
 
-  if (!('protocol' in stakeToken) || !stakeToken.protocol) {
+  if (!('protocol' in depositToken) || !depositToken.protocol) {
     errors.push(
-      `${stakeToken.name} does not have a protocol (pol vault validation)`,
+      `${depositToken.name} does not have a protocol (pol vault validation)`,
     )
     return
   }
 
-  const cleanStakeTokenName = stakeToken.name
+  const cleanDepositTokenName = depositToken.name
     .replace(/\s|_|\//g, '-')
     .toLowerCase()
 
   const expectedSlugs = [
-    cleanStakeTokenName,
-    `${slug(stakeToken.protocol)}-${slug(cleanStakeTokenName)}`,
+    cleanDepositTokenName,
+    `${slug(depositToken.protocol)}-${slug(cleanDepositTokenName)}`,
   ]
 
   if (!expectedSlugs.includes(vault.slug)) {

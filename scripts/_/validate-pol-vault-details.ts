@@ -5,7 +5,7 @@ import type { DefaultListTokens } from '@/schemas/tokens-schema'
 
 import { checkUniqueness } from './check-uniqueness'
 import { validateBeraRewardVault } from './validate-bera-reward-vault'
-import { validateStakeTokenAndSlug } from './validate-stake-token-and-slug'
+import { validateDepositTokenAndSlug } from './validate-deposit-token-and-slug'
 
 export const validatePolVaultDetails = async ({
   beraRewardVaults,
@@ -29,7 +29,7 @@ export const validatePolVaultDetails = async ({
     value: polVault.beraRewardVault,
   })
 
-  validateStakeTokenAndSlug({ errors, slugs, tokens, vault: polVault })
+  validateDepositTokenAndSlug({ errors, slugs, tokens, vault: polVault })
   await validateBeraRewardVault({
     errors,
     publicClient,
