@@ -7,7 +7,6 @@ import type { DefaultListTokens } from '@/schemas/tokens-schema'
 
 slug.charmap['.'] = '.' // allow periods in urls. They are valid
 slug.charmap['₮'] = '₮' // allow some unicode characters
-slug.charmap['%'] = '%' // allow percent in url. It will be escaped later
 
 export const validateDepositTokenAndSlug = ({
   errors,
@@ -40,6 +39,7 @@ export const validateDepositTokenAndSlug = ({
 
   const cleanDepositTokenName = depositToken.name
     .replace(/\s|_|\//g, '-')
+    .replace(/%/g, '-percent')
     .toLowerCase()
 
   const expectedSlugs = [
