@@ -15,6 +15,7 @@ import type {
   DefaultListTokens,
 } from '@/schemas/tokens-schema'
 
+import { cleanFileName } from './_/clean-file-name'
 import {
   IMAGE_GAP_BETWEEN,
   IMAGE_SIZE,
@@ -37,9 +38,6 @@ const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const IMAGE_HEIGHT = IMAGE_SIZE
 const PROTOCOL_IMAGE_SIZE = 64
-
-const cleanFileName = (fileName: string) =>
-  `${fileName.replace(/\s|_|\//g, '-').toLowerCase()}`
 
 const generateTokenImage = async ({
   token,
@@ -101,9 +99,7 @@ const generateTokenImage = async ({
             .flatten()
             .svg()
 
-          const fileName = cleanFileName(
-            token.symbol.replace('.', '-').replace('₮', 't'),
-          )
+          const fileName = cleanFileName(token.symbol)
           await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
           return `${fileName}.svg`
         } catch (error) {
@@ -120,9 +116,7 @@ const generateTokenImage = async ({
             .flatten()
             .svg()
 
-          const fileName = cleanFileName(
-            token.name.replace('.', '-').replace('₮', 't'),
-          )
+          const fileName = cleanFileName(token.name)
           await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
           return `${fileName}.svg`
         } catch (error) {
@@ -144,9 +138,7 @@ const generateTokenImage = async ({
             .flatten()
             .svg()
 
-          const fileName = cleanFileName(
-            token.name.replace('.', '-').replace('₮', 't'),
-          )
+          const fileName = cleanFileName(token.name)
           await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
           return `${fileName}.svg`
         } catch (error) {
@@ -172,9 +164,7 @@ const generateTokenImage = async ({
             .flatten()
             .svg()
 
-          const fileName = cleanFileName(
-            token.name.replace('.', '-').replace('₮', 't'),
-          )
+          const fileName = cleanFileName(token.name)
           await writeFile(`${TOKENS_FOLDER}/${fileName}.svg`, `${combinedSVGs}`)
           return `${fileName}.svg`
         } catch (error) {

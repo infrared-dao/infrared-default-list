@@ -2030,7 +2030,7 @@
       "address": "0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f",
       "chainId": 80094,
       "decimals": 18,
-      "image": "solvbtc-bnb-solvbtc-2%.svg",
+      "image": "solvbtc-bnb-solvbtc.svg",
       "kodiakTradingFee": 2,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f?chain=berachain_mainnet",
       "name": "SolvBTC.BNB-SolvBTC-2%",
