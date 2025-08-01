@@ -15,6 +15,7 @@ import type {
   DefaultListTokens,
 } from '@/schemas/tokens-schema'
 
+import { cleanFileName } from './_/clean-file-name'
 import {
   IMAGE_GAP_BETWEEN,
   IMAGE_SIZE,
@@ -37,14 +38,6 @@ const protocols = parse(DefaultListProtocolsSchema, protocolsFile.protocols)
 
 const IMAGE_HEIGHT = IMAGE_SIZE
 const PROTOCOL_IMAGE_SIZE = 64
-
-const cleanFileName = (fileName: string) =>
-  `${fileName
-    .replace(/-\d+\.?\d*\%/, '')
-    .replace('.', '-')
-    .replace('₮', 't')
-    .replace(/\s|_|\//g, '-')
-    .toLowerCase()}`
 
 const generateTokenImage = async ({
   token,

@@ -1,6 +1,7 @@
 import { existsSync } from 'node:fs'
 import path from 'path'
 
+import { cleanFileName } from './clean-file-name'
 import { ASSETS_FOLDER, IMAGE_SIZE } from './constants'
 import { getFile } from './get-file'
 
@@ -35,16 +36,8 @@ export const validateImage = async ({
     }
     return
   }
-  const expectedFileName = identifier
-    .toLowerCase()
-    .replace(/\s|_|\/|\./g, '-')
-    .replace('₮', 't')
-  const expectedFileName2 = identifier2
-    ? identifier2
-        .toLowerCase()
-        .replace(/\s|_|\/|\./g, '-')
-        .replace('₮', 't')
-    : undefined
+  const expectedFileName = cleanFileName(identifier)
+  const expectedFileName2 = identifier2 ? cleanFileName(identifier2) : undefined
   if (
     (type === 'Protocol' &&
       image !== `${expectedFileName}.svg` &&
