@@ -143,6 +143,9 @@ const validateMintUrl = ({
         `${token.symbol} mintUrl is incorrect. It should be ${expectedMintUrl}`,
       )
     }
+    if (!token.kodiakTradingFee) {
+      errors.push(`${token.symbol} is missing 'kodiakTradingFee' property`)
+    }
   }
 }
 
