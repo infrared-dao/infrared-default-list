@@ -2858,6 +2858,19 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0xE8b92cd9771ebaad873A8E1b1B55404aECfDBc9d",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "kodiak-plug-wbera-v2.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://www.beradrome.com/farms/0xAEe71E1C9506f7a1fa6c7655657d239EbC31b5AE",
+      "name": "Beradrome Kodiak PLUG-WBERA-V2",
+      "protocol": "beradrome",
+      "symbol": "Beradrome Kodiak PLUG-WBERA-V2",
+      "type": "unknown",
+      "underlyingTokens": ["0xac1D44f0284634EB04FFA56C76d47e839224b46F"]
     }
   ]
 }
