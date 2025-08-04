@@ -740,6 +740,11 @@
       "depositTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea",
       "slug": "webera-wewbera"
     },
+        {
+      "beraRewardVault": "0x6679F737923f0F99A50F7A1a3D4f8092BE11795C",
+      "depositTokenAddress": "0x9A7D89284520572B3Ec41efEbA9ADd65622B301A",
+      "slug": "swbera-osbgt"
+    },
     {
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
