@@ -606,6 +606,19 @@
       "type": "unknown",
       "underlyingTokens": ["0xac1D44f0284634EB04FFA56C76d47e839224b46F"]
     },
+     {
+      "address": "0xac1D44f0284634EB04FFA56C76d47e839224b46F",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "uniswap-v2.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xac1d44f0284634eb04ffa56c76d47e839224b46f?chain=berachain_mainnet",
+      "name": "Uniswap V2",
+      "protocol": "kodiak",
+      "symbol": "UNI-V2",
+      "type": "unknown",
+      "underlyingTokens": ["0x231A6BD8eB88Cfa42776B7Ac575CeCAf82bf1E21", "0x6969696969696969696969696969696969696969"]
+    },
     {
       "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
       "chainId": 80094,
