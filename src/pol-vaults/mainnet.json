@@ -744,6 +744,11 @@
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
+    },
+    {
+      "beraRewardVault": "0xce77a233a22873440496166b1d41a6feda93c3c5",
+      "depositTokenAddress": "0x09d4683d680aBF2ecD69F4D6Bcbc006abFE9f6Ad",
+      "slug": "swbera-wgbera"
     }
   ]
 }

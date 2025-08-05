@@ -2858,6 +2858,21 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera-wgbera.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad00020000000000000000018f/details/",
+      "name": "sWBERA | wgBERA",
+      "protocol": "bex",
+      "symbol": "50sWBERA-50wgBERA-WEIGHTED",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
     }
   ]
 }
