@@ -611,6 +611,7 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "uniswap-v2.svg",
+      "kodiakTradingFee": 0.03,
       "imageNotFromUnderlying": true,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xac1d44f0284634eb04ffa56c76d47e839224b46f?chain=berachain_mainnet",
       "name": "Uniswap V2",
