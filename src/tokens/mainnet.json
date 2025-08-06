@@ -455,6 +455,15 @@
       "symbol": "sUSDe"
     },
     {
+      "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera.svg",
+      "mintUrl": "https://hub.berachain.com/stake/",
+      "name": "POL Staked WBERA",
+      "symbol": "sWBERA"
+    },
+    {
       "address": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
       "chainId": 80094,
       "decimals": 8,
@@ -841,6 +850,21 @@
       "underlyingTokens": [
         "0xedb5180661f56077292c92ab40b1ac57a279a396",
         "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
+      "address": "0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera-wgbera.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad00020000000000000000018f/details/",
+      "name": "sWBERA-wgBERA",
+      "protocol": "bex",
+      "symbol": "50sWBERA-50wgBERA-WEIGHTED",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
       ]
     },
     {
@@ -2858,31 +2882,6 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
-    },
-    {
-      "address": "0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "swbera-wgbera.svg",
-      "imageNotFromUnderlying": true,
-      "mintUrl": "https://hub.berachain.com/pools/0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad00020000000000000000018f/details/",
-      "name": "sWBERA | wgBERA",
-      "protocol": "bex",
-      "symbol": "50sWBERA-50wgBERA-WEIGHTED",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
-        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
-      ]
-    },
-    {
-      "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "swbera.svg",
-      "mintUrl": "https://hub.berachain.com/stake/",
-      "name": "POL Staked WBERA",
-      "symbol": "sWBERA"
     }
   ]
 }
