@@ -122,21 +122,21 @@ const validateMintUrl = ({
     return
   }
 
-  if (token.protocol === 'bex') {
+  if ('protocol' in token && token.protocol === 'bex') {
     const expectedMintUrl = `https://hub.berachain.com/pools/`
     if (!token.mintUrl.startsWith(expectedMintUrl)) {
       errors.push(
         `${token.symbol} mintUrl is incorrect. It should start with ${expectedMintUrl}`,
       )
     }
-  } else if (token.protocol === 'dolomite') {
+  } else if ('protocol' in token && token.protocol === 'dolomite') {
     const expectedMintUrl = `https://app.dolomite.io/balances`
     if (!token.mintUrl.startsWith(expectedMintUrl)) {
       errors.push(
         `${token.symbol} mintUrl is incorrect. It should be ${expectedMintUrl}`,
       )
     }
-  } else if (token.protocol === 'kodiak') {
+  } else if ('protocol' in token && token.protocol === 'kodiak') {
     const expectedMintUrl = `https://app.kodiak.finance/#/liquidity/pools/${token.address}?chain=berachain_mainnet`
     if (token.mintUrl !== expectedMintUrl) {
       errors.push(

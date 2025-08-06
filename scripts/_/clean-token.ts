@@ -9,7 +9,7 @@ export const cleanToken = ({
 }): DefaultListToken => ({
   ...token,
   address: lowercaseAddress(token.address),
-  ...('mintUrl' in token
+  ...('mintUrl' in token && token.mintUrl
     ? {
         mintUrl: token.mintUrl.toLowerCase(),
       }
