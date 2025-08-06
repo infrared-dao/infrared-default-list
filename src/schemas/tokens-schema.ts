@@ -42,6 +42,7 @@ export const DefaultListBasicTokenSchema = strictObject({
   isNotWorkingWithEnso: optional(boolean()),
   isSoulbound: optional(boolean()),
   isUnpriced: optional(boolean()),
+  mintUrl: optional(MintUrlSchema),
   name: string(),
   symbol: string(),
 })
