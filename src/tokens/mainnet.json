@@ -769,6 +769,20 @@
       "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
     },
     {
+      "address": "0xe8b92cd9771ebaad873a8e1b1b55404aecfdbc9d",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "plug-wbera.svg",
+      "imageCustomWidth": true,
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://www.beradrome.com/farms/0xaee71e1c9506f7a1fa6c7655657d239ebc31b5ae",
+      "name": "PLUG-WBERA",
+      "protocol": "beradrome",
+      "symbol": "Beradrome Kodiak PLUG-WBERA-V2",
+      "type": "unknown",
+      "underlyingTokens": ["0xac1d44f0284634eb04ffa56c76d47e839224b46f"]
+    },
+    {
       "address": "0x36fa291f4a4ae41e4be2a979136ebd7eb97950e7",
       "chainId": 80094,
       "decimals": 18,
@@ -1927,6 +1941,22 @@
       "type": "amm",
       "underlyingTokens": [
         "0x009af46df68db0e76bfe9ea35663f6ed17877956",
+        "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
+      "address": "0xac1d44f0284634eb04ffa56c76d47e839224b46f",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "plug-wbera.svg",
+      "kodiakTradingFee": 0.03,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xac1d44f0284634eb04ffa56c76d47e839224b46f?chain=berachain_mainnet",
+      "name": "PLUG-WBERA",
+      "protocol": "kodiak",
+      "symbol": "UNI-V2",
+      "type": "unknown",
+      "underlyingTokens": [
+        "0x231a6bd8eb88cfa42776b7ac575cecaf82bf1e21",
         "0x6969696969696969696969696969696969696969"
       ]
     },

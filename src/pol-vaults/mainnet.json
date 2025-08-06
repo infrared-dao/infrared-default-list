@@ -56,6 +56,11 @@
       "slug": "beradrome-henlocked690m"
     },
     {
+      "beraRewardVault": "0xa6cab22b1b64532af6779d7227983d1be1bd317e",
+      "depositTokenAddress": "0xe8b92cd9771ebaad873a8e1b1b55404aecfdbc9d",
+      "slug": "beradrome-plug-wbera"
+    },
+    {
       "beraRewardVault": "0xf3bdf754b4691286090090d601f77384da9fb721",
       "depositTokenAddress": "0x36fa291f4a4ae41e4be2a979136ebd7eb97950e7",
       "slug": "beradrome-wbera-locks"
