@@ -458,7 +458,7 @@
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
       "chainId": 80094,
       "decimals": 18,
-      "image": "bex-swbera.svg",
+      "image": "pol-staked-wbera.svg",
       "mintUrl": "https://hub.berachain.com/stake/",
       "name": "POL Staked WBERA",
       "symbol": "sWBERA"
