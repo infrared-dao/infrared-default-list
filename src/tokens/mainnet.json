@@ -2873,6 +2873,15 @@
         "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
       ]
+    },
+    {
+      "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera.svg",
+      "mintUrl": "https://hub.berachain.com/stake/",
+      "name": "POL Staked WBERA",
+      "symbol": "sWBERA"
     }
   ]
 }
