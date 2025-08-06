@@ -55,10 +55,10 @@
       "depositTokenAddress": "0x872130ced110e2a4325693c0802b6a0112b3615b",
       "slug": "beradrome-henlocked690m"
     },
-     {
-      "beraRewardVault": "0xA6cAB22B1b64532aF6779d7227983D1Be1Bd317E",
-      "depositTokenAddress": "0xE8b92cd9771ebaad873A8E1b1B55404aECfDBc9d",
-      "slug": "beradrome-kodiak-plug-wbera-v2"
+    {
+      "beraRewardVault": "0xa6cab22b1b64532af6779d7227983d1be1bd317e",
+      "depositTokenAddress": "0xe8b92cd9771ebaad873a8e1b1b55404aecfdbc9d",
+      "slug": "beradrome-plug-wbera"
     },
     {
       "beraRewardVault": "0xf3bdf754b4691286090090d601f77384da9fb721",
