@@ -2864,6 +2864,7 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "swbera-wgbera.svg",
+      "imageNotFromUnderlying": true,
       "mintUrl": "https://hub.berachain.com/pools/0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad00020000000000000000018f/details/",
       "name": "sWBERA | wgBERA",
       "protocol": "bex",
