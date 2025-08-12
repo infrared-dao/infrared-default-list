@@ -81,6 +81,16 @@
       "slug": "bex-mead-honey"
     },
     {
+      "beraRewardVault": "0x96325246424c5fc1d302765fc76ef66f16e0632c",
+      "depositTokenAddress": "0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2",
+      "slug": "bex-swbera-wgbera-20-80"
+    },
+    {
+      "beraRewardVault": "0x28ace51d12f839c678ff15ba303aa6f6e64d05fa",
+      "depositTokenAddress": "0xe9b91292fc29753a723ded3574f3ad8ec77d08dc",
+      "slug": "bex-swbera-wgbera-80-20"
+    },
+    {
       "beraRewardVault": "0xf99be47baf0c22b7eb5eac42c8d91b9942dc7e84",
       "depositTokenAddress": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
       "slug": "bex-usdc.e-honey"
@@ -759,16 +769,6 @@
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
-    },
-    {
-      "beraRewardVault": "0x96325246424c5fc1d302765fc76ef66f16e0632c",
-      "depositTokenAddress": "0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2",
-      "slug": "bex-swbera-wgbera-20-80"
-    },
-    {
-      "beraRewardVault": "0x28ace51d12f839c678ff15ba303aa6f6e64d05fa",
-      "depositTokenAddress": "0xe9b91292fc29753a723ded3574f3ad8ec77d08dc",
-      "slug": "bex-swbera-wgbera-80-20"
     }
   ]
 }
