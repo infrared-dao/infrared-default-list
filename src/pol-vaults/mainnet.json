@@ -759,6 +759,11 @@
       "beraRewardVault": "0x96325246424c5fc1d302765fc76ef66f16e0632c",
       "depositTokenAddress": "0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2",
       "slug": "bex-swbera-wgbera-20-80"
+    },
+    {
+      "beraRewardVault": "0x28ace51d12f839c678ff15ba303aa6f6e64d05fa",
+      "depositTokenAddress": "0xe9b91292fc29753a723ded3574f3ad8ec77d08dc",
+      "slug": "bex-swbera-wgbera-80-20"
     }
   ]
 }
