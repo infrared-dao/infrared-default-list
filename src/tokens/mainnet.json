@@ -884,6 +884,36 @@
       ]
     },
     {
+      "address": "0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera-wgbera.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2000200000000000000000198/details/",
+      "name": "sWBERA-wgBERA (20/80)",
+      "protocol": "bex",
+      "symbol": "20sWBERA-80wgBERA-WEIGHTED",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0xe9b91292fc29753a723ded3574f3ad8ec77d08dc",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera-wgbera.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0xe9b91292fc29753a723ded3574f3ad8ec77d08dc00020000000000000000019a/details/",
+      "name": "sWBERA-wgBERA (80/20)",
+      "protocol": "bex",
+      "symbol": "80sWBERA-20wgBERA-WEIGHTED",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
       "address": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
       "chainId": 80094,
       "decimals": 18,
