@@ -706,6 +706,11 @@
       "slug": "sumer-bsumer"
     },
     {
+      "beraRewardVault": "0x6679f737923f0f99a50f7a1a3d4f8092be11795c",
+      "depositTokenAddress": "0x9a7d89284520572b3ec41efeba9add65622b301a",
+      "slug": "swbera-osbgt"
+    },
+    {
       "beraRewardVault": "0xce77a233a22873440496166b1d41a6feda93c3c5",
       "depositTokenAddress": "0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad",
       "slug": "swbera-wgbera"
