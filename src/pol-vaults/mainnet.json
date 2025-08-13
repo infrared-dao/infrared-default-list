@@ -706,6 +706,11 @@
       "slug": "sumer-bsumer"
     },
     {
+      "beraRewardVault": "0x6679f737923f0f99a50f7a1a3d4f8092be11795c",
+      "depositTokenAddress": "0x9a7d89284520572b3ec41efeba9add65622b301a",
+      "slug": "swbera-osbgt"
+    },
+    {
       "beraRewardVault": "0xce77a233a22873440496166b1d41a6feda93c3c5",
       "depositTokenAddress": "0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad",
       "slug": "swbera-wgbera"
@@ -749,11 +754,6 @@
       "beraRewardVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "depositTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea",
       "slug": "webera-wewbera"
-    },
-        {
-      "beraRewardVault": "0x6679F737923f0F99A50F7A1a3D4f8092BE11795C",
-      "depositTokenAddress": "0x9A7D89284520572B3Ec41efEbA9ADd65622B301A",
-      "slug": "swbera-osbgt"
     },
     {
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",

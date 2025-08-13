@@ -913,20 +913,6 @@
         "0x09d9420332bff75522a45fcff4855f82a0a3ff50"
       ]
     },
-        {
-      "address": "0x9A7D89284520572B3Ec41efEbA9ADd65622B301A",
-      "chainId": 80094,
-      "decimals": 18,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9a7d89284520572b3ec41efeba9add65622b301a?farm=0x6679f737923f0f99a50f7a1a3d4f8092be11795c&chain=berachain_mainnet",
-      "name": "sWBERA-osBGT",
-      "protocol": "kodiak",
-      "symbol": "sWBERA-osBGT",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x118D2cEeE9785eaf70C15Cd74CD84c9f8c3EeC9a",
-        "0xD2C41BF4033A83C0FC3A7F58a392Bf37d6dCDb58"
-      ]
-    },
     {
       "address": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
       "chainId": 80094,
@@ -2190,6 +2176,22 @@
       "underlyingTokens": [
         "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
         "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
+      "address": "0x9a7d89284520572b3ec41efeba9add65622b301a",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "swbera-osbgt.svg",
+      "kodiakTradingFee": 0.3,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9a7d89284520572b3ec41efeba9add65622b301a?chain=berachain_mainnet",
+      "name": "sWBERA-osBGT",
+      "protocol": "kodiak",
+      "symbol": "KODI sWBERA-osBGT",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+        "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
       ]
     },
     {
