@@ -2984,7 +2984,7 @@
       "name": "Pendle Market",
       "protocol": "Pendle",
       "symbol": "PENDLE-LPT",
-      "type": "amm",
+      "type": "amm"
     }
   ]
 }
