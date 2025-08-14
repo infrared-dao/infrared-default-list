@@ -359,6 +359,19 @@
       "symbol": "osBGT"
     },
     {
+      "address": "0x02293d88656860a840ed457d38f51e3e6bee8461",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "pendle-ibgt.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://app.pendle.finance/trade/pools/0x02293d88656860a840ed457d38f51e3e6bee8461/zap/in?chain=bera",
+      "name": "Pendle iBGT",
+      "nameCustom": true,
+      "protocol": "pendle",
+      "symbol": "PENDLE-LPT",
+      "type": "amm"
+    },
+    {
       "address": "0x231a6bd8eb88cfa42776b7ac575cecaf82bf1e21",
       "chainId": 80094,
       "decimals": 18,
@@ -2781,6 +2794,20 @@
       "symbol": "Psteady_teddys-WBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
+      "address": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "pendle-ibgt.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://app.pendle.finance/trade/pools/0x02293d88656860a840ed457d38f51e3e6bee8461/zap/lp-wrapper/wrap?chain=bera",
+      "name": "Pendle iBGT",
+      "nameCustom": true,
+      "protocol": "pendle",
+      "symbol": "PENDLE-LPT-WRAPPED",
+      "type": "vault",
+      "underlyingTokens": ["0x02293d88656860a840ed457d38f51e3e6bee8461"]
     },
     {
       "address": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
