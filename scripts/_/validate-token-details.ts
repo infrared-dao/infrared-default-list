@@ -69,7 +69,7 @@ const validateName = ({
       .map((token) => (token && token.symbol) || 'FIX_MISSING_SYMBOL')
       .join('-')
 
-    if (token.name !== underlyingTokenSymbols) {
+    if (!token.nameCustom && token.name !== underlyingTokenSymbols) {
       if (token.name !== onChainName && token.name !== onChainSymbol) {
         // onChainSymbol for cases like bWBERA
 
@@ -88,7 +88,11 @@ const validateName = ({
         }
       }
     }
-  } else if (token.name !== onChainName && token.name !== onChainSymbol) {
+  } else if (
+    !token.nameCustom &&
+    token.name !== onChainName &&
+    token.name !== onChainSymbol
+  ) {
     errors.push(`${token.name} does not match ${onChainName}`)
   }
 }

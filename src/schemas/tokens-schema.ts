@@ -44,6 +44,7 @@ export const DefaultListBasicTokenSchema = strictObject({
   isUnpriced: optional(boolean()),
   mintUrl: optional(MintUrlSchema),
   name: string(),
+  nameCustom: optional(boolean()),
   symbol: string(),
 })
 export type DefaultListBasicToken = InferOutput<
