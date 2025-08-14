@@ -696,6 +696,11 @@
       "slug": "paddlefi-wbera-steadyteddys"
     },
     {
+      "beraRewardVault": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
+      "depositTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
+      "slug": "pendle-ibgt"
+    },
+    {
       "beraRewardVault": "0x3211e960fff36715b9046c51a3af6826d1a226e7",
       "depositTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
       "slug": "satlayer-satsolvbtc.bera"
