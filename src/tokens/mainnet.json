@@ -589,6 +589,18 @@
       "symbol": "xUSD"
     },
     {
+      "address": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ybb.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://yeetit.xyz",
+      "name": "Yeetarded Buyback",
+      "protocol": "yeet",
+      "symbol": "YBB",
+      "type": "unknown"
+    },
+    {
       "address": "0x982940ebfc5caa2f5b5a82aac2dfa99f18bb7da4",
       "chainId": 80094,
       "decimals": 18,
