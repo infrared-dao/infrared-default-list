@@ -422,6 +422,15 @@
       "products": ["iBGT"],
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "Narra Agents is a platform for creating and trading AI agents on Berachain.",
+      "id": "narra",
+      "imageDark": "narra-agents.svg",
+      "imageLight": "narra-agents.svg",
+      "name": "Narra Agents",
+      "type": "unknown",
+      "url": "https://arena.narralayer.ai"
     }
   ]
 }

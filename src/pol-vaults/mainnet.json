@@ -774,6 +774,11 @@
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
+    },
+    {
+      "beraRewardVault": "0x84cdE2880f1C63253636501D757630C252678562",
+      "depositTokenAddress": "0xa774423a761b916233dad5cc4a92c8cc5fe83a87",
+      "slug": "narra-agents-zi"
     }
   ]
 }
