@@ -593,6 +593,7 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "ybb.svg",
+      "isSoulbound": true,
       "imageNotFromUnderlying": true,
       "mintUrl": "https://yeetit.xyz",
       "name": "Yeetarded Buyback",
