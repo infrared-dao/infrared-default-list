@@ -3000,6 +3000,19 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0xa774423a761b916233dad5cc4a92c8cc5fe83a87",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "zi.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://arena.narralayer.ai",
+      "name": "Zai Intimacy",
+      "protocol": "Narra Agents",
+      "symbol": "ZI",
+      "type": "unknown",
+      "underlyingTokens": [""]
     }
   ]
 }

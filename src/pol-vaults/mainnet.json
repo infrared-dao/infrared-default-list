@@ -779,6 +779,11 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "beraRewardVault": "0x84cdE2880f1C63253636501D757630C252678562",
+      "depositTokenAddress": "0xa774423a761b916233dad5cc4a92c8cc5fe83a87",
+      "slug": "narra-agents-zi"
     }
   ]
 }
