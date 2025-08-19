@@ -125,17 +125,6 @@
       "url": "https://charm.fi"
     },
     {
-      "description": "DeFi liquidity meta‑layer powering yield optimization and new asset derivatives.",
-      "id": "concrete",
-      "imageDark": "concrete.svg",
-      "imageLight": "concrete.svg",
-      "name": "Concrete",
-      "prefix": "ct",
-      "products": ["vaults"],
-      "type": "defi",
-      "url": "https://concrete.xyz"
-    },
-    {
       "description": "Multi-strategy fund delivering high-yield institutional-grade Stablecoin, RWA, Bitcoin, and digital asset tokenized strategies.",
       "id": "d2finance",
       "imageDark": "d2finance.svg",
