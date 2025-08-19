@@ -53,7 +53,6 @@ const validateVaultsByChain = async ({
     chain: supportedChains[chain],
     transport: transports[supportedChains[chain].id],
   })
-  console.log(publicClient.chain.rpcUrls)
   const slugs: Array<string> = []
   const beraRewardVaults = new Set<string>()
 

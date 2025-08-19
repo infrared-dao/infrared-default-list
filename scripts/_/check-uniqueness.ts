@@ -11,9 +11,7 @@ export const checkUniqueness = ({
 }) => {
   if (value) {
     if (set.has(value)) {
-      errors.push(
-        `Duplicate protocol found: ${value}. Protocol ${fieldName}s must be unique.`,
-      )
+      errors.push(`Duplicate found: ${value}. ${fieldName}s must be unique.`)
     }
     set.add(value)
   }
