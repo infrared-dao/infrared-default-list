@@ -6,7 +6,7 @@ import {
   type DefaultListIVault,
   DefaultListIVaultsSchema,
 } from '@/schemas/ivaults-schema'
-import { DefaultListReplacesVaultsSchema } from '@/schemas/replaced-vaults-schema'
+import { DefaultListReplacedVaultsSchema } from '@/schemas/replaced-vaults-schema'
 
 import { checkUniqueness } from './_/check-uniqueness'
 import { cleanIVault } from './_/clean-ivault'
@@ -62,7 +62,7 @@ const validateReplacedIVaultsByChain = async ({
     path,
   })
   const replacedIVaults = parse(
-    DefaultListReplacesVaultsSchema,
+    DefaultListReplacedVaultsSchema,
     replacedIVaultsFile.vaults,
   )
 

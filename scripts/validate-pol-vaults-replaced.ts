@@ -7,7 +7,7 @@ import {
   type DefaultListPolVaults,
   DefaultListPolVaultsSchema,
 } from '@/schemas/pol-vaults-schema'
-import { DefaultListReplacesVaultsSchema } from '@/schemas/replaced-vaults-schema'
+import { DefaultListReplacedVaultsSchema } from '@/schemas/replaced-vaults-schema'
 
 import { checkUniqueness } from './_/check-uniqueness'
 import { cleanPolVault } from './_/clean-pol-vault'
@@ -63,7 +63,7 @@ const validateReplacedPolVaultsByChain = async ({
     path,
   })
   const replacedPolVaults = parse(
-    DefaultListReplacesVaultsSchema,
+    DefaultListReplacedVaultsSchema,
     replacedPolVaultsFile.vaults,
   )
 
