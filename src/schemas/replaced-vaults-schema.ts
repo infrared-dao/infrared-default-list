@@ -1,6 +1,6 @@
 import { array, type InferOutput, strictObject, string } from 'valibot'
 
-import { AddressSchema } from '@/schemas/address-schema'
+import { AddressSchema } from './address-schema'
 
 export const DefaultListReplacedVaultSchema = strictObject({
   address: AddressSchema,
