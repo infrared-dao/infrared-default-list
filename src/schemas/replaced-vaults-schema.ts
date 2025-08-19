@@ -1,16 +1,16 @@
 import { array, type InferOutput, strictObject, string } from 'valibot'
 
-export const DefaultListReplacesVaultSchema = strictObject({
+export const DefaultListReplacedVaultSchema = strictObject({
   originalSlug: string(),
   slug: string(),
 })
-export type DefaultListReplacesVault = InferOutput<
-  typeof DefaultListReplacesVaultSchema
+export type DefaultListReplacedVault = InferOutput<
+  typeof DefaultListReplacedVaultSchema
 >
 
-export const DefaultListReplacesVaultsSchema = array(
-  DefaultListReplacesVaultSchema,
+export const DefaultListReplacedVaultsSchema = array(
+  DefaultListReplacedVaultSchema,
 )
-export type DefaultListReplacesVaults = InferOutput<
-  typeof DefaultListReplacesVaultsSchema
+export type DefaultListReplacedVaults = InferOutput<
+  typeof DefaultListReplacedVaultsSchema
 >
