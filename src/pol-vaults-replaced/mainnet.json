@@ -1,0 +1,96 @@
+{
+  "vaults": [
+    {
+      "originalSlug": "bex-usdc.e-honey",
+      "slug": "bex-usdc.e-honey-replaced"
+    },
+    {
+      "originalSlug": "bex-wbera-honey",
+      "slug": "bex-wbera-honey-replaced"
+    },
+    {
+      "originalSlug": "bex-wbera-wbtc",
+      "slug": "bex-wbera-wbtc-replaced"
+    },
+    {
+      "originalSlug": "bex-wbera-weth",
+      "slug": "bex-wbera-weth-replaced"
+    },
+    {
+      "originalSlug": "dolomite-dhoney",
+      "slug": "dolomite-dhoney-replaced"
+    },
+    {
+      "originalSlug": "dolomite-drusd",
+      "slug": "dolomite-drusd-replaced"
+    },
+    {
+      "originalSlug": "dolomite-dwbera",
+      "slug": "dolomite-dwbera-replaced"
+    },
+    {
+      "originalSlug": "dolomite-dweth",
+      "slug": "dolomite-dweth-replaced"
+    },
+    {
+      "originalSlug": "kodiak-beraeth-stone",
+      "slug": "kodiak-beraeth-stone-replaced"
+    },
+    {
+      "originalSlug": "kodiak-ohm-honey",
+      "slug": "kodiak-ohm-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-rusd-honey",
+      "slug": "kodiak-rusd-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-solvbtc-xsolvbtc",
+      "slug": "kodiak-solvbtc-xsolvbtc-replaced"
+    },
+    {
+      "originalSlug": "kodiak-susda-usda",
+      "slug": "kodiak-susda-usda-replaced"
+    },
+    {
+      "originalSlug": "kodiak-susde-honey",
+      "slug": "kodiak-susde-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-usdc.e-honey",
+      "slug": "kodiak-usdc.e-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-usde-honey",
+      "slug": "kodiak-usde-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-wbtc-honey",
+      "slug": "kodiak-wbtc-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-wbtc-solvbtc",
+      "slug": "kodiak-wbtc-solvbtc-replaced"
+    },
+    {
+      "originalSlug": "kodiak-wbtc-unibtc",
+      "slug": "kodiak-wbtc-unibtc-replaced"
+    },
+    {
+      "originalSlug": "kodiak-wbtc-weth",
+      "slug": "kodiak-wbtc-weth-replaced"
+    },
+    {
+      "originalSlug": "kodiak-weth-beraeth",
+      "slug": "kodiak-weth-beraeth-replaced"
+    },
+    {
+      "originalSlug": "kodiak-weth-honey",
+      "slug": "kodiak-weth-honey-replaced"
+    },
+    {
+      "originalSlug": "kodiak-weth-stone",
+      "slug": "kodiak-weth-stone-replaced"
+    }
+  ]
+}
