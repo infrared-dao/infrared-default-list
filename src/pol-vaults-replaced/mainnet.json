@@ -1,0 +1,119 @@
+{
+  "vaults": [
+    {
+      "address": "0x59945c5be54ff1d8deb0e8bc7f132f950da910a2",
+      "originalSlug": "bex-usdc.e-honey",
+      "slug": "bex-usdc.e-honey-replaced"
+    },
+    {
+      "address": "0xa95ff8097b0e405d1f4139f460fa4c89863784c0",
+      "originalSlug": "bex-wbera-honey",
+      "slug": "bex-wbera-honey-replaced"
+    },
+    {
+      "address": "0x5614314eef828c747602a629b1d974a3f28ff6e2",
+      "originalSlug": "bex-wbera-wbtc",
+      "slug": "bex-wbera-wbtc-replaced"
+    },
+    {
+      "address": "0x79fb77363bb12464ca735b0186b4bd7131089a96",
+      "originalSlug": "bex-wbera-weth",
+      "slug": "bex-wbera-weth-replaced"
+    },
+    {
+      "address": "0x923cedaeb88e6552d4498852834d6668e09ec7cb",
+      "originalSlug": "dolomite-dhoney",
+      "slug": "dolomite-dhoney-replaced"
+    },
+    {
+      "address": "0x8b8895ad5bc0379db1a921e3dd899a36ae89e283",
+      "originalSlug": "dolomite-drusd",
+      "slug": "dolomite-drusd-replaced"
+    },
+    {
+      "address": "0xbdcfe56ec75135d21ae8735b432d343953426d87",
+      "originalSlug": "dolomite-dwbera",
+      "slug": "dolomite-dwbera-replaced"
+    },
+    {
+      "address": "0xd134a653e00f752b59597bfbc18aa0583232f109",
+      "originalSlug": "dolomite-dweth",
+      "slug": "dolomite-dweth-replaced"
+    },
+    {
+      "address": "0x8a7324e0557e83a0bfe6897d4bc121f9688b562d",
+      "originalSlug": "kodiak-beraeth-stone",
+      "slug": "kodiak-beraeth-stone-replaced"
+    },
+    {
+      "address": "0xc5695bcf5d02a6539093300f09d04dc20e6b49fb",
+      "originalSlug": "kodiak-ohm-honey",
+      "slug": "kodiak-ohm-honey-replaced"
+    },
+    {
+      "address": "0xb31d4ec715841945fc1011722579ae8ebfdcc2e3",
+      "originalSlug": "kodiak-rusd-honey",
+      "slug": "kodiak-rusd-honey-replaced"
+    },
+    {
+      "address": "0x5829f680207f04c4e10e26fb066e0702f1d54c4b",
+      "originalSlug": "kodiak-solvbtc-xsolvbtc",
+      "slug": "kodiak-solvbtc-xsolvbtc-replaced"
+    },
+    {
+      "address": "0x57dcad0c7678ea41ad2284a3fc0b119316155829",
+      "originalSlug": "kodiak-susda-usda",
+      "slug": "kodiak-susda-usda-replaced"
+    },
+    {
+      "address": "0x13afbf9aaae8f29d8a20b42e4cdf9abc3227443f",
+      "originalSlug": "kodiak-susde-honey",
+      "slug": "kodiak-susde-honey-replaced"
+    },
+    {
+      "address": "0x812e5ff20326743151e2efa02d89d488efd826c9",
+      "originalSlug": "kodiak-usdc.e-honey",
+      "slug": "kodiak-usdc.e-honey-replaced"
+    },
+    {
+      "address": "0xbb79339bc0cff71ca9da71789d9491c2646648b8",
+      "originalSlug": "kodiak-usde-honey",
+      "slug": "kodiak-usde-honey-replaced"
+    },
+    {
+      "address": "0xc633694fcfcc126eaa35ba7c8b766874355c0ca9",
+      "originalSlug": "kodiak-wbtc-honey",
+      "slug": "kodiak-wbtc-honey-replaced"
+    },
+    {
+      "address": "0x70c7bfd443399959728a3616b240a8730d7d0a50",
+      "originalSlug": "kodiak-wbtc-solvbtc",
+      "slug": "kodiak-wbtc-solvbtc-replaced"
+    },
+    {
+      "address": "0xd11561a09474b4878bbd2c2bae2215f621740e8f",
+      "originalSlug": "kodiak-wbtc-unibtc",
+      "slug": "kodiak-wbtc-unibtc-replaced"
+    },
+    {
+      "address": "0x21d91837d55c567b528772e9735cda7e4488977f",
+      "originalSlug": "kodiak-wbtc-weth",
+      "slug": "kodiak-wbtc-weth-replaced"
+    },
+    {
+      "address": "0xd7da42280ce55529201c7f2ff80b361664723b53",
+      "originalSlug": "kodiak-weth-beraeth",
+      "slug": "kodiak-weth-beraeth-replaced"
+    },
+    {
+      "address": "0xba802c7233db63353151798662893ff2ed52cf33",
+      "originalSlug": "kodiak-weth-honey",
+      "slug": "kodiak-weth-honey-replaced"
+    },
+    {
+      "address": "0xa363c16012a2fdb1f901800c589f631db4bf3d02",
+      "originalSlug": "kodiak-weth-stone",
+      "slug": "kodiak-weth-stone-replaced"
+    }
+  ]
+}

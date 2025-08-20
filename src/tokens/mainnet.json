@@ -573,6 +573,14 @@
       "symbol": "WIZZ"
     },
     {
+      "address": "0xcac89b3f94ed6bab04113884deee2a55293c2dd7",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "xfatbera.svg",
+      "name": "Extra FatBERA",
+      "symbol": "xfatBERA"
+    },
+    {
       "address": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
       "chainId": 80094,
       "decimals": 18,
@@ -1274,174 +1282,6 @@
       ]
     },
     {
-      "address": "0xe49ff31b2b3fd346b0d1832d9fe224ee0d1c1f9e",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberabaddieshoney.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctBeraBaddiesHONEY",
-      "protocol": "concrete",
-      "symbol": "ctBeraBaddiesHONEY",
-      "type": "cdp",
-      "underlyingTokens": ["0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"]
-    },
-    {
-      "address": "0xa15e1de8a220ca9c63db4e8a1e9043fb953b3713",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberabaddieswbera.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctBeraBaddiesWBERA",
-      "protocol": "concrete",
-      "symbol": "ctBeraBaddiesWBERA",
-      "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
-      "address": "0x49bee393825bbac404fefe6e24f34854f30905d2",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberaeth.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctBeraETH",
-      "protocol": "concrete",
-      "symbol": "ctBeraETH",
-      "type": "cdp",
-      "underlyingTokens": ["0x6fc6545d5cde268d5c7f1e476d444f39c995120d"]
-    },
-    {
-      "address": "0x127bf6361ff7495f2a69d83d9ad2092d3dfee7ab",
-      "chainId": 80094,
-      "decimals": 17,
-      "image": "ctberafbtc.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctFBTC",
-      "protocol": "concrete",
-      "symbol": "ctBeraFBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0xbac93a69c62a1518136ff840b788ba715cbdfe2b"]
-    },
-    {
-      "address": "0x81235952ad93987f74e074994def2a7e1d6f1fb0",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberahoney.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctHONEY",
-      "protocol": "concrete",
-      "symbol": "ctBeraHONEY",
-      "type": "cdp",
-      "underlyingTokens": ["0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"]
-    },
-    {
-      "address": "0xb6e3c1154e07f8a3dc04a9a28648c7aa30511120",
-      "chainId": 80094,
-      "decimals": 17,
-      "image": "ctberalbtc.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctLBTC",
-      "protocol": "concrete",
-      "symbol": "ctBeraLBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0xecac9c5f704e954931349da37f60e39f515c11c1"]
-    },
-    {
-      "address": "0xd08e3652e6b29ebdd58fe93b422513862fb49899",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberasusde.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctsUSDe",
-      "protocol": "concrete",
-      "symbol": "ctBerasUSDe",
-      "type": "cdp",
-      "underlyingTokens": ["0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2"]
-    },
-    {
-      "address": "0x068d072d1ee7647b9d649a7c2046166aa81af3d3",
-      "chainId": 80094,
-      "decimals": 17,
-      "image": "ctberaunibtc.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctuniBTC",
-      "protocol": "concrete",
-      "symbol": "ctBerauniBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0xc3827a4bc8224ee2d116637023b124ced6db6e90"]
-    },
-    {
-      "address": "0xe96e0d5dda2e24050f43af92ebb3293f6e605c9a",
-      "chainId": 80094,
-      "decimals": 15,
-      "image": "ctberausdt0.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctUSD₮0",
-      "protocol": "concrete",
-      "symbol": "ctBeraUSDT0",
-      "type": "cdp",
-      "underlyingTokens": ["0x779ded0c9e1022225f8e0630b35a9b54be713736"]
-    },
-    {
-      "address": "0xc3cac88fd629652bbe0c3454d5d3049368a73849",
-      "chainId": 80094,
-      "decimals": 15,
-      "image": "ctberausdc-e.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctUSDC.e",
-      "protocol": "concrete",
-      "symbol": "ctBeraUSDC.e",
-      "type": "cdp",
-      "underlyingTokens": ["0x549943e04f40284185054145c6e4e9568c1d3241"]
-    },
-    {
-      "address": "0x585934afbf1fa9f563b80283f8b916dd8f66a9b6",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberausde.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctUSDe",
-      "protocol": "concrete",
-      "symbol": "ctBeraUSDe",
-      "type": "cdp",
-      "underlyingTokens": ["0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"]
-    },
-    {
-      "address": "0xec577e989c02b294d5b8f4324224a5b63f5beef7",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberawbera.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctWBERA",
-      "protocol": "concrete",
-      "symbol": "ctBeraWBERA",
-      "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
-      "address": "0x335e7b56054f830883d1509afdce58dedcefb29c",
-      "chainId": 80094,
-      "decimals": 17,
-      "image": "ctberawbtc.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctWBTC",
-      "protocol": "concrete",
-      "symbol": "ctBeraWBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0x0555e30da8f98308edb960aa94c0db47230d2b9c"]
-    },
-    {
-      "address": "0x8d3e53f5521927e5c78d42b4f9e08ae8df91b772",
-      "chainId": 80094,
-      "decimals": 27,
-      "image": "ctberaweth.svg",
-      "mintUrl": "https://app.concrete.xyz/earn",
-      "name": "ctWETH",
-      "protocol": "concrete",
-      "symbol": "ctBeraWETH",
-      "type": "cdp",
-      "underlyingTokens": ["0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"]
-    },
-    {
       "address": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79",
       "chainId": 80094,
       "decimals": 6,
@@ -1508,30 +1348,6 @@
       "underlyingTokens": ["0x09d4214c03d01f49544c0448dbe3a27f768f2b34"]
     },
     {
-      "address": "0xd6eb8ae479edf452d264493708c85aa798cccdfd",
-      "chainId": 80094,
-      "decimals": 8,
-      "image": "dunibtc.svg",
-      "mintUrl": "https://app.dolomite.io/balances",
-      "name": "duniBTC",
-      "protocol": "dolomite",
-      "symbol": "duniBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0xc3827a4bc8224ee2d116637023b124ced6db6e90"]
-    },
-    {
-      "address": "0xf2d2d55daf93b0660297eaa10969ebe90ead5ce8",
-      "chainId": 80094,
-      "decimals": 6,
-      "image": "dusdt0.svg",
-      "mintUrl": "https://app.dolomite.io/balances",
-      "name": "dUSD₮0",
-      "protocol": "dolomite",
-      "symbol": "dUSD₮0",
-      "type": "cdp",
-      "underlyingTokens": ["0x779ded0c9e1022225f8e0630b35a9b54be713736"]
-    },
-    {
       "address": "0xaa97d791afc02af30cf0b046172bb05b3c306517",
       "chainId": 80094,
       "decimals": 18,
@@ -1542,18 +1358,6 @@
       "symbol": "dWBERA",
       "type": "cdp",
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
-      "address": "0x29cf6e8ecefb8d3c9dd2b727c1b7d1df1a754f6f",
-      "chainId": 80094,
-      "decimals": 8,
-      "image": "dwbtc.svg",
-      "mintUrl": "https://app.dolomite.io/balances",
-      "name": "dWBTC",
-      "protocol": "dolomite",
-      "symbol": "dWBTC",
-      "type": "cdp",
-      "underlyingTokens": ["0x0555e30da8f98308edb960aa94c0db47230d2b9c"]
     },
     {
       "address": "0xf7b5127b510e568fdc39e6bb54e2081bfad489af",
@@ -1641,6 +1445,7 @@
       "decimals": 18,
       "image": "very-awesome-unified-liquidity-token.svg",
       "imageNotFromUnderlying": true,
+      "isSoulbound": true,
       "mintUrl": "https://honeypotfinance.xyz",
       "name": "Very Awesome Unified Liquidity Token",
       "protocol": "honeypot",
@@ -1819,22 +1624,6 @@
       ]
     },
     {
-      "address": "0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "ezeth-weth.svg",
-      "kodiakTradingFee": 0.05,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865?chain=berachain_mainnet",
-      "name": "ezETH-WETH",
-      "protocol": "kodiak",
-      "symbol": "KODI ezETH-WETH",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x2416092f143378750bb29b79ed961ab195cceea5",
-        "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
-      ]
-    },
-    {
       "address": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896",
       "chainId": 80094,
       "decimals": 18,
@@ -1928,22 +1717,6 @@
       "underlyingTokens": [
         "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
         "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5"
-      ]
-    },
-    {
-      "address": "0x933b2e6a71edbf11bba75c5ad241d246b145e0b0",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "mim-honey.svg",
-      "kodiakTradingFee": 0.05,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x933b2e6a71edbf11bba75c5ad241d246b145e0b0?chain=berachain_mainnet",
-      "name": "MIM-HONEY",
-      "protocol": "kodiak",
-      "symbol": "KODI MIM-HONEY",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x5b82028cfc477c4e7dda7ff33d59a23fa7be002a",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
@@ -2123,22 +1896,6 @@
       ]
     },
     {
-      "address": "0x35b3833cbdcfaf3a842c90b775c632032648907d",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "solvbtc-bnb-solvbtc.svg",
-      "kodiakTradingFee": 0.3,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x35b3833cbdcfaf3a842c90b775c632032648907d?chain=berachain_mainnet",
-      "name": "SolvBTC.BNB-SolvBTC",
-      "protocol": "kodiak",
-      "symbol": "KODI SolvBTC.BNB-SolvBTC",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
-        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77"
-      ]
-    },
-    {
       "address": "0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f",
       "chainId": 80094,
       "decimals": 18,
@@ -2187,22 +1944,6 @@
       ]
     },
     {
-      "address": "0x595b1ecd5ec42fb5f321d4162b04965eab8f1388",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "stg-honey.svg",
-      "kodiakTradingFee": 0.3,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x595b1ecd5ec42fb5f321d4162b04965eab8f1388?chain=berachain_mainnet",
-      "name": "STG-HONEY",
-      "protocol": "kodiak",
-      "symbol": "KODI STG-HONEY",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
-      ]
-    },
-    {
       "address": "0x7cebcc76a2faecc0ae378b340815fcbb71ec1fe0",
       "chainId": 80094,
       "decimals": 18,
@@ -2248,22 +1989,6 @@
       "underlyingTokens": [
         "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
-      ]
-    },
-    {
-      "address": "0x12c195768f65f282ea5f1b5c42755fbc910b0d8f",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "usdt0-honey.svg",
-      "kodiakTradingFee": 0.05,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x12c195768f65f282ea5f1b5c42755fbc910b0d8f?chain=berachain_mainnet",
-      "name": "USD₮0-HONEY",
-      "protocol": "kodiak",
-      "symbol": "KODI USD₮0-HONEY",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x779ded0c9e1022225f8e0630b35a9b54be713736",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
@@ -2795,20 +2520,6 @@
       ]
     },
     {
-      "address": "0xe16761787cf9bb0d3fc2e5c726dae906ce81b102",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "wbera-steadyteddys.svg",
-      "imageCustomWidth": true,
-      "imageNotFromUnderlying": true,
-      "mintUrl": "https://dapp.paddlefi.com/moneymarket",
-      "name": "WBERA-steadyteddys",
-      "protocol": "paddlefi",
-      "symbol": "Psteady_teddys-WBERA",
-      "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
-    },
-    {
       "address": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
       "chainId": 80094,
       "decimals": 18,
@@ -2994,6 +2705,7 @@
       "decimals": 18,
       "image": "yeet-rwt.svg",
       "imageNotFromUnderlying": true,
+      "isSoulbound": true,
       "mintUrl": "https://yeetit.xyz",
       "name": "Yeet",
       "protocol": "yeet",
