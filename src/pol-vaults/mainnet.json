@@ -386,11 +386,6 @@
       "slug": "kodiak-solvbtc-xsolvbtc"
     },
     {
-      "beraRewardVault": "0xc7986e8bb129389380c6d6be9ca94266b42c8592",
-      "depositTokenAddress": "0x35b3833cbdcfaf3a842c90b775c632032648907d",
-      "slug": "kodiak-solvbtc.bnb-solvbtc"
-    },
-    {
       "beraRewardVault": "0xc6b923ae78b25aad4c8df319b332a3202b1daedc",
       "depositTokenAddress": "0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f",
       "slug": "kodiak-solvbtc.bnb-solvbtc-2-percent"
@@ -404,11 +399,6 @@
       "beraRewardVault": "0xcf77d23cfc561e34e3b6137c736ea5cb395bcda0",
       "depositTokenAddress": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343",
       "slug": "kodiak-stbgt-wbera"
-    },
-    {
-      "beraRewardVault": "0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15",
-      "depositTokenAddress": "0x595b1ecd5ec42fb5f321d4162b04965eab8f1388",
-      "slug": "kodiak-stg-honey"
     },
     {
       "beraRewardVault": "0xc196d595dece185ea39f8e1c3ce07a274ac31985",
@@ -589,11 +579,6 @@
       "beraRewardVault": "0x5540e29749f6c8f5dcf49fcc17c67e97a8e7335b",
       "depositTokenAddress": "0x273c832797bfda1c0826a786670d041282bd6afc",
       "slug": "kuma-reward-token"
-    },
-    {
-      "beraRewardVault": "0xeb7499ee3034a82458e91c036b0e73732d1267f5",
-      "depositTokenAddress": "0xe16761787cf9bb0d3fc2e5c726dae906ce81b102",
-      "slug": "paddlefi-wbera-steadyteddys"
     },
     {
       "beraRewardVault": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
