@@ -413,11 +413,11 @@
       "url": "https://zerolend.xyz"
     },
     {
-      "description": "Narra Agents is a platform for creating and trading AI agents on Berachain.",
+      "description": "Your AI Companion, Brought to Life on Chain.",
       "id": "narra",
-      "imageDark": "narra-agents.svg",
-      "imageLight": "narra-agents.svg",
-      "name": "Narra",
+      "imageDark": "narra.svg",
+      "imageLight": "narra.svg",
+      "name": "Narra Arena",
       "type": "unknown",
       "url": "https://arena.narralayer.ai"
     }

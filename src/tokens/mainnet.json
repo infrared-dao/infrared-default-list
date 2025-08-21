@@ -2714,17 +2714,17 @@
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
     },
     {
-      "address": "0xa774423a761b916233dad5cc4a92c8cc5fe83a87",
+      "address": "0xDe1392209e55313284f144f8e76dcBB1c8A2EEE3",
       "chainId": 80094,
       "decimals": 18,
-      "image": "zi.svg",
+      "image": "nana.svg",
       "imageNotFromUnderlying": true,
-      "mintUrl": "https://arena.narralayer.ai",
-      "name": "Zai Intimacy",
-      "protocol": "Narra Agents",
-      "symbol": "ZI",
+      "mintUrl": "https://vault.narralayer.ai",
+      "name": "NO AIRDROP NO ALPHA",
+      "protocol": "narra",
+      "symbol": "NANA",
       "type": "unknown",
-      "underlyingTokens": [""]
+      "underlyingTokens": ["0xa774423A761b916233DAD5Cc4A92c8Cc5fe83a87"]
     }
   ]
 }
