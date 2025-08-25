@@ -280,6 +280,15 @@
       "url": "https://moby.trade"
     },
     {
+      "description": "Your AI Companion, Brought to Life on Chain.",
+      "id": "narra",
+      "imageDark": "narra.svg",
+      "imageLight": "narra.svg",
+      "name": "Narra Arena",
+      "type": "unknown",
+      "url": "https://arena.narralayer.ai"
+    },
+    {
       "description": "Yield infrastructure enabling tokenized vaults, staking, and restaking through programmable incentives.",
       "id": "openstate",
       "imageDark": "openstate.svg",
