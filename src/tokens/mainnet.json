@@ -2520,6 +2520,19 @@
       ]
     },
     {
+      "address": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "nana.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://vault.narralayer.ai",
+      "name": "NO AIRDROP NO ALPHA",
+      "protocol": "narra",
+      "symbol": "NANA",
+      "type": "unknown",
+      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+    },
+    {
       "address": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
       "chainId": 80094,
       "decimals": 18,
@@ -2712,19 +2725,6 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
-    },
-    {
-      "address": "0xDe1392209e55313284f144f8e76dcBB1c8A2EEE3",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "nana.svg",
-      "imageNotFromUnderlying": true,
-      "mintUrl": "https://vault.narralayer.ai",
-      "name": "NO AIRDROP NO ALPHA",
-      "protocol": "narra",
-      "symbol": "NANA",
-      "type": "unknown",
-      "underlyingTokens": ["0xa774423A761b916233DAD5Cc4A92c8Cc5fe83a87"]
     }
   ]
 }

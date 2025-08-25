@@ -581,6 +581,11 @@
       "slug": "kuma-reward-token"
     },
     {
+      "beraRewardVault": "0x84cde2880f1c63253636501d757630c252678562",
+      "depositTokenAddress": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
+      "slug": "narra-no-airdrop-no-alpha"
+    },
+    {
       "beraRewardVault": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
       "depositTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
       "slug": "pendle-ibgt"
@@ -664,11 +669,6 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
-    },
-    {
-      "beraRewardVault": "0x84cdE2880f1C63253636501D757630C252678562",
-      "depositTokenAddress": "0xa774423a761b916233dad5cc4a92c8cc5fe83a87",
-      "slug": "narra-nana"
     }
   ]
 }
