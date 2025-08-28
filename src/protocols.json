@@ -418,7 +418,7 @@
       "imageDark": "lrbgt.svg",
       "imageLight": "lrbgt.svg",
       "name": "LrBGT",
-      "products": ["iBGT", "Lair", "vaults"],
+      "products": ["iBGT", "vaults"],
       "type": "yield",
       "url": "https://app.lair.fi"
     }
