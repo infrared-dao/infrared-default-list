@@ -664,6 +664,11 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "beraRewardVault": "0x29af240276168330c3c266112d7ffdc1fd3c764d",
+      "depositTokenAddress": "0x66611Ba2aa5deB46e6138aD21a202b40ecE5b6AB",
+      "slug": "lrBGT"
     }
   ]
 }

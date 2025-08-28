@@ -2712,6 +2712,18 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0x66611Ba2aa5deB46e6138aD21a202b40ecE5b6AB",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "lrbgt.svg",
+      "mintUrl": "https://app.lair.fi.xyz",
+      "name": "LrBGT",
+      "protocol": "lrbgt",
+      "symbol": "LrBGT",
+      "type": "yield",
+      "underlyingTokens": ["0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b", "0x6969696969696969696969696969696969696969", "0xf3530788deb3d21e8fa2c3cbbf93317fb38a0d3c"]
     }
   ]
 }

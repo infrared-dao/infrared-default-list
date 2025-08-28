@@ -411,6 +411,16 @@
       "products": ["iBGT"],
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "",
+      "id": "lrbgt",
+      "imageDark": "lrbgt.svg",
+      "imageLight": "lrbgt.svg",
+      "name": "LrBGT",
+      "products": ["iBGT", "Lair", "vaults"],
+      "type": "yield",
+      "url": "https://app.lair.fi"
     }
   ]
 }
