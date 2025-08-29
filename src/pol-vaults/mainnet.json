@@ -1,581 +1,720 @@
 {
   "vaults": [
     {
+      "address": "0x937f5a2d9804125ba2783f6d86b4f80401ea5f4c",
       "beraRewardVault": "0x4796039d56892a324585d77a76059b1cd2b9d02a",
       "depositTokenAddress": "0xf9845a03f7e6b06645a03a28b943c8a4b5fe7bcc",
       "slug": "aquabera-wbera-beramo"
     },
     {
+      "address": "0xdcf09e3ffdb42e388006e2dac54102f1006614c5",
       "beraRewardVault": "0x16e8031814e58f581c8a1d6e087458b5110879fa",
       "depositTokenAddress": "0x04fd6a7b02e2e48caedad7135420604de5f834f8",
       "slug": "aquabera-wbera-henlo"
     },
     {
+      "address": "0x81c78b2ca50e36c61885745e742d98e8490b6085",
       "beraRewardVault": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
       "depositTokenAddress": "0x62cf6e355c77edb6f5c8eb2085a85cf4de4c1852",
       "slug": "beraborrow-bunibtc"
     },
     {
+      "address": "0xff14de98cc3d5677edd271d788604ca51677405a",
       "beraRewardVault": "0xb8ff36ba70ad9eab492bd538b9b00350d53c59e2",
       "depositTokenAddress": "0x6751c09113a83a83a43829fd0b3bc0d7bdbe07bf",
       "slug": "beraborrow-bwbera"
     },
     {
+      "address": "0xb751323d44ab4057fda58867e15eabe30b244ce1",
       "beraRewardVault": "0xdb0bd1f417e1b3906d348473a6c11978c0e1552a",
       "depositTokenAddress": "0x8628e618b66e7cddbe0adc84b96bea3977954507",
       "slug": "beraborrow-bwgbera"
     },
     {
+      "address": "0x5910e91c8586bf99d14434e6ad5ddb8e1f3aac1b",
       "beraRewardVault": "0x1161e6a6600c08c21cff7ac689e781b41db56d85",
       "depositTokenAddress": "0x597877ccf65be938bd214c4c46907669e3e62128",
       "slug": "beraborrow-snect"
     },
     {
+      "address": "0x24f9e76a878ef11e8d9774b4c8dae5f04145cfca",
       "beraRewardVault": "0x8412561faddd6c85f5a17e07e0f29428b813e69b",
       "depositTokenAddress": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
       "slug": "beradrome-henlocked100m"
     },
     {
+      "address": "0x5a838f4280a2096a77175b0b31385387afdd78c2",
       "beraRewardVault": "0xa6a3e6fb89fa4c6554e82d05b449639eebfc564f",
       "depositTokenAddress": "0xfb32f8c7d363790a6ccd89f8d20047612aba633b",
       "slug": "beradrome-henlocked1b"
     },
     {
+      "address": "0x833378d7c4b9c219455007f3c8c8543be10136b1",
       "beraRewardVault": "0xa713816e8d190efdf35d66b723eb63f8c8c4d5d2",
       "depositTokenAddress": "0x94ca1028ee60e5b28cda22c0e7b6743017a9b7b6",
       "slug": "beradrome-henlocked330m"
     },
     {
+      "address": "0xbe8418bf2ae9212dc948267c4b366e7e55654692",
       "beraRewardVault": "0x15970fcf2dbb9ffcc4e2f79c3fd777b871540d5b",
       "depositTokenAddress": "0x94b12404d6163c3e49ed876fb25034a946a40dd8",
       "slug": "beradrome-henlocked420m"
     },
     {
+      "address": "0x03b7c0969bdabbdb76f82232e1493ee1f2564d10",
       "beraRewardVault": "0x610b6a27a3a83cea0574c5001f30d9eea3699b1a",
       "depositTokenAddress": "0x872130ced110e2a4325693c0802b6a0112b3615b",
       "slug": "beradrome-henlocked690m"
     },
     {
+      "address": "0xfa5cd98cb3475ff922ff43e774131a1303cf724c",
       "beraRewardVault": "0xa6cab22b1b64532af6779d7227983d1be1bd317e",
       "depositTokenAddress": "0xe8b92cd9771ebaad873a8e1b1b55404aecfdbc9d",
       "slug": "beradrome-plug-wbera"
     },
     {
+      "address": "0xa304d605668dd676bb13c4c72cdf5c2bec68d4fa",
       "beraRewardVault": "0xf3bdf754b4691286090090d601f77384da9fb721",
       "depositTokenAddress": "0x36fa291f4a4ae41e4be2a979136ebd7eb97950e7",
       "slug": "beradrome-wbera-locks"
     },
     {
+      "address": "0x43b30aa0c503541d2ba9153cc1270ab3bd0cb879",
       "beraRewardVault": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
       "depositTokenAddress": "0x53f786662ff5fbec135f913ab93c6b3366e90a46",
       "slug": "bex-asugar-honey"
     },
     {
+      "address": "0x4ef8acfd3470b78079f235302c48e377016578b9",
       "beraRewardVault": "0x11cb30910e6c01c431c64242587838fbebb4bac4",
       "depositTokenAddress": "0x5bc9c1c2a387b7048f915e30bc3aa7820c9c67c3",
       "slug": "bex-ibera-wgbera"
     },
     {
+      "address": "0x8f1dd69e11d71b533fd14c3288163bec002cd2d3",
       "beraRewardVault": "0xf5049dd5b043e8af5758c03ff0cf80626ffef6df",
       "depositTokenAddress": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab",
       "slug": "bex-mead-honey"
     },
     {
+      "address": "0x2d6c0464398a323756e7997edf6f18d7a8c5c09d",
       "beraRewardVault": "0x96325246424c5fc1d302765fc76ef66f16e0632c",
       "depositTokenAddress": "0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2",
       "slug": "bex-swbera-wgbera-20-80"
     },
     {
+      "address": "0x45f31b4141e40ce298ff9b38fa87b9ae168cb977",
       "beraRewardVault": "0x28ace51d12f839c678ff15ba303aa6f6e64d05fa",
       "depositTokenAddress": "0xe9b91292fc29753a723ded3574f3ad8ec77d08dc",
       "slug": "bex-swbera-wgbera-80-20"
     },
     {
+      "address": "0x1419515d3703d8f2cc72fa6a341685e4f8e7e8e1",
       "beraRewardVault": "0xf99be47baf0c22b7eb5eac42c8d91b9942dc7e84",
       "depositTokenAddress": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
+      "forcedUpgradeAddresses": ["0x59945c5be54ff1d8deb0e8bc7f132f950da910a2"],
       "slug": "bex-usdc.e-honey"
     },
     {
+      "address": "0xf216ab07ec86086bdeeb89f8c430958464f4fa69",
       "beraRewardVault": "0xcb522875373c5db79f4b0816b381b4461d07b1af",
       "depositTokenAddress": "0x2461e93d5963c2bb69de499676763e67a63c7ba5",
       "slug": "bex-wbera-dinero"
     },
     {
+      "address": "0xe2d8941dfb85435419d90397b09d18024ebeef2c",
       "beraRewardVault": "0xc2baa8443cda8ebe51a640905a8e6bc4e1f9872c",
       "depositTokenAddress": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
+      "forcedUpgradeAddresses": ["0xa95ff8097b0e405d1f4139f460fa4c89863784c0"],
       "slug": "bex-wbera-honey"
     },
     {
+      "address": "0xd3d50fe6dbbb452ed30c7736d70678e4e0d277c8",
       "beraRewardVault": "0x92af7d5fcdef44c3df168ecfdcd03dea1807af28",
       "depositTokenAddress": "0x62c030b29a6fef1b32677499e4a1f1852a8808c0",
       "slug": "bex-wbera-ibera"
     },
     {
+      "address": "0xa2330be60ea1f34bb7cc116730fdb00214820350",
       "beraRewardVault": "0xe8ed00b1b142e8d84ef773c4fccaa18682d5a401",
       "depositTokenAddress": "0x705fc16ba5a1eb67051934f2fb17eacae660f6c7",
       "slug": "bex-wbera-lbgt"
     },
     {
+      "address": "0x78beda3a06443f51718d746ade95b5fac094633e",
       "beraRewardVault": "0x086f82fa0ca310cc835a9db4f53697687ef149c7",
       "depositTokenAddress": "0x38fdd999fe8783037db1bbfe465759e312f2d809",
+      "forcedUpgradeAddresses": ["0x5614314eef828c747602a629b1d974a3f28ff6e2"],
       "slug": "bex-wbera-wbtc"
     },
     {
+      "address": "0x0df14916796854d899576cbde69a35bafb923c22",
       "beraRewardVault": "0x17376ad6167a5592fbeaa42e6068c132474a513d",
       "depositTokenAddress": "0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4",
+      "forcedUpgradeAddresses": ["0x79fb77363bb12464ca735b0186b4bd7131089a96"],
       "slug": "bex-wbera-weth"
     },
     {
+      "address": "0xdec4d737680b8c3f3faa507b2af78bf85d74a48e",
       "beraRewardVault": "0x1932d24df32ec4cfdeca7824f36fd06c1458434c",
       "depositTokenAddress": "0x258d8933b625566fbe057874121783a2808adafa",
       "slug": "bex-weth-beraeth"
     },
     {
+      "address": "0x7fbecbb6a80bed02553b98c2016e7a1b598c90af",
       "beraRewardVault": "0xa068760e9bec127b7cd1655ea2ec992aa0a1631d",
       "depositTokenAddress": "0x8f32c1b7c9e2c60d357b7949a43540162248a21e",
       "slug": "bex-wgbera-wbera"
     },
     {
+      "address": "0x7040a4923ea90e84a2b362bdb08ec481789b0e2b",
       "beraRewardVault": "0xec54b5d168e7128bc1f06d12ef0e5ab6f4c59ed9",
       "depositTokenAddress": "0x1b7b061091bd2c900723107889fe44f825d6c921",
       "slug": "bex-wizz-wbera"
     },
     {
+      "address": "0xb28339e9e78a73d08fc689ccc44e4e71810004c9",
       "beraRewardVault": "0x2ee022f42564a6b23231155850acf185da298509",
       "depositTokenAddress": "0xb5d46214f4ec7f910cb433e412d32ee817986e90",
       "slug": "bulla-wbera-honey"
     },
     {
+      "address": "0x4c73391906f168fe2fd2b7a2744ca81920015688",
       "beraRewardVault": "0xb4c32fd71c89f0195a8ac0c3fa9ebf2b4774bd26",
       "depositTokenAddress": "0xcffbfd665bedb19b47837461a5abf4388c560d35",
       "slug": "bulla-wbera-ibgt"
     },
     {
+      "address": "0xacef07f40cb42dfe88e40b166f51c7094351f9ee",
       "beraRewardVault": "0x7e6e4dacff9ab49804667e1d7b76e921a8fbbe44",
       "depositTokenAddress": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c",
       "slug": "bullish-bull-ish-v2"
     },
     {
+      "address": "0xf4c0ed37fdd387013812bbfc6a0698a73ec5fe47",
       "beraRewardVault": "0xf326cb487d9542a0c43b7c6c9a252fa626403023",
       "depositTokenAddress": "0xc4c039178a79e614609e592d7689ecb3107758b1",
       "slug": "burrbear-burr-nect"
     },
     {
+      "address": "0xdead3ba864882025d9c7d2ae51dacc6fc23e5eb1",
       "beraRewardVault": "0x9bc3d407d930910a7af515d473ce9633624c1574",
       "depositTokenAddress": "0xac8a437d1e6905e419431662aead90fb04ac3008",
       "slug": "burrbear-burr-wgbera"
     },
     {
+      "address": "0x43398f20336e0bc2c2d07c819844cc736d6e6ee0",
       "beraRewardVault": "0x82e206a61c026491dee3156fb6589cb786af779f",
       "depositTokenAddress": "0x7ce7cb1893cfbd680cbfb9dd2a9ae6a62bde66a8",
       "slug": "burrbear-ibgt-lbgt"
     },
     {
+      "address": "0x12e9b82f3280cc32e81b865f85734d52c538314c",
       "beraRewardVault": "0xf4cd840787ae49c1e6c07e17c99d10adc6b8b7e2",
       "depositTokenAddress": "0xd170e25f6bcb5ace2108628c647be47d59900ade",
       "slug": "burrbear-nect-plug"
     },
     {
+      "address": "0x4a7870ac8d2937fd5a73ba0e530e6d9918011372",
       "beraRewardVault": "0x436022b9f853bd6cbc168b45fbf12ffa50b6f79c",
       "depositTokenAddress": "0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23",
       "slug": "burrbear-nect-usdc.e-honey"
     },
     {
+      "address": "0x95c9dabc4e83f8e6b30437293e48062daf1837d7",
       "beraRewardVault": "0x6fd82191550c53414b1d4ce982a8424ce039697b",
       "depositTokenAddress": "0xb34fca9739249578d93a22ce02bf7fad277bad35",
       "slug": "burrbear-nect-usdc.e-usd₮0-honey"
     },
     {
+      "address": "0x7d6946649e1944839d237d7a2c91d4c5c1ebb16b",
       "beraRewardVault": "0x4974ee5f484a3c05f181aeb380cd7c411dd79c0e",
       "depositTokenAddress": "0xe416c064946112c1626d6700d1081a750b1b1dd7",
       "slug": "burrbear-nect-wgbera"
     },
     {
+      "address": "0x47b62bfc7aa8927e1a587f077dfb5b1e169baeab",
       "beraRewardVault": "0x1fe3c13b009ecfce196e480180db5f8990fff5fe",
       "depositTokenAddress": "0x567f32e86be3e3963cdbc1887b5043b701f113d9",
       "slug": "burrbear-wbera-wgbera"
     },
     {
+      "address": "0x50636ba225bea3b9e75220a89e20ca1e9cdaeec8",
       "beraRewardVault": "0x576374e222ec51608f9631f074536b9f897d2638",
       "depositTokenAddress": "0xcbef1b65399065c2de2c495971e90466ff38f2d0",
       "slug": "burrbear-wbtc-solvbtc-xsolvbtc"
     },
     {
+      "address": "0xf3116662717b199ec9b44f119dc1ae2eb5d9ea7d",
       "beraRewardVault": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",
       "depositTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79",
       "slug": "d2finance-dgnberaland"
     },
     {
+      "address": "0x55f7fe5ba46085673a80fa6a01996405486f88eb",
       "beraRewardVault": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
       "depositTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d",
       "slug": "d2finance-usdc.e"
     },
     {
+      "address": "0xea7844869097ed447bf57d85b24142c21694e805",
       "beraRewardVault": "0x347106734e7b129dde92333a0007d64a4b08e266",
       "depositTokenAddress": "0x26bbc26415c6316890565f5f73017f85ee70b60c",
       "slug": "d8x-dbusd"
     },
     {
+      "address": "0xb3adfa77f96cc111ac3d4817b0cf096e0ec01ae5",
       "beraRewardVault": "0x0ec12590cbb9280ab22b81f62be587c5200a9711",
       "depositTokenAddress": "0x7f2b60fdff1494a0e3e060532c9980d7fad0404b",
+      "forcedUpgradeAddresses": ["0x923cedaeb88e6552d4498852834d6668e09ec7cb"],
       "slug": "dolomite-dhoney"
     },
     {
+      "address": "0x86a399b793699e101f0b3c8e917cb39a2f8fa312",
       "beraRewardVault": "0x9136df2daabe52a97340cce8c53d4c1314d52c18",
       "depositTokenAddress": "0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d",
+      "forcedUpgradeAddresses": ["0x8b8895ad5bc0379db1a921e3dd899a36ae89e283"],
       "slug": "dolomite-drusd"
     },
     {
+      "address": "0x62e63d88cd6074d2c601e40deec439a63151e879",
       "beraRewardVault": "0x3d0d211365c8a483394426dacd5a73b0154feedb",
       "depositTokenAddress": "0xaa97d791afc02af30cf0b046172bb05b3c306517",
+      "forcedUpgradeAddresses": ["0xbdcfe56ec75135d21ae8735b432d343953426d87"],
       "slug": "dolomite-dwbera"
     },
     {
+      "address": "0x8cab8b24fa2c69df228778ecf605cc2078be36cb",
       "beraRewardVault": "0xdb2f42bedc87586c6e4b510cfc4675d6d86ff886",
       "depositTokenAddress": "0xf7b5127b510e568fdc39e6bb54e2081bfad489af",
+      "forcedUpgradeAddresses": ["0xd134a653e00f752b59597bfbc18aa0583232f109"],
       "slug": "dolomite-dweth"
     },
     {
+      "address": "0x4ba0a69621ea72870f9fcf2d974d39b8609343cc",
       "beraRewardVault": "0x063df07b032e838de70165cdc39587a21910786e",
       "depositTokenAddress": "0x46fcd35431f5b371224acc2e2e91732867b1a77e",
       "slug": "etherfi-primeliquidberabtc"
     },
     {
+      "address": "0xc9d8bc7428059219f3d19da7f17ad468254d4d7e",
       "beraRewardVault": "0xaab94d5178350b10fd772bed446ddee43eaeba46",
       "depositTokenAddress": "0xb83742330443f7413dbd2abdfc046db0474a944e",
       "slug": "etherfi-primeliquidberaeth"
     },
     {
+      "address": "0x7562675fcc4df8ef2e422c0e1eb1f51d148f9a54",
       "beraRewardVault": "0xe4c24b1da97325b183df8e4e489d54d2f6e15d58",
       "depositTokenAddress": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
       "slug": "euler-enect"
     },
     {
+      "address": "0xdfa78fba828fbde043bc50e88c7ba30e647fa2fc",
       "beraRewardVault": "0xcf4f3eafe6ee37b33c5047f0e6562f764285de9d",
       "depositTokenAddress": "0x6ee01549960f47b2e64cb9fb26a9107e735910b5",
       "slug": "honeypot-very-awesome-unified-liquidity-token"
     },
     {
+      "address": "0x75f3be06b02e235f6d0e7ef2d462b29739168301",
       "beraRewardVault": "0x9b45388fc442343de9959d710eb47da8c09ee2d9",
       "depositTokenAddress": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
       "slug": "infrared-ibgt"
     },
     {
+      "address": "0x61ace3fdee1f0fc58027adf4bd16cbf20e447437",
       "beraRewardVault": "0x19ecf480652a7de3a60dd7fd7012daed6c79e3e9",
       "depositTokenAddress": "0x57161d6272f47cd48ba165646c802f001040c2e0",
+      "forcedUpgradeAddresses": ["0x8a7324e0557e83a0bfe6897d4bc121f9688b562d"],
       "slug": "kodiak-beraeth-stone"
     },
     {
+      "address": "0x8c85f1e4ffddc36a2b4d512720fd78769f715fa9",
       "beraRewardVault": "0xbc8c3d0cecef980e1f4a4775bd354614be163556",
       "depositTokenAddress": "0x7aef016302c3a27417372cf3aa74a1708d1ca291",
       "slug": "kodiak-beramo-wbera"
     },
     {
+      "address": "0x7a548f57d1e144f14b0f0e1cfef5371c549619fb",
       "beraRewardVault": "0xdf5c6c28479e21c5f36ceb0c44ae15975de844ba",
       "depositTokenAddress": "0xe454c546c8f3875e928910abc653de5f8c432f11",
       "slug": "kodiak-bixbt-wbera"
     },
     {
+      "address": "0xd2d46c07c32236e7bdaff782518b200342f12a58",
       "beraRewardVault": "0x193ff57dc9efa1dec154946c10332ba31c8e72b2",
       "depositTokenAddress": "0x0fd67ac75f9df51f5d81f582417b318f44b45f5c",
       "slug": "kodiak-bm-wbera"
     },
     {
+      "address": "0xc12d6d079896811ccbb837ffbe335605757d3853",
       "beraRewardVault": "0x6b9ae55362e65e2a615681824a6334cc3f29e658",
       "depositTokenAddress": "0x1ac0e38ee5f66f6fa46e1644bb6b73bee598b953",
       "slug": "kodiak-brbtc-unibtc"
     },
     {
+      "address": "0xe51b93e4031bdd9cf903ea5a9299c50f0db5d978",
       "beraRewardVault": "0x359424085d84c490a7b276e4bc72cef90a04068b",
       "depositTokenAddress": "0x54c603173ca92a42b81f8838d705fd3e0f98d5d4",
       "slug": "kodiak-bread-lbgt"
     },
     {
+      "address": "0x8e814168bb53695edac6a370a55db036dd7bb39b",
       "beraRewardVault": "0xf10f34547f4b8659058f10d29759a89eb790aa80",
       "depositTokenAddress": "0xd9a747880393f7c33cef1aea36909b36d421f7e5",
       "slug": "kodiak-bread-ohm"
     },
     {
+      "address": "0xa23701e0554b4d519e7da177901c46217cb35cf4",
       "beraRewardVault": "0x2461040526130a0ea1a0ed44b9c9d3331f3897ff",
       "depositTokenAddress": "0x5e4fe86c4f6fb2203fbfb77fd6ec3cb300b639aa",
       "slug": "kodiak-dolo-wbera"
     },
     {
+      "address": "0xef0d7f79f2f9693c8b76e93d0490d479db089f19",
       "beraRewardVault": "0x39b08ccbdfd9b0d3c45f1fd02e9b57b44c88ed71",
       "depositTokenAddress": "0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632",
       "slug": "kodiak-ewbera-4-osbgt"
     },
     {
+      "address": "0x8e6993b4bb8321319fe380f0967b76c0c213c891",
       "beraRewardVault": "0x9100078f4c86f78848646ee0adc08563213b327d",
       "depositTokenAddress": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896",
       "slug": "kodiak-hohm-honey"
     },
     {
+      "address": "0x8bd2010e1193a96de1c5f6f647a5b2717b0c4f9b",
       "beraRewardVault": "0x4551c0e216f59cc081b6610637668b770ffdf843",
       "depositTokenAddress": "0xdca120bd3a13250b67f6faa5c29c1f38ec6ebece",
       "slug": "kodiak-hold-wbera"
     },
     {
+      "address": "0xe5c36544c295e88c37024736cef3a46e40650542",
       "beraRewardVault": "0x199f156bba61496401dc2a009b5f69eb9a7e6f21",
       "depositTokenAddress": "0x24afceb372b755f4953e738d6b38e9e4646d9f57",
       "slug": "kodiak-ibera-ibgt"
     },
     {
+      "address": "0x6474abddb2eea8f070fd520c4b9f72d3c6f9c1e8",
       "beraRewardVault": "0x15f1156f56a06af851cbdc0aceb0780bbcb913c4",
       "depositTokenAddress": "0xad445256ff81171043a5e7cd8831e4371b000176",
       "slug": "kodiak-ibera-osbgt"
     },
     {
+      "address": "0x9329f5696f4326e3b3dc1c6c724ad6e91e17124f",
       "beraRewardVault": "0x25acec3a1766a0d02d7c8e22f48533d32d7b311b",
       "depositTokenAddress": "0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3",
       "slug": "kodiak-ibera-wgbera"
     },
     {
+      "address": "0x21f6aefb35fc370b53a4efa386e23f21478c1dd6",
       "beraRewardVault": "0xc2bee59d96af61e050aa602d5882078947372ebc",
       "depositTokenAddress": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
       "slug": "kodiak-mbgt-ibera"
     },
     {
+      "address": "0x19a13d1855b6ed39edf1e3a8343ae8cffecdf498",
       "beraRewardVault": "0x66eb42c499372e897929efbf6026821b0a148119",
       "depositTokenAddress": "0xef8c3239e0d8be9d58f145e18f5909ddad681365",
       "slug": "kodiak-nav-wbera"
     },
     {
+      "address": "0x446ac05420abc9fbe90646750df14fee2bae3d6d",
       "beraRewardVault": "0xf02d129c35f3b4be77c15449e95000baa13b85a0",
       "depositTokenAddress": "0x8ef48ae9df6165acc9754297bf28f5877c229c03",
       "slug": "kodiak-nect-usd₮0"
     },
     {
+      "address": "0xa57cb177beebc35a1a26a286951a306d9b752524",
       "beraRewardVault": "0x815596fa7c4d983d1ca5304e5b48978424c1b448",
       "depositTokenAddress": "0x98bdeede9a45c28d229285d9d6e9139e9f505391",
+      "forcedUpgradeAddresses": ["0xc5695bcf5d02a6539093300f09d04dc20e6b49fb"],
       "slug": "kodiak-ohm-honey"
     },
     {
+      "address": "0x14f8730771da7fa3fe287230a4e74bda3ad6349c",
       "beraRewardVault": "0xde9d49a63fbb7c7d211b26a7d0dabdf8e0d4b4fe",
       "depositTokenAddress": "0xc227c8639a41db8393dd1b4eac41464a62d64fb4",
       "slug": "kodiak-ohm-wbera"
     },
     {
+      "address": "0xabbd242421ed0c31b3c0c428f49dffb73fbd78ec",
       "beraRewardVault": "0x124ca134dd2cd67362e259fb33a2c762d8baf961",
       "depositTokenAddress": "0x9b155cf7a4e5911ac35ab2173d0f58e1d39570fd",
       "slug": "kodiak-ooga-wbera"
     },
     {
+      "address": "0xd2d7700c88e4a9254c57821f6a722304a6390c20",
       "beraRewardVault": "0x9e4ff9f6f255ecb3fb3937e81439a2c69377f3af",
       "depositTokenAddress": "0xe38e2273df9ca6f2cd6f2ea0b13399e65bf799f1",
       "slug": "kodiak-plutus-wbera"
     },
     {
+      "address": "0x1c5879b75be9e817b1607afb6f24f632ee6f8820",
       "beraRewardVault": "0x34852c863d266100f573d4d1fd1d0cfe20602da0",
       "depositTokenAddress": "0x7fd165b73775884a38aa8f2b384a53a3ca7400e6",
+      "forcedUpgradeAddresses": ["0xb31d4ec715841945fc1011722579ae8ebfdcc2e3"],
       "slug": "kodiak-rusd-honey"
     },
     {
+      "address": "0xe3d07819010444db16c86ef3d591d2d4116f3b1b",
       "beraRewardVault": "0xc6de36eced67db9c17919708865b3ee94a7d987c",
       "depositTokenAddress": "0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5",
       "slug": "kodiak-rusd-usd₮0"
     },
     {
+      "address": "0xb706af0babbe38ec4c7d897c3182c1d301491bda",
       "beraRewardVault": "0x0767038700605b50967eea1e6440d6fd6c92c237",
       "depositTokenAddress": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
       "slug": "kodiak-sol-honey"
     },
     {
+      "address": "0xd844acf04d101e78de2d32813956fa9104ad48fc",
       "beraRewardVault": "0x3fc5cb0290c82680afe9ef8cdde5468d74c85705",
       "depositTokenAddress": "0x43e487126c4f37d1915cf02a90b5c5295afb1790",
+      "forcedUpgradeAddresses": ["0x5829f680207f04c4e10e26fb066e0702f1d54c4b"],
       "slug": "kodiak-solvbtc-xsolvbtc"
     },
     {
+      "address": "0xf5d2d7e7d8e1523b728715bb4065523ac1c47104",
       "beraRewardVault": "0xc6b923ae78b25aad4c8df319b332a3202b1daedc",
       "depositTokenAddress": "0xc60ea9801b3f1b01da373c05381e6ce8ff94d76f",
       "slug": "kodiak-solvbtc.bnb-solvbtc-2-percent"
     },
     {
+      "address": "0x5e308fef758278c1f8b626f5c297912094dbe21d",
       "beraRewardVault": "0x6dd21938c08dbc67fe6819ed11d904077ae49fa4",
       "depositTokenAddress": "0xe21efa586cc88271c8c87642440ed49ccd000ccc",
       "slug": "kodiak-solvbtc.bnb-xsolvbtc"
     },
     {
+      "address": "0x4631251c4d6ed18982401b39446aa21818cc1e10",
       "beraRewardVault": "0xcf77d23cfc561e34e3b6137c736ea5cb395bcda0",
       "depositTokenAddress": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343",
       "slug": "kodiak-stbgt-wbera"
     },
     {
+      "address": "0x6c4b82b3f10b3d2fc74b0e560327f29181eec522",
       "beraRewardVault": "0xc196d595dece185ea39f8e1c3ce07a274ac31985",
       "depositTokenAddress": "0x7cebcc76a2faecc0ae378b340815fcbb71ec1fe0",
+      "forcedUpgradeAddresses": ["0x57dcad0c7678ea41ad2284a3fc0b119316155829"],
       "slug": "kodiak-susda-usda"
     },
     {
+      "address": "0xd042c637765fdacebfbafe553d8e78d8d1179fb1",
       "beraRewardVault": "0x09b113ae50b5af0988b9a1dc50bfe602e7c24ef7",
       "depositTokenAddress": "0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8",
+      "forcedUpgradeAddresses": ["0x13afbf9aaae8f29d8a20b42e4cdf9abc3227443f"],
       "slug": "kodiak-susde-honey"
     },
     {
+      "address": "0xd3b4c14d7eb1701271ffe67ac4e2074c873027cb",
       "beraRewardVault": "0x31a484f7e09513ae9f481eaf8eeea76153184c44",
       "depositTokenAddress": "0x28a54eaeec63fbb1175d13466a9ada5f3175d577",
       "slug": "kodiak-usdbr-honey"
     },
     {
+      "address": "0x14ca51d6aeb70edd1fb1ed7a1aef9f26846786a9",
       "beraRewardVault": "0x315d38ee321608cb8520d563750d64ac1bb17344",
       "depositTokenAddress": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
+      "forcedUpgradeAddresses": ["0x812e5ff20326743151e2efa02d89d488efd826c9"],
       "slug": "kodiak-usdc.e-honey"
     },
     {
+      "address": "0x197fbf0532b1843d4c077c0c53e58d5ac000ce35",
       "beraRewardVault": "0x75da1d58a8d97f7b626224e7e71fa44db13689f2",
       "depositTokenAddress": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
+      "forcedUpgradeAddresses": ["0xbb79339bc0cff71ca9da71789d9491c2646648b8"],
       "slug": "kodiak-usde-honey"
     },
     {
+      "address": "0xeb9021c012b483216acc9cc0a420096979e007b3",
       "beraRewardVault": "0x9a60189fc1372fab170fe642d162fc972b6ac31b",
       "depositTokenAddress": "0x217b9476ecd8783c59ed0ed64c359b8f2b9ccd3a",
       "slug": "kodiak-wbera-aibera"
     },
     {
+      "address": "0x453da37ac90e968064bd2904b110a1b44e30bc02",
       "beraRewardVault": "0x6135e9e556b7aaaf66d2d6e8e47b96e2de6b602f",
       "depositTokenAddress": "0x2bdb8c39a3808eb9a03de69925b6b158a57c57e6",
       "slug": "kodiak-wbera-avl"
     },
     {
+      "address": "0x777b9405775ed87681735e5e88b9d764b142c41e",
       "beraRewardVault": "0x524fc4f013d66e9fed424e58c5ada7d5b139761d",
       "depositTokenAddress": "0x2cafe99db26cf86ae8587f5934830d25ad5c3cb3",
       "slug": "kodiak-wbera-bitcoin"
     },
     {
+      "address": "0x070d7ecb162aa7a8eed4d328b8ef69c13f1eb845",
       "beraRewardVault": "0xed0fb3170390ef82e13102f36fa7fd5047722890",
       "depositTokenAddress": "0x56449b16ff2b1e5ee61f532ceffda8f408f718a1",
       "slug": "kodiak-wbera-br"
     },
     {
+      "address": "0xcf18318580549a5bcd379c50227f1f2bb75dd9fb",
       "beraRewardVault": "0xa7782ff04de0e7f7084eedb364f485efed3fcc49",
       "depositTokenAddress": "0x68cac522833f38e088eec5e356956c02f0268063",
       "slug": "kodiak-wbera-grq"
     },
     {
+      "address": "0x418d63947889e55c16280cb7785cf84ef081f224",
       "beraRewardVault": "0x45325df4a6a6ebd268f4693474aaaa1f3f0ce8ca",
       "depositTokenAddress": "0x4a254b11810b8ebb63c5468e438fc561cb1bb1da",
       "slug": "kodiak-wbera-honey"
     },
     {
+      "address": "0x5f044b3bf3fa10d51ab157998c70d07807baf5c4",
       "beraRewardVault": "0xa2c5adb20a446fa71a1762002e3c9b4dd37dbaf4",
       "depositTokenAddress": "0xe3eeb9e48934634d8b5b39a0d15dd89ee0f969c4",
       "slug": "kodiak-wbera-ibera"
     },
     {
+      "address": "0xe1897e3eb930aad6f9ea9ecf96ea846b5d23b0a6",
       "beraRewardVault": "0x3be1be98efaca8c1eb786cbf38234c84b5052eeb",
       "depositTokenAddress": "0x564f011d557aad1ca09bfc956eb8a17c35d490e0",
       "slug": "kodiak-wbera-ibgt"
     },
     {
+      "address": "0x6583e71778a3d275b8a27f1252a125f7a6f875d1",
       "beraRewardVault": "0x29af240276168330c3c266112d7ffdc1fd3c764d",
       "depositTokenAddress": "0x9f6cf7acb2f16f7d906eeecb0a6020a5cf91a41d",
       "slug": "kodiak-wbera-lair"
     },
     {
+      "address": "0x0b55d00faae6eeed3311ae40968fe8e22716cce7",
       "beraRewardVault": "0x9d65da133391b2c055509d049c835a821d84e922",
       "depositTokenAddress": "0x337ef1eb6c8bbed571170fc2b468608ab9e2aac8",
       "slug": "kodiak-wbera-lbgt"
     },
     {
+      "address": "0xacb6fa1be2b235474ac5b0c175b2a16189d4d103",
       "beraRewardVault": "0x284f8d4b98fed32f154911102053a0c1ab621fc0",
       "depositTokenAddress": "0xd6620e78b89e8fdb5dfa675d55001c7fad424bdc",
       "slug": "kodiak-wbera-pollen"
     },
     {
+      "address": "0xd07f2e659b91607758041d85721700debb6cc4b9",
       "beraRewardVault": "0x6b23e121c6a13c959d69493ea5ca015a5847596a",
       "depositTokenAddress": "0x93a913351cae2d8c82c4b85f699726947eb76d32",
       "slug": "kodiak-wbera-ramen"
     },
     {
+      "address": "0x50a2cc8e872b0d108cb74cd412f7806b262b7fd9",
       "beraRewardVault": "0x11e13b70247e2bcc87544b366c47013ac51955a5",
       "depositTokenAddress": "0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c",
       "slug": "kodiak-wbera-usdc"
     },
     {
+      "address": "0x5c5fcb568a98da28c9d2df4852b102aa814c3a4c",
       "beraRewardVault": "0x8aa4a546d6437067fab027904eac0b7c78857737",
       "depositTokenAddress": "0xfc4994e0a4780ba7536d7e79611468b6bde14cae",
       "slug": "kodiak-wbtc-ebtc"
     },
     {
+      "address": "0x49ccb2fea875beb68c7f010193990105ea84f384",
       "beraRewardVault": "0x9df027ed06635ecdfe811009f2291d347ea90357",
       "depositTokenAddress": "0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf",
+      "forcedUpgradeAddresses": ["0xc633694fcfcc126eaa35ba7c8b766874355c0ca9"],
       "slug": "kodiak-wbtc-honey"
     },
     {
+      "address": "0x5969494e13e8fa51f8223152a86f14c02860afd3",
       "beraRewardVault": "0x11fadf69a02340a676b4bd2a27ffd952094fae99",
       "depositTokenAddress": "0x3879451f4f69f0c2d37cad45319cff2e7d29c596",
+      "forcedUpgradeAddresses": ["0x70c7bfd443399959728a3616b240a8730d7d0a50"],
       "slug": "kodiak-wbtc-solvbtc"
     },
     {
+      "address": "0x55a53d205b16101a15bb8733b6789a771cbea918",
       "beraRewardVault": "0x8ee2627aff73e285f1a83b6e8bb7e9945f404a1b",
       "depositTokenAddress": "0xb67d60fc02e0870eddca24d4fa8ea516c890152b",
+      "forcedUpgradeAddresses": ["0xd11561a09474b4878bbd2c2bae2215f621740e8f"],
       "slug": "kodiak-wbtc-unibtc"
     },
     {
+      "address": "0x8ea5f10e039c718e9991108e795cdc154c3008a9",
       "beraRewardVault": "0xeec2ad7bb37374229860265e644f4e2693b23fdd",
       "depositTokenAddress": "0xf06ea29fcf4765200742d29e685973a1870eac98",
       "slug": "kodiak-wbtc-wbera"
     },
     {
+      "address": "0x87105154a3e53c719db1289e95dfe15d78ac4de7",
       "beraRewardVault": "0x0308f87226efacc51983bea842be57dc45de772c",
       "depositTokenAddress": "0x58fdb6eebf7df7ce4137994436fb0e629bb84b84",
+      "forcedUpgradeAddresses": ["0x21d91837d55c567b528772e9735cda7e4488977f"],
       "slug": "kodiak-wbtc-weth"
     },
     {
+      "address": "0xfbc99d74cc43cf12eb6b78eddcc2266ff729be19",
       "beraRewardVault": "0xedd27ce3793d655e3d15e29e297f4848de1ef092",
       "depositTokenAddress": "0x03bccf796cdef61064c4a2effdd21f1ac8c29e92",
+      "forcedUpgradeAddresses": ["0xd7da42280ce55529201c7f2ff80b361664723b53"],
       "slug": "kodiak-weth-beraeth"
     },
     {
+      "address": "0xedc856c76acbbcb765ee665e62a639d4d13018f6",
       "beraRewardVault": "0xc6506d205c92f9acd69779ed0c547557f3ad4607",
       "depositTokenAddress": "0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95",
+      "forcedUpgradeAddresses": ["0xba802c7233db63353151798662893ff2ed52cf33"],
       "slug": "kodiak-weth-honey"
     },
     {
+      "address": "0x973129385f7231e8b71797a94ede51f406eb17bf",
       "beraRewardVault": "0xcd1982b07adfa787a88dc1157b9fa3221d25fcaf",
       "depositTokenAddress": "0x97431f104be73fc0e6fc731ce84486da05c48871",
+      "forcedUpgradeAddresses": ["0xa363c16012a2fdb1f901800c589f631db4bf3d02"],
       "slug": "kodiak-weth-stone"
     },
     {
+      "address": "0x33e53c508ecfbf6db7b07ac3a36079fbfa919352",
       "beraRewardVault": "0xfb657cd154e661ddf3e229529d92545640b19292",
       "depositTokenAddress": "0x9659dc8c1565e0bd82627267e3b4eed1a377ebe6",
       "slug": "kodiak-weth-wbera"
     },
     {
+      "address": "0x16ed36cb22b298085d10b119030408c7bbffc24e",
       "beraRewardVault": "0x77304193647b9dc09338b5976ad4c674b350fa30",
       "depositTokenAddress": "0xa0cabfc04fc420b3d31ba431d18eb5bd33b3f334",
       "slug": "kodiak-weth-weeth"
     },
     {
+      "address": "0xd261979962cd05518994751e29a7600c3869ff89",
       "beraRewardVault": "0x753f2e214ad6954297622b7f8db9b07711ef028f",
       "depositTokenAddress": "0x939fb917bf8579c959094364708ef03f17e71f25",
       "slug": "kodiak-xusd-honey"
     },
     {
+      "address": "0x08dd1cc722a47af7a6b4f4f347ff19467af96001",
       "beraRewardVault": "0xbd3d6db7b600b18252e2d5d21f29c5e61e1e3f05",
       "depositTokenAddress": "0x5347e5133b22a680ee94b7e62803e848f8d8c92e",
       "slug": "kodiak-ybgt-ybera"
     },
     {
+      "address": "0x6fa248860b38c60874ca414ac89e95b540d52fa5",
       "beraRewardVault": "0x0710abffb1a54211a5e88d18bf9854cba86d0819",
       "depositTokenAddress": "0xec8ba456b4e009408d0776cde8b91f8717d13fa1",
       "slug": "kodiak-yeet-wbera"
     },
     {
+      "address": "0x1b7e10ef6a29add96ea3024e27a28f7cb6b4f609",
       "beraRewardVault": "0x5fc9d951787c297b3b1ade8a871b84d9aa717608",
       "depositTokenAddress": "0x412c9f79779ae6c3a13a318252b29c559be756ca",
       "slug": "kodiak-yeet-wgbera"
     },
     {
+      "address": "0x63c25e7f9decfa9e161e9232c9c6cf8c4f456b96",
       "beraRewardVault": "0xcd7c3b91de4a84942069201644b70d9570f2b9a9",
       "depositTokenAddress": "0xabcea3ead918c3c5eca9b85d25b5e463a35a5e66",
       "slug": "kodiak-zero-ibgt"
     },
     {
+      "address": "0x50684d5fda2182ac14f3c11f98311a6bfdc4277d",
       "beraRewardVault": "0xfe5fe99a4e5ae1f6212c1b32ed4ed6d1c1c6de57",
       "depositTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e",
       "slug": "kodiak-zero-wbera"
     },
     {
+      "address": "0xf40fb879cfcd801c4710aedb48ddf08603290703",
       "beraRewardVault": "0x5540e29749f6c8f5dcf49fcc17c67e97a8e7335b",
       "depositTokenAddress": "0x273c832797bfda1c0826a786670d041282bd6afc",
       "slug": "kuma-reward-token"
@@ -586,86 +725,109 @@
       "slug": "narra-no-airdrop-no-alpha"
     },
     {
+      "address": "0x84cde2880f1c63253636501d757630c252678562",
+      "beraRewardVault": "0x84cde2880f1c63253636501d757630c252678562",
+      "depositTokenAddress": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
+      "slug": "narra-no-airdrop-no-alpha"
+    },
+    {
+      "address": "0x75d026f9fd1142b2ae1bc5553bf7b0e3b3171fee",
       "beraRewardVault": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
       "depositTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
       "slug": "pendle-ibgt"
     },
     {
+      "address": "0x4a6e7d4edf5ecd054fbf7e759506e76a03e6004b",
       "beraRewardVault": "0x3211e960fff36715b9046c51a3af6826d1a226e7",
       "depositTokenAddress": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
       "slug": "satlayer-satsolvbtc.bera"
     },
     {
+      "address": "0x4c037191d2c704bff752d35be3df2e382bce5787",
       "beraRewardVault": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
       "depositTokenAddress": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
       "slug": "solv-solvbtc.bera"
     },
     {
+      "address": "0x9926525895131197b4eea6d7c2c3ee13895756cb",
       "beraRewardVault": "0xeee277a91f9f50cda5d188522c921820a848cd99",
       "depositTokenAddress": "0xdb78b4166580917c9604f8ddfbea5f49b493845c",
       "slug": "steer-oribgt-oribgtot"
     },
     {
+      "address": "0xfeb68796d48b3f7e307f44a5376a92d0ad79b9ce",
       "beraRewardVault": "0x2ce23c67a3fb0b9c6c8e3546725871e74b2a08ab",
       "depositTokenAddress": "0x30e148a79b898efa1ab1285f5eca71972a7e0ace",
       "slug": "sumer-bsumer"
     },
     {
+      "address": "0xaf8942fbe04c8f740398b724334b29be1e53111a",
       "beraRewardVault": "0x6679f737923f0f99a50f7a1a3d4f8092be11795c",
       "depositTokenAddress": "0x9a7d89284520572b3ec41efeba9add65622b301a",
       "slug": "swbera-osbgt"
     },
     {
+      "address": "0x295761ebbb094cf0e02380d3e0072aec3f406b21",
       "beraRewardVault": "0xce77a233a22873440496166b1d41a6feda93c3c5",
       "depositTokenAddress": "0x09d4683d680abf2ecd69f4d6bcbc006abfe9f6ad",
       "slug": "swbera-wgbera"
     },
     {
+      "address": "0xb314e0f2d2789139e39d471dfd65989ff5e6df5b",
       "beraRewardVault": "0xc7fee55e923ddbc6c596b8fe7e14889bc3005b3c",
       "depositTokenAddress": "0x3640587709a387b54b0df555cd651a95a54fa900",
       "slug": "wasabee-bee-wbera"
     },
     {
+      "address": "0x53cda54ae425eeef7c06b607f0b8807b285569dc",
       "beraRewardVault": "0x5ab58fd0c6e74ae10a74a5fd43e5b6d26e46a18f",
       "depositTokenAddress": "0xe57d868d244d2cf2e9679eaba2a3048e58674565",
       "slug": "wasabee-wbera-ibera"
     },
     {
+      "address": "0xd429e1fbffbd1e766d3b9a3184bfb7da3de1d806",
       "beraRewardVault": "0x6eb9bc8d1d8d6e94238c2d4f756f25a27fb34268",
       "depositTokenAddress": "0xac04b1abadf214b57f7ade1dd905ab7acac23a6b",
       "slug": "wasabee-wbera-wgbera"
     },
     {
+      "address": "0x5da6e850042ad3bc859674c33f1d230dc1785b9a",
       "beraRewardVault": "0xaf0c4454bb84c64b5c6ef9292b1527c5dfd2f8b7",
       "depositTokenAddress": "0xec06041013b3a97c58b9ab61eae9079bc594eda3",
       "slug": "wasabee-weth-wbera"
     },
     {
+      "address": "0x3835ec3a7a46c670cd7226bf55d55e1029bce4f2",
       "beraRewardVault": "0x49fcaa48e59e3d634ae6c6953cc30ce953dfba2c",
       "depositTokenAddress": "0xd948212f077e552533158becbc1882c1b19c40fe",
       "slug": "wasabi-shoney"
     },
     {
+      "address": "0x5d5f805f1b4b7431dd3f286a61a8a5b0f195649d",
       "beraRewardVault": "0x4ea84882228a5c881675151e951235e45256a484",
       "depositTokenAddress": "0xc95ab9eff8fb48760703c74416764b8f898afa1b",
       "slug": "wasabi-swbera"
     },
     {
+      "address": "0xa6298fcbdcf56a86feec3cd223157a2ee8ebea63",
       "beraRewardVault": "0x5ecefd0f14b0085d5ec3600fd1a97fa1366f97d9",
       "depositTokenAddress": "0x396a3d0b799b1a0b1eaa17e75b4dea412400860b",
       "slug": "webera-weibera"
     },
     {
+      "address": "0x399bdbd813a82f34e48680ba85862c07586de3f4",
       "beraRewardVault": "0x5e747644dd7a3e58485db8e836ca7654242dae2a",
       "depositTokenAddress": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea",
       "slug": "webera-wewbera"
     },
     {
+      "address": "0x0a693bcf5ac9f02b3fe926d8676758701ca54a4d",
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",
       "slug": "yeet"
     },
     {
+      "address": "0x388f6b6ced5f685fbadced62ee2c1ecfca34c0cc",
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
