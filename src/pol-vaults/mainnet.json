@@ -719,13 +719,9 @@
       "depositTokenAddress": "0x273c832797bfda1c0826a786670d041282bd6afc",
       "slug": "kuma-reward-token"
     },
+
     {
-      "beraRewardVault": "0x84cde2880f1c63253636501d757630c252678562",
-      "depositTokenAddress": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
-      "slug": "narra-no-airdrop-no-alpha"
-    },
-    {
-      "address": "0x84cde2880f1c63253636501d757630c252678562",
+      "address": "0xbc7f7524898945dC5Ac2274bB181ae43CAc21d6C",
       "beraRewardVault": "0x84cde2880f1c63253636501d757630c252678562",
       "depositTokenAddress": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
       "slug": "narra-no-airdrop-no-alpha"
