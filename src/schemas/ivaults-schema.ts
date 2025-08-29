@@ -9,8 +9,10 @@ import {
 import { AddressSchema } from './address-schema'
 
 export const DefaultListIVaultSchema = strictObject({
+  address: AddressSchema,
   beraRewardVault: optional(AddressSchema),
   depositTokenAddress: AddressSchema,
+  forcedUpgradeAddresses: optional(array(AddressSchema)),
   slug: string(),
 })
 export type DefaultListIVault = InferOutput<typeof DefaultListIVaultSchema>
