@@ -2525,6 +2525,8 @@
       "decimals": 18,
       "image": "nana.svg",
       "imageNotFromUnderlying": true,
+      "isSoulbound": true,
+      "isUnpriced": true,
       "mintUrl": "https://vault.narralayer.ai",
       "name": "NO AIRDROP NO ALPHA",
       "protocol": "narra",
