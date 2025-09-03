@@ -6,9 +6,8 @@ import {
   string,
 } from 'valibot'
 
-import { DefaultListUpgradeableVaultsSchema } from '@/schemas/pol-vaults-schema'
-
 import { AddressSchema } from './address-schema'
+import { DefaultListUpgradeableVaultsSchema } from './pol-vaults-schema'
 
 export const DefaultListIVaultSchema = strictObject({
   address: AddressSchema,
