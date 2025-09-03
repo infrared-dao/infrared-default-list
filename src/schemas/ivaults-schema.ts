@@ -14,7 +14,7 @@ export const DefaultListIVaultSchema = strictObject({
   beraRewardVault: optional(AddressSchema),
   depositTokenAddress: AddressSchema,
   slug: string(),
-  upgradeableVaults: optional(array(DefaultListUpgradeableVaultsSchema)),
+  upgradeableVaults: optional(DefaultListUpgradeableVaultsSchema),
 })
 export type DefaultListIVault = InferOutput<typeof DefaultListIVaultSchema>
 
