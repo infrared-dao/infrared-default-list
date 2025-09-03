@@ -4,8 +4,13 @@
       "address": "0xbbb228b0d7d83f86e23a5ef3b1007d0100581613",
       "beraRewardVault": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
       "depositTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
-      "forcedUpgradeAddresses": ["0xd8c53e0e7cf3ecfe642a03a30ec30681ef4159a9"],
-      "slug": "bex-byusd-honey"
+      "slug": "bex-byusd-honey",
+      "upgradeableVaults": [
+        {
+          "address": "0xd8c53e0e7cf3ecfe642a03a30ec30681ef4159a9",
+          "forced": true
+        }
+      ]
     }
   ]
 }
