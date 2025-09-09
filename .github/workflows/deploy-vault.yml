@@ -1,11 +1,7 @@
 name: deploy-vault.ci
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/pol-vaults/mainnet.json'
+  pull_request:
 
 permissions:
   checks: write
@@ -15,8 +11,8 @@ env:
   DEPLOYER_PRIVATE_KEY: ${{ secrets.DEPLOYER_PRIVATE_KEY }}
 
 jobs:
-  autofix:
-    name: Lints, handles new assets, and commits changes
+  deploy-vault:
+    name: Deploys missing infrared vaults
     runs-on: ubuntu-latest
 
     steps:
