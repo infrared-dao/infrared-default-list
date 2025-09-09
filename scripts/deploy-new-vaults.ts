@@ -16,33 +16,9 @@ import {
   DefaultListPolVaultsSchema,
 } from '@/schemas/pol-vaults-schema'
 
+import { INDENTATION_SPACES, INFRARED_ADDRESS } from './_/constants'
+import { infraredMainnetAbi } from './_/infrared-abi'
 import { transports } from './_/transports'
-
-export const INDENTATION_SPACES = 2
-
-const infraredFactoryAbi = [
-  {
-    inputs: [
-      {
-        internalType: 'address',
-        name: '_asset',
-        type: 'address',
-      },
-    ],
-    name: 'registerVault',
-    outputs: [
-      {
-        internalType: 'contract IInfraredVault',
-        name: 'vault',
-        type: 'address',
-      },
-    ],
-    stateMutability: 'nonpayable',
-    type: 'function',
-  },
-] as const
-
-const InfraredFactoryAddress = '0xb71b3DaEA39012Fb0f2B14D2a9C86da9292fC126'
 
 const publicClient = createPublicClient({
   chain: berachain,
@@ -78,21 +54,20 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
     polVaultsWithZeroAddress.forEach((vault, index) => {
       console.log(`${index + 1}. Slug: ${vault.slug}`)
       console.log(`   Deposit Token: ${vault.depositTokenAddress}`)
-      console.log(`   Bera Reward Vault: ${vault.beraRewardVault}`)
       console.log('')
     })
 
     const deployedVaults = await Promise.all(
-      polVaultsWithZeroAddress.map(async ({ depositTokenAddress }) => {
-        const { result } = await publicClient.simulateContract({
-          abi: infraredFactoryAbi,
+      polVaultsWithZeroAddress.map(async ({ depositTokenAddress, slug }) => {
+        const { request, result } = await publicClient.simulateContract({
+          abi: infraredMainnetAbi,
           account: deployerAccount,
-          address: InfraredFactoryAddress,
+          address: INFRARED_ADDRESS,
           args: [depositTokenAddress],
           functionName: 'registerVault',
         })
-        console.log('simulated vault address', result)
-        // await walletClient.writeContract(request) // TODO: uncomment this
+        await walletClient.writeContract(request)
+        console.log(`Deployed new vault at: ${result} for ${slug}`)
         return result
       }),
     )
@@ -122,6 +97,7 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
       resolve(process.cwd(), `./src/pol-vaults/mainnet.json`),
       `${JSON.stringify({ vaults: updatedPolVaults }, null, INDENTATION_SPACES)}\n`,
     )
+    console.log('Finished writing to pol-vaults/mainnet.json')
   } else {
     console.log('No pol vaults found with address "NOT SURE"')
   }
