@@ -46,11 +46,11 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
   )
 
   console.log(
-    `Found ${polVaultsWithZeroAddress.length} vaults with zero address`,
+    `Found ${polVaultsWithZeroAddress.length} vaults with zeroAddress`,
   )
 
   if (polVaultsWithZeroAddress.length > 0) {
-    console.log('Pol vaults with "NOT SURE" address:')
+    console.log('Pol vaults with zeroAddress:')
     polVaultsWithZeroAddress.forEach((vault, index) => {
       console.log(`${index + 1}. Slug: ${vault.slug}`)
       console.log(`   Deposit Token: ${vault.depositTokenAddress}`)
@@ -99,7 +99,7 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
     )
     console.log('Finished writing to pol-vaults/mainnet.json')
   } else {
-    console.log('No pol vaults found with address "NOT SURE"')
+    console.log('No pol vaults found with zeroAddress')
   }
 
   return polVaultsWithZeroAddress
