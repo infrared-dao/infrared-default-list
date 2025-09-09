@@ -35,6 +35,7 @@
   "scripts": {
     "clean-assets": "svgo -rf src -o src",
     "convert-new-assets-to-svg": "tsx scripts/convert-new-assets-to-svg.ts",
+    "deploy-new-vaults": "dotenv -- tsx scripts/deploy-new-vaults.ts",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
     "generate-token-images": "tsx scripts/generate-token-images.ts",
     "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets && pnpm format",
@@ -62,6 +63,7 @@
     "@types/svgdom": "^0.1.2",
     "concurrently": "^9.2.0",
     "dotenv": "^17.2.1",
+    "dotenv-cli": "^10.0.0",
     "eslint": "9.33.0",
     "glob": "^11.0.3",
     "globals": "^16.3.0",
