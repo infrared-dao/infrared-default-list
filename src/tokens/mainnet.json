@@ -2734,7 +2734,7 @@
       "decimals": 18,
       "image": "https://www.yeetit.xyz/third-party/yeet-token-icon.png",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x137BAc38316075f6675027592b922A7F95A9Dd97?chain=berachain_mainnet",
-      "name": "YEET | osBGT",
+      "name": "YEET-osBGT",
       "protocol": "yeet",
       "symbol": "KODI YEET-osBGT",
       "type": "amm",
