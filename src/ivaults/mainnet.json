@@ -4,6 +4,7 @@
       "address": "0xbbb228b0d7d83f86e23a5ef3b1007d0100581613",
       "beraRewardVault": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
       "depositTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
+      "description": "A single‑LP strategy on Berachain for the BYUSD-HONEY pair. It offers a conservative stablecoin LP option with steady returns and capital preservation.",
       "slug": "byusd",
       "upgradeableVaults": [
         {
@@ -16,6 +17,7 @@
       "address": "0xcDf6DD11e36Fd2aDC1593034dEb2Deaeb2fF669b",
       "beraRewardVault": "0x1626ccb101e41de2cf4d28a19f801664ce2a485d",
       "depositTokenAddress": "0x2ab43e4eecab510a92cc16cbe6d37891710696cb",
+      "description": "TODO",
       "slug": "wbtc-usd₮0"
     }
   ]
