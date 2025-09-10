@@ -44,8 +44,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Deploy vault
-        run: pnpm deploy-vault
+      - name: Deploy new vaults
+        run: pnpm deploy-new-vaults
 
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v6
