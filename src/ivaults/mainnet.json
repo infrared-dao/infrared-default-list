@@ -11,6 +11,12 @@
           "forced": true
         }
       ]
+    },
+    {
+      "address": "0xcDf6DD11e36Fd2aDC1593034dEb2Deaeb2fF669b",
+      "beraRewardVault": "0x1626ccb101e41de2cf4d28a19f801664ce2a485d",
+      "depositTokenAddress": "0x2ab43e4eecab510a92cc16cbe6d37891710696cb",
+      "slug": "wbtc-usd₮0"
     }
   ]
 }
