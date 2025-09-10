@@ -1,0 +1,54 @@
+name: deploy-vault.ci
+
+on:
+  pull_request:
+
+permissions:
+  checks: write
+  contents: write
+
+env:
+  DEPLOYER_PRIVATE_KEY: ${{ secrets.DEPLOYER_PRIVATE_KEY }}
+
+jobs:
+  deploy-vault:
+    name: Deploys missing infrared vaults
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        env:
+          cache-name: cache-dependencies
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Deploy new vaults
+        run: pnpm deploy-new-vaults
+
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "feat: add addresses of deployed vaults"
+          commit_options: '--no-verify'
