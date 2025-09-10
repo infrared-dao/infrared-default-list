@@ -13,6 +13,7 @@ export const DefaultListIVaultSchema = strictObject({
   address: AddressSchema,
   beraRewardVault: optional(AddressSchema),
   depositTokenAddress: AddressSchema,
+  description: string(),
   slug: string(),
   upgradeableVaults: optional(DefaultListUpgradeableVaultsSchema),
 })
