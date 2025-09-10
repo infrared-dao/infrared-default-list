@@ -2727,6 +2727,21 @@
       "symbol": "YEET-RWT",
       "type": "unknown",
       "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+    },
+    {
+      "address": "0x137bac38316075f6675027592b922a7f95a9dd97",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "yeet-osbgt.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x137bac38316075f6675027592b922a7f95a9dd97?chain=berachain_mainnet",
+      "name": "YEET-osBGT",
+      "protocol": "yeet",
+      "symbol": "KODI YEET-osBGT",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x08a38caa631de329ff2dad1656ce789f31af3142",
+        "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
+      ]
     }
   ]
 }
