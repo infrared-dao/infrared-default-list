@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { array, omit, parse } from 'valibot'
+import { array, object, optional, parse } from 'valibot'
 import {
   createPublicClient,
   createWalletClient,
@@ -10,6 +10,7 @@ import {
 import { privateKeyToAccount } from 'viem/accounts'
 import { berachain } from 'viem/chains'
 
+import { AddressSchema } from '@/schemas/address-schema'
 import { DefaultListPolVaultSchema } from '@/schemas/pol-vaults-schema'
 
 import { INDENTATION_SPACES, INFRARED_ADDRESS } from './_/constants'
@@ -33,10 +34,14 @@ async function deployNewVaults(): Promise<void> {
   const filePath = join(process.cwd(), 'src/pol-vaults/mainnet.json')
   const fileContent = readFileSync(filePath, 'utf8')
   const polVaults = parse(
-    array(omit(DefaultListPolVaultSchema, ['address'])),
+    array(
+      object({
+        ...DefaultListPolVaultSchema.entries,
+        address: optional(AddressSchema),
+      }),
+    ),
     JSON.parse(fileContent).vaults,
   )
-
   const polVaultsWithoutAddress = polVaults.filter(
     (vault) => !('address' in vault),
   )
