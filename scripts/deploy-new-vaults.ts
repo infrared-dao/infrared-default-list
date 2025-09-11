@@ -30,7 +30,7 @@ const DEPLOYER_PRIVATE_KEY = process.env.DEPLOYER_PRIVATE_KEY as Hex
 
 const deployerAccount = privateKeyToAccount(`0x${DEPLOYER_PRIVATE_KEY}`)
 
-async function deployNewVaults(): Promise<void> {
+async function deployNewVaults() {
   const filePath = join(process.cwd(), 'src/pol-vaults/mainnet.json')
   const fileContent = readFileSync(filePath, 'utf8')
   const polVaults = parse(
