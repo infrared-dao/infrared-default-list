@@ -1,20 +1,16 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { parse } from 'valibot'
+import { array, omit, parse } from 'valibot'
 import {
   createPublicClient,
   createWalletClient,
   type Hex,
   isAddressEqual,
-  zeroAddress,
 } from 'viem'
 import { privateKeyToAccount } from 'viem/accounts'
 import { berachain } from 'viem/chains'
 
-import {
-  type DefaultListPolVault,
-  DefaultListPolVaultsSchema,
-} from '@/schemas/pol-vaults-schema'
+import { DefaultListPolVaultSchema } from '@/schemas/pol-vaults-schema'
 
 import { INDENTATION_SPACES, INFRARED_ADDRESS } from './_/constants'
 import { infraredMainnetAbi } from './_/infrared-abi'
@@ -33,32 +29,32 @@ const DEPLOYER_PRIVATE_KEY = process.env.DEPLOYER_PRIVATE_KEY as Hex
 
 const deployerAccount = privateKeyToAccount(`0x${DEPLOYER_PRIVATE_KEY}`)
 
-async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
+async function deployNewVaults(): Promise<void> {
   const filePath = join(process.cwd(), 'src/pol-vaults/mainnet.json')
   const fileContent = readFileSync(filePath, 'utf8')
   const polVaults = parse(
-    DefaultListPolVaultsSchema,
+    array(omit(DefaultListPolVaultSchema, ['address'])),
     JSON.parse(fileContent).vaults,
   )
 
-  const polVaultsWithZeroAddress = polVaults.filter((vault) =>
-    isAddressEqual(vault.address, zeroAddress),
+  const polVaultsWithoutAddress = polVaults.filter(
+    (vault) => !('address' in vault),
   )
 
   console.log(
-    `Found ${polVaultsWithZeroAddress.length} vaults with zeroAddress`,
+    `Found ${polVaultsWithoutAddress.length} vaults without an address`,
   )
 
-  if (polVaultsWithZeroAddress.length > 0) {
-    console.log('Pol vaults with zeroAddress:')
-    polVaultsWithZeroAddress.forEach((vault, index) => {
+  if (polVaultsWithoutAddress.length > 0) {
+    console.log('Pol vaults without an address:')
+    polVaultsWithoutAddress.forEach((vault, index) => {
       console.log(`${index + 1}. Slug: ${vault.slug}`)
       console.log(`   Deposit Token: ${vault.depositTokenAddress}`)
       console.log('')
     })
 
     const deployedVaults = await Promise.all(
-      polVaultsWithZeroAddress.map(async ({ depositTokenAddress, slug }) => {
+      polVaultsWithoutAddress.map(async ({ depositTokenAddress, slug }) => {
         const { request, result } = await publicClient.simulateContract({
           abi: infraredMainnetAbi,
           account: deployerAccount,
@@ -72,7 +68,7 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
       }),
     )
 
-    const newVaults = polVaultsWithZeroAddress.map(
+    const newVaults = polVaultsWithoutAddress.map(
       ({ beraRewardVault, depositTokenAddress, slug }, index) => ({
         address: deployedVaults[index],
         beraRewardVault,
@@ -82,7 +78,7 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
     )
 
     const updatedPolVaults = polVaults.map((vault) => {
-      if (isAddressEqual(vault.address, zeroAddress)) {
+      if (!('address' in vault)) {
         return newVaults.find((newVault) =>
           isAddressEqual(
             newVault.depositTokenAddress,
@@ -99,10 +95,8 @@ async function deployNewVaults(): Promise<Array<DefaultListPolVault>> {
     )
     console.log('Finished writing to pol-vaults/mainnet.json')
   } else {
-    console.log('No pol vaults found with zeroAddress')
+    console.log('No pol vaults found without an address')
   }
-
-  return polVaultsWithZeroAddress
 }
 
 deployNewVaults()
