@@ -121,12 +121,12 @@ Thank you for contributing to our ecosystem!
 
 ## Converting assets from png to svg
 
-1. Try to convert the image by adding it to `src/assets/tokens/new` and then using https://vectormagic.com or running `pnpm convert-new-assets-to-svg`
+1. Try to convert the image by adding it to `src/assets/tokens/new` and then using <https://vectormagic.com> or running `pnpm convert-new-assets-to-svg`
 2. If that doesn't produce a good result:
    1. Add the image to a figma file
    2. Resize it down to 256px x 256px. If it is smaller, leave it
    3. Export the image as a png
-   4. Use https://tinypng.com to compress the image
+   4. Use <https://tinypng.com> to compress the image
    5. Add the compressed image to figma
    6. Resize it to 128px x 128px
    7. Copy & paste as SVG
