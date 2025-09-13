@@ -1329,6 +1329,7 @@
       "decimals": 18,
       "image": "dbusd.svg",
       "imageNotFromUnderlying": true,
+      "isDepositDisabled": true,
       "mintUrl": "https://app.madhoney.fi/vault",
       "name": "dbUSD",
       "protocol": "d8x",
