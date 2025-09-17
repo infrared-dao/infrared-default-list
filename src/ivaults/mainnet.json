@@ -17,8 +17,15 @@
       "address": "0xcDf6DD11e36Fd2aDC1593034dEb2Deaeb2fF669b",
       "beraRewardVault": "0x1626ccb101e41de2cf4d28a19f801664ce2a485d",
       "depositTokenAddress": "0x2ab43e4eecab510a92cc16cbe6d37891710696cb",
-      "description": "TODO",
+      "description": "A specialized vault on Charm.fi. Strategy focuses on a single LP position, offering exposure to the projected upside from token pair dynamics, while maintaining a risk profile through capital-preserving mechanics.",
       "slug": "wbtc-usd₮0"
+    },
+    {
+      "address": "",
+      "beraRewardVault": "0x37b76aD5947091D7E0C859C5501c19ccC7c13Ff8",
+      "depositTokenAddress": "0x9930BC9164F4E48352085B4655F77ca0cC30760d",
+      "description": "A specialized vault on Charm.fi. Strategy focuses on a single LP position, offering exposure to the projected upside from token pair dynamics, while maintaining a risk profile through capital-preserving mechanics.",
+      "slug": "weth-usdc-e"
     }
   ]
 }
