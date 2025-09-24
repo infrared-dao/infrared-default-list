@@ -1305,7 +1305,7 @@
       "mintUrl": "https://app.charm.fi/berachain/vault/0x9930BC9164F4E48352085B4655F77ca0cC30760d",
       "name": "WETH-USDC-E",
       "protocol": "charm",
-      "symbol": "i-WETH-USDC-E",
+      "symbol": "i-WETH-USDC.E",
       "type": "unknown",
       "underlyingTokens": [
         "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
