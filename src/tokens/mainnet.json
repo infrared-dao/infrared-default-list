@@ -1298,18 +1298,18 @@
       ]
     },
     {
-      "address": "0x9930BC9164F4E48352085B4655F77ca0cC30760d",
+      "address": "0x9930bc9164f4e48352085b4655f77ca0cc30760d",
       "chainId": 80094,
       "decimals": 18,
       "image": "weth-usdc-e.svg",
-      "mintUrl": "https://app.charm.fi/berachain/vault/0x9930BC9164F4E48352085B4655F77ca0cC30760d",
+      "mintUrl": "https://app.charm.fi/berachain/vault/0x9930bc9164f4e48352085b4655f77ca0cc30760d",
       "name": "WETH-USDC-E",
       "protocol": "charm",
       "symbol": "i-WETH-USDC.E",
       "type": "unknown",
       "underlyingTokens": [
-        "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
-        "0x549943e04f40284185054145c6E4e9568C1D3241"
+        "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+        "0x549943e04f40284185054145c6e4e9568c1d3241"
       ]
     },
     {
