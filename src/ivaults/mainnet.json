@@ -21,7 +21,7 @@
       "slug": "wbtc-usd₮0"
     },
     {
-      "address": "",
+      "address": "0x96622771AEdA6156aAbca3d99017bFac4406dF50",
       "beraRewardVault": "0x37b76aD5947091D7E0C859C5501c19ccC7c13Ff8",
       "depositTokenAddress": "0x9930BC9164F4E48352085B4655F77ca0cC30760d",
       "description": "A specialized vault on Charm.fi. Strategy focuses on a single LP position, offering exposure to the projected upside from token pair dynamics, while maintaining a risk profile.",
