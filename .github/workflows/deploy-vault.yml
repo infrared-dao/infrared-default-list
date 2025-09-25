@@ -2,6 +2,9 @@ name: deploy-vault.ci
 
 on:
   pull_request:
+    paths:
+      - src/ivaults/**
+      - src/pol-vaults/**
 
 permissions:
   checks: write
