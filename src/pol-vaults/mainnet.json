@@ -934,13 +934,13 @@
       "address": "",
       "beraRewardVault": "0xe409272355d32a3dfcdde888ca275ac33146b854",
       "depositTokenAddress": "0xA5b3eCAFbfCC7946c11a28252C6f2Bdb73d30388",
-      "slug": "winnie-honey-nect"
+      "slug": "winnieswap-honey-nect"
     },
     {
       "address": "",
       "beraRewardVault": "0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b",
       "depositTokenAddress": "0x0435c32C79e8341E44047493bA371b502B8C90aF",
-      "slug": "winnie-ewbera-wgbera"
+      "slug": "winnieswap-ewbera-wgbera"
     },
     {
       "address": "0x0a693bcf5ac9f02b3fe926d8676758701ca54a4d",
