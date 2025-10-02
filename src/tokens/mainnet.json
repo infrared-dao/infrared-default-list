@@ -90,6 +90,14 @@
       "symbol": "bm"
     },
     {
+      "address": "0xf05a207442f14e446b0e32b12d2043bfc68cb1c9",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "bold.svg",
+      "name": "BOLD Stablecoin",
+      "symbol": "BOLD"
+    },
+    {
       "address": "0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087",
       "chainId": 80094,
       "decimals": 18,
@@ -900,6 +908,22 @@
       "type": "amm",
       "underlyingTokens": [
         "0xedb5180661f56077292c92ab40b1ac57a279a396",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
+      "address": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "nect-bold-honey.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f0000000000000000000001b5/details/",
+      "name": "NECT-BOLD-HONEY",
+      "protocol": "bex",
+      "symbol": "NECT-BOLD-HONEY-STABLE",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+        "0xf05a207442f14e446b0e32b12d2043bfc68cb1c9",
         "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
