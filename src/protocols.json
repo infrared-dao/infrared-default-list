@@ -1,4 +1,4 @@
-{
+ {
   "protocols": [
     {
       "description": "AquaBera makes managing, growing, and launching crypto on Berachain simple, safe, and rewarding.",
@@ -403,12 +403,12 @@
       "url": "https://app.webera.finance"
     },
     {
-      "description": "",
+      "description": "Supercharging DeFi with Berachain Proof of Liquidity - enjoy deeper liquidity, smarter capital efficiency & sky-high APRs.",
       "id": "winnieswap",
       "imageDark": "winnieswap-dark.svg",
       "imageLight": "winnieswap-light.svg",
       "name": "WinnieSwap",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": ["iBERA", "iBGT", "ewBERA", "wgBERA", "NECT", "HONEY", "vaults"],
       "type": "dex",
       "url": "https://www.winnieswap.com"
     },
