@@ -8,6 +8,7 @@ export const cleanIVault = ({
   iVault: DefaultListIVault
 }): DefaultListIVault => ({
   ...iVault,
+  address: lowercaseAddress(iVault.address),
   beraRewardVault: iVault.beraRewardVault
     ? lowercaseAddress(iVault.beraRewardVault)
     : undefined,
