@@ -14,14 +14,14 @@
       ]
     },
     {
-      "address": "0xcDf6DD11e36Fd2aDC1593034dEb2Deaeb2fF669b",
+      "address": "0xcdf6dd11e36fd2adc1593034deb2deaeb2ff669b",
       "beraRewardVault": "0x1626ccb101e41de2cf4d28a19f801664ce2a485d",
       "depositTokenAddress": "0x2ab43e4eecab510a92cc16cbe6d37891710696cb",
       "description": "A specialized vault on Charm.fi. Strategy focuses on a single LP position, offering exposure to the projected upside from token pair dynamics, while maintaining a risk profile.",
       "slug": "wbtc-usd₮0"
     },
     {
-      "address": "0x96622771AEdA6156aAbca3d99017bFac4406dF50",
+      "address": "0x96622771aeda6156aabca3d99017bfac4406df50",
       "beraRewardVault": "0x37b76ad5947091d7e0c859c5501c19ccc7c13ff8",
       "depositTokenAddress": "0x9930bc9164f4e48352085b4655f77ca0cc30760d",
       "description": "A specialized vault on Charm.fi. Strategy focuses on a single LP position, offering exposure to the projected upside from token pair dynamics, while maintaining a risk profile.",
