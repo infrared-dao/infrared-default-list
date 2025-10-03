@@ -931,15 +931,15 @@
       "slug": "webera-wewbera"
     },
     {
-      "address": "0xA5b3eCAFbfCC7946c11a28252C6f2Bdb73d30388",
+      "address": "0xDe6A9AACd3C749B3E0A290f65f17a744C9C40215",
       "beraRewardVault": "0xe409272355d32a3dfcdde888ca275ac33146b854",
-      "depositTokenAddress": "",
+      "depositTokenAddress": "0xA5b3eCAFbfCC7946c11a28252C6f2Bdb73d30388",
       "slug": "winnieswap-honey-nect"
     },
     {
-      "address": "0x0435c32C79e8341E44047493bA371b502B8C90aF",
+      "address": "0x8cea590b8B30de2Cdecf96cBaf0113e2390E5Ffd",
       "beraRewardVault": "0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b",
-      "depositTokenAddress": "",
+      "depositTokenAddress": "0x0435c32c79e8341e44047493ba371b502b8c90af",
       "slug": "winnieswap-ewbera-wgbera"
     },
     {
