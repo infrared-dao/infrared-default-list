@@ -2747,7 +2747,23 @@
       "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
     },
     {
-      "address": "0xA5b3eCAFbfCC7946c11a28252C6f2Bdb73d30388",
+      "address": "0x0435c32c79e8341e44047493ba371b502b8c90af",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ewbera-wgbera.svg",
+      "kodiakTradingFee": 0.0005,
+      "mintUrl": "https://www.winnieswap.com/vaults/0x0435c32c79e8341e44047493ba371b502b8c90af",
+      "name": "ewBERA-wgBERA",
+      "protocol": "winnieswap",
+      "symbol": "STICKY eWBERA-4-wgBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
       "chainId": 80094,
       "decimals": 18,
       "image": "nect-honey.svg",
@@ -2758,24 +2774,8 @@
       "symbol": "STICKY NECT-HONEY",
       "type": "amm",
       "underlyingTokens": [
-        "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
-        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
-      ]
-    },
-    {
-      "address": "0x0435c32c79e8341e44047493ba371b502b8c90af",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "ewbera-wgbera.svg",
-      "kodiakTradingFee": 0.0005,
-      "mintUrl": "https://www.winnieswap.com/vaults/0x0435c32c79e8341e44047493ba371b502b8c90af",
-      "name": "ewBERA-wgBERA",
-      "protocol": "winnieswap",
-      "symbol": "STICKY ewBERA-wgBERA",
-      "type": "amm",
-      "underlyingTokens": [
-        "0xCaa70d2aa873Ef057980844e18D9a9560bdfFcC0",
-        "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
+        "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
