@@ -841,6 +841,12 @@
       "slug": "narra-no-airdrop-no-alpha"
     },
     {
+      "address": "0x2b8a239e9f95d60ac49d4256018ab5dd5a01bfc2",
+      "beraRewardVault": "0xbdea4c1950103de7550fc48459405c2132fe72ba",
+      "depositTokenAddress": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
+      "slug": "nect-bold-honey"
+    },
+    {
       "address": "0x75d026f9fd1142b2ae1bc5553bf7b0e3b3171fee",
       "beraRewardVault": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
       "depositTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
