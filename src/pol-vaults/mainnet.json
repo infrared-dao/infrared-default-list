@@ -97,6 +97,12 @@
       "slug": "bex-mead-honey"
     },
     {
+      "address": "0x2b8a239e9f95d60ac49d4256018ab5dd5a01bfc2",
+      "beraRewardVault": "0xbdea4c1950103de7550fc48459405c2132fe72ba",
+      "depositTokenAddress": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
+      "slug": "bex-nect-bold-honey"
+    },
+    {
       "address": "0x2d6c0464398a323756e7997edf6f18d7a8c5c09d",
       "beraRewardVault": "0x96325246424c5fc1d302765fc76ef66f16e0632c",
       "depositTokenAddress": "0x7185e6cb1fcaf5d9e67af065b5e0fd8503e68be2",
@@ -839,12 +845,6 @@
       "beraRewardVault": "0x84cde2880f1c63253636501d757630c252678562",
       "depositTokenAddress": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
       "slug": "narra-no-airdrop-no-alpha"
-    },
-    {
-      "address": "0x2b8a239e9f95d60ac49d4256018ab5dd5a01bfc2",
-      "beraRewardVault": "0xbdea4c1950103de7550fc48459405c2132fe72ba",
-      "depositTokenAddress": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
-      "slug": "nect-bold-honey"
     },
     {
       "address": "0x75d026f9fd1142b2ae1bc5553bf7b0e3b3171fee",
