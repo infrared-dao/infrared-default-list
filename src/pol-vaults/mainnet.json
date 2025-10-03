@@ -931,6 +931,18 @@
       "slug": "webera-wewbera"
     },
     {
+      "address": "0x8cea590b8b30de2cdecf96cbaf0113e2390e5ffd",
+      "beraRewardVault": "0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b",
+      "depositTokenAddress": "0x0435c32c79e8341e44047493ba371b502b8c90af",
+      "slug": "winnieswap-ewbera-wgbera"
+    },
+    {
+      "address": "0xde6a9aacd3c749b3e0a290f65f17a744c9c40215",
+      "beraRewardVault": "0xe409272355d32a3dfcdde888ca275ac33146b854",
+      "depositTokenAddress": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
+      "slug": "winnieswap-nect-honey"
+    },
+    {
       "address": "0x0a693bcf5ac9f02b3fe926d8676758701ca54a4d",
       "beraRewardVault": "0xa63af00b73a4d995c9bb4c399a81708f0b026a62",
       "depositTokenAddress": "0xd7cfdd9514b6ef10e9cf271cf62955530adbc4ec",

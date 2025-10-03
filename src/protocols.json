@@ -403,6 +403,16 @@
       "url": "https://app.webera.finance"
     },
     {
+      "description": "Supercharging DeFi with Berachain Proof of Liquidity - enjoy deeper liquidity, smarter capital efficiency & sky-high APRs.",
+      "id": "winnieswap",
+      "imageDark": "winnieswap-dark.svg",
+      "imageLight": "winnieswap-light.svg",
+      "name": "WinnieSwap",
+      "products": ["iBERA", "iBGT"],
+      "type": "dex",
+      "url": "https://www.winnieswap.com"
+    },
+    {
       "description": "Reward‑driven ecosystem offering gamified participation and yield opportunities.",
       "id": "yeet",
       "imageDark": "yeet.svg",
