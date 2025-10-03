@@ -947,6 +947,12 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "address": "0x2b8A239e9F95d60AC49D4256018AB5dd5a01bFc2",
+      "beraRewardVault": "0xBDeA4c1950103de7550FC48459405c2132fe72BA",
+      "depositTokenAddress": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
+      "slug": "nect-bold-honey"
     }
   ]
 }
