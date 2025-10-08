@@ -430,6 +430,15 @@
       "products": ["iBGT"],
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "The first Proof-of-Liquidity game on Berachain, leveraging strategic MOOLA farming to compete for native BGT rewards.",
+      "id": "bullish-v3",
+      "imageDark": "bullish-dark.svg",
+      "imageLight": "bullish-light.svg",
+      "name": "Bull ish-V3",
+      "type": "unknown",
+      "url": "https://spankass.xyz"
     }
   ]
 }

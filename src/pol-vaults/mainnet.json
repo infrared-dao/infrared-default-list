@@ -965,6 +965,11 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "beraRewardVault": "0x60B71BA339082EB1d21e45c6d5ABf3eFbC53CF09",
+      "depositTokenAddress": "0xF941419761Dd9a6D38a58CFeAdB7dA41b8068E60",
+      "slug": "bullish-v3"
     }
   ]
 }
