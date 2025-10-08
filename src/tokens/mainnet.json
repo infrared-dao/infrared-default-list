@@ -573,6 +573,14 @@
       "symbol": "wgBERA"
     },
     {
+      "address": "0x4f3c10d2bc480638048fa67a7d00237a33670c1b",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wibgt.svg",
+      "name": "wiBGT",
+      "symbol": "wiBGT"
+    },
+    {
       "address": "0x01c8a5ccad23a4d3764ef71c403862160aa2913a",
       "chainId": 80094,
       "decimals": 18,
