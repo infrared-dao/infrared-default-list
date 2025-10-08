@@ -6,6 +6,7 @@ import {
   createWalletClient,
   type Hex,
   isAddressEqual,
+  zeroAddress,
 } from 'viem'
 import { privateKeyToAccount } from 'viem/accounts'
 import { berachain } from 'viem/chains'
@@ -58,27 +59,42 @@ async function deployNewVaults() {
       console.log('')
     })
 
-    const deployedVaults = await Promise.all(
-      polVaultsWithoutAddress.map(async ({ depositTokenAddress, slug }) => {
-        const { request, result } = await publicClient.simulateContract({
+    const newVaults = await Promise.all(
+      polVaultsWithoutAddress.map(async (vault) => {
+        // Check if there already is a vault for this deposit token
+        const existingVaultAddress = await publicClient.readContract({
           abi: infraredMainnetAbi,
-          account: deployerAccount,
           address: INFRARED_ADDRESS,
-          args: [depositTokenAddress],
-          functionName: 'registerVault',
+          args: [vault.depositTokenAddress],
+          functionName: 'vaultRegistry',
         })
-        await walletClient.writeContract(request)
-        console.log(`Deployed new vault at: ${result} for ${slug}`)
-        return result
-      }),
-    )
 
-    const newVaults = polVaultsWithoutAddress.map(
-      ({ beraRewardVault, depositTokenAddress, slug }, index) => ({
-        address: deployedVaults[index],
-        beraRewardVault,
-        depositTokenAddress,
-        slug,
+        // Vaultregistry returns zeroAddress if there is no vault for this deposit token
+        if (isAddressEqual(existingVaultAddress, zeroAddress)) {
+          // Deploy a new vault if there is no vault for this deposit token
+          const { request, result } = await publicClient.simulateContract({
+            abi: infraredMainnetAbi,
+            account: deployerAccount,
+            address: INFRARED_ADDRESS,
+            args: [vault.depositTokenAddress],
+            functionName: 'registerVault',
+          })
+          await walletClient.writeContract(request)
+          console.log(`Deployed new vault at: ${result} for ${vault.slug}`)
+          return {
+            ...vault,
+            address: result,
+          }
+        }
+
+        // Vaultregistry returns the vault address if there is a vault for this deposit token
+        console.log(
+          `Vault ${vault.slug} already deployed at ${existingVaultAddress}`,
+        )
+        return {
+          ...vault,
+          address: existingVaultAddress,
+        }
       }),
     )
 
