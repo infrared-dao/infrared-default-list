@@ -35,7 +35,7 @@
   "scripts": {
     "clean-assets": "svgo -rf src -o src",
     "convert-new-assets-to-svg": "tsx scripts/convert-new-assets-to-svg.ts",
-    "deploy-new-vaults": "dotenv -- tsx scripts/deploy-new-vaults.ts",
+    "deploy-new-vaults": "dotenv -- tsx scripts/deploy-new-vaults.ts && pnpm lint",
     "format": "prettier --cache --log-level warn --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,mdx,json}\"",
     "generate-token-images": "tsx scripts/generate-token-images.ts",
     "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets && pnpm format",
