@@ -83,7 +83,7 @@ async function deployNewVaults() {
           console.log(`Deployed new vault at: ${result} for ${vault.slug}`)
           return {
             ...vault,
-            address: result,
+            address: result.toLowerCase(),
           }
         }
 
@@ -93,7 +93,7 @@ async function deployNewVaults() {
         )
         return {
           ...vault,
-          address: existingVaultAddress,
+          address: existingVaultAddress.toLowerCase(),
         }
       }),
     )
