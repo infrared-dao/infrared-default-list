@@ -106,6 +106,15 @@
       "url": "https://game.bullas.xyz"
     },
     {
+      "description": "The first Proof-of-Liquidity game on Berachain, leveraging strategic MOOLA farming to compete for native BGT rewards.",
+      "id": "bullish-v3",
+      "imageDark": "bullish-v3-dark.svg",
+      "imageLight": "bullish-v3-light.svg",
+      "name": "Bull ish-V3",
+      "type": "unknown",
+      "url": "https://spankass.xyz"
+    },
+    {
       "description": "Community‑centric DeFi suite building unique financial tools and experiences.",
       "id": "burrbear",
       "imageDark": "burrbear.svg",

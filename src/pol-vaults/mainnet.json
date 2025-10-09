@@ -217,6 +217,12 @@
       "slug": "bullish-bull-ish-v2"
     },
     {
+      "address": "0x0856efd2c925b9b52852ea2d1613401a0661073e",
+      "beraRewardVault": "0x60b71ba339082eb1d21e45c6d5abf3efbc53cf09",
+      "depositTokenAddress": "0xf941419761dd9a6d38a58cfeadb7da41b8068e60",
+      "slug": "bullish-bull-ish-v3"
+    },
+    {
       "address": "0xf4c0ed37fdd387013812bbfc6a0698a73ec5fe47",
       "beraRewardVault": "0xf326cb487d9542a0c43b7c6c9a252fa626403023",
       "depositTokenAddress": "0xc4c039178a79e614609e592d7689ecb3107758b1",
