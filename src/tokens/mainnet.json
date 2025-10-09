@@ -148,6 +148,19 @@
       "type": "points"
     },
     {
+      "address": "0xf941419761dd9a6d38a58cfeadb7da41b8068e60",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "bull-ish-v3.svg",
+      "isSoulbound": true,
+      "isUnpriced": true,
+      "mintUrl": "https://spankass.xyz",
+      "name": "BULL ISH V3",
+      "protocol": "bullish",
+      "symbol": "BULL ISH V3",
+      "type": "points"
+    },
+    {
       "address": "0x28e0e3b9817012b356119df9e217c25932d609c2",
       "chainId": 80094,
       "decimals": 18,
@@ -2830,19 +2843,6 @@
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
       ]
-    },
-    {
-      "address": "0xF941419761Dd9a6D38a58CFeAdB7dA41b8068E60",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "bull-ish-v2.svg",
-      "isSoulbound": true,
-      "isUnpriced": true,
-      "mintUrl": "https://spankass.xyz",
-      "name": "BULL ISH V3",
-      "protocol": "bullish",
-      "symbol": "BULL ISH V3",
-      "type": "points"
     }
   ]
 }
