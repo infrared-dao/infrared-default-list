@@ -2581,6 +2581,22 @@
       ]
     },
     {
+      "address": "0xed68db39c1d7a2fea8dcc85ed9b3f4f59112a020",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "zero-nect.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xed68db39c1d7a2fea8dcc85ed9b3f4f59112a020?chain=berachain_mainnet",
+      "name": "ZERO-NECT",
+      "protocol": "kodiak",
+      "symbol": "KODI ZERO-NECT",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0000382fbb422b4f593931fc6f2d25cc16600000",
+        "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"
+      ]
+    },
+    {
       "address": "0x091e41545e4a82e08f35bb51850e905537ced72e",
       "chainId": 80094,
       "decimals": 18,
