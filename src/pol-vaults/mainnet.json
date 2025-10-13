@@ -835,6 +835,11 @@
       "slug": "kodiak-zero-ibgt"
     },
     {
+      "beraRewardVault": "0xd8291187a9a45e7509f81fec03a49982eb63427d",
+      "depositTokenAddress": "0xed68db39c1d7a2fea8dcc85ed9b3f4f59112a020",
+      "slug": "kodiak-zero-nect"
+    },    
+    {
       "address": "0x50684d5fda2182ac14f3c11f98311a6bfdc4277d",
       "beraRewardVault": "0xfe5fe99a4e5ae1f6212c1b32ed4ed6d1c1c6de57",
       "depositTokenAddress": "0x091e41545e4a82e08f35bb51850e905537ced72e",
