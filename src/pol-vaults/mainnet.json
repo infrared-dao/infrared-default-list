@@ -37,6 +37,11 @@
       "slug": "beraborrow-snect"
     },
     {
+      "beraRewardVault": "0x2cb34EEaDb1E7aE9Cc7BAFb84A189e9D921E193a",
+      "depositTokenAddress": "0xd932c344e21ef6C3a94971bf4D4cC71304E2a66C",
+      "slug": "brownfi-wbera-honey"
+    },
+    {
       "address": "0x24f9e76a878ef11e8d9774b4c8dae5f04145cfca",
       "beraRewardVault": "0x8412561faddd6c85f5a17e07e0f29428b813e69b",
       "depositTokenAddress": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
