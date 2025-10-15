@@ -23,6 +23,7 @@ export const DefaultListPolVaultSchema = strictObject({
   beraRewardVault: AddressSchema,
   depositTokenAddress: AddressSchema,
   slug: string(),
+  slugIsLegacy: optional(boolean()),
   upgradeableVaults: optional(DefaultListUpgradeableVaultsSchema),
 })
 export type DefaultListPolVault = InferOutput<typeof DefaultListPolVaultSchema>

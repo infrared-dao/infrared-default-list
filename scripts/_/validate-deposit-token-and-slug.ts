@@ -47,7 +47,7 @@ export const validateDepositTokenAndSlug = ({
     `${slug(depositToken.protocol)}-${slug(cleanDepositTokenName)}`,
   ]
 
-  if (!expectedSlugs.includes(vault.slug)) {
+  if (!vault.slugIsLegacy && !expectedSlugs.includes(vault.slug)) {
     if (slugs.some((slug) => expectedSlugs.includes(slug))) {
       if (
         !expectedSlugs.some((expectedSlug) =>

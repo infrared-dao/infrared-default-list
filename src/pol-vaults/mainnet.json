@@ -859,16 +859,17 @@
       "slug": "narra-no-airdrop-no-alpha"
     },
     {
+      "address": "0x1f42e1c36c5c8c0fc23b750248b7b2adfb2e8415",
+      "beraRewardVault": "0xc91ac72d1051b8c128ded1b00f55f6e2decd75aa",
+      "depositTokenAddress": "0x6170da95cf074d891a8e7bdc9583ee51915cc859",
+      "slug": "pendle-ibgt"
+    },
+    {
       "address": "0x75d026f9fd1142b2ae1bc5553bf7b0e3b3171fee",
       "beraRewardVault": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
       "depositTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
-      "slug": "pendle-ibgt-25SEP2025"
-    },
-    {
-      "address": "0x1F42E1C36C5c8c0fC23B750248B7b2aDFB2e8415",
-      "beraRewardVault": "0xc91aC72d1051b8C128ded1B00f55f6e2deCD75AA",
-      "depositTokenAddress": "0x6170Da95Cf074D891a8E7BDC9583Ee51915cC859",
-      "slug": "pendle-ibgt-25DEC2025"
+      "slug": "pendle-ibgt-25sep2025",
+      "slugIsLegacy": true
     },
     {
       "address": "0x4a6e7d4edf5ecd054fbf7e759506e76a03e6004b",
