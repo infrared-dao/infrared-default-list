@@ -1,5 +1,6 @@
 import {
   array,
+  boolean,
   type InferOutput,
   optional,
   strictObject,
@@ -15,6 +16,7 @@ export const DefaultListIVaultSchema = strictObject({
   depositTokenAddress: AddressSchema,
   description: string(),
   slug: string(),
+  slugIsLegacy: optional(boolean()),
   upgradeableVaults: optional(DefaultListUpgradeableVaultsSchema),
 })
 export type DefaultListIVault = InferOutput<typeof DefaultListIVaultSchema>
