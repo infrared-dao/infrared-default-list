@@ -31,9 +31,16 @@ export const TokenTypeSchema = picklist([
   'unknown',
   'vault',
 ])
-export const TokenCategoriesSchema = array(
-  picklist(['btc', 'bera', 'eth', 'meme', 'project', 'solana', 'stablecoin']),
-)
+export const tokenCategoriesList = [
+  'btc',
+  'bera',
+  'eth',
+  'meme',
+  'project',
+  'solana',
+  'stablecoin',
+]
+export const TokenCategoriesSchema = array(picklist(tokenCategoriesList))
 export type TokenCategories = InferOutput<typeof TokenCategoriesSchema>
 
 export const chainIds = picklist([berachain.id, berachainBepolia.id])
