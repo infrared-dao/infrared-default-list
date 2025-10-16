@@ -31,22 +31,16 @@ export const TokenTypeSchema = picklist([
   'unknown',
   'vault',
 ])
-export const TokenCategorySchema = picklist([
-  'btc',
-  'bera',
-  'eth',
-  'meme',
-  'project',
-  'solana',
-  'stablecoin',
-])
-export type TokenCategory = InferOutput<typeof TokenCategorySchema>
+export const TokenCategoriesSchema = array(
+  picklist(['btc', 'bera', 'eth', 'meme', 'project', 'solana', 'stablecoin']),
+)
+export type TokenCategories = InferOutput<typeof TokenCategoriesSchema>
 
 export const chainIds = picklist([berachain.id, berachainBepolia.id])
 
 export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
-  category: TokenCategorySchema,
+  categories: TokenCategoriesSchema,
   chainId: chainIds,
   decimals: number(),
   image: string(),
@@ -64,7 +58,7 @@ export type DefaultListBasicToken = InferOutput<
 >
 export const DefaultListDepositTokenSchema = strictObject({
   ...DefaultListBasicTokenSchema.entries,
-  category: optional(TokenCategorySchema),
+  categories: optional(TokenCategoriesSchema),
   imageCustomWidth: optional(boolean()),
   imageNotFromUnderlying: optional(boolean()),
   kodiakTradingFee: optional(number()),
