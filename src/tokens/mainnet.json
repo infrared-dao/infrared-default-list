@@ -727,7 +727,9 @@
       "protocol": "beraborrow",
       "symbol": "bUNIBTC",
       "type": "cdp",
-      "underlyingTokens": ["0xc3827a4bc8224ee2d116637023b124ced6db6e90"]
+      "underlyingTokens": [
+        "0xc3827a4bc8224ee2d116637023b124ced6db6e90"
+      ]
     },
     {
       "address": "0x6751c09113a83a83a43829fd0b3bc0d7bdbe07bf",
@@ -739,7 +741,9 @@
       "protocol": "beraborrow",
       "symbol": "bWBERA",
       "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0x8628e618b66e7cddbe0adc84b96bea3977954507",
@@ -751,7 +755,9 @@
       "protocol": "beraborrow",
       "symbol": "bWGBERA",
       "type": "cdp",
-      "underlyingTokens": ["0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"]
+      "underlyingTokens": [
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
     },
     {
       "address": "0x597877ccf65be938bd214c4c46907669e3e62128",
@@ -764,7 +770,9 @@
       "protocol": "beraborrow",
       "symbol": "sNECT",
       "type": "cdp",
-      "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
+      "underlyingTokens": [
+        "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"
+      ]
     },
     {
       "address": "0x6969696969696969696969696969696969696969",
@@ -777,7 +785,9 @@
       "protocol": "berachain",
       "symbol": "WBERA",
       "type": "unknown",
-      "underlyingTokens": ["0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"]
+      "underlyingTokens": [
+        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+      ]
     },
     {
       "address": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
@@ -792,7 +802,9 @@
       "protocol": "beradrome",
       "symbol": "Beradrome HENLOCKED100M",
       "type": "unknown",
-      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+      "underlyingTokens": [
+        "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"
+      ]
     },
     {
       "address": "0xfb32f8c7d363790a6ccd89f8d20047612aba633b",
@@ -807,7 +819,9 @@
       "protocol": "beradrome",
       "symbol": "Beradrome HENLOCKED1B",
       "type": "unknown",
-      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+      "underlyingTokens": [
+        "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"
+      ]
     },
     {
       "address": "0x94ca1028ee60e5b28cda22c0e7b6743017a9b7b6",
@@ -822,7 +836,9 @@
       "protocol": "beradrome",
       "symbol": "Beradrome HENLOCKED330M",
       "type": "unknown",
-      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+      "underlyingTokens": [
+        "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"
+      ]
     },
     {
       "address": "0x94b12404d6163c3e49ed876fb25034a946a40dd8",
@@ -837,7 +853,9 @@
       "protocol": "beradrome",
       "symbol": "Beradrome HENLOCKED420M",
       "type": "unknown",
-      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+      "underlyingTokens": [
+        "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"
+      ]
     },
     {
       "address": "0x872130ced110e2a4325693c0802b6a0112b3615b",
@@ -852,7 +870,9 @@
       "protocol": "beradrome",
       "symbol": "Beradrome HENLOCKED690M",
       "type": "unknown",
-      "underlyingTokens": ["0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"]
+      "underlyingTokens": [
+        "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"
+      ]
     },
     {
       "address": "0xe8b92cd9771ebaad873a8e1b1b55404aecfdbc9d",
@@ -867,7 +887,9 @@
       "protocol": "beradrome",
       "symbol": "Beradrome Kodiak PLUG-WBERA-V2",
       "type": "unknown",
-      "underlyingTokens": ["0xac1d44f0284634eb04ffa56c76d47e839224b46f"]
+      "underlyingTokens": [
+        "0xac1d44f0284634eb04ffa56c76d47e839224b46f"
+      ]
     },
     {
       "address": "0x36fa291f4a4ae41e4be2a979136ebd7eb97950e7",
@@ -959,6 +981,22 @@
       "underlyingTokens": [
         "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
         "0xf05a207442f14e446b0e32b12d2043bfc68cb1c9",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
+      "address": "0x1e1ff653525875bf0f4d41d897Fe46f0fa3c2dc7",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "susde-usde-honey.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc70000000000000000000001be/details/",
+      "name": "sUSDe-USDe-HONEY",
+      "protocol": "bex",
+      "symbol": "sUSDe-USDe-HONEY-STABLE",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+        "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
         "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
@@ -1382,7 +1420,9 @@
       "protocol": "d2finance",
       "symbol": "dgnBeraland",
       "type": "vault",
-      "underlyingTokens": ["0x549943e04f40284185054145c6e4e9568c1d3241"]
+      "underlyingTokens": [
+        "0x549943e04f40284185054145c6e4e9568c1d3241"
+      ]
     },
     {
       "address": "0x36b933554782b108bb9962ac00c498acbceb706d",
@@ -1395,7 +1435,9 @@
       "protocol": "d2finance",
       "symbol": "HyperBERA.USDC",
       "type": "vault",
-      "underlyingTokens": ["0x549943e04f40284185054145c6e4e9568c1d3241"]
+      "underlyingTokens": [
+        "0x549943e04f40284185054145c6e4e9568c1d3241"
+      ]
     },
     {
       "address": "0x26bbc26415c6316890565f5f73017f85ee70b60c",
@@ -1424,7 +1466,9 @@
       "protocol": "dolomite",
       "symbol": "dHONEY",
       "type": "cdp",
-      "underlyingTokens": ["0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"]
+      "underlyingTokens": [
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
     },
     {
       "address": "0x3000c6bf0aaeb813e252b584c4d9a82f99e7a71d",
@@ -1436,7 +1480,9 @@
       "protocol": "dolomite",
       "symbol": "drUSD",
       "type": "cdp",
-      "underlyingTokens": ["0x09d4214c03d01f49544c0448dbe3a27f768f2b34"]
+      "underlyingTokens": [
+        "0x09d4214c03d01f49544c0448dbe3a27f768f2b34"
+      ]
     },
     {
       "address": "0xaa97d791afc02af30cf0b046172bb05b3c306517",
@@ -1448,7 +1494,9 @@
       "protocol": "dolomite",
       "symbol": "dWBERA",
       "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0xf7b5127b510e568fdc39e6bb54e2081bfad489af",
@@ -1460,7 +1508,9 @@
       "protocol": "dolomite",
       "symbol": "dWETH",
       "type": "cdp",
-      "underlyingTokens": ["0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"]
+      "underlyingTokens": [
+        "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+      ]
     },
     {
       "address": "0x46fcd35431f5b371224acc2e2e91732867b1a77e",
@@ -1475,7 +1525,9 @@
       "protocol": "etherfi",
       "symbol": "primeLiquidBeraBTC",
       "type": "vault",
-      "underlyingTokens": ["0x0555e30da8f98308edb960aa94c0db47230d2b9c"]
+      "underlyingTokens": [
+        "0x0555e30da8f98308edb960aa94c0db47230d2b9c"
+      ]
     },
     {
       "address": "0xb83742330443f7413dbd2abdfc046db0474a944e",
@@ -1490,7 +1542,9 @@
       "protocol": "etherfi",
       "symbol": "primeLiquidBeraETH",
       "type": "vault",
-      "underlyingTokens": ["0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"]
+      "underlyingTokens": [
+        "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+      ]
     },
     {
       "address": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
@@ -1502,7 +1556,9 @@
       "protocol": "euler",
       "symbol": "eNECT-1",
       "type": "vault",
-      "underlyingTokens": ["0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"]
+      "underlyingTokens": [
+        "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3"
+      ]
     },
     {
       "address": "0xcaa70d2aa873ef057980844e18d9a9560bdffcc0",
@@ -1515,7 +1571,9 @@
       "protocol": "euler",
       "symbol": "eWBERA-4",
       "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0xb7e448e5677d212b8c8da7d6312e8afc49800466",
@@ -1528,7 +1586,9 @@
       "protocol": "goldilocks",
       "symbol": "LOCKS",
       "type": "amm",
-      "underlyingTokens": ["0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"]
+      "underlyingTokens": [
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
     },
     {
       "address": "0x6ee01549960f47b2e64cb9fb26a9107e735910b5",
@@ -1542,7 +1602,9 @@
       "protocol": "honeypot",
       "symbol": "VAULT",
       "type": "unknown",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
@@ -1555,7 +1617,9 @@
       "protocol": "infrared",
       "symbol": "iBERA",
       "type": "unknown",
-      "underlyingTokens": ["0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"]
+      "underlyingTokens": [
+        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+      ]
     },
     {
       "address": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
@@ -1568,7 +1632,9 @@
       "protocol": "infrared",
       "symbol": "iBGT",
       "type": "vault",
-      "underlyingTokens": ["0x656b95e550c07a9ffe548bd4085c72418ceb1dba"]
+      "underlyingTokens": [
+        "0x656b95e550c07a9ffe548bd4085c72418ceb1dba"
+      ]
     },
     {
       "address": "0x57161d6272f47cd48ba165646c802f001040c2e0",
@@ -2639,7 +2705,9 @@
       "protocol": "narra",
       "symbol": "NANA",
       "type": "unknown",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0x6170da95cf074d891a8e7bdc9583ee51915cc859",
@@ -2653,7 +2721,9 @@
       "protocol": "pendle",
       "symbol": "PENDLE-LPT-WRAPPED",
       "type": "vault",
-      "underlyingTokens": ["0x850a9f099de3081fe88f8be6207492c52754acb5"]
+      "underlyingTokens": [
+        "0x850a9f099de3081fe88f8be6207492c52754acb5"
+      ]
     },
     {
       "address": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
@@ -2668,7 +2738,9 @@
       "protocol": "pendle",
       "symbol": "PENDLE-LPT-WRAPPED",
       "type": "vault",
-      "underlyingTokens": ["0x02293d88656860a840ed457d38f51e3e6bee8461"]
+      "underlyingTokens": [
+        "0x02293d88656860a840ed457d38f51e3e6bee8461"
+      ]
     },
     {
       "address": "0xff21f46bc9d78125705eef6efca62f9420cfdb9b",
@@ -2681,7 +2753,9 @@
       "protocol": "satlayer",
       "symbol": "satSolvBTC.BERA",
       "type": "vault",
-      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+      "underlyingTokens": [
+        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77"
+      ]
     },
     {
       "address": "0x0f6f337b09cb5131cf0ce9df3beb295b8e728f3b",
@@ -2694,7 +2768,9 @@
       "protocol": "solv",
       "symbol": "SolvBTC.BERA",
       "type": "vault",
-      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+      "underlyingTokens": [
+        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77"
+      ]
     },
     {
       "address": "0x1b25ca174c158440621ff96e4b1262cb5cc8942f",
@@ -2707,7 +2783,9 @@
       "protocol": "solv",
       "symbol": "SolvBTC.BNB",
       "type": "vault",
-      "underlyingTokens": ["0x541fd749419ca806a8bc7da8ac23d346f2df8b77"]
+      "underlyingTokens": [
+        "0x541fd749419ca806a8bc7da8ac23d346f2df8b77"
+      ]
     },
     {
       "address": "0xdb78b4166580917c9604f8ddfbea5f49b493845c",
@@ -2795,7 +2873,9 @@
       "protocol": "wasabi",
       "symbol": "sHONEY",
       "type": "cdp",
-      "underlyingTokens": ["0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"]
+      "underlyingTokens": [
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
     },
     {
       "address": "0xc95ab9eff8fb48760703c74416764b8f898afa1b",
@@ -2808,7 +2888,9 @@
       "protocol": "wasabi",
       "symbol": "sWBERA",
       "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0x396a3d0b799b1a0b1eaa17e75b4dea412400860b",
@@ -2821,7 +2903,9 @@
       "protocol": "webera",
       "symbol": "weiBERA",
       "type": "cdp",
-      "underlyingTokens": ["0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5"]
+      "underlyingTokens": [
+        "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5"
+      ]
     },
     {
       "address": "0x55a050f76541c2554e9dfa3a0b4e665914bf92ea",
@@ -2834,7 +2918,9 @@
       "protocol": "webera",
       "symbol": "weWBERA",
       "type": "cdp",
-      "underlyingTokens": ["0x6969696969696969696969696969696969696969"]
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969"
+      ]
     },
     {
       "address": "0x0435c32c79e8341e44047493ba371b502b8c90af",
@@ -2880,7 +2966,9 @@
       "protocol": "yeet",
       "symbol": "YEET-RWT",
       "type": "unknown",
-      "underlyingTokens": ["0x08a38caa631de329ff2dad1656ce789f31af3142"]
+      "underlyingTokens": [
+        "0x08a38caa631de329ff2dad1656ce789f31af3142"
+      ]
     },
     {
       "address": "0x137bac38316075f6675027592b922a7f95a9dd97",
