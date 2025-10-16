@@ -963,7 +963,7 @@
       ]
     },
     {
-      "address": "0x1e1ff653525875bf0f4d41d897Fe46f0fa3c2dc7",
+      "address": "0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc7",
       "chainId": 80094,
       "decimals": 18,
       "image": "susde-usde-honey.svg",

@@ -103,8 +103,9 @@
       "slug": "bex-nect-bold-honey"
     },
     {
+      "address": "0x7499b9ce2e70384bee37872cef053119fd955fc5",
       "beraRewardVault": "0x51d4dc2fe8ad332dc47a36480c20f9bb0d293f76",
-      "depositTokenAddress": "0x1e1ff653525875bf0f4d41d897Fe46f0fa3c2dc7",
+      "depositTokenAddress": "0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc7",
       "slug": "bex-susde-usde-honey"
     },
     {
