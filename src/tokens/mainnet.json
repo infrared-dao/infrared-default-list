@@ -2,7 +2,7 @@
   "tokens": [
     {
       "address": "0xcc6a16bcfda7d0ebe168f69ef7b946e96a90e67f",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "aibera.svg",
@@ -11,7 +11,7 @@
     },
     {
       "address": "0x804cf700de1e18f2411bd05aad5fa10d60e1900f",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "asugar.svg",
@@ -20,7 +20,7 @@
     },
     {
       "address": "0x89d2e832edaaff8c228a57a1602a1f7950ea2d39",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "avl.svg",
@@ -29,7 +29,7 @@
     },
     {
       "address": "0x93a0cb3ee34aa983db262f904021911ecd199228",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bee.svg",
@@ -38,7 +38,7 @@
     },
     {
       "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bera.svg",
@@ -47,7 +47,7 @@
     },
     {
       "address": "0x6fc6545d5cde268d5c7f1e476d444f39c995120d",
-      "category": "eth",
+      "categories": ["eth"],
       "chainId": 80094,
       "decimals": 18,
       "image": "beraeth.svg",
@@ -56,7 +56,7 @@
     },
     {
       "address": "0x1f7210257fa157227d09449229a9266b0d581337",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "beramo.svg",
@@ -65,7 +65,7 @@
     },
     {
       "address": "0x656b95e550c07a9ffe548bd4085c72418ceb1dba",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bgt.svg",
@@ -75,7 +75,7 @@
     },
     {
       "address": "0x6b26f778bfae56cfb4bf9b62c678d9d40e725227",
-      "category": "meme",
+      "categories": ["meme"],
       "chainId": 80094,
       "decimals": 8,
       "image": "bitcoin.svg",
@@ -84,7 +84,7 @@
     },
     {
       "address": "0x147c9a7f5265d7ca9a671c3817b212a0cf88856e",
-      "category": "meme",
+      "categories": ["meme"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bixbt.svg",
@@ -93,7 +93,7 @@
     },
     {
       "address": "0xb749584f9fc418cf905d54f462fdbfdc7462011b",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bm.svg",
@@ -102,7 +102,7 @@
     },
     {
       "address": "0xf05a207442f14e446b0e32b12d2043bfc68cb1c9",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bold.svg",
@@ -111,7 +111,7 @@
     },
     {
       "address": "0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "br.svg",
@@ -120,7 +120,7 @@
     },
     {
       "address": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 8,
       "image": "brbtc.svg",
@@ -129,7 +129,7 @@
     },
     {
       "address": "0x0003eedfdd020bf60d10cf684abac7c4534b7ead",
-      "category": "meme",
+      "categories": ["meme"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bread.svg",
@@ -138,7 +138,7 @@
     },
     {
       "address": "0x30e148a79b898efa1ab1285f5eca71972a7e0ace",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bsumer.svg",
@@ -152,7 +152,7 @@
     },
     {
       "address": "0xddd3ea5de9c70973e224d938b8f392ec4cc0171c",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bull-ish-v2.svg",
@@ -166,7 +166,7 @@
     },
     {
       "address": "0xf941419761dd9a6d38a58cfeadb7da41b8068e60",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bull-ish-v3.svg",
@@ -180,7 +180,7 @@
     },
     {
       "address": "0x28e0e3b9817012b356119df9e217c25932d609c2",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "burr.svg",
@@ -189,7 +189,7 @@
     },
     {
       "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 6,
       "image": "byusd.svg",
@@ -198,7 +198,7 @@
     },
     {
       "address": "0x09d9420332bff75522a45fcff4855f82a0a3ff50",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "dinero.svg",
@@ -207,7 +207,7 @@
     },
     {
       "address": "0x0f81001ef0a83ecce5ccebf63eb302c70a39a654",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "dolo.svg",
@@ -216,7 +216,7 @@
     },
     {
       "address": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 8,
       "image": "ebtc.svg",
@@ -225,7 +225,7 @@
     },
     {
       "address": "0x2416092f143378750bb29b79ed961ab195cceea5",
-      "category": "eth",
+      "categories": ["eth"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ezeth.svg",
@@ -234,7 +234,7 @@
     },
     {
       "address": "0xbac93a69c62a1518136ff840b788ba715cbdfe2b",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 8,
       "image": "fbtc.svg",
@@ -243,7 +243,7 @@
     },
     {
       "address": "0xca9088895e3390e503cac9ae95abaccdba20822e",
-      "category": "meme",
+      "categories": ["meme"],
       "chainId": 80094,
       "decimals": 18,
       "image": "grq.svg",
@@ -252,7 +252,7 @@
     },
     {
       "address": "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "henlo.svg",
@@ -261,7 +261,7 @@
     },
     {
       "address": "0x5bad2b7a0a2eee88a4ef05d5470cdedb0ff948ea",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "hohm.svg",
@@ -273,7 +273,7 @@
     },
     {
       "address": "0xff0a636dfc44bb0129b631cdd38d21b613290c98",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "hold.svg",
@@ -282,7 +282,7 @@
     },
     {
       "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "honey.svg",
@@ -291,7 +291,7 @@
     },
     {
       "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "krt.svg",
@@ -305,7 +305,7 @@
     },
     {
       "address": "0xf3530788deb3d21e8fa2c3cbbf93317fb38a0d3c",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "lair.svg",
@@ -314,7 +314,7 @@
     },
     {
       "address": "0xbaadcc2962417c01af99fb2b7c75706b9bd6babe",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "lbgt.svg",
@@ -323,7 +323,7 @@
     },
     {
       "address": "0xecac9c5f704e954931349da37f60e39f515c11c1",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 8,
       "image": "lbtc.svg",
@@ -332,7 +332,7 @@
     },
     {
       "address": "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "mbgt.svg",
@@ -341,7 +341,7 @@
     },
     {
       "address": "0xedb5180661f56077292c92ab40b1ac57a279a396",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "mead.svg",
@@ -350,7 +350,7 @@
     },
     {
       "address": "0x5b82028cfc477c4e7dda7ff33d59a23fa7be002a",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "mim.svg",
@@ -359,7 +359,7 @@
     },
     {
       "address": "0x6536cead649249cae42fc9bfb1f999429b3ec755",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "nav.svg",
@@ -368,7 +368,7 @@
     },
     {
       "address": "0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "nect.svg",
@@ -377,7 +377,7 @@
     },
     {
       "address": "0x18878df23e2a36f81e820e4b47b4a40576d3159c",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 9,
       "image": "ohm.svg",
@@ -386,7 +386,7 @@
     },
     {
       "address": "0x009af46df68db0e76bfe9ea35663f6ed17877956",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ooga.svg",
@@ -395,7 +395,7 @@
     },
     {
       "address": "0x69f1e971257419b1e9c405a553f252c64a29a30a",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "oribgt.svg",
@@ -407,7 +407,7 @@
     },
     {
       "address": "0x978448a7866aed0146ad5c5e5d3d8424e2b16356",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "oribgtot.svg",
@@ -416,7 +416,7 @@
     },
     {
       "address": "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "osbgt.svg",
@@ -425,7 +425,7 @@
     },
     {
       "address": "0x02293d88656860a840ed457d38f51e3e6bee8461",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "pendle-ibgt.svg",
@@ -440,7 +440,7 @@
     },
     {
       "address": "0x850a9f099de3081fe88f8be6207492c52754acb5",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "pendle-ibgt.svg",
@@ -454,7 +454,7 @@
     },
     {
       "address": "0x231a6bd8eb88cfa42776b7ac575cecaf82bf1e21",
-      "category": "meme",
+      "categories": ["meme"],
       "chainId": 80094,
       "decimals": 18,
       "image": "plug.svg",
@@ -463,7 +463,7 @@
     },
     {
       "address": "0x6698ede14709a9dd8379744cc2d28f276e3d2eac",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "plutus.svg",
@@ -472,7 +472,7 @@
     },
     {
       "address": "0xc99e948e9d183848a6c4f5e6c1d225f02f171d79",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "pollen.svg",
@@ -481,7 +481,7 @@
     },
     {
       "address": "0xb8b1af593dc37b33a2c87c8db1c9051fc32858b7",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ramen.svg",
@@ -490,7 +490,7 @@
     },
     {
       "address": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "rusd.svg",
@@ -499,7 +499,7 @@
     },
     {
       "address": "0x225b86198ba36321a8a840291416aed62494043f",
-      "category": "solana",
+      "categories": ["solana"],
       "chainId": 80094,
       "decimals": 9,
       "image": "wrapped-sol.svg",
@@ -508,7 +508,7 @@
     },
     {
       "address": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 18,
       "image": "solvbtc.svg",
@@ -517,7 +517,7 @@
     },
     {
       "address": "0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "stbgt.svg",
@@ -526,7 +526,7 @@
     },
     {
       "address": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "stg.svg",
@@ -535,7 +535,7 @@
     },
     {
       "address": "0xec901da9c68e90798bbbb74c11406a32a70652c3",
-      "category": "eth",
+      "categories": ["eth"],
       "chainId": 80094,
       "decimals": 18,
       "image": "stone.svg",
@@ -544,7 +544,7 @@
     },
     {
       "address": "0x2840f9d9f96321435ab0f977e7fdbf32ea8b304f",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "susda.svg",
@@ -553,7 +553,7 @@
     },
     {
       "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "susde.svg",
@@ -562,7 +562,7 @@
     },
     {
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "pol-staked-wbera.svg",
@@ -572,7 +572,7 @@
     },
     {
       "address": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 8,
       "image": "unibtc.svg",
@@ -581,7 +581,7 @@
     },
     {
       "address": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 6,
       "image": "usdt0.svg",
@@ -590,7 +590,7 @@
     },
     {
       "address": "0xff12470a969dd362eb6595ffb44c82c959fe9acc",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "usda.svg",
@@ -599,7 +599,7 @@
     },
     {
       "address": "0x6d4223dae2a8744a85a6d44e97f3f61679f87ee6",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "usdbr.svg",
@@ -608,7 +608,7 @@
     },
     {
       "address": "0x549943e04f40284185054145c6e4e9568c1d3241",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 6,
       "image": "usdc-e.svg",
@@ -617,7 +617,7 @@
     },
     {
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "usde.svg",
@@ -626,7 +626,7 @@
     },
     {
       "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 8,
       "image": "wbtc.svg",
@@ -635,7 +635,7 @@
     },
     {
       "address": "0x334404782ab67b4f6b2a619873e579e971f9aab7",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 18,
       "image": "wbyusd.svg",
@@ -644,7 +644,7 @@
     },
     {
       "address": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
-      "category": "eth",
+      "categories": ["eth"],
       "chainId": 80094,
       "decimals": 18,
       "image": "weeth.svg",
@@ -653,7 +653,7 @@
     },
     {
       "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
-      "category": "eth",
+      "categories": ["eth"],
       "chainId": 80094,
       "decimals": 18,
       "image": "weth.svg",
@@ -662,7 +662,7 @@
     },
     {
       "address": "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "wgbera.svg",
@@ -671,7 +671,7 @@
     },
     {
       "address": "0x4f3c10d2bc480638048fa67a7d00237a33670c1b",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "wibgt.svg",
@@ -680,7 +680,7 @@
     },
     {
       "address": "0x01c8a5ccad23a4d3764ef71c403862160aa2913a",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "wizz.svg",
@@ -689,7 +689,7 @@
     },
     {
       "address": "0xcac89b3f94ed6bab04113884deee2a55293c2dd7",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "xfatbera.svg",
@@ -698,7 +698,7 @@
     },
     {
       "address": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
-      "category": "btc",
+      "categories": ["btc"],
       "chainId": 80094,
       "decimals": 18,
       "image": "xsolvbtc.svg",
@@ -707,7 +707,7 @@
     },
     {
       "address": "0x6eaf19b2fc24552925db245f9ff613157a7dbb4c",
-      "category": "stablecoin",
+      "categories": ["stablecoin"],
       "chainId": 80094,
       "decimals": 6,
       "image": "xusd.svg",
@@ -716,7 +716,7 @@
     },
     {
       "address": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ybb.svg",
@@ -730,7 +730,7 @@
     },
     {
       "address": "0x982940ebfc5caa2f5b5a82aac2dfa99f18bb7da4",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ybera.svg",
@@ -739,7 +739,7 @@
     },
     {
       "address": "0x7e768f47dfdd5dae874aac233f1bc5817137e453",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ybgt.svg",
@@ -748,7 +748,7 @@
     },
     {
       "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
-      "category": "meme",
+      "categories": ["meme"],
       "chainId": 80094,
       "decimals": 18,
       "image": "yeet.svg",
@@ -760,7 +760,7 @@
     },
     {
       "address": "0x0000382fbb422b4f593931fc6f2d25cc16600000",
-      "category": "project",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
       "image": "zero.svg",
@@ -811,7 +811,7 @@
     },
     {
       "address": "0x6751c09113a83a83a43829fd0b3bc0d7bdbe07bf",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "bwbera.svg",
@@ -849,7 +849,7 @@
     },
     {
       "address": "0x6969696969696969696969696969696969696969",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "wbera.svg",
@@ -1644,7 +1644,7 @@
     },
     {
       "address": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ibera.svg",
@@ -1658,7 +1658,7 @@
     },
     {
       "address": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
-      "category": "bera",
+      "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
       "image": "ibgt.svg",
