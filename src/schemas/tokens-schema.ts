@@ -21,6 +21,7 @@ export const MintUrlSchema = pipe(
   nonEmpty('Please enter a mintUrl'),
   url(),
 )
+export type MintUrl = InferOutput<typeof MintUrlSchema>
 export const ProtocolSchema = string()
 export const TokenTypeSchema = picklist([
   'amm',
@@ -39,6 +40,7 @@ export const TokenCategorySchema = picklist([
   'solana',
   'stablecoin',
 ])
+export type TokenCategory = InferOutput<typeof TokenCategorySchema>
 
 export const chainIds = picklist([berachain.id, berachainBepolia.id])
 
