@@ -2,6 +2,7 @@
   "tokens": [
     {
       "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "category": "bera",
       "chainId": 80069,
       "decimals": 18,
       "image": "bera.svg",
@@ -10,6 +11,7 @@
     },
     {
       "address": "0x656b95e550c07a9ffe548bd4085c72418ceb1dba",
+      "category": "bera",
       "chainId": 80069,
       "decimals": 18,
       "image": "bgt.svg",
@@ -19,6 +21,7 @@
     },
     {
       "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
+      "category": "stablecoin",
       "chainId": 80069,
       "decimals": 18,
       "image": "honey.svg",
@@ -27,6 +30,7 @@
     },
     {
       "address": "0x6969696969696969696969696969696969696969",
+      "category": "bera",
       "chainId": 80069,
       "decimals": 18,
       "image": "wbera.svg",
@@ -40,6 +44,7 @@
     },
     {
       "address": "0x7292b549f9f59fc22babcd7b6706e7d6889c2624",
+      "category": "bera",
       "chainId": 80069,
       "decimals": 18,
       "image": "ibera.svg",
@@ -53,6 +58,7 @@
     },
     {
       "address": "0xe3115eb91e03aee24b4531e80cea2c90757e1b88",
+      "category": "bera",
       "chainId": 80069,
       "decimals": 18,
       "image": "ibgt.svg",
