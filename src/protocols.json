@@ -29,6 +29,17 @@
       "url": "https://beefy.com"
     },
     {
+      "description": "Berachain native asset lending protocol.",
+      "id": "bend",
+      "imageDark": "bend.svg",
+      "imageLight": "bend.svg",
+      "name": "Bend",
+      "prefix": "b",
+      "products": ["vaults"],
+      "type": "money-market",
+      "url": "https://bend.berachain.com"
+    },    
+    {
       "description": "Instant liquidity protocol unlocking flexible borrowing across a range of assets.",
       "id": "beraborrow",
       "imageDark": "beraborrow.svg",
