@@ -38,7 +38,7 @@
       "products": ["vaults"],
       "type": "money-market",
       "url": "https://bend.berachain.com"
-    },    
+    },
     {
       "description": "Instant liquidity protocol unlocking flexible borrowing across a range of assets.",
       "id": "beraborrow",
