@@ -13,6 +13,12 @@
       "slug": "aquabera-wbera-henlo"
     },
     {
+      "address": "0x9211aa9206dc57c3decee55539f6ca7b6845339d",
+      "beraRewardVault": "0xdb6e93cd7bddc45ebc411619792fc5f977316c38",
+      "depositTokenAddress": "0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1",
+      "slug": "bend-re7-honey"
+    },
+    {
       "address": "0x81c78b2ca50e36c61885745e742d98e8490b6085",
       "beraRewardVault": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
       "depositTokenAddress": "0x62cf6e355c77edb6f5c8eb2085a85cf4de4c1852",
