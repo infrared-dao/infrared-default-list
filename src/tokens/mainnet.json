@@ -1912,6 +1912,22 @@
       ]
     },
     {
+      "address": "0xe98763d61ab493a55963583bcdd854580e084b5b",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "lbgt-pbera.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe98763d61ab493a55963583bcdd854580e084b5b?chain=berachain_mainnet",
+      "name": "LBGT-pBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI LBGT-pBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xbaadcc2962417c01af99fb2b7c75706b9bd6babe",
+        "0xdeadf18cb9233770fe8874c78d7483b4a126b34a"
+      ]
+    },
+    {
       "address": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
       "chainId": 80094,
       "decimals": 18,
