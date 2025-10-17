@@ -49,9 +49,10 @@ jobs:
         if: ${{ !cancelled() }}
         run: pnpm convert-new-assets-to-svg
 
-      - name: Generate token images
-        if: ${{ !cancelled() }}
-        run: pnpm generate-token-images
+        #TODO: https://linear.app/infrared-dev/issue/FED-1216/autofix-ci-doing-weird-stuff
+    #   - name: Generate token images
+    #     if: ${{ !cancelled() }}
+    #     run: pnpm generate-token-images
 
       - name: Clean assets
         if: ${{ !cancelled() }}
