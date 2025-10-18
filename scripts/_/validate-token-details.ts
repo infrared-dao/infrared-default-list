@@ -31,9 +31,9 @@ const validateSymbol = ({
   onChainSymbol: string
   token: DefaultListToken
 }) => {
-  if (token.symbol !== onChainSymbol) {
+  if (token.symbol !== onChainSymbol.trim()) {
     errors.push(
-      `${token.symbol}’s symbol does not match the on-chain symbol ${onChainSymbol}`,
+      `${token.symbol}’s symbol does not match the on-chain symbol ${onChainSymbol.trim()}`,
     )
   }
 }
