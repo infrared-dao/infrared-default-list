@@ -424,6 +424,15 @@
       "symbol": "osBGT"
     },
     {
+      "address": "0xdeadf18cb9233770fe8874c78d7483b4a126b34a",
+      "categories": ["bera"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "pbera.svg",
+      "name": "Paw Bera",
+      "symbol": "pBERA"
+    },
+    {
       "address": "0x02293d88656860a840ed457d38f51e3e6bee8461",
       "categories": ["bera"],
       "chainId": 80094,
