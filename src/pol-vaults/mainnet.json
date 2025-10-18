@@ -109,6 +109,12 @@
       "slug": "bex-nect-bold-honey"
     },
     {
+      "address": "0xfb2063164a780291d063935d5dee89f7acbe17fd",
+      "beraRewardVault": "0xc46bff3cb09eeb39d2dae0b84e772b5f0b7133b8",
+      "depositTokenAddress": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+      "slug": "bex-pol-staked-wbera"
+    },
+    {
       "address": "0x7499b9ce2e70384bee37872cef053119fd955fc5",
       "beraRewardVault": "0x51d4dc2fe8ad332dc47a36480c20f9bb0d293f76",
       "depositTokenAddress": "0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc7",

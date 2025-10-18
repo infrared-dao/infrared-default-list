@@ -128,7 +128,10 @@ const validateMintUrl = ({
 
   if ('protocol' in token && token.protocol === 'bex') {
     const expectedMintUrl = `https://hub.berachain.com/pools/`
-    if (!token.mintUrl.startsWith(expectedMintUrl)) {
+    if (
+      !token.mintUrl.startsWith(expectedMintUrl) &&
+      !token.mintUrl.startsWith('https://hub.berachain.com/stake')
+    ) {
       errors.push(
         `${token.symbol} mintUrl is incorrect. It should start with ${expectedMintUrl}`,
       )
