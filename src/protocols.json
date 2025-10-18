@@ -98,6 +98,15 @@
       "url": "https://hub.berachain.com/swap"
     },
     {
+      "description": "A renovated AMM derived from Elastic Parameterized Limit Order Book.",
+      "id": "brownfi",
+      "imageDark": "brownfi.svg",
+      "imageLight": "brownfi.svg",
+      "name": "BrownFi",
+      "type": "dex",
+      "url": "https://brownfi.io"
+    },
+    {
       "description": "Native AMM enabling seamless swaps and low‑slippage liquidity provision.",
       "id": "bulla",
       "imageDark": "bulla.svg",
