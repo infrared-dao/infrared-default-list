@@ -908,6 +908,11 @@
       "slug": "sumer-bsumer"
     },
     {
+      "beraRewardVault": "0xc46BFf3Cb09eEb39d2dae0B84e772b5F0b7133B8",
+      "depositTokenAddress": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
+      "slug": "swbera"
+    },
+    {
       "address": "0xaf8942fbe04c8f740398b724334b29be1e53111a",
       "beraRewardVault": "0x6679f737923f0f99a50f7a1a3d4f8092be11795c",
       "depositTokenAddress": "0x9a7d89284520572b3ec41efeba9add65622b301a",
