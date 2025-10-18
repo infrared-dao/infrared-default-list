@@ -424,6 +424,15 @@
       "symbol": "osBGT"
     },
     {
+      "address": "0xdeadf18cb9233770fe8874c78d7483b4a126b34a",
+      "categories": ["bera"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "pbera.svg",
+      "name": "Paw Bera",
+      "symbol": "pBERA"
+    },
+    {
       "address": "0x02293d88656860a840ed457d38f51e3e6bee8461",
       "categories": ["bera"],
       "chainId": 80094,
@@ -1909,6 +1918,22 @@
       "underlyingTokens": [
         "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0xe98763d61ab493a55963583bcdd854580e084b5b",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "lbgt-pbera.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe98763d61ab493a55963583bcdd854580e084b5b?chain=berachain_mainnet",
+      "name": "LBGT-pBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI LBGT-pBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xbaadcc2962417c01af99fb2b7c75706b9bd6babe",
+        "0xdeadf18cb9233770fe8874c78d7483b4a126b34a"
       ]
     },
     {
