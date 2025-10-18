@@ -481,10 +481,11 @@
       "slug": "kodiak-ibera-wgbera"
     },
     {
+      "address": "0x6cfdd1f44a09afc9c452824086e9e4f3a90f2b1e",
       "beraRewardVault": "0xca098a50efd1dc1403f2d601a3b1c99e16313456",
       "depositTokenAddress": "0xe98763d61ab493a55963583bcdd854580e084b5b",
       "slug": "kodiak-lbgt-pbera"
-    },    
+    },
     {
       "address": "0x21f6aefb35fc370b53a4efa386e23f21478c1dd6",
       "beraRewardVault": "0xc2bee59d96af61e050aa602d5882078947372ebc",
