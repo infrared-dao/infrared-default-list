@@ -217,6 +217,18 @@
       "slug": "bex-wizz-wbera"
     },
     {
+      "address": "0x7488174f1f518caf2faae4f30cbba65ea57cf4f9",
+      "beraRewardVault": "0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a",
+      "depositTokenAddress": "0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c",
+      "slug": "brownfi-wbera-honey"
+    },
+    {
+      "address": "0x6ef2ce62ceb0abd9d4841ddd7ac806fa2e3a7e34",
+      "beraRewardVault": "0x519cef5cc2913bcefdd03d0a22601c19794c4581",
+      "depositTokenAddress": "0xd57da672354905b9e42df077df77e554dc5fd1cc",
+      "slug": "brownfi-wbera-usdc.e"
+    },
+    {
       "address": "0xb28339e9e78a73d08fc689ccc44e4e71810004c9",
       "beraRewardVault": "0x2ee022f42564a6b23231155850acf185da298509",
       "depositTokenAddress": "0xb5d46214f4ec7f910cb433e412d32ee817986e90",
