@@ -1297,21 +1297,6 @@
       ]
     },
     {
-      "address": "0xd57da672354905b9e42df077df77e554dc5fd1cc",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "wbera-usdc.svg",
-      "mintUrl": "https://app.brownfi.io/add/0x549943e04f40284185054145c6E4e9568C1D3241/ETH",
-      "name": "BrownFi V2",
-      "protocol": "brownfi",
-      "symbol": "BF-V2",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x549943e04f40284185054145c6e4e9568c1d3241",
-        "0x6969696969696969696969696969696969696969"
-      ]
-    },
-    {
       "address": "0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c",
       "chainId": 80094,
       "decimals": 18,
@@ -1324,6 +1309,21 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
+      "address": "0xd57da672354905b9e42df077df77e554dc5fd1cc",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wbera-usdc-e.svg",
+      "mintUrl": "https://app.brownfi.io/add/0x549943e04f40284185054145c6e4e9568c1d3241/eth",
+      "name": "WBERA-USDC.e",
+      "protocol": "brownfi",
+      "symbol": "BF-V2",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x549943e04f40284185054145c6e4e9568c1d3241"
       ]
     },
     {
