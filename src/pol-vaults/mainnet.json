@@ -1020,6 +1020,11 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "beraRewardVault": "0x48937F28B2106BfcAcd84e7b8758a0E943CC98Df",
+      "depositTokenAddress": "0x349C08B706f35d34e53B72E99c078A5e97E915Ca",
+      "slug": "kodiak-stbgt-wgbera"
     }
   ]
 }

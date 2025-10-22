@@ -3068,6 +3068,21 @@
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
       ]
+    },
+    {
+      "address": "0x349C08B706f35d34e53B72E99c078A5e97E915Ca",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "stbgt-wbera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x349C08B706f35d34e53B72E99c078A5e97E915Ca?chain=berachain_mainnet",
+      "name": "stBGT-wgBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI stBGT-wgBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb",
+        "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
+      ]
     }
   ]
 }
