@@ -1025,6 +1025,11 @@
       "beraRewardVault": "0x48937F28B2106BfcAcd84e7b8758a0E943CC98Df",
       "depositTokenAddress": "0x349C08B706f35d34e53B72E99c078A5e97E915Ca",
       "slug": "kodiak-stbgt-wgbera"
+    },
+    {
+      "beraRewardVault": "0xCe420Bc9bDb02056cD6D6349Ace17ef52F8A6540",
+      "depositTokenAddress": "0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c",
+      "slug": "kodiak-ibgt-wgbera"
     }
   ]
 }
