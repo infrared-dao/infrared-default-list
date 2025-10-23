@@ -1951,6 +1951,22 @@
       ]
     },
     {
+      "address": "0xbd9f4417fcc81e6dd33bca34aba9fdfb1fe75c0c",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ibgt-wgbera.svg",
+      "kodiakTradingFee": 0.0005,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xbd9f4417fcc81e6dd33bca34aba9fdfb1fe75c0c?chain=berachain_mainnet",
+      "name": "iBGT-wgBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI iBGT-wgBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
       "address": "0xe98763d61ab493a55963583bcdd854580e084b5b",
       "chainId": 80094,
       "decimals": 18,
@@ -2204,6 +2220,22 @@
       "underlyingTokens": [
         "0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb",
         "0x6969696969696969696969696969696969696969"
+      ]
+    },
+    {
+      "address": "0x349c08b706f35d34e53b72e99c078a5e97e915ca",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "stbgt-wgbera.svg",
+      "kodiakTradingFee": 0.0005,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x349c08b706f35d34e53b72e99c078a5e97e915ca?chain=berachain_mainnet",
+      "name": "stBGT-wgBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI stBGT-wgBERA",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb",
+        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
       ]
     },
     {
@@ -3067,36 +3099,6 @@
       "underlyingTokens": [
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
-      ]
-    },
-    {
-      "address": "0x349C08B706f35d34e53B72E99c078A5e97E915Ca",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "stbgt-wbera.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x349C08B706f35d34e53B72E99c078A5e97E915Ca?chain=berachain_mainnet",
-      "name": "stBGT-wgBERA",
-      "protocol": "kodiak",
-      "symbol": "KODI stBGT-wgBERA",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb",
-        "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
-      ]
-    },
-    {
-      "address": "0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "ibgt-wbera.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c?chain=berachain_mainnet",
-      "name": "iBGT-wgBERA",
-      "protocol": "kodiak",
-      "symbol": "KODI iBGT-wgBERA",
-      "type": "amm",
-      "underlyingTokens": [
-        "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
-        "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912"
       ]
     }
   ]

@@ -493,6 +493,12 @@
       "slug": "kodiak-ibera-wgbera"
     },
     {
+      "address": "0x53c2be2d3c58597debf0fbdaba699a3f1c8bb6cc",
+      "beraRewardVault": "0xce420bc9bdb02056cd6d6349ace17ef52f8a6540",
+      "depositTokenAddress": "0xbd9f4417fcc81e6dd33bca34aba9fdfb1fe75c0c",
+      "slug": "kodiak-ibgt-wgbera"
+    },
+    {
       "address": "0x6cfdd1f44a09afc9c452824086e9e4f3a90f2b1e",
       "beraRewardVault": "0xca098a50efd1dc1403f2d601a381c99e16313456",
       "depositTokenAddress": "0xe98763d61ab493a55963583bcdd854580e084b5b",
@@ -599,6 +605,12 @@
       "beraRewardVault": "0xcf77d23cfc561e34e3b6137c736ea5cb395bcda0",
       "depositTokenAddress": "0x8b161685135e9fbc5475169e1addc0f2c4b7c343",
       "slug": "kodiak-stbgt-wbera"
+    },
+    {
+      "address": "0x9ed959be98f1ccbecf7f12542e6acd8ecb2c0235",
+      "beraRewardVault": "0x48937f28b2106bfcacd84e7b8758a0e943cc98df",
+      "depositTokenAddress": "0x349c08b706f35d34e53b72e99c078a5e97e915ca",
+      "slug": "kodiak-stbgt-wgbera"
     },
     {
       "address": "0x6c4b82b3f10b3d2fc74b0e560327f29181eec522",
@@ -1020,18 +1032,6 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
-    },
-    {
-      "address": "0x9ed959be98f1ccbecf7f12542e6acd8ecb2c0235",
-      "beraRewardVault": "0x48937f28b2106bfcacd84e7b8758a0e943cc98df",
-      "depositTokenAddress": "0x349c08b706f35d34e53b72e99c078a5e97e915ca",
-      "slug": "kodiak-stbgt-wgbera"
-    },
-    {
-      "address": "0x53c2be2d3c58597debf0fbdaba699a3f1c8bb6cc",
-      "beraRewardVault": "0xce420bc9bdb02056cd6d6349ace17ef52f8a6540",
-      "depositTokenAddress": "0xbd9f4417fcc81e6dd33bca34aba9fdfb1fe75c0c",
-      "slug": "kodiak-ibgt-wgbera"
     }
   ]
 }
