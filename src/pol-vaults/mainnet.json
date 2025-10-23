@@ -1022,13 +1022,15 @@
       "slug": "yeetarded-buyback"
     },
     {
-      "beraRewardVault": "0x48937F28B2106BfcAcd84e7b8758a0E943CC98Df",
-      "depositTokenAddress": "0x349C08B706f35d34e53B72E99c078A5e97E915Ca",
+      "address": "0x9ed959be98f1ccbecf7f12542e6acd8ecb2c0235",
+      "beraRewardVault": "0x48937f28b2106bfcacd84e7b8758a0e943cc98df",
+      "depositTokenAddress": "0x349c08b706f35d34e53b72e99c078a5e97e915ca",
       "slug": "kodiak-stbgt-wgbera"
     },
     {
-      "beraRewardVault": "0xCe420Bc9bDb02056cD6D6349Ace17ef52F8A6540",
-      "depositTokenAddress": "0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c",
+      "address": "0x53c2be2d3c58597debf0fbdaba699a3f1c8bb6cc",
+      "beraRewardVault": "0xce420bc9bdb02056cd6d6349ace17ef52f8a6540",
+      "depositTokenAddress": "0xbd9f4417fcc81e6dd33bca34aba9fdfb1fe75c0c",
       "slug": "kodiak-ibgt-wgbera"
     }
   ]
