@@ -403,6 +403,15 @@
       "url": "https://sumer.money"
     },
     {
+      "description": "Fixed-rate lending/borrowing/looping protocol.",
+      "id": "termmax",
+      "imageDark": "termmax.svg",
+      "imageLight": "termmax.svg",
+      "name": "TermMax",
+      "type": "money-market",
+      "url": "https://app.termmax.ts.finance"
+    },
+    {
       "description": "DeFi infrastructure offering next‑gen financial products and tooling.",
       "id": "wasabee",
       "imageDark": "wasabee.svg",
@@ -459,16 +468,6 @@
       "products": ["iBGT"],
       "type": "money-market",
       "url": "https://zerolend.xyz"
-    },
-    {
-      "description": "Fixed-rate lending/borrowing/looping protocol.",
-      "id": "termmax",
-      "imageDark": "termmax.svg",
-      "imageLight": "termmax.svg",
-      "name": "TermMax",
-      "products": ["HONEY", "vaults"],
-      "type": "money-market",
-      "url": "https://app.termmax.ts.finance/"
     }
   ]
 }
