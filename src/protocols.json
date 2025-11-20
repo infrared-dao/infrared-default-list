@@ -24,7 +24,11 @@
       "imageDark": "beefy-dark.svg",
       "imageLight": "beefy-light.svg",
       "name": "Beefy",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "yield",
       "url": "https://beefy.com"
     },
@@ -35,7 +39,9 @@
       "imageLight": "bend.svg",
       "name": "Bend",
       "prefix": "b",
-      "products": ["vaults"],
+      "products": [
+        "vaults"
+      ],
       "type": "money-market",
       "url": "https://bend.berachain.com"
     },
@@ -46,7 +52,11 @@
       "imageLight": "beraborrow.svg",
       "name": "Beraborrow",
       "prefix": "b",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "money-market",
       "url": "https://www.beraborrow.com"
     },
@@ -74,7 +84,10 @@
       "imageDark": "beraji-dark.svg",
       "imageLight": "beraji-light.svg",
       "name": "Beraji",
-      "products": ["iBERA", "iBGT"],
+      "products": [
+        "iBERA",
+        "iBGT"
+      ],
       "type": "defi",
       "url": "https://beraji.com/"
     },
@@ -84,7 +97,11 @@
       "imageDark": "beratrax.svg",
       "imageLight": "beratrax.svg",
       "name": "Beratrax",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "yield",
       "url": "https://beratrax.com"
     },
@@ -112,7 +129,11 @@
       "imageDark": "bulla.svg",
       "imageLight": "bulla.svg",
       "name": "Bulla",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "dex",
       "url": "https://bulla.exchange"
     },
@@ -140,7 +161,9 @@
       "imageDark": "burrbear.svg",
       "imageLight": "burrbear.svg",
       "name": "BurrBear",
-      "products": ["vaults"],
+      "products": [
+        "vaults"
+      ],
       "type": "yield",
       "url": "https://burrbear.io"
     },
@@ -168,7 +191,9 @@
       "imageDark": "d8x-dark.svg",
       "imageLight": "d8x-light.svg",
       "name": "D8X",
-      "products": ["vaults"],
+      "products": [
+        "vaults"
+      ],
       "type": "derivatives",
       "url": "https://d8x.exchange"
     },
@@ -178,7 +203,11 @@
       "imageDark": "dapdap.svg",
       "imageLight": "dapdap.svg",
       "name": "DapDap",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "defi",
       "url": "https://www.dapdap.net"
     },
@@ -199,7 +228,10 @@
       "imageOnTop": "dolomite-on-top.svg",
       "name": "Dolomite",
       "prefix": "d",
-      "products": ["iBERA", "vaults"],
+      "products": [
+        "iBERA",
+        "vaults"
+      ],
       "type": "money-market",
       "url": "https://dolomite.io"
     },
@@ -218,7 +250,9 @@
       "imageDark": "etherfi.svg",
       "imageLight": "etherfi.svg",
       "name": "ether.fi",
-      "products": ["vaults"],
+      "products": [
+        "vaults"
+      ],
       "type": "lst",
       "url": "https://ether.fi"
     },
@@ -230,7 +264,11 @@
       "imageOnTop": "euler-on-top.svg",
       "name": "Euler",
       "prefix": "e",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "money-market",
       "url": "https://app.euler.finance"
     },
@@ -267,7 +305,11 @@
       "imageDark": "kodiak-dark.svg",
       "imageLight": "kodiak-light.svg",
       "name": "Kodiak",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "dex",
       "url": "https://app.kodiak.finance"
     },
@@ -286,7 +328,9 @@
       "imageDark": "lair.svg",
       "imageLight": "lair.svg",
       "name": "Lair",
-      "products": ["iBGT"],
+      "products": [
+        "iBGT"
+      ],
       "type": "yield",
       "url": "https://lair.fi"
     },
@@ -323,7 +367,9 @@
       "imageDark": "openstate.svg",
       "imageLight": "openstate.svg",
       "name": "Openstate",
-      "products": ["iBGT"],
+      "products": [
+        "iBGT"
+      ],
       "type": "lst",
       "url": "https://openstate.com"
     },
@@ -333,7 +379,11 @@
       "imageDark": "origami-dark.svg",
       "imageLight": "origami-light.svg",
       "name": "Origami",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "yield",
       "url": "https://origami.finance"
     },
@@ -352,7 +402,11 @@
       "imageDark": "pendle.svg",
       "imageLight": "pendle.svg",
       "name": "Pendle",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "yield",
       "url": "https://www.pendle.finance"
     },
@@ -371,7 +425,9 @@
       "imageDark": "solv-dark.svg",
       "imageLight": "solv-light.svg",
       "name": "Solv Protocol",
-      "products": ["vaults"],
+      "products": [
+        "vaults"
+      ],
       "type": "lst",
       "url": "https://solv.finance"
     },
@@ -417,7 +473,11 @@
       "imageDark": "wasabi-dark.svg",
       "imageLight": "wasabi-light.svg",
       "name": "Wasabi",
-      "products": ["iBERA", "iBGT", "vaults"],
+      "products": [
+        "iBERA",
+        "iBGT",
+        "vaults"
+      ],
       "type": "derivatives",
       "url": "https://wasabi.xyz"
     },
@@ -427,7 +487,10 @@
       "imageDark": "webera.svg",
       "imageLight": "webera.svg",
       "name": "WeBera",
-      "products": ["iBERA", "vaults"],
+      "products": [
+        "iBERA",
+        "vaults"
+      ],
       "type": "yield",
       "url": "https://app.webera.finance"
     },
@@ -437,7 +500,10 @@
       "imageDark": "winnieswap-dark.svg",
       "imageLight": "winnieswap-light.svg",
       "name": "WinnieSwap",
-      "products": ["iBERA", "iBGT"],
+      "products": [
+        "iBERA",
+        "iBGT"
+      ],
       "type": "dex",
       "url": "https://www.winnieswap.com"
     },
@@ -456,9 +522,24 @@
       "imageDark": "zerolend-dark.svg",
       "imageLight": "zerolend-light.svg",
       "name": "ZeroLend",
-      "products": ["iBGT"],
+      "products": [
+        "iBGT"
+      ],
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "Fixed-rate lending/borrowing/looping protocol.",
+      "id": "termmax",
+      "imageDark": "termmax.svg",
+      "imageLight": "termmax.svg",
+      "name": "TermMax",
+      "products": [
+        "HONEY",
+        "vaults"
+      ],
+      "type": "money-market",
+      "url": "https://app.termmax.ts.finance/"
     }
   ]
 }
