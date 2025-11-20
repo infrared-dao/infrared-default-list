@@ -1034,9 +1034,9 @@
       "slug": "yeetarded-buyback"
     },
     {
-      "address": "0xd07f1862ae599697cdcd6fd36df3c33af25fd782",
+      "address": "0x18d5caadd6972fa32c8a6dd0717d136f0e8bd760",
       "beraRewardVault": "0x77f4eaa387ec3881340ec0796f9b2450406a4d4c",
-      "depositTokenAddress": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
+      "depositTokenAddress": "0xd07f1862ae599697cdcd6fd36df3c33af25fd782",
       "slug": "termmax-orgmc-honey"
     }
   ]
