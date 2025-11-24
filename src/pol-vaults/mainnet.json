@@ -956,6 +956,12 @@
       "slug": "swbera-wgbera"
     },
     {
+      "address": "0x18d5caadd6972fa32c8a6dd0717d136f0e8bd760",
+      "beraRewardVault": "0x77f4eaa387ec3881340ec0796f9b2450406a4d4c",
+      "depositTokenAddress": "0xd07f1862ae599697cdcd6fd36df3c33af25fd782",
+      "slug": "termmax-orgmc-honey"
+    },
+    {
       "address": "0xb314e0f2d2789139e39d471dfd65989ff5e6df5b",
       "beraRewardVault": "0xc7fee55e923ddbc6c596b8fe7e14889bc3005b3c",
       "depositTokenAddress": "0x3640587709a387b54b0df555cd651a95a54fa900",
@@ -1032,12 +1038,6 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
-    },
-    {
-      "address": "0x18d5caadd6972fa32c8a6dd0717d136f0e8bd760",
-      "beraRewardVault": "0x77f4eaa387ec3881340ec0796f9b2450406a4d4c",
-      "depositTokenAddress": "0xd07f1862ae599697cdcd6fd36df3c33af25fd782",
-      "slug": "termmax-orgmc-honey"
     }
   ]
 }
