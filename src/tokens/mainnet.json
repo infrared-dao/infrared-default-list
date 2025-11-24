@@ -3107,7 +3107,7 @@
       "decimals": 18,
       "image": "honey.svg",
       "mintUrl": "https://app.termmax.ts.finance/earn/berachain/0xd07f1862ae599697cdcd6fd36df3c33af25fd782?chain=berachain&persistChain=1",
-      "name": "HONEY Boost Yield Vault",
+      "name": "orgmc-honey",
       "protocol": "termmax",
       "symbol": "ORGMC-HONEY",
       "type": "vault",
