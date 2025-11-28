@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { array, object, optional, parse } from 'valibot'
+import { array, type InferOutput, object, optional, parse } from 'valibot'
 import {
   createPublicClient,
   createWalletClient,
@@ -12,6 +12,7 @@ import { privateKeyToAccount } from 'viem/accounts'
 import { berachain } from 'viem/chains'
 
 import { AddressSchema } from '@/schemas/address-schema'
+import { DefaultListIVaultSchema } from '@/schemas/ivaults-schema'
 import { DefaultListPolVaultSchema } from '@/schemas/pol-vaults-schema'
 
 import { INDENTATION_SPACES, INFRARED_ADDRESS } from './_/constants'
@@ -31,36 +32,47 @@ const DEPLOYER_PRIVATE_KEY = process.env.DEPLOYER_PRIVATE_KEY as Hex
 
 const deployerAccount = privateKeyToAccount(`0x${DEPLOYER_PRIVATE_KEY}`)
 
-async function deployNewVaults() {
-  const filePath = join(process.cwd(), 'src/pol-vaults/mainnet.json')
-  const fileContent = readFileSync(filePath, 'utf8')
-  const polVaults = parse(
-    array(
-      object({
-        ...DefaultListPolVaultSchema.entries,
-        address: optional(AddressSchema),
-      }),
-    ),
-    JSON.parse(fileContent).vaults,
-  )
-  const polVaultsWithoutAddress = polVaults.filter(
-    (vault) => !('address' in vault),
-  )
+const IVaultsWithoutAddressSchema = array(
+  object({
+    ...DefaultListIVaultSchema.entries,
+    address: optional(AddressSchema),
+  }),
+)
+export type IVaultsWithoutAddress = InferOutput<
+  typeof IVaultsWithoutAddressSchema
+>
+const PolVaultsWithoutAddressSchema = array(
+  object({
+    ...DefaultListPolVaultSchema.entries,
+    address: optional(AddressSchema),
+  }),
+)
+export type PolVaultsWithoutAddress = InferOutput<
+  typeof PolVaultsWithoutAddressSchema
+>
 
-  console.log(
-    `Found ${polVaultsWithoutAddress.length} vaults without an address`,
-  )
-
-  if (polVaultsWithoutAddress.length > 0) {
-    console.log('Pol vaults without an address:')
-    polVaultsWithoutAddress.forEach((vault, index) => {
+const checkAndDeploy = async ({
+  type,
+  vaults,
+  vaultsWithoutAddress,
+}: {
+  type: 'ivaults' | 'pol-vaults'
+  vaults: IVaultsWithoutAddress | PolVaultsWithoutAddress
+  vaultsWithoutAddress: IVaultsWithoutAddress | PolVaultsWithoutAddress
+}) => {
+  if (vaultsWithoutAddress.length > 0) {
+    console.log(
+      `Found ${vaultsWithoutAddress.length} ${type} without an address`,
+    )
+    console.log(`${type} without an address:`)
+    vaultsWithoutAddress.forEach((vault, index) => {
       console.log(`${index + 1}. Slug: ${vault.slug}`)
       console.log(`   Deposit Token: ${vault.depositTokenAddress}`)
       console.log('')
     })
 
     const newVaults = await Promise.all(
-      polVaultsWithoutAddress.map(async (vault) => {
+      vaultsWithoutAddress.map(async (vault) => {
         // Check if there already is a vault for this deposit token
         const existingVaultAddress = await publicClient.readContract({
           abi: infraredMainnetAbi,
@@ -98,7 +110,7 @@ async function deployNewVaults() {
       }),
     )
 
-    const updatedPolVaults = polVaults.map((vault) => {
+    const updatedVaults = vaults.map((vault) => {
       if (!('address' in vault)) {
         return newVaults.find((newVault) =>
           isAddressEqual(
@@ -111,13 +123,45 @@ async function deployNewVaults() {
     })
 
     writeFileSync(
-      resolve(process.cwd(), `./src/pol-vaults/mainnet.json`),
-      `${JSON.stringify({ vaults: updatedPolVaults }, null, INDENTATION_SPACES)}\n`,
+      resolve(process.cwd(), `./src/${type}/mainnet.json`),
+      `${JSON.stringify({ vaults: updatedVaults }, null, INDENTATION_SPACES)}\n`,
     )
-    console.log('Finished writing to pol-vaults/mainnet.json')
+    console.log(`Finished writing to ${type}/mainnet.json`)
   } else {
-    console.log('No pol vaults found without an address')
+    console.log(`No ${type} found without an address`)
   }
+}
+
+const deployNewVaults = async () => {
+  const iVaultsFilePath = join(process.cwd(), 'src/ivaults/mainnet.json')
+  const iVaultsFileContent = readFileSync(iVaultsFilePath, 'utf8')
+  const iVaults = parse(
+    IVaultsWithoutAddressSchema,
+    JSON.parse(iVaultsFileContent).vaults,
+  )
+  const iVaultsWithoutAddress = iVaults.filter((vault) => !('address' in vault))
+
+  checkAndDeploy({
+    type: 'ivaults',
+    vaults: iVaults,
+    vaultsWithoutAddress: iVaultsWithoutAddress,
+  })
+
+  const polVaultsFilePath = join(process.cwd(), 'src/pol-vaults/mainnet.json')
+  const polVaultsFileContent = readFileSync(polVaultsFilePath, 'utf8')
+  const polVaults = parse(
+    PolVaultsWithoutAddressSchema,
+    JSON.parse(polVaultsFileContent).vaults,
+  )
+  const polVaultsWithoutAddress = polVaults.filter(
+    (vault) => !('address' in vault),
+  )
+
+  checkAndDeploy({
+    type: 'pol-vaults',
+    vaults: polVaults,
+    vaultsWithoutAddress: polVaultsWithoutAddress,
+  })
 }
 
 deployNewVaults()
