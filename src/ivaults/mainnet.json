@@ -12,6 +12,19 @@
           "forced": true
         }
       ]
+    },
+    {
+      "address": "0x49ccb2fea875beb68c7f010193990105ea84f384",
+      "beraRewardVault": "0x9df027ed06635ecdfe811009f2291d347ea90357",
+      "depositTokenAddress": "0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf",
+      "description": "Test. Do not use",
+      "slug": "kodiak-wbtc-honey",
+      "upgradeableVaults": [
+        {
+          "address": "0xbbb228b0d7d83f86e23a5ef3b1007d0100581613",
+          "forced": true
+        }
+      ]
     }
   ]
 }
