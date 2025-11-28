@@ -12,6 +12,13 @@
           "forced": true
         }
       ]
+    },
+    {
+      "address": "0xce083277a1756f540eb8bee3718c5b2367fb26a8",
+      "beraRewardVault": "0x9145aefd784c58219b18c23372155d18c9bcd7e9",
+      "depositTokenAddress": "0x939f1b6f513c3d62eb25c7e057ed8bb24021a000",
+      "description": "A single‑LP strategy on Berachain for the BYUSD-HONEY pair. It offers a conservative stablecoin LP option with steady returns and capital preservation.",
+      "slug": "byusd-kodiak"
     }
   ]
 }
