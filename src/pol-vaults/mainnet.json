@@ -1038,6 +1038,11 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "beraRewardVault": "0x7cfe21c7a6c61903f31e657f593d3cfd7e067c0c",
+      "depositTokenAddress": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
+      "slug": "bero-microfund"
     }
   ]
 }
