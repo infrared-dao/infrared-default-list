@@ -1814,7 +1814,7 @@
       "decimals": 18,
       "image": "byusd.svg",
       "imageNotFromUnderlying": true,
-      "kodiakTradingFee": 0.01,
+      "kodiakTradingFee": 0.0001,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x939f1b6f513c3d62eb25c7e057ed8bb24021a000?chain=berachain_mainnet",
       "name": "BYUSD",
       "protocol": "kodiak",
