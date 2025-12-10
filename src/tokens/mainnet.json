@@ -3113,6 +3113,15 @@
           "0x6969696969696969696969696969696969696969",
           "0x7838CEc5B11298Ff6a9513Fa385621B765C74174"
         ]
-      }
-    ]
-  }
+      },
+        {
+          "address": "0x7838CEc5B11298Ff6a9513Fa385621B765C74174",
+          "categories": ["project"],
+          "chainId": 80094,
+          "decimals": 18,
+          "image": "bero.svg",
+          "name": "Bero",
+          "symbol": "BERO"
+        }
+      ]
+    }
