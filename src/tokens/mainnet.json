@@ -3103,7 +3103,7 @@
       "address": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
       "chainId": 80094,
       "decimals": 18,
-      "image": "bero-bera.svg",
+      "image": "wbera-bero.svg",
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9ba04ed80a76417bb6b00cca4d9a645bba89386b?chain=berachain_mainnet",
       "name": "wbera-bero",
       "protocol": "beradrome",
