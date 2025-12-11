@@ -64,6 +64,15 @@
       "symbol": "BERAMO"
     },
     {
+      "address": "0x7838cec5b11298ff6a9513fa385621b765c74174",
+      "categories": ["project"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "bero.svg",
+      "name": "Beradrome",
+      "symbol": "BERO"
+    },
+    {
       "address": "0x656b95e550c07a9ffe548bd4085c72418ceb1dba",
       "categories": ["bera"],
       "chainId": 80094,
@@ -2351,6 +2360,22 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0x89d2e832edaaff8c228a57a1602a1f7950ea2d39"
+      ]
+    },
+    {
+      "address": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wbera-bero.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9ba04ed80a76417bb6b00cca4d9a645bba89386b?chain=berachain_mainnet",
+      "name": "wbera-bero",
+      "protocol": "kodiak",
+      "symbol": "KODI WBERA-BERO",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x7838cec5b11298ff6a9513fa385621b765c74174"
       ]
     },
     {

@@ -691,6 +691,12 @@
       "slug": "kodiak-wbera-avl"
     },
     {
+      "address": "0xa0e2ede45ec5220facc4a4ce8b53fe2efc268f4d",
+      "beraRewardVault": "0x7cfe21c7a6c61903f31e657f593d3cfd7e067c0c",
+      "depositTokenAddress": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
+      "slug": "kodiak-wbera-bero"
+    },
+    {
       "address": "0x777b9405775ed87681735e5e88b9d764b142c41e",
       "beraRewardVault": "0x524fc4f013d66e9fed424e58c5ada7d5b139761d",
       "depositTokenAddress": "0x2cafe99db26cf86ae8587f5934830d25ad5c3cb3",
