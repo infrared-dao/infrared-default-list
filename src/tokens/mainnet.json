@@ -3098,30 +3098,30 @@
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
       ]
-   },
-      {
-        "address": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
-        "chainId": 80094,
-        "decimals": 18,
-        "image": "bero-bera.svg",
-        "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9ba04ed80a76417bb6b00cca4d9a645bba89386b?chain=berachain_mainnet",
-        "name": "wbera-bero",
-        "protocol": "beradrome",
-        "symbol": "KODI WBERA-BERO",
-        "type": "amm",
-        "underlyingTokens": [
-          "0x6969696969696969696969696969696969696969",
-          "0x7838CEc5B11298Ff6a9513Fa385621B765C74174"
-        ]
-      },
-        {
-          "address": "0x7838CEc5B11298Ff6a9513Fa385621B765C74174",
-          "categories": ["project"],
-          "chainId": 80094,
-          "decimals": 18,
-          "image": "bero.svg",
-          "name": "Bero",
-          "symbol": "BERO"
-        }
+    },
+    {
+      "address": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "bero-bera.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9ba04ed80a76417bb6b00cca4d9a645bba89386b?chain=berachain_mainnet",
+      "name": "wbera-bero",
+      "protocol": "beradrome",
+      "symbol": "KODI WBERA-BERO",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0x7838CEc5B11298Ff6a9513Fa385621B765C74174"
       ]
+    },
+    {
+      "address": "0x7838CEc5B11298Ff6a9513Fa385621B765C74174",
+      "categories": ["project"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "bero.svg",
+      "name": "Bero",
+      "symbol": "BERO"
     }
+  ]
+}
