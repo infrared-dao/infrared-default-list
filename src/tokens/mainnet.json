@@ -37,7 +37,7 @@
       "symbol": "BEE"
     },
     {
-      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
@@ -871,7 +871,7 @@
       "protocol": "berachain",
       "symbol": "WBERA",
       "type": "unknown",
-      "underlyingTokens": ["0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"]
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
     },
     {
       "address": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
@@ -1680,7 +1680,7 @@
       "protocol": "infrared",
       "symbol": "iBERA",
       "type": "unknown",
-      "underlyingTokens": ["0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"]
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
     },
     {
       "address": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
@@ -3111,11 +3111,11 @@
       "type": "amm",
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
-        "0x7838CEc5B11298Ff6a9513Fa385621B765C74174"
+        "0x7838cec5b11298ff6a9513fa385621b765c74174"
       ]
     },
     {
-      "address": "0x7838CEc5B11298Ff6a9513Fa385621B765C74174",
+      "address": "0x7838cec5b11298ff6a9513fa385621b765c74174",
       "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
