@@ -433,21 +433,25 @@
       "slug": "kodiak-beramo-wbera"
     },
     {
+      "address": "",
       "beraRewardVault": "0x3FEfB206CAFff7EEefc235592cb892549BbAEA48",
       "depositTokenAddress": "0x81cE513cBA2563A0b28A65590a91258A787F0fE9",
       "slug": "kodiak-bera-ir"
     },
     {
+      "address": "",
       "beraRewardVault": "0xB0A43571178Bd0FaFb2d2def02037Ed061Ce4919",
       "depositTokenAddress": "0xaE5d9f1069e50ce400b7d9Ee44B0957EdDc4d23A",
       "slug": "charm-wbera-ir"
     },
     {
+      "address": "",
       "beraRewardVault": "0xE57D86eE9D28B22dE1EF967d6104248bD6a52dAD",
       "depositTokenAddress": "0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
       "slug": "charm-usdt0-ir"
     },
     {
+      "address": "",
       "beraRewardVault": "0xcDdbD6ddFf8cB34B8E561BDeDB3E16a6e5b5FDBb",
       "depositTokenAddress": "0x200c2c7879E885Ed9d6A5d2aD4F6Cdfc525A52C4",
       "slug": "kodiak-usdt0-ir"
