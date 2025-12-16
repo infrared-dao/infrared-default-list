@@ -1514,6 +1514,21 @@
       ]
     },
     {
+      "address": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ir-bera.svg",
+      "mintUrl": "https://app.charm.fi/berachain/vault/0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
+      "name": "IR-BERA",
+      "protocol": "charm",
+      "symbol": "i-IR-BERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
+      ]
+    },
+    {
       "address": "0x92e9fd03208b9291791c46d1bd8253f678c24ec7",
       "chainId": 80094,
       "decimals": 18,
@@ -1526,21 +1541,6 @@
       "underlyingTokens": [
         "0x779ded0c9e1022225f8e0630b35a9b54be713736",
         "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
-      ]
-    },
-    {
-      "address": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "ir-wbera.svg",
-      "mintUrl": "https://app.charm.fi/berachain/vault/0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
-      "name": "IR-WBERA",
-      "protocol": "charm",
-      "symbol": "i-IR-BERA",
-      "type": "vault",
-      "underlyingTokens": [
-        "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9",
-        "0x6969696969696969696969696969696969696969"
       ]
     },
     {
