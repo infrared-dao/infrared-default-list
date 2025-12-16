@@ -299,6 +299,15 @@
       "symbol": "HONEY"
     },
     {
+      "address": "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9",
+      "categories": ["bera"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ir.svg",
+      "name": "Infrared Governance Token",
+      "symbol": "IR"
+    },
+    {
       "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
       "categories": ["project"],
       "chainId": 80094,
@@ -687,15 +696,6 @@
       "symbol": "wiBGT"
     },
     {
-      "address": "0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9",
-      "categories": ["bera"],
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "ir.svg",
-      "name": "Infrared Governance Token",
-      "symbol": "IR"
-    },
-    {
       "address": "0x01c8a5ccad23a4d3764ef71c403862160aa2913a",
       "categories": ["project"],
       "chainId": 80094,
@@ -812,66 +812,6 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5"
-      ]
-    },
-    {
-      "address": "0x81cE513cBA2563A0b28A65590a91258A787F0fE9",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "bera-ir.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x81cE513cBA2563A0b28A65590a91258A787F0fE9?chain=berachain_mainnet",
-      "name": "WBERA-IR",
-      "protocol": "kodiak",
-      "symbol": "KODI WBERA-IR",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x6969696969696969696969696969696969696969",
-        "0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9"
-      ]
-    },
-    {
-      "address": "0xaE5d9f1069e50ce400b7d9Ee44B0957EdDc4d23A",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "wbera-ir.svg",
-      "mintUrl": "https://app.charm.fi/berachain/vault/0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
-      "name": "IR-BERA",
-      "protocol": "charm",
-      "symbol": "i-IR-BERA",
-      "type": "yield",
-      "underlyingTokens": [
-        "0x6969696969696969696969696969696969696969",
-        "0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9"
-      ]
-    },
-    {
-      "address": "0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "usdt0-ir.svg",
-      "mintUrl": "https://app.charm.fi/berachain/vault/0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
-      "name": "IR-USDT0",
-      "protocol": "charm",
-      "symbol": "i-IR-USDT0",
-      "type": "yield",
-      "underlyingTokens": [
-        "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
-        "0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9"
-      ]
-    },
-    {
-      "address": "0x200c2c7879E885Ed9d6A5d2aD4F6Cdfc525A52C4",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "usdt0-ir.svg",
-      "mintUrl": "https://app.charm.fi/berachain/vault/0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
-      "name": "Kodiak Island USD₮0-IR",
-      "protocol": "kodiak",
-      "symbol": "KODI USD₮0-IR",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
-        "0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9"
       ]
     },
     {
@@ -1571,6 +1511,36 @@
         "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
         "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
         "0xcc0966d8418d412c599a6421b760a847eb169a8c"
+      ]
+    },
+    {
+      "address": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ir-bera.svg",
+      "mintUrl": "https://app.charm.fi/berachain/vault/0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
+      "name": "IR-BERA",
+      "protocol": "charm",
+      "symbol": "i-IR-BERA",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
+      ]
+    },
+    {
+      "address": "0x92e9fd03208b9291791c46d1bd8253f678c24ec7",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "ir-usdt0.svg",
+      "mintUrl": "https://app.charm.fi/berachain/vault/0x92e9fd03208b9291791c46d1bd8253f678c24ec7",
+      "name": "IR-USDT0",
+      "protocol": "charm",
+      "symbol": "i-IR-USDT0",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+        "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
       ]
     },
     {
@@ -2352,6 +2322,22 @@
       ]
     },
     {
+      "address": "0x200c2c7879e885ed9d6a5d2ad4f6cdfc525a52c4",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "kodi-usdt0-ir.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x200c2c7879e885ed9d6a5d2ad4f6cdfc525a52c4?chain=berachain_mainnet",
+      "name": "USD₮0-IR",
+      "protocol": "kodiak",
+      "symbol": "KODI USD₮0-IR",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+        "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
+      ]
+    },
+    {
       "address": "0x28a54eaeec63fbb1175d13466a9ada5f3175d577",
       "chainId": 80094,
       "decimals": 18,
@@ -2557,6 +2543,22 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b"
+      ]
+    },
+    {
+      "address": "0x81ce513cba2563a0b28a65590a91258a787f0fe9",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wbera-ir.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x81ce513cba2563a0b28a65590a91258a787f0fe9?chain=berachain_mainnet",
+      "name": "WBERA-IR",
+      "protocol": "kodiak",
+      "symbol": "KODI WBERA-IR",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
       ]
     },
     {
