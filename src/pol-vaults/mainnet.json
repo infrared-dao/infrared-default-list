@@ -319,16 +319,16 @@
       "slug": "burrbear-wbtc-solvbtc-xsolvbtc"
     },
     {
-      "address": "0x665309b28df821ad78d997ef2ed57e8334189694",
-      "beraRewardVault": "0xb0a43571178bd0fafb2d2def02037ed061ce4919",
-      "depositTokenAddress": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
-      "slug": "charm-ir-bera"
-    },
-    {
       "address": "0x41c4114e64ecd72c783dc73b932edd55625588ce",
       "beraRewardVault": "0xe57d86ee9d28b22de1ef967d6104248bd6a52dad",
       "depositTokenAddress": "0x92e9fd03208b9291791c46d1bd8253f678c24ec7",
       "slug": "charm-ir-usdt0"
+    },
+    {
+      "address": "0x665309b28df821ad78d997ef2ed57e8334189694",
+      "beraRewardVault": "0xb0a43571178bd0fafb2d2def02037ed061ce4919",
+      "depositTokenAddress": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
+      "slug": "charm-ir-wbera"
     },
     {
       "address": "0xf3116662717b199ec9b44f119dc1ae2eb5d9ea7d",
