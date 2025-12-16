@@ -2325,7 +2325,7 @@
       "address": "0x200c2c7879e885ed9d6a5d2ad4f6cdfc525a52c4",
       "chainId": 80094,
       "decimals": 18,
-      "image": "usdt0-ir.svg",
+      "image": "kodi-usdt0-ir.svg",
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x200c2c7879e885ed9d6a5d2ad4f6cdfc525a52c4?chain=berachain_mainnet",
       "name": "USD₮0-IR",
