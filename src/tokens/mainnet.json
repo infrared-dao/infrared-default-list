@@ -304,9 +304,9 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "ir.svg",
+      "isUnpriced": true,
       "name": "Infrared Governance Token",
-      "symbol": "IR",
-      "isUnpriced": true
+      "symbol": "IR"
     },
     {
       "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
@@ -1519,12 +1519,12 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "ir-usdt0.svg",
+      "isUnpriced": true,
       "mintUrl": "https://app.charm.fi/berachain/vault/0x92e9fd03208b9291791c46d1bd8253f678c24ec7",
       "name": "IR-USDT0",
       "protocol": "charm",
       "symbol": "i-IR-USDT0",
       "type": "vault",
-      "isUnpriced": true,
       "underlyingTokens": [
         "0x779ded0c9e1022225f8e0630b35a9b54be713736",
         "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9"
@@ -1535,12 +1535,12 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "ir-wbera.svg",
+      "isUnpriced": true,
       "mintUrl": "https://app.charm.fi/berachain/vault/0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
       "name": "IR-WBERA",
       "protocol": "charm",
       "symbol": "i-IR-BERA",
       "type": "vault",
-      "isUnpriced": true,
       "underlyingTokens": [
         "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9",
         "0x6969696969696969696969696969696969696969"
@@ -2329,11 +2329,11 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "usdt0-ir.svg",
+      "isUnpriced": true,
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x200c2c7879e885ed9d6a5d2ad4f6cdfc525a52c4?chain=berachain_mainnet",
       "name": "USD₮0-IR",
       "protocol": "kodiak",
-      "isUnpriced": true,
       "symbol": "KODI USD₮0-IR",
       "type": "amm",
       "underlyingTokens": [
@@ -2554,11 +2554,11 @@
       "chainId": 80094,
       "decimals": 18,
       "image": "wbera-ir.svg",
+      "isUnpriced": true,
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x81ce513cba2563a0b28a65590a91258a787f0fe9?chain=berachain_mainnet",
       "name": "WBERA-IR",
       "protocol": "kodiak",
-      "isUnpriced": true,
       "symbol": "KODI WBERA-IR",
       "type": "amm",
       "underlyingTokens": [
