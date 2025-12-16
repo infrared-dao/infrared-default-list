@@ -667,6 +667,7 @@
       ]
     },
     {
+      "address": "0xad923c0e6540c6b59201f2cae1a3b9f54bdac9ae",
       "beraRewardVault": "0xdbed07712725ce298d28328cd441e0f057c0090e",
       "depositTokenAddress": "0x0c844d3e259a0259668abff3431900b28d780797",
       "slug": "kodiak-usdc.e-honey-0.01"
