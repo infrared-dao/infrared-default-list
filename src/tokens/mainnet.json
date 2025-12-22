@@ -3211,6 +3211,28 @@
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
       ]
+    },
+    {
+      "address": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "sailr-usde.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb350944be03cf5f795f48b63eaa542df6a3c8505?&chain=berachain_mainnet",
+      "name": "SAIL.r-USDe",
+      "protocol": "kodiak",
+      "symbol": "KODI SAIL.r-USDe",
+      "type": "amm",
+      "underlyingTokens": ["0x59a61B8d3064A51a95a5D6393c03e2152b1a2770", "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"]
+    },
+    {
+      "address": "0x59a61B8d3064A51a95a5D6393c03e2152b1a2770",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "sailr.svg",
+      "name": "SailOut Royalty",
+      "protocol": "liquidroyalty",
+      "symbol": "SAIL.r",
+      "type": "rwa"
     }
   ]
 }

@@ -468,6 +468,14 @@
       "products": ["iBGT"],
       "type": "money-market",
       "url": "https://zerolend.xyz"
+    },
+    {
+      "description": "RWA protocol that tokenizes E-commerce cashflows into liquid royalties.",
+      "id": "liquidroyalty",
+      "imageDark": "liquidroyalty-dark.svg",
+      "imageLight": "liquidroyalty-light.svg",
+      "name": "LiquidRoyalty",
+      "url": "https://liquidroyalty.com"
     }
   ]
 }
