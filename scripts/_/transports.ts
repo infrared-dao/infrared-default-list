@@ -1,6 +1,6 @@
 import { config } from 'dotenv'
 import { fallback, http } from 'viem'
-import { berachain, berachainBepolia } from 'viem/chains'
+import { berachain, berachainBepolia, bsc } from 'viem/chains'
 
 config()
 
@@ -17,4 +17,5 @@ export const transports = {
     ),
     http(),
   ]),
+  [bsc.id]: fallback([http('https://binance.llamarpc.com')]),
 }
