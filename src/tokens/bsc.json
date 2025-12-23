@@ -1,0 +1,13 @@
+{
+  "tokens": [
+    {
+      "address": "0xace9de5af92eb82a97a5973b00eff85024bdcb39",
+      "categories": ["bera"],
+      "chainId": 56,
+      "decimals": 18,
+      "image": "ir.svg",
+      "name": "Infrared Governance Token",
+      "symbol": "IR"
+    }
+  ]
+}

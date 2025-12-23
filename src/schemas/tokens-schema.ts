@@ -12,7 +12,7 @@ import {
   union,
   url,
 } from 'valibot'
-import { berachain, berachainBepolia } from 'viem/chains'
+import { berachain, berachainBepolia, bsc } from 'viem/chains'
 
 import { AddressSchema } from './address-schema'
 
@@ -43,7 +43,7 @@ export const tokenCategoriesList = [
 export const TokenCategoriesSchema = array(picklist(tokenCategoriesList))
 export type TokenCategories = InferOutput<typeof TokenCategoriesSchema>
 
-export const chainIds = picklist([berachain.id, berachainBepolia.id])
+export const chainIds = picklist([berachain.id, berachainBepolia.id, bsc.id])
 
 export const DefaultListBasicTokenSchema = strictObject({
   address: AddressSchema,
