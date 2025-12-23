@@ -347,6 +347,15 @@
       "url": "https://origami.finance"
     },
     {
+      "description": "PancakeSwap Infinity - next-gen concentrated liquidity AMM on BNB Chain.",
+      "id": "pancakeswap_infinity",
+      "imageDark": "pancakeswap.svg",
+      "imageLight": "pancakeswap.svg",
+      "name": "PancakeSwap Infinity",
+      "type": "dex",
+      "url": "https://pancakeswap.finance"
+    },
+    {
       "description": "Unlocking liquidity for bespoke assets on berachain via NFT money market",
       "id": "paddlefi",
       "imageDark": "paddlefi.svg",

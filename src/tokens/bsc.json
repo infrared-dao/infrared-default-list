@@ -8,6 +8,27 @@
       "image": "ir.svg",
       "name": "Infrared Governance Token",
       "symbol": "IR"
+    },
+    {
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "image": "wbnb.svg",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB"
+    },
+    {
+      "address": "0xd9b7a1d544432b0bacac321ccf543f3a23ae55de9709b2cf6664ab83f4cbe0a4",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "PancakeSwap Infinity IR-WBNB",
+      "protocol": "pancakeswap_infinity",
+      "symbol": "CAKE-INF-IR-WBNB",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xace9de5af92eb82a97a5973b00eff85024bdcb39",
+        "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+      ]
     }
   ]
 }
