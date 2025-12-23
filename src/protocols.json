@@ -291,6 +291,15 @@
       "url": "https://lair.fi"
     },
     {
+      "description": "RWA protocol that tokenizes E-commerce cashflows into liquid royalties.",
+      "id": "liquidroyalty",
+      "imageDark": "liquidroyalty-dark.svg",
+      "imageLight": "liquidroyalty-light.svg",
+      "name": "LiquidRoyalty",
+      "type": "yield",
+      "url": "https://liquidroyalty.com"
+    },
+    {
       "description": "Yield infrastructure that's native, scalable, and built to last.",
       "id": "miso",
       "imageDark": "miso.svg",

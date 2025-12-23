@@ -525,6 +525,15 @@
       "symbol": "rUSD"
     },
     {
+      "address": "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+      "categories": ["project"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "sail-r.svg",
+      "name": "SailOut Royalty",
+      "symbol": "SAIL.r"
+    },
+    {
       "address": "0x225b86198ba36321a8a840291416aed62494043f",
       "categories": ["solana"],
       "chainId": 80094,
@@ -2175,6 +2184,22 @@
       "underlyingTokens": [
         "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
         "0x779ded0c9e1022225f8e0630b35a9b54be713736"
+      ]
+    },
+    {
+      "address": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "sail-r-usde.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb350944be03cf5f795f48b63eaa542df6a3c8505?chain=berachain_mainnet",
+      "name": "SAIL.r-USDe",
+      "protocol": "kodiak",
+      "symbol": "KODI SAIL.r-USDe",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+        "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
       ]
     },
     {
