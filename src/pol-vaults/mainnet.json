@@ -595,6 +595,12 @@
       "slug": "kodiak-rusd-usd₮0"
     },
     {
+      "address": "0xefdc983b67b6ac8baf676031dc2024a399d23a99",
+      "beraRewardVault": "0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8",
+      "depositTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
+      "slug": "kodiak-sail.r-usde"
+    },
+    {
       "address": "0xb706af0babbe38ec4c7d897c3182c1d301491bda",
       "beraRewardVault": "0x0767038700605b50967eea1e6440d6fd6c92c237",
       "depositTokenAddress": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
@@ -1086,12 +1092,6 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
-    },
-    {
-      "address": "0xefdc983b67b6ac8baf676031dc2024a399d23a99",
-      "beraRewardVault": "0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8",
-      "depositTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
-      "slug": "kodiak-sail.r-usde"
     }
   ]
 }
