@@ -1088,6 +1088,7 @@
       "slug": "yeetarded-buyback"
     },
     {
+      "address": "0xefdc983b67b6ac8baf676031dc2024a399d23a99",
       "beraRewardVault": "0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8",
       "depositTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
       "slug": "kodiak-sail.r-usde"
