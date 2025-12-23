@@ -475,6 +475,7 @@
       "imageDark": "liquidroyalty-dark.svg",
       "imageLight": "liquidroyalty-light.svg",
       "name": "LiquidRoyalty",
+      "type": "yield",
       "url": "https://liquidroyalty.com"
     }
   ]

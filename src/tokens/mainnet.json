@@ -37,7 +37,7 @@
       "symbol": "BEE"
     },
     {
-      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       "categories": ["bera"],
       "chainId": 80094,
       "decimals": 18,
@@ -889,7 +889,7 @@
       "protocol": "berachain",
       "symbol": "WBERA",
       "type": "unknown",
-      "underlyingTokens": ["0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"]
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
     },
     {
       "address": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
@@ -1728,7 +1728,7 @@
       "protocol": "infrared",
       "symbol": "iBERA",
       "type": "unknown",
-      "underlyingTokens": ["0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"]
+      "underlyingTokens": ["0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"]
     },
     {
       "address": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
@@ -3216,23 +3216,26 @@
       "address": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
       "chainId": 80094,
       "decimals": 18,
-      "image": "sailr-usde.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb350944be03cf5f795f48b63eaa542df6a3c8505?&chain=berachain_mainnet",
+      "image": "sail-r-usde.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb350944be03cf5f795f48b63eaa542df6a3c8505?chain=berachain_mainnet",
       "name": "SAIL.r-USDe",
       "protocol": "kodiak",
       "symbol": "KODI SAIL.r-USDe",
       "type": "amm",
-      "underlyingTokens": ["0x59a61B8d3064A51a95a5D6393c03e2152b1a2770", "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"]
+      "underlyingTokens": [
+        "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+        "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+      ]
     },
     {
-      "address": "0x59a61B8d3064A51a95a5D6393c03e2152b1a2770",
+      "address": "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+      "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
-      "image": "sailr.svg",
+      "image": "sail-r.svg",
       "name": "SailOut Royalty",
-      "protocol": "liquidroyalty",
-      "symbol": "SAIL.r",
-      "type": "rwa"
+      "symbol": "SAIL.r"
     }
   ]
 }
