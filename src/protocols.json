@@ -347,15 +347,6 @@
       "url": "https://origami.finance"
     },
     {
-      "description": "PancakeSwap Infinity - next-gen concentrated liquidity AMM on BNB Chain.",
-      "id": "pancakeswap_infinity",
-      "imageDark": "pancakeswap-infinity.svg",
-      "imageLight": "pancakeswap-infinity.svg",
-      "name": "PancakeSwap Infinity",
-      "type": "dex",
-      "url": "https://pancakeswap.finance"
-    },
-    {
       "description": "Unlocking liquidity for bespoke assets on berachain via NFT money market",
       "id": "paddlefi",
       "imageDark": "paddlefi.svg",
@@ -363,6 +354,15 @@
       "name": "PaddleFi",
       "type": "unknown",
       "url": "https://dapp.paddlefi.com/moneymarket"
+    },
+    {
+      "description": "PancakeSwap Infinity - next-gen concentrated liquidity AMM on BNB Chain.",
+      "id": "pancakeswap_infinity",
+      "imageDark": "pancakeswap-infinity.svg",
+      "imageLight": "pancakeswap-infinity.svg",
+      "name": "PancakeSwap Infinity",
+      "type": "dex",
+      "url": "https://pancakeswap.finance"
     },
     {
       "description": "Tokenize and trade future yield. Unlock fixed rates or speculate across yield curves.",

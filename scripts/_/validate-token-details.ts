@@ -1,5 +1,10 @@
 import { parse } from 'valibot'
-import { type Address, isAddress, isAddressEqual, type PublicClient } from 'viem'
+import {
+  type Address,
+  isAddress,
+  isAddressEqual,
+  type PublicClient,
+} from 'viem'
 
 import {
   type DefaultListProtocol,
