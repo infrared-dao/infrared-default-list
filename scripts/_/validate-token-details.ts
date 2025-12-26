@@ -1,5 +1,5 @@
 import { parse } from 'valibot'
-import { type Address, isAddressEqual, type PublicClient } from 'viem'
+import { type Address, isAddress, isAddressEqual, type PublicClient } from 'viem'
 
 import {
   type DefaultListProtocol,
@@ -177,7 +177,12 @@ export const validateTokenDetails = async ({
     value: lowercasedAddress,
   })
 
-  await validateDecimals({ errors, publicClient, token })
+  // Skip on-chain validation for non-standard addresses (e.g., 32-byte pool IDs)
+  const isStandardAddress = isAddress(token.address)
+
+  if (isStandardAddress) {
+    await validateDecimals({ errors, publicClient, token })
+  }
   await validateTokenImage({
     errors,
     token,
@@ -185,23 +190,25 @@ export const validateTokenDetails = async ({
   validateMintUrl({ errors, token })
   validateProtocol({ errors, token })
 
-  const onChainSymbol = await getTokenSymbol({
-    errors,
-    publicClient,
-    tokenAddress: token.address as Address,
-  })
-  const onChainName = await getTokenName({
-    errors,
-    publicClient,
-    tokenAddress: token.address as Address,
-  })
+  if (isStandardAddress) {
+    const onChainSymbol = await getTokenSymbol({
+      errors,
+      publicClient,
+      tokenAddress: token.address as Address,
+    })
+    const onChainName = await getTokenName({
+      errors,
+      publicClient,
+      tokenAddress: token.address as Address,
+    })
 
-  validateSymbol({ errors, onChainSymbol, token })
-  validateName({
-    errors,
-    onChainName,
-    onChainSymbol,
-    token,
-    tokens,
-  })
+    validateSymbol({ errors, onChainSymbol, token })
+    validateName({
+      errors,
+      onChainName,
+      onChainSymbol,
+      token,
+      tokens,
+    })
+  }
 }

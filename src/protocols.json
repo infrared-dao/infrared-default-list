@@ -349,8 +349,8 @@
     {
       "description": "PancakeSwap Infinity - next-gen concentrated liquidity AMM on BNB Chain.",
       "id": "pancakeswap_infinity",
-      "imageDark": "pancakeswap.svg",
-      "imageLight": "pancakeswap.svg",
+      "imageDark": "pancakeswap-infinity.svg",
+      "imageLight": "pancakeswap-infinity.svg",
       "name": "PancakeSwap Infinity",
       "type": "dex",
       "url": "https://pancakeswap.finance"
