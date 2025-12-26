@@ -2,7 +2,7 @@ import { type Address, isAddress, isAddressEqual } from 'viem'
 
 import { BERA_TOKEN_ADDRESS } from './constants'
 
-export const lowercaseAddress = (address: Address) => {
+export const lowercaseAddress = (address: string) => {
   // Handle 32-byte pool IDs (e.g., PancakeSwap Infinity)
   if (!isAddress(address)) {
     return address.toLowerCase() as Address
