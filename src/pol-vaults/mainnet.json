@@ -523,6 +523,24 @@
       "slug": "kodiak-ibgt-wgbera"
     },
     {
+      "address": "0x81fc9eefb24116126e6485fcff8903da9db8cfbf",
+      "beraRewardVault": "0x89950d29bdab58670b295523da15623ec36c91ca",
+      "depositTokenAddress": "0x393c64d313dc53f06e6228de9b71bed225e21c62",
+      "slug": "kodiak-kdk-usdt0"
+    },
+    {
+      "address": "0x48545a967a5ca4c0a0d0d9fcf1a06dcc046e834a",
+      "beraRewardVault": "0x753291a2f75845c7d0b92d9c8b1636fc1f2f74a6",
+      "depositTokenAddress": "0x4a25873f367261bf6bdd975ef836c5fd20bace30",
+      "slug": "kodiak-kdk-wbera"
+    },
+    {
+      "address": "0x7462210d148a7e9e18fe104aab6e5d81ded5e072",
+      "beraRewardVault": "0x14ba3f6d434c67cd8dce2ed7f66f74b62bfc6c32",
+      "depositTokenAddress": "0x862050d3cbf4d8f7b9d2b6e0798ac4675f83cbe3",
+      "slug": "kodiak-kdk-wbtc"
+    },
+    {
       "address": "0x6cfdd1f44a09afc9c452824086e9e4f3a90f2b1e",
       "beraRewardVault": "0xca098a50efd1dc1403f2d601a381c99e16313456",
       "depositTokenAddress": "0xe98763d61ab493a55963583bcdd854580e084b5b",

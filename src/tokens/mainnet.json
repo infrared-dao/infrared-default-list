@@ -308,6 +308,15 @@
       "symbol": "IR"
     },
     {
+      "address": "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df",
+      "categories": ["bera"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "kdk.svg",
+      "name": "Kodiak token",
+      "symbol": "KDK"
+    },
+    {
       "address": "0x273c832797bfda1c0826a786670d041282bd6afc",
       "categories": ["project"],
       "chainId": 80094,
@@ -2008,6 +2017,54 @@
       "underlyingTokens": [
         "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
+      ]
+    },
+    {
+      "address": "0x393c64d313dc53f06e6228de9b71bed225e21c62",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "kdk-usdt0.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x393c64d313dc53f06e6228de9b71bed225e21c62?chain=berachain_mainnet",
+      "name": "KDK-USDT0",
+      "protocol": "kodiak",
+      "symbol": "KODI USD₮0-KDK",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+        "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df"
+      ]
+    },
+    {
+      "address": "0x4a25873f367261bf6bdd975ef836c5fd20bace30",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "kdk-wbera.svg",
+      "kodiakTradingFee": 0.0005,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4a25873f367261bf6bdd975ef836c5fd20bace30?chain=berachain_mainnet",
+      "name": "KDK-WBERA",
+      "protocol": "kodiak",
+      "symbol": "KODI WBERA-KDK",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df"
+      ]
+    },
+    {
+      "address": "0x862050d3cbf4d8f7b9d2b6e0798ac4675f83cbe3",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "kdk-wbtc.svg",
+      "kodiakTradingFee": 0.0005,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x862050d3cbf4d8f7b9d2b6e0798ac4675f83cbe3?chain=berachain_mainnet",
+      "name": "KDK-WBTC",
+      "protocol": "kodiak",
+      "symbol": "KODI WBTC-KDK",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+        "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df"
       ]
     },
     {
