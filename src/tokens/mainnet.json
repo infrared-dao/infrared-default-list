@@ -2522,7 +2522,7 @@
       "image": "wbera-bero.svg",
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x9ba04ed80a76417bb6b00cca4d9a645bba89386b?chain=berachain_mainnet",
-      "name": "wbera-bero",
+      "name": "WBERA-BERO",
       "protocol": "kodiak",
       "symbol": "KODI WBERA-BERO",
       "type": "amm",
