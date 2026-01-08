@@ -29,6 +29,24 @@
       "symbol": "HONEY"
     },
     {
+      "address": "0x58c3378b89d84f966034f57bcc331323b3ca1b28",
+      "categories": ["bera"],
+      "chainId": 80069,
+      "decimals": 18,
+      "image": "ir.svg",
+      "name": "Infrared Governance Token",
+      "symbol": "IR"
+    },
+    {
+      "address": "0x3aa75c88653f4c9f5c2a107c42de7091bb0a258a",
+      "categories": ["bera"],
+      "chainId": 80069,
+      "decimals": 18,
+      "image": "sir.svg",
+      "name": "Staked IR",
+      "symbol": "sIR"
+    },
+    {
       "address": "0x6969696969696969696969696969696969696969",
       "categories": ["bera"],
       "chainId": 80069,
