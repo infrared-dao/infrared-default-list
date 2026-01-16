@@ -1662,6 +1662,18 @@
       "underlyingTokens": ["0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"]
     },
     {
+      "address": "0x561fee9518c2417d9e85dc295c829eeee7bfc255",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "dwgbera.svg",
+      "mintUrl": "https://app.dolomite.io/earn",
+      "name": "dwgBERA",
+      "protocol": "dolomite",
+      "symbol": "dwgBERA",
+      "type": "cdp",
+      "underlyingTokens": ["0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"]
+    },
+    {
       "address": "0x46fcd35431f5b371224acc2e2e91732867b1a77e",
       "chainId": 80094,
       "decimals": 8,
@@ -3301,20 +3313,6 @@
       "underlyingTokens": [
         "0x08a38caa631de329ff2dad1656ce789f31af3142",
         "0xd2c41bf4033a83c0fc3a7f58a392bf37d6dcdb58"
-      ]
-    },
-    {
-      "address": "0x561Fee9518c2417d9E85dC295c829eEeE7BFC255",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "dwgbera.svg",
-      "mintUrl": "https://app.dolomite.io/earn",
-      "name": "Dolomite: wgBERA",
-      "protocol": "dolomite",
-      "symbol": "dwgBERA",
-      "type": "cdp",
-      "underlyingTokens": [
-        "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
       ]
     }
   ]
