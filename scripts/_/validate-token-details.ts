@@ -137,7 +137,7 @@ const validateMintUrl = ({
       )
     }
   } else if ('protocol' in token && token.protocol === 'dolomite') {
-    const expectedMintUrl = `https://app.dolomite.io/balances`
+    const expectedMintUrl = `https://app.dolomite.io/earn`
     if (!token.mintUrl.startsWith(expectedMintUrl)) {
       errors.push(
         `${token.symbol} mintUrl is incorrect. It should be ${expectedMintUrl}`,

@@ -397,6 +397,12 @@
       ]
     },
     {
+      "address": "0x9a991079a9beb2a0a343c3dd245a44e0fa574cc1",
+      "beraRewardVault": "0xfdd6a6512a864c8775001c1962ac8ec2802ce820",
+      "depositTokenAddress": "0x561fee9518c2417d9e85dc295c829eeee7bfc255",
+      "slug": "dolomite-dwgbera"
+    },
+    {
       "address": "0x4ba0a69621ea72870f9fcf2d974d39b8609343cc",
       "beraRewardVault": "0x063df07b032e838de70165cdc39587a21910786e",
       "depositTokenAddress": "0x46fcd35431f5b371224acc2e2e91732867b1a77e",
