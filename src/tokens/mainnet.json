@@ -525,6 +525,15 @@
       "symbol": "RAMEN"
     },
     {
+      "address": "0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800",
+      "categories": ["project"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "smilee.svg",
+      "name": "Smilee",
+      "symbol": "SMILEE"
+    },
+    {
       "address": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
       "categories": ["stablecoin"],
       "chainId": 80094,
