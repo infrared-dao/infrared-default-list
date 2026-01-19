@@ -1080,6 +1080,21 @@
       ]
     },
     {
+      "address": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "smilee-honey.svg",
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?chain=berachain_mainnet",
+      "name": "SMILEE-HONEY",
+      "protocol": "kodiak",
+      "symbol": "KODI SMILEE-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800",
+        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+      ]
+    },
+    {
       "address": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab",
       "chainId": 80094,
       "decimals": 18,
