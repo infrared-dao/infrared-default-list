@@ -525,7 +525,7 @@
       "symbol": "RAMEN"
     },
     {
-      "address": "0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800",
+      "address": "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
       "categories": ["project"],
       "chainId": 80094,
       "decimals": 18,
@@ -1090,8 +1090,8 @@
       "symbol": "KODI SMILEE-HONEY",
       "type": "amm",
       "underlyingTokens": [
-        "0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800",
-        "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce"
+        "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
