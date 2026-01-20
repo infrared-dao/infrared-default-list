@@ -529,11 +529,6 @@
       "slug": "kodiak-ibgt-wgbera"
     },
     {
-      "beraRewardVault": "0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99",
-      "depositTokenAddress": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
-      "slug": "kodiak-smilee-honey"
-    },
-    {
       "address": "0x81fc9eefb24116126e6485fcff8903da9db8cfbf",
       "beraRewardVault": "0x89950d29bdab58670b295523da15623ec36c91ca",
       "depositTokenAddress": "0x393c64d313dc53f06e6228de9b71bed225e21c62",
@@ -628,6 +623,12 @@
       "beraRewardVault": "0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8",
       "depositTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
       "slug": "kodiak-sail.r-usde"
+    },
+    {
+      "address": "0x4ca48da86324774f86ed4225ce03d0db5246012e",
+      "beraRewardVault": "0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99",
+      "depositTokenAddress": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
+      "slug": "kodiak-smilee-honey"
     },
     {
       "address": "0xb706af0babbe38ec4c7d897c3182c1d301491bda",
