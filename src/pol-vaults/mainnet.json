@@ -625,6 +625,12 @@
       "slug": "kodiak-sail.r-usde"
     },
     {
+      "address": "0x4ca48da86324774f86ed4225ce03d0db5246012e",
+      "beraRewardVault": "0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99",
+      "depositTokenAddress": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
+      "slug": "kodiak-smilee-honey"
+    },
+    {
       "address": "0xb706af0babbe38ec4c7d897c3182c1d301491bda",
       "beraRewardVault": "0x0767038700605b50967eea1e6440d6fd6c92c237",
       "depositTokenAddress": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
