@@ -525,15 +525,6 @@
       "symbol": "RAMEN"
     },
     {
-      "address": "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
-      "categories": ["project"],
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "smilee.svg",
-      "name": "Smilee",
-      "symbol": "SMILEE"
-    },
-    {
       "address": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
       "categories": ["stablecoin"],
       "chainId": 80094,
@@ -559,6 +550,15 @@
       "image": "sir.svg",
       "name": "Staked IR",
       "symbol": "sIR"
+    },
+    {
+      "address": "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
+      "categories": ["project"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "smilee.svg",
+      "name": "Smilee",
+      "symbol": "SMILEE"
     },
     {
       "address": "0x225b86198ba36321a8a840291416aed62494043f",
@@ -1077,21 +1077,6 @@
       "underlyingTokens": [
         "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5",
         "0xd77552d3849ab4d8c3b189a9582d0ba4c1f4f912"
-      ]
-    },
-    {
-      "address": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "smilee-honey.svg",
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?chain=berachain_mainnet",
-      "name": "SMILEE-HONEY",
-      "protocol": "kodiak",
-      "symbol": "KODI SMILEE-HONEY",
-      "type": "amm",
-      "underlyingTokens": [
-        "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
@@ -2302,6 +2287,22 @@
       "underlyingTokens": [
         "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
         "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+      ]
+    },
+    {
+      "address": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "smilee-honey.svg",
+      "kodiakTradingFee": 0.01,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?chain=berachain_mainnet",
+      "name": "SMILEE-HONEY",
+      "protocol": "kodiak",
+      "symbol": "KODI SMILEE-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0xb2a12db2691fc05dca47b2be9a087077afaa0800",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
