@@ -1122,6 +1122,11 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
+    },
+    {
+      "beraRewardVault": "0x6cefb51b2c01d55d5e936a1ced25077aa961944c",
+      "depositTokenAddress": "0x09cea16a2563c2d7d807c86f5b8da760389b5915",
+      "slug": "liquidroyalty-alar-sailr"
     }
   ]
 }
