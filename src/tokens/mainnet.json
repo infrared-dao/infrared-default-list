@@ -3347,9 +3347,9 @@
       "image": "alar-sailr.svg",
       "mintUrl": "https://www.liquidroyalty.com/vaults",
       "name": "ALAR SailOut Royalty",
-      "protocol": "yeet",
+      "protocol": "liquidroyalty",
       "symbol": "ALAR SAIL.r",
-      "type": "rwa",
+      "type": "vault",
       "underlyingTokens": [
         "0x59a61B8d3064A51a95a5D6393c03e2152b1a2770",
         "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34"
