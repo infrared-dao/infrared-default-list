@@ -41,6 +41,7 @@
     "generate-token-images-and-clean-and-format": "pnpm generate-token-images && pnpm clean-assets && pnpm format",
     "lint": "concurrently \"pnpm format\" \"pnpm lint:ts\" \"pnpm type-check\"",
     "lint:ts": "eslint --cache --quiet --fix .",
+    "nuke-node-modules": "rm -rf node_modules pnpm-lock.yaml && pnpm i",
     "sort": "concurrently \"tsx scripts/sort-ivaults.ts\" \"tsx scripts/sort-pol-vaults.ts\" \"tsx scripts/sort-protocols.ts\" \"tsx scripts/sort-tokens.ts\"",
     "sort-and-format": "pnpm sort && pnpm format",
     "sort-package-json": "pnpm dlx sort-package-json",
