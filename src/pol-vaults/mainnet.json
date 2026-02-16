@@ -985,6 +985,12 @@
       "slug": "kuma-reward-token"
     },
     {
+      "address": "0xc21833ba1b0904273bbc70db1c105d81dcc035fb",
+      "beraRewardVault": "0x6cefb51b2c01d55d5e936a1ced25077aa961944c",
+      "depositTokenAddress": "0x09cea16a2563c2d7d807c86f5b8da760389b5915",
+      "slug": "liquidroyalty-alar-sailout-royalty"
+    },
+    {
       "address": "0xbc7f7524898945dc5ac2274bb181ae43cac21d6c",
       "beraRewardVault": "0x84cde2880f1c63253636501d757630c252678562",
       "depositTokenAddress": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
@@ -1122,12 +1128,6 @@
       "beraRewardVault": "0x366590179b477362adce1735419a38d574071b4c",
       "depositTokenAddress": "0x4e1d8c85a1061816b22c109b221dead1690f9c00",
       "slug": "yeetarded-buyback"
-    },
-    {
-      "address": "0xc21833ba1b0904273bbc70db1c105d81dcc035fb",
-      "beraRewardVault": "0x6cefb51b2c01d55d5e936a1ced25077aa961944c",
-      "depositTokenAddress": "0x09cea16a2563c2d7d807c86f5b8da760389b5915",
-      "slug": "liquidroyalty-alar-sailr"
     }
   ]
 }
