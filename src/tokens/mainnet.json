@@ -3058,6 +3058,22 @@
       ]
     },
     {
+      "address": "0x09cea16a2563c2d7d807c86f5b8da760389b5915",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "alar-sail-r.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://www.liquidroyalty.com/vaults",
+      "name": "ALAR SailOut Royalty",
+      "protocol": "liquidroyalty",
+      "symbol": "ALAR SAIL.r",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+        "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+      ]
+    },
+    {
       "address": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
       "chainId": 80094,
       "decimals": 18,
