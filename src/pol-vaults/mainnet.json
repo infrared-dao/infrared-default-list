@@ -991,9 +991,9 @@
       "slug": "liquidroyalty-alar-sailout-royalty"
     },
     {
-      "address": "",
-      "beraRewardVault": "0x18e310dD4A6179D9600E95D18926AB7819B2A071",
-      "depositTokenAddress": "0xC38421E5577250EBa177Bc5bC832E747bea13Ee0",
+      "address": "0xcccaf46d142988125290b5a13f417f6d6666793c",
+      "beraRewardVault": "0x18e310dd4a6179d9600e95d18926ab7819b2a071",
+      "depositTokenAddress": "0xc38421e5577250eba177bc5bc832e747bea13ee0",
       "slug": "liquidroyalty-snrusd"
     },
     {
