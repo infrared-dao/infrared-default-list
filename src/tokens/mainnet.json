@@ -3074,6 +3074,23 @@
       ]
     },
     {
+      "address": "0xc38421e5577250eba177bc5bc832e747bea13ee0",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "snrusd.svg",
+      "imageNotFromUnderlying": true,
+      "mintUrl": "https://www.liquidroyalty.com/vaults?tranche=senior",
+      "name": "Senior Vault",
+      "protocol": "liquidroyalty",
+      "symbol": "snrUSD",
+      "type": "vault",
+      "underlyingTokens": [
+        "0x59a61b8d3064a51a95a5d6393c03e2152b1a2770",
+        "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+        "0xb350944be03cf5f795f48b63eaa542df6a3c8505"
+      ]
+    },
+    {
       "address": "0xde1392209e55313284f144f8e76dcbb1c8a2eee3",
       "chainId": 80094,
       "decimals": 18,

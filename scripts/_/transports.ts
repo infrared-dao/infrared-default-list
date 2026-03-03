@@ -17,5 +17,5 @@ export const transports = {
     ),
     http(),
   ]),
-  [bsc.id]: fallback([http('https://binance.llamarpc.com')]),
+  [bsc.id]: fallback([http('https://binance.llamarpc.com'), http()]),
 }
