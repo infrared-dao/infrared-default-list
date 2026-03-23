@@ -67,7 +67,6 @@
     "dotenv-cli": "^11.0.0",
     "eslint": "9.39.2",
     "glob": "^13.0.6",
-    "globals": "^16.5.0",
     "prettier": "^3.8.1",
     "prettier-plugin-sort-json": "^4.2.0",
     "sharp": "^0.34.5",
