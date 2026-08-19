@@ -197,6 +197,15 @@
       "symbol": "BURR"
     },
     {
+      "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
+      "categories": ["stablecoin"],
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "busd.svg",
+      "name": "Bera USD",
+      "symbol": "BUSD"
+    },
+    {
       "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
       "categories": ["stablecoin"],
       "chainId": 80094,
@@ -288,15 +297,6 @@
       "image": "hold.svg",
       "name": "Holdstation",
       "symbol": "HOLD"
-    },
-    {
-      "address": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
-      "categories": ["stablecoin"],
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "honey.svg",
-      "name": "HONEY",
-      "symbol": "HONEY"
     },
     {
       "address": "0xa1b644aec990ad6023811ced36e6a2d6d128c7c9",
