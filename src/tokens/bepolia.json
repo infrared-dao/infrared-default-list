@@ -24,9 +24,9 @@
       "categories": ["stablecoin"],
       "chainId": 80069,
       "decimals": 18,
-      "image": "honey.svg",
-      "name": "HONEY",
-      "symbol": "HONEY"
+      "image": "busd.svg",
+      "name": "Bera USD",
+      "symbol": "BUSD"
     },
     {
       "address": "0x58c3378b89d84f966034f57bcc331323b3ca1b28",
