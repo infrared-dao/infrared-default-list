@@ -1037,7 +1037,7 @@
       "address": "0x53f786662ff5fbec135f913ab93c6b3366e90a46",
       "chainId": 80094,
       "decimals": 18,
-      "image": "asugar-honey.svg",
+      "image": "asugar-busd.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
       "name": "aSUGAR-BUSD",
       "protocol": "bex",
@@ -1052,7 +1052,7 @@
       "address": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
       "chainId": 80094,
       "decimals": 18,
-      "image": "honey-byusd.svg",
+      "image": "busd-byusd.svg",
       "isDepositDisabled": true,
       "mintUrl": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details",
       "name": "BUSD-BYUSD",
@@ -1083,7 +1083,7 @@
       "address": "0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab",
       "chainId": 80094,
       "decimals": 18,
-      "image": "mead-honey.svg",
+      "image": "mead-busd.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab000000000000000000000162/details",
       "name": "MEAD-BUSD",
       "protocol": "bex",
@@ -1098,7 +1098,7 @@
       "address": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
       "chainId": 80094,
       "decimals": 18,
-      "image": "nect-bold-honey.svg",
+      "image": "nect-bold-busd.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f0000000000000000000001b5/details/",
       "name": "NECT-BOLD-BUSD",
       "protocol": "bex",
@@ -1128,7 +1128,7 @@
       "address": "0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc7",
       "chainId": 80094,
       "decimals": 18,
-      "image": "susde-usde-honey.svg",
+      "image": "susde-usde-busd.svg",
       "mintUrl": "https://hub.berachain.com/pools/0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc70000000000000000000001be/details/",
       "name": "sUSDe-USDe-BUSD",
       "protocol": "bex",
@@ -1189,7 +1189,7 @@
       "address": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
       "chainId": 80094,
       "decimals": 18,
-      "image": "usdc-e-honey.svg",
+      "image": "usdc-e-busd.svg",
       "mintUrl": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details",
       "name": "USDC.e-BUSD",
       "protocol": "bex",
@@ -1197,6 +1197,21 @@
       "type": "amm",
       "underlyingTokens": [
         "0x549943e04f40284185054145c6e4e9568c1d3241",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
+      "address": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wbera-busd.svg",
+      "mintUrl": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details",
+      "name": "WBERA-BUSD",
+      "protocol": "bex",
+      "symbol": "50WBERA-50HONEY-WEIGHTED",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
         "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
@@ -1213,21 +1228,6 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0x09d9420332bff75522a45fcff4855f82a0a3ff50"
-      ]
-    },
-    {
-      "address": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "wbera-honey.svg",
-      "mintUrl": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details",
-      "name": "WBERA-BUSD",
-      "protocol": "bex",
-      "symbol": "50WBERA-50HONEY-WEIGHTED",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x6969696969696969696969696969696969696969",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
@@ -1354,7 +1354,7 @@
       "address": "0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c",
       "chainId": 80094,
       "decimals": 18,
-      "image": "wbera-honey.svg",
+      "image": "wbera-busd.svg",
       "mintUrl": "https://app.brownfi.io/add/eth/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce",
       "name": "WBERA-BUSD",
       "protocol": "brownfi",
@@ -1384,7 +1384,7 @@
       "address": "0xb5d46214f4ec7f910cb433e412d32ee817986e90",
       "chainId": 80094,
       "decimals": 18,
-      "image": "wbera-honey.svg",
+      "image": "wbera-busd.svg",
       "mintUrl": "https://www.bulla.exchange/vault/details/wbera-honey-narrow",
       "name": "WBERA-BUSD",
       "protocol": "bulla",
@@ -1474,7 +1474,7 @@
       "address": "0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23",
       "chainId": 80094,
       "decimals": 18,
-      "image": "nect-usdc-e-honey.svg",
+      "image": "nect-usdc-e-busd.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004/add-liquidity",
       "name": "NECT-USDC.e-BUSD",
       "protocol": "burrbear",
@@ -1490,7 +1490,7 @@
       "address": "0xb34fca9739249578d93a22ce02bf7fad277bad35",
       "chainId": 80094,
       "decimals": 18,
-      "image": "nect-usdc-e-usdt0-honey.svg",
+      "image": "nect-usdc-e-usdt0-busd.svg",
       "mintUrl": "https://app.burrbear.io/#/berachain/pool/0xb34fca9739249578d93a22ce02bf7fad277bad35000000000000000000000013/add-liquidity",
       "name": "NECT-USDC.e-USD₮0-BUSD",
       "protocol": "burrbear",
@@ -1957,7 +1957,7 @@
       "address": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896",
       "chainId": 80094,
       "decimals": 18,
-      "image": "hohm-honey.svg",
+      "image": "hohm-busd.svg",
       "kodiakTradingFee": 0.01,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x2a6f7008a884563df6fbf2d7676e696a44bb8896?chain=berachain_mainnet",
       "name": "hOHM-BUSD",
@@ -2165,7 +2165,7 @@
       "address": "0x98bdeede9a45c28d229285d9d6e9139e9f505391",
       "chainId": 80094,
       "decimals": 18,
-      "image": "ohm-honey.svg",
+      "image": "ohm-busd.svg",
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x98bdeede9a45c28d229285d9d6e9139e9f505391?chain=berachain_mainnet",
       "name": "OHM-BUSD",
@@ -2245,7 +2245,7 @@
       "address": "0x7fd165b73775884a38aa8f2b384a53a3ca7400e6",
       "chainId": 80094,
       "decimals": 18,
-      "image": "rusd-honey.svg",
+      "image": "rusd-busd.svg",
       "kodiakTradingFee": 0.0005,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?chain=berachain_mainnet",
       "name": "rUSD-BUSD",
@@ -2293,7 +2293,7 @@
       "address": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
       "chainId": 80094,
       "decimals": 18,
-      "image": "smilee-honey.svg",
+      "image": "smilee-busd.svg",
       "kodiakTradingFee": 0.01,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?chain=berachain_mainnet",
       "name": "SMILEE-BUSD",
@@ -2309,7 +2309,7 @@
       "address": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
       "chainId": 80094,
       "decimals": 18,
-      "image": "sol-honey.svg",
+      "image": "sol-busd.svg",
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4d1b02ff3ce55b816bb916ad8f80479434830ea4?chain=berachain_mainnet",
       "name": "SOL-BUSD",
@@ -2421,7 +2421,7 @@
       "address": "0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8",
       "chainId": 80094,
       "decimals": 18,
-      "image": "susde-honey.svg",
+      "image": "susde-busd.svg",
       "kodiakTradingFee": 0.0005,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8?chain=berachain_mainnet",
       "name": "sUSDe-BUSD",
@@ -2469,7 +2469,7 @@
       "address": "0x28a54eaeec63fbb1175d13466a9ada5f3175d577",
       "chainId": 80094,
       "decimals": 18,
-      "image": "usdbr-honey.svg",
+      "image": "usdbr-busd.svg",
       "kodiakTradingFee": 0.0005,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x28a54eaeec63fbb1175d13466a9ada5f3175d577?chain=berachain_mainnet",
       "name": "USDbr-BUSD",
@@ -2485,7 +2485,7 @@
       "address": "0x0c844d3e259a0259668abff3431900b28d780797",
       "chainId": 80094,
       "decimals": 18,
-      "image": "usdc-e-honey.svg",
+      "image": "usdc-e-busd.svg",
       "kodiakTradingFee": 0.0001,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x0c844d3e259a0259668abff3431900b28d780797?chain=berachain_mainnet",
       "name": "USDC.e-BUSD",
@@ -2501,7 +2501,7 @@
       "address": "0xb73dee52f38539ba854979eab6342a60dd4c8c03",
       "chainId": 80094,
       "decimals": 18,
-      "image": "usdc-e-honey.svg",
+      "image": "usdc-e-busd.svg",
       "kodiakTradingFee": 0.0005,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xb73dee52f38539ba854979eab6342a60dd4c8c03?chain=berachain_mainnet",
       "name": "USDC.e-BUSD",
@@ -2517,7 +2517,7 @@
       "address": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
       "chainId": 80094,
       "decimals": 18,
-      "image": "usde-honey.svg",
+      "image": "usde-busd.svg",
       "kodiakTradingFee": 0.0005,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_mainnet",
       "name": "USDe-BUSD",
@@ -2610,6 +2610,22 @@
       ]
     },
     {
+      "address": "0x4a254b11810b8ebb63c5468e438fc561cb1bb1da",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wbera-busd.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4a254b11810b8ebb63c5468e438fc561cb1bb1da?chain=berachain_mainnet",
+      "name": "WBERA-BUSD",
+      "protocol": "kodiak",
+      "symbol": "KODI WBERA-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x6969696969696969696969696969696969696969",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
       "address": "0x68cac522833f38e088eec5e356956c02f0268063",
       "chainId": 80094,
       "decimals": 18,
@@ -2623,22 +2639,6 @@
       "underlyingTokens": [
         "0x6969696969696969696969696969696969696969",
         "0xca9088895e3390e503cac9ae95abaccdba20822e"
-      ]
-    },
-    {
-      "address": "0x4a254b11810b8ebb63c5468e438fc561cb1bb1da",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "wbera-honey.svg",
-      "kodiakTradingFee": 0.003,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x4a254b11810b8ebb63c5468e438fc561cb1bb1da?chain=berachain_mainnet",
-      "name": "WBERA-BUSD",
-      "protocol": "kodiak",
-      "symbol": "KODI WBERA-HONEY",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x6969696969696969696969696969696969696969",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
@@ -2770,6 +2770,22 @@
       ]
     },
     {
+      "address": "0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf",
+      "chainId": 80094,
+      "decimals": 18,
+      "image": "wbtc-busd.svg",
+      "kodiakTradingFee": 0.003,
+      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf?chain=berachain_mainnet",
+      "name": "WBTC-BUSD",
+      "protocol": "kodiak",
+      "symbol": "KODI WBTC-HONEY",
+      "type": "amm",
+      "underlyingTokens": [
+        "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+      ]
+    },
+    {
       "address": "0xfc4994e0a4780ba7536d7e79611468b6bde14cae",
       "chainId": 80094,
       "decimals": 18,
@@ -2783,22 +2799,6 @@
       "underlyingTokens": [
         "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
         "0x657e8c867d8b37dcc18fa4caead9c45eb088c642"
-      ]
-    },
-    {
-      "address": "0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf",
-      "chainId": 80094,
-      "decimals": 18,
-      "image": "wbtc-honey.svg",
-      "kodiakTradingFee": 0.003,
-      "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf?chain=berachain_mainnet",
-      "name": "WBTC-BUSD",
-      "protocol": "kodiak",
-      "symbol": "KODI WBTC-HONEY",
-      "type": "amm",
-      "underlyingTokens": [
-        "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
-        "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
       ]
     },
     {
@@ -2885,7 +2885,7 @@
       "address": "0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95",
       "chainId": 80094,
       "decimals": 18,
-      "image": "weth-honey.svg",
+      "image": "weth-busd.svg",
       "kodiakTradingFee": 0.003,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95?chain=berachain_mainnet",
       "name": "WETH-BUSD",
@@ -2949,7 +2949,7 @@
       "address": "0x939fb917bf8579c959094364708ef03f17e71f25",
       "chainId": 80094,
       "decimals": 18,
-      "image": "xusd-honey.svg",
+      "image": "xusd-busd.svg",
       "kodiakTradingFee": 0.0005,
       "mintUrl": "https://app.kodiak.finance/#/liquidity/pools/0x939fb917bf8579c959094364708ef03f17e71f25?chain=berachain_mainnet",
       "name": "xUSD-BUSD",
@@ -3332,7 +3332,7 @@
       "address": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
       "chainId": 80094,
       "decimals": 18,
-      "image": "nect-honey.svg",
+      "image": "nect-busd.svg",
       "kodiakTradingFee": 0.0001,
       "mintUrl": "https://www.winnieswap.com/vault/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
       "name": "NECT-BUSD",
